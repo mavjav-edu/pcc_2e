@@ -42,10 +42,6 @@ dinner.
 that one of your guests can&rsquo;t make the dinner, so you need to send out a
 new set of invitations. You&rsquo;ll have to think of someone else to invite.
 
-<<<<<<< HEAD
-- Start with your program from [Exercise 3-4](../chapter_03/README.md#ch3exe4). Add a
-=======
-<<<<<<< HEAD
 - Start with your program from [Exercise 3-4](../chapter_03/README.md#ch3exe4). Add a
 `print` statement at the end of your program stating the name of the
 guest who can&rsquo;t make it.
@@ -54,31 +50,12 @@ guest who can&rsquo;t make it.
 with the name of the new person you are inviting.
 
 - Print a second set of invitation messages, one for each person who is
-=======
-ΓÇó Start with your program from [Exercise 3-4](../chapter_03/README.md#ch3exe4). Add a
->>>>>>> b145e75937f0d7b0a056cda6eb8477fd7dd81492
-`print` statement at the end of your program stating the name of the
-guest who can&rsquo;t make it.
-
-ΓÇó Modify your list, replacing the name of the guest who can&rsquo;t make it
-with the name of the new person you are inviting.
-
-<<<<<<< HEAD
-- Print a second set of invitation messages, one for each person who is
-=======
-ΓÇó Print a second set of invitation messages, one for each person who is
->>>>>>> e01804d5ddbb1540178d3613b1ccbf1a3dcd6300
->>>>>>> b145e75937f0d7b0a056cda6eb8477fd7dd81492
 still in your list.
 
 <span id="ch3exe6"></span>**3-6. More Guests:** You just found a bigger
 dinner table, so now more space is available. Think of three more guests
 to invite to dinner.
 
-<<<<<<< HEAD
-- Start with your program from [Exercise 3-4](../chapter_03/README.md#ch3exe4) or
-=======
-<<<<<<< HEAD
 - Start with your program from [Exercise 3-4](../chapter_03/README.md#ch3exe4) or
 [Exercise 3-5](../chapter_03/README.md#ch3exe5). Add a `print` statement to the end of
 your program informing people that you found a bigger dinner table.
@@ -90,72 +67,25 @@ your program informing people that you found a bigger dinner table.
 - Use `append()` to add one new guest to the end of your list.
 
 - Print a new set of invitation messages, one for each person in your
-=======
-ΓÇó Start with your program from [Exercise 3-4](../chapter_03/README.md#ch3exe4) or
->>>>>>> b145e75937f0d7b0a056cda6eb8477fd7dd81492
-[Exercise 3-5](../chapter_03/README.md#ch3exe5). Add a `print` statement to the end of
-your program informing people that you found a bigger dinner table.
-
-ΓÇó Use `insert()` to add one new guest to the beginning of your list.
-
-ΓÇó Use `insert()` to add one new guest to the middle of your list.
-
-ΓÇó Use `append()` to add one new guest to the end of your list.
-
-<<<<<<< HEAD
-- Print a new set of invitation messages, one for each person in your
-=======
-ΓÇó Print a new set of invitation messages, one for each person in your
->>>>>>> e01804d5ddbb1540178d3613b1ccbf1a3dcd6300
->>>>>>> b145e75937f0d7b0a056cda6eb8477fd7dd81492
 list.
 
 <span id="page_47"></span><span id="ch3exe7"></span>**3-7. Shrinking
 Guest List:** You just found out that your new dinner table won&rsquo;t arrive
 in time for the dinner, and you have space for only two guests.
 
-<<<<<<< HEAD
 - Start with your program from [Exercise 3-6](../chapter_03/README.md#ch3exe6). Add a
 new line that prints a message saying that you can invite only two
 people for dinner.
 
 - Use `pop()` to remove guests from your list one at a time until only
-=======
-<<<<<<< HEAD
-- Start with your program from [Exercise 3-6](../chapter_03/README.md#ch3exe6). Add a
-new line that prints a message saying that you can invite only two
-people for dinner.
-
-- Use `pop()` to remove guests from your list one at a time until only
-=======
-ΓÇó Start with your program from [Exercise 3-6](../chapter_03/README.md#ch3exe6). Add a
-new line that prints a message saying that you can invite only two
-people for dinner.
-
-ΓÇó Use `pop()` to remove guests from your list one at a time until only
->>>>>>> e01804d5ddbb1540178d3613b1ccbf1a3dcd6300
->>>>>>> b145e75937f0d7b0a056cda6eb8477fd7dd81492
 two names remain in your list. Each time you pop a name from your list,
 print a message to that person letting them know you&rsquo;re sorry you can&rsquo;t
 invite them to dinner.
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> b145e75937f0d7b0a056cda6eb8477fd7dd81492
 - Print a message to each of the two people still on your list, letting
 them know they&rsquo;re still invited.
 
 - Use `del` to remove the last two names from your list, so you have an
-<<<<<<< HEAD
-=======
-=======
-ΓÇó Print a message to each of the two people still on your list, letting
-them know they&rsquo;re still invited.
-
-ΓÇó Use `del` to remove the last two names from your list, so you have an
->>>>>>> e01804d5ddbb1540178d3613b1ccbf1a3dcd6300
->>>>>>> b145e75937f0d7b0a056cda6eb8477fd7dd81492
 empty list. Print your list to make sure you actually have an empty list
 at the end of your program.
 
@@ -168,10 +98,6 @@ at the end of your program.
 <span id="ch3exe8"></span>**3-8. Seeing the World:** Think of at least
 five places in the world you&rsquo;d like to visit.
 
-<<<<<<< HEAD
-- Store the locations in a list. Make sure the list is not in
-=======
-<<<<<<< HEAD
 - Store the locations in a list. Make sure the list is not in
 alphabetical order.
 
@@ -199,40 +125,6 @@ to show it&rsquo;s back to its original order.
 Print the list to show that its order has been changed.
 
 - Use `sort()` to change your list so it&rsquo;s stored in reverse
-=======
-ΓÇó Store the locations in a list. Make sure the list is not in
->>>>>>> b145e75937f0d7b0a056cda6eb8477fd7dd81492
-alphabetical order.
-
-ΓÇó Print your list in its original order. Don&rsquo;t worry about printing the
-list neatly, just print it as a raw Python list.
-
-ΓÇó Use `sorted()` to print your list in alphabetical order without
-modifying the actual list.
-
-ΓÇó Show that your list is still in its original order by printing it.
-
-ΓÇó Use `sorted()` to print your list in reverse alphabetical order
-without changing the order of the original list.
-
-ΓÇó Show that your list is still in its original order by printing it
-again.
-
-ΓÇó Use `reverse()` to change the order of your list. Print the list to
-show that its order has changed.
-
-ΓÇó Use `reverse()` to change the order of your list again. Print the list
-to show it&rsquo;s back to its original order.
-
-ΓÇó Use `sort()` to change your list so it&rsquo;s stored in alphabetical order.
-Print the list to show that its order has been changed.
-
-<<<<<<< HEAD
-- Use `sort()` to change your list so it&rsquo;s stored in reverse
-=======
-ΓÇó Use `sort()` to change your list so it&rsquo;s stored in reverse
->>>>>>> e01804d5ddbb1540178d3613b1ccbf1a3dcd6300
->>>>>>> b145e75937f0d7b0a056cda6eb8477fd7dd81492
 alphabetical order. Print the list to show that its order has changed.
 
 <span id="ch3exe9"></span>**3-9. Dinner Guests:** Working with one of

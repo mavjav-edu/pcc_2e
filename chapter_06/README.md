@@ -22,19 +22,11 @@ some actual data for your program.
 used to model an actual dictionary. However, to avoid confusion, let&rsquo;s
 call it a glossary.
 
-<<<<<<< HEAD
 - Think of five programming words you&rsquo;ve learned about in the previous
 chapters. Use these words as the keys in your glossary, and store their
 meanings as values.
 
 - Print each word and its meaning as neatly formatted output. You might
-=======
-ΓÇó Think of five programming words you&rsquo;ve learned about in the previous
-chapters. Use these words as the keys in your glossary, and store their
-meanings as values.
-
-ΓÇó Print each word and its meaning as neatly formatted output. You might
->>>>>>> e01804d5ddbb1540178d3613b1ccbf1a3dcd6300
 print the word followed by a colon and then its meaning, or print the
 word on one line and then print its meaning indented on a second line.
 Use the newline character (`\n`) to insert a blank line between each
@@ -57,39 +49,22 @@ the output.
 three major rivers and the country each river runs through. One
 key-value pair might be `'nile': 'egypt'`.
 
-<<<<<<< HEAD
 - Use a loop to print a sentence about each river, such as *The Nile
 runs through Egypt*.
 
 - Use a loop to print the name of each river included in the dictionary.
 
 - Use a loop to print the name of each country included in the
-=======
-ΓÇó Use a loop to print a sentence about each river, such as *The Nile
-runs through Egypt*.
-
-ΓÇó Use a loop to print the name of each river included in the dictionary.
-
-ΓÇó Use a loop to print the name of each country included in the
->>>>>>> e01804d5ddbb1540178d3613b1ccbf1a3dcd6300
 dictionary.
 
 <span id="ch6exe6"></span>**6-6. Polling:** Use the code in
 *favorite_languages.py* ([page 104](../chapter_06/README.md#page_104)).
 
-<<<<<<< HEAD
 - Make a list of people who should take the favorite languages poll.
 Include some names that are already in the dictionary and some that are
 not.
 
 - Loop through the list of people who should take the poll. If they have
-=======
-ΓÇó Make a list of people who should take the favorite languages poll.
-Include some names that are already in the dictionary and some that are
-not.
-
-ΓÇó Loop through the list of people who should take the poll. If they have
->>>>>>> e01804d5ddbb1540178d3613b1ccbf1a3dcd6300
 already taken the poll, print a message thanking them for responding. If
 they have not yet taken the poll, print a message inviting them to take
 the poll.

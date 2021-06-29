@@ -38,20 +38,12 @@ Exits:** Write different versions of either [Exercise
 7-4](../chapter_07/README.md#ch7exe4) or [Exercise 7-5](../chapter_07/README.md#ch7exe5) that do
 each of the following at least once:
 
-<<<<<<< HEAD
 - Use a conditional test in the `while` statement to stop the loop.
 
 - Use an `active` variable to control how long the loop runs.
 
 - Use a `break` statement to exit the loop when the user enters a
-=======
-ΓÇó Use a conditional test in the `while` statement to stop the loop.
-
-ΓÇó Use an `active` variable to control how long the loop runs.
-
-ΓÇó Use a `break` statement to exit the loop when the user enters a
->>>>>>> e01804d5ddbb1540178d3613b1ccbf1a3dcd6300
-`'quit'` value.
+`'quit'` value.333333
 
 <span id="ch7exe7"></span>**7-7. Infinity:** Write a loop that never
 ends, and run it. (To end the loop, press <span
