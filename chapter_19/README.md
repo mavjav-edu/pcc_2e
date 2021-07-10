@@ -1,6 +1,11 @@
-
-
 # User Accounts
+
+At the heart of a web application is the ability for any user, anywhere
+in the world, to register an account with your app and start using it.
+In this chapter you’ll build forms so users can add their own topics and
+entries, and edit existing entries. You’ll also learn how Django guards
+against common attacks to form-based pages so you don’t have to spend
+too much time thinking about securing your apps.
 
 
 ## TRY IT YOURSELF #1
@@ -14,7 +19,6 @@ posts in chronological order.
 
 Create a form for making new posts and another for editing existing
 posts. Fill in your forms to make sure they work.
-
 
 
 ## TRY IT YOURSELF #2

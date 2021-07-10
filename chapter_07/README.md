@@ -1,6 +1,13 @@
-
-
 # User Input And While Loops
+
+Most programs are written to solve an end user’s problem. To do so, you
+usually need to get some information from the user. For a simple
+example, let’s say someone wants to find out whether they’re old enough
+to vote. If you write a program to answer this question, you need to
+know the user’s age before you can provide an answer. The program will
+need to ask the user to enter, or *input*, their age; once the program
+has this input, it can compare it to the voting age to determine if the
+user is old enough and then report the result.
 
 
 ## TRY IT YOURSELF #1
@@ -16,7 +23,6 @@ for a table. Otherwise, report that their table is ready.
 
 <span id="ch7exe3"></span>**7-3. Multiples of Ten:** Ask the user for a
 number, and then report whether the number is a multiple of 10 or not.
-
 
 
 ## TRY IT YOURSELF #2
@@ -48,7 +54,6 @@ each of the following at least once:
 <span id="ch7exe7"></span>**7-7. Infinity:** Write a loop that never
 ends, and run it. (To end the loop, press <span
 class="small">CTRL</span>-C or close the window displaying the output.)
-
 
 
 ## TRY IT YOURSELF #3

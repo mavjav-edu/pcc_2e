@@ -1,10 +1,13 @@
-
-
 # If Statements
+
+Programming often involves examining a set of conditions and deciding
+which action to take based on those conditions. Python’s `if` statement allows you to examine the current
+state of a program and respond appropriately to that state.
+
+
 
 
 <span id="page_82"></span>
-
 ## TRY IT YOURSELF #1
 
 <span id="ch5exe1"></span>**5-1. Conditional Tests:** Write a series of
@@ -45,7 +48,6 @@ less than, greater than or equal to, and less than or equal to
 - Test whether an item is in a list
 
 - Test whether an item is not in a list
-
 
 
 ## TRY IT YOURSELF #2
@@ -175,7 +177,6 @@ numbers end in *th*, except 1, 2, and 3.
 ordinal ending for each number. Your output should read
 `"1st 2nd 3rd 4th 5th 6th 7th 8th 9th"`, and each result should be on a
 separate line.
-
 
 
 ## TRY IT YOURSELF #4

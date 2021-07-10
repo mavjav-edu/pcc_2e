@@ -1,8 +1,12 @@
 # Styling And Deploying An App
 
+Learning Log is fully functional now, but it has no styling and runs
+only on your local machine. In this chapter we’ll style the project in a
+simple but professional manner and then deploy it to a live server so
+anyone in the world can make an account.
+
 
 <span id="page_466"></span>
-
 ## TRY IT YOURSELF #1
 
 <span id="ch20exe1"></span>**20-1. Other Forms:** We&rsquo;ve applied

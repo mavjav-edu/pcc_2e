@@ -1,10 +1,19 @@
-
-
 # Testing Your Code
+
+When you write a function or a class, you can also write tests for that
+code. Testing proves that your code works as it’s supposed to in
+response to all the input types it’s designed to receive. When you write
+tests, you can be confident that your code will work correctly as more
+people begin to use your programs. You’ll also be able to test new code
+as you add it to make sure your changes don’t break your program’s
+existing behavior. Every programmer makes mistakes, so every programmer
+must test their code often, catching problems before users encounter
+them.
+
+
 
 
 <span id="page_222"></span>
-
 ## TRY IT YOURSELF #1
 
 <span id="ch11exe1"></span>**11-1. City, Country:** Write a function
@@ -34,7 +43,6 @@ Write a second test called `test_city_country_population()` that
 verifies you can call your function with the values `'santiago'`,
 `'chile'`, and `'population=5000000'`. Run *test_cities.py* again, and
 make sure this new test passes.
-
 
 
 ## TRY IT YOURSELF #2

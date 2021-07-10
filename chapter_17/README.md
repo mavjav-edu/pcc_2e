@@ -1,6 +1,13 @@
-
-
 # Working With Apis
+
+In this chapter you’ll learn how to write a self-contained program to
+generate a visualization based on data that it retrieves. Your program
+will use a web *application programming interface (API)* to
+automatically request specific information from a website rather than
+entire pages. It will then use that information to generate a
+visualization. Because programs written like this will always use
+current data to generate a visualization, even when that data might be
+rapidly changing, it will always be up to date.
 
 
 ## TRY IT YOURSELF #1

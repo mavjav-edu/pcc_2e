@@ -1,10 +1,15 @@
-
-
 # Downloading Data
+
+In this chapter you’ll download data sets from online sources and create
+working visualizations of that data. An incredible variety of data can
+be found online, much of which hasn’t been examined thoroughly. The
+ability to analyze this data allows you to discover patterns and
+connections that no one else has found.
+
+
 
 
 <span id="page_362"></span>
-
 ## TRY IT YOURSELF #1
 
 <span id="ch16exe1"></span>**16-1. San Francisco:** Are temperatures in

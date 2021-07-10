@@ -1,6 +1,14 @@
-
-
 # Functions
+
+In this chapter you’ll learn to write *functions*, which are named
+blocks of code that are designed to do one specific job. When you want
+to perform a particular task that you’ve defined in a function, you
+*call* the name of the function responsible for it. If you need to
+perform that task multiple times throughout your program, you don’t need
+to type all the code for the same task again and again; you just call
+the function dedicated to handling that task, and the call tells Python
+to run the code inside the function. You’ll find that using functions
+makes your programs easier to write, read, test, and fix.
 
 
 ## TRY IT YOURSELF #1
@@ -15,7 +23,6 @@ called `favorite_book()` that accepts one parameter, `title`. The
 function should print a message, such as
 `One of my favorite books is Alice in Wonderland`. Call the function,
 making sure to include a book title as an argument in the function call.
-
 
 
 ## TRY IT YOURSELF #2
@@ -40,7 +47,6 @@ function should print a simple sentence, such as
 `Reykjavik is in Iceland`. Give the parameter for the country a default
 value. Call your function for three different cities, at least one of
 which is not in the default country.
-
 
 
 ## TRY IT YOURSELF #3
@@ -76,7 +82,6 @@ users to enter an album&rsquo;s artist and title. Once you have that
 information, call `make_album()` with the user&rsquo;s input and print the
 dictionary that&rsquo;s created. Be sure to include a quit value in the
 `while` loop.
-
 
 
 ## TRY IT YOURSELF #4

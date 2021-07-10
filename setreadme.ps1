@@ -14,12 +14,14 @@ foreach ($htmlFile in $htmlFiles) {
     $HTML = New-Object -Com "HTMLFile"
     $HTML.write([ref]$chContentStr) | Out-Null
     $chNum = (Select-String -InputObject $htmlFile.Name -Pattern "(\d+)").Matches.Value
-    $README_md = "chapter_$chNum\README.md"
+    $README_md = Resolve-Path ("chapter_$chNum\README.md") -ErrorAction Inquire
     # $chTitle has XPath //*[@id="ch$chNum"]/strong[2]
     $chTitle = (Get-Culture).TextInfo.ToTitleCase($HTML.getElementById("ch$chNum").getElementsByTagName('strong')[1].innerHTML.ToLowerInvariant())
+    # #sbo-rt-content > p:nth-child(3)
     $TryItYourselfs = $HTML.getElementsByClassName('sidebar')
+    $chSummary = $HTML.getElementById('sbo-rt-content').childNodes[2].innerHTML
     $i = 0
-    $outStr = Out-String -InputObject ("<H1>" + $chTitle + "</H1>`n" | pandoc @("--from=HTML", "--to=markdown_mmd+backtick_code_blocks+fenced_code_blocks+autolink_bare_uris"))
+    $outStr = Out-String -InputObject ("<H1>" + $chTitle + "</H1>`n`n$chSummary" | pandoc @("--from=HTML", "--to=markdown_mmd+backtick_code_blocks+fenced_code_blocks+autolink_bare_uris"))
     $outStr = @"
 
 

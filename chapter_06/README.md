@@ -1,6 +1,13 @@
-
-
 # Dictionaries
+
+In this chapter you’ll learn how to use Python’s dictionaries, which
+allow you to connect pieces of related information. You’ll learn how to
+access the information once it’s in a dictionary and how to modify that
+information. Because dictionaries can store an almost limitless amount
+of information, I’ll show you how to loop through the data in a
+dictionary. Additionally, you’ll learn to nest dictionaries inside
+lists, lists inside dictionaries, and even dictionaries inside other
+dictionaries.
 
 
 ## TRY IT YOURSELF #1
@@ -31,7 +38,6 @@ print the word followed by a colon and then its meaning, or print the
 word on one line and then print its meaning indented on a second line.
 Use the newline character (`\n`) to insert a blank line between each
 word-meaning pair in your output.
-
 
 
 ## TRY IT YOURSELF #2
@@ -68,7 +74,6 @@ not.
 already taken the poll, print a message thanking them for responding. If
 they have not yet taken the poll, print a message inviting them to take
 the poll.
-
 
 
 ## TRY IT YOURSELF #3

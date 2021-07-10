@@ -5,10 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "PowerShell: Launch Script",
+            "name": "PowerShell Launch Current File",
             "type": "PowerShell",
             "request": "launch",
-            "script": "enter path or command to execute e.g.: ${workspaceFolder}/src/foo.ps1 or Invoke-Pester",
+            "script": "${file}",
+            "cwd": "${file}"
+        },
+        {
+            "name": "PowerShell: Set ReadMe",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "setreadme.ps1",
             "cwd": "${workspaceFolder}"
         }
     ]

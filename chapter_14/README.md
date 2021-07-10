@@ -1,6 +1,11 @@
-
-
 # Scoring
+
+In this chapter we’ll finish the Alien Invasion game. We’ll add a Play
+button to start a game on demand or to restart a game once it ends.
+We’ll also change the game so it speeds up when the player moves up a
+level, and we’ll implement a scoring system. By the end of the chapter,
+you’ll know enough to start writing games that increase in difficulty as
+a player progresses and that show scores.
 
 
 ## TRY IT YOURSELF #1
@@ -19,7 +24,6 @@ can move up and down while firing bullets at the moving, rectangular
 target. Add a Play button that starts the game, and when the player
 misses the target three times, end the game and make the Play button
 reappear. Let the player restart the game with this Play button.
-
 
 
 ## TRY IT YOURSELF #2

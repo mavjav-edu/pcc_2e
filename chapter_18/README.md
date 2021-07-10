@@ -1,6 +1,11 @@
-
-
 # Getting Started With Django
+
+Behind the scenes, today’s websites are actually rich applications that
+act like fully developed desktop applications. Python has a great set of
+tools for building web applications. In this chapter you’ll learn how to
+use Django (*<http://djangoproject.com/>*) to build a project called
+Learning Log—an online journal system that lets you keep track of
+information you’ve learned about particular topics.
 
 
 ## TRY IT YOURSELF #1
@@ -51,7 +56,6 @@ Register both models with the admin site, and use the site to enter some
 pizza names and toppings. Use the shell to explore the data you entered.
 
 
-
 ## TRY IT YOURSELF #3
 
 <span id="ch18exe5"></span>**18-5. Meal Planner:** Consider an app that
@@ -63,7 +67,6 @@ for this project.
 <span id="ch18exe6"></span>**18-6. Pizzeria Home Page:** Add a home page
 to the *Pizzeria* project you started in [Exercise
 18-4](../chapter_18/README.md#ch18exe4) ([page 412](../chapter_18/README.md#page_412)).
-
 
 
 ## TRY IT YOURSELF #4

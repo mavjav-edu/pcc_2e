@@ -1,6 +1,8 @@
-
 # Variables And Simple Data Types
 
+In this chapter you’ll learn about the different kinds of data you can
+work with in your Python programs. You’ll also learn how to store your
+data in variables and how to use those variables in your programs.
 
 ## TRY IT YOURSELF #1
 
@@ -15,7 +17,6 @@ variable, and then print that message.
 <span id="ch2exe2"></span>**2-2. Simple Messages:** Store a message in a
 variable, and print that message. Then change the value of your variable
 to a new message, and print the new message.
-
 
 
 ## TRY IT YOURSELF #2
@@ -78,7 +79,6 @@ number in a variable. Then, using that variable, create a message that
 reveals your favorite number. Print that message.
 
 
-
 ## TRY IT YOURSELF #4
 
 <span id="ch2exe10"></span>**2-10. Adding Comments:** Choose two of the
@@ -87,7 +87,6 @@ don&rsquo;t have anything specific to write because your programs are too
 simple at this point, just add your name and the current date at the top
 of each program file. Then write one sentence describing what the
 program does.
-
 
 
 ## TRY IT YOURSELF #5

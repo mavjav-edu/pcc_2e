@@ -1,6 +1,14 @@
-
-
 # Classes
+
+*Object-oriented programming* is one of the most effective approaches to
+writing software. In object-oriented programming you write *classes*
+that represent real-world things and situations, and you create
+*objects* based on these classes. When you write a class, you define the
+general behavior that a whole category of objects can have. When you
+create individual objects from the class, each object is automatically
+equipped with the general behavior; you can then give each object
+whatever unique traits you desire. You’ll be amazed how well real-world
+situations can be modeled with object-oriented programming.
 
 
 ## TRY IT YOURSELF #1
@@ -29,7 +37,6 @@ prints a personalized greeting to the user.
 
 Create several instances representing different users, and call both
 methods for each user.
-
 
 
 ## TRY IT YOURSELF #2
@@ -62,7 +69,6 @@ Make an instance of the `User` class and call
 `login_attempts` to make sure it was incremented properly, and then call
 `reset_login_attempts()`. Print `login_attempts` again to make sure it
 was reset to 0.
-
 
 
 ## TRY IT YOURSELF #3
@@ -102,7 +108,6 @@ battery size and set the capacity to 85 if it isn&rsquo;t already. Make an
 electric car with a default battery size, call `get_range()` once, and
 then call `get_range()` a second time after upgrading the battery. You
 should see an increase in the car&rsquo;s range.
-
 
 
 ## TRY IT YOURSELF #4

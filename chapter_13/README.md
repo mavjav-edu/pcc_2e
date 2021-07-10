@@ -1,10 +1,15 @@
-
-
 # Aliens!
+
+In this chapter we’ll add aliens to Alien Invasion. First, we’ll add one
+alien near the top of the screen, and then we’ll generate a whole fleet
+of aliens. We’ll make the fleet advance sideways and down, and we’ll get
+rid of any aliens hit by a bullet. Finally, we’ll limit the number of
+ships a player has and end the game when the player runs out of ships.
+
+
 
 
 <span id="page_276"></span>
-
 ## TRY IT YOURSELF #1
 
 <span id="ch13exe1"></span>**13-1. Stars:** Find an image of a star.
@@ -24,7 +29,6 @@ in [Exercise 13-1](../chapter_13/README.md#ch13exe1), adjust each star&rsquo;s p
 random amount.
 
 
-
 ## TRY IT YOURSELF #2
 
 <span id="ch13exe3"></span>**13-3. Raindrops:** Find an image of a
@@ -35,7 +39,6 @@ the bottom of the screen until they disappear.
 [Exercise 13-3](../chapter_13/README.md#ch13exe3) so that when a row of raindrops
 disappears off the bottom of the screen, a new row appears at the top of
 the screen and begins to fall.
-
 
 
 ## TRY IT YOURSELF #3

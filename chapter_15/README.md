@@ -1,6 +1,10 @@
-
-
 # Generating Data
+
+*Data visualization* involves exploring data through visual
+representations. It’s closely associated with *data mining*, which uses
+code to explore the patterns and connections in a data set. A data set
+can be just a small list of numbers that fits in one line of code or
+many gigabytes of data.
 
 
 ## TRY IT YOURSELF #1
@@ -45,7 +49,6 @@ y_step = get_step()
 
 This refactoring should reduce the size of `fill_walk()` and make the
 method easier to read and understand.
-
 
 
 ## TRY IT YOURSELF #3
