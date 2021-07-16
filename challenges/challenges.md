@@ -36,3 +36,14 @@ Each of these sets is made up of a series of smaller challenges. You don't have 
 
     *You can start on this challenge as early as Chapter 3.*
 
+- [Automated Alien Invasion Player](../ai_player/)
+
+    Learn how to write a program that plays Alien Invasion automatically. It's really interesting to see how the class-based structure of the Alien Invasion project lends itself to automated gameplay. You'll start out implementing a simple, naive strategy that shoots at aliens rather blindly. Then you'll learn a number of approaches that will help you develop more interesting and effective strategies.
+
+    *You can start on this challenge after you have completed Chapter 14.*
+
+- [Coding for Social Justice](../coding_for_social_justice/)
+
+    You don't have to wait until you've learned how to program in order to start focusing on serious topics. This set of challenges focuses on issues related to the Black Lives Matter movement. The current challenges focus on the issue of police violence specifically, but I intend to expand the challenges to cover a wider range of issues such as inequity in the criminal justice system, education, housing, health care, and other relevant issues.
+
+    *You can start on these challenges as early as Chapter 2.*

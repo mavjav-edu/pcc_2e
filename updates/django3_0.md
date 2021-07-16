@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Django 3.0
 nav_exclude: true
 ---
 
