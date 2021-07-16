@@ -80,7 +80,7 @@ Here you can find instructions for:
 
 <a href="source_code"></a>Downloading source code
 ---
-The simplest way to get the online resources for the book is to click on the [*Download ZIP*](https://github.com/mavaddat-javid-education/pcc/archive/master.zip) button on the upper right side of [this page](https://github.com/mavaddat-javid-education/pcc), which will download the source code files (and other resources) for the entire book.
+The simplest way to get the online resources for the book is to click on the [*Download ZIP*](https://github.com/mavaddat-javid-education/pcc_2e/archive/master.zip) button on the upper right side of [this page](https://github.com/mavaddat-javid-education/pcc_2e), which will download the source code files (and other resources) for the entire book.
 
 [Cheat Sheets](/cheatsheets/README.md)
 ---
