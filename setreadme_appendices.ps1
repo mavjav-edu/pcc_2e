@@ -1,7 +1,7 @@
 #Requires -PSEdition Core
 $TESTING = $true
 
-$book = [System.IO.File]::ReadAllBytes("*.epub")
+$book = [System.IO.File]::ReadAllBytes("C:\Users\MAVADD~1\CALIBR~1\CALIBR~1\ERICMA~2\PY98C8~1\Python Crash Course_ A Hands-On - Eric Matthes.epub")
 [System.Reflection.Assembly]::LoadWithPartialName('System.IO.Compression')
 $zipStream = New-Object System.IO.Memorystream
 $zipStream.Write($book, 0, $book.Count) | Out-Null
