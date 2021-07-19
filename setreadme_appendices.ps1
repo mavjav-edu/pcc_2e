@@ -18,26 +18,23 @@ foreach ($htmlFile in $htmlFiles) {
     $appLetter = $numToLetter[[Int32]::Parse($appNum)]
     $README_md = "appendix_$appLetter\README.md"
     # $appTitle has XPath //*[@id="app$appNum"]/strong[2]
-    if(-not (Test-Path -Path $README_md -ErrorAction Continue) -and ($HTML.getElementById("app$appNum").getElementsByTagName('strong').Count -lt 2)){
+    if(-not (Test-Path -Path $README_md -ErrorAction Continue) -and ($HTML.getElementById("app$appNum").getElementsByTagName('strong').Count -lt 1)){
         continue
     }
-    $appTitle = (Get-Culture).TextInfo.ToTitleCase($HTML.getElementById("app$appNum").getElementsByTagName('strong')[1].innerHTML.ToLowerInvariant())
-    $outStr = Out-String -InputObject ("<H1>" + $appTitle + "</H1>`n" | pandoc @("--from=HTML", "--to=markdown_mmd+backtick_code_blocks+fenced_code_blocks+autolink_bare_uris"))
-    $outStr = @"
-
-
-$outStr
-
-"@;
+    $appTitleElem = $HTML.getElementById("app$appNum").getElementsByTagName('strong')[1]
+    $appTitle = (Get-Culture).TextInfo.ToTitleCase($appTitleElem.innerHTML.ToLowerInvariant())
+    $outStrJob = Start-ThreadJob -ScriptBlock { Out-String -InputObject ("<H1>" + $appTitle + "</H1>`n`n $($HTML.ie9_body)" | pandoc @("--from=HTML", "--to=markdown_mmd+backtick_code_blocks+fenced_code_blocks+autolink_bare_uris-raw_html")) } -Name "pandoc title to markdown"  
 
     if ($TESTING) {
         $tempFile = New-TemporaryFile
+        $outStr = Receive-Job -Job $outStrJob -Wait -AutoRemoveJob -ErrorAction Stop
         Out-File -InputObject $outStr -FilePath  $tempFile -Encoding utf8
-        Out-File -FilePath $tempFile -Encoding utf8 -Append -InputObject ($HTML.ie9_body | pandoc @("--from=HTML", "--to=markdown_mmd+backtick_code_blocks+fenced_code_blocks+autolink_bare_uris"))
         #Get-Content $README_md | Out-File -FilePath $tempFile -Append
-
-        Move-Item -Path $tempFile -Destination $README_md -Force
-
+        $appendixDir = Join-Path $README_md ".."
+        if( $null -ne $README_md -and -not (Test-Path $appendixDir)) {
+            New-Item $appendixDir -ItemType Directory
+        }
+        Move-Item -Path $tempFile -Destination $README_md -Force -ErrorAction Stop
     }
     else {
         Out-File -InputObject $outStr -FilePath  $README_md -Append -Encoding utf8

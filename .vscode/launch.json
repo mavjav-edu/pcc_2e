@@ -12,6 +12,13 @@
             "cwd": "${file}"
         },
         {
+            "name": "PowerShell Launch Current File",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${file}",
+            "cwd": "${file}"
+        },
+        {
             "name": "PowerShell: Set ReadMe",
             "type": "PowerShell",
             "request": "launch",
