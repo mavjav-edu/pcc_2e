@@ -21,13 +21,23 @@ foreach ($htmlFile in $htmlFiles) {
     if(-not (Test-Path -Path $README_md -ErrorAction Continue) -and ($HTML.getElementById("app$appNum").getElementsByTagName('strong').Count -lt 1)){
         continue
     }
-    $appTitleElem = $HTML.getElementById("app$appNum").getElementsByTagName('strong')[1]
-    $appTitle = (Get-Culture).TextInfo.ToTitleCase($appTitleElem.innerHTML.ToLowerInvariant())
-    $outStrJob = Start-ThreadJob -ScriptBlock { Out-String -InputObject ("<H1>" + $appTitle + "</H1>`n`n $($HTML.ie9_body)" | pandoc @("--from=HTML", "--to=markdown_mmd+backtick_code_blocks+fenced_code_blocks+autolink_bare_uris-raw_html")) } -Name "pandoc title to markdown"  
+    $appTitleElem = $HTML.getElementById("app$appNum")
+    $appTitle = (Get-Culture).TextInfo.ToTitleCase($appTitleElem.getElementsByTagName('strong')[1].innerHTML.ToLowerInvariant())
+    $HTML.getElementById("app$appNum").removeNode($true) | Out-Null
+    $outStrJob = Start-ThreadJob -ScriptBlock { 
+            param (
+            [Parameter()]
+            [string]
+            $title,
+            [Parameter()]
+            [String[]]
+            $content
+            )   
+        Out-String -InputObject ("<H1>$title</H1>`n$content") | pandoc @("--from=HTML", "--to=markdown_mmd+backtick_code_blocks+fenced_code_blocks+autolink_bare_uris-raw_html-native_divs-native_spans-fenced_divs-bracketed_spans+pipe_tables-grid_tables-inline_code_attributes-link_attributes",'--extract-media=".\images\"') } -Name "pandoc appendix $appNum to markdown" -ArgumentList $appTitle, $($HTML.ie9_body.innerHTML)
 
     if ($TESTING) {
         $tempFile = New-TemporaryFile
-        $outStr = Receive-Job -Job $outStrJob -Wait -AutoRemoveJob -ErrorAction Stop
+        $outStr = Receive-Job -Job $outStrJob -Wait -AutoRemoveJob -ErrorAction Ignore
         Out-File -InputObject $outStr -FilePath  $tempFile -Encoding utf8
         #Get-Content $README_md | Out-File -FilePath $tempFile -Append
         $appendixDir = Join-Path $README_md ".."
