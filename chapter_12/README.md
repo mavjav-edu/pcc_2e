@@ -10,6 +10,7 @@ it easier for you to build sophisticated games. With Pygame handling
 tasks like drawing images to the screen, you can skip much of the
 tedious, difficult coding and focus on the higher-level logic of game
 dynamics.
+
 ## TRY IT YOURSELF #1
 
 <span id="ch12exe1"></span>**12-1. Blue Sky:** Make a Pygame window with

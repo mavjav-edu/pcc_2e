@@ -8,6 +8,7 @@ As a result, you’ll be able to work efficiently with lists of any
 length, including those with thousands or even millions of items.
 
 # Working With Lists
+
 ## TRY IT YOURSELF #1
 
 <span id="ch4exe1"></span>**4-1. Pizzas:** Think of at least three kinds

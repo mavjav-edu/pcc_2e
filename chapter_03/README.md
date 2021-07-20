@@ -6,6 +6,7 @@ of information in one place, whether you have just a few items or
 millions of items. Lists are one of Python’s most powerful features
 readily accessible to new programmers, and they tie together many
 important concepts in programming.
+
 ## TRY IT YOURSELF #1
 
 Try these short programs to get some firsthand experience with Python&rsquo;s
