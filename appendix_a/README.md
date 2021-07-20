@@ -5,13 +5,15 @@ up on each operating system. This appendix is useful if the approach in
 [Chapter 1](ch01.html#ch01) didn’t work, or if you want to install a
 different version of Python than the one that came with your system.
 
+## Operating Systems
+
 ### **Python on Linux**
 
 Python is included by default on almost every Linux system, but you
 might want to use a different version than the default. If so, first
 find out which version of Python you already have installed.
 
-#### ***Finding the Installed Version***
+#### ***Finding the Installed Version in Linux***
 
 Open a terminal window and issue the following command:
 
@@ -48,13 +50,13 @@ code will start a terminal session running Python 3.5:
 You’ll also want to use this command when you configure your text editor
 to use Python 3 and when you run programs from the terminal.
 
-### **Python on OS X**
+### **Python on macOS**
 
-Python is already installed on most OS X systems, but you might want to
+Python is already installed on most macOS systems, but you might want to
 use a different version than the default. If so, first find out which
 version of Python you already have installed.
 
-#### ***Finding the Installed Version***
+#### ***Finding the Installed Version in macOS***
 
 Open a terminal window, and enter the following command:
 
@@ -90,19 +92,9 @@ You can find this command on the front page of the Homebrew site at
 *<http://brew.sh/>*. Make sure you include a space between curl -fsSL
 and the URL.
 
-**NOTE**
-
-*The* -e *in this command tells Ruby (the programming language Homebrew
-is written in) to execute the code that’s downloaded here. You should
-only run commands like this from sources you trust.*
-
-To confirm that Homebrew installed correctly, run this command:
-
-\$ brew doctor  
-Your system is ready to brew.
-
-This output means you’re ready to install Python packages through
-Homebrew.
+| **NOTE**                                                                                                                                                                                                                                                                                                                                                                             |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *The* -e *in this command tells Ruby (the programming language Homebrew is written in) to execute the code that’s downloaded here. You should only run commands like this from sources you trust.* To confirm that Homebrew installed correctly, run this command:`$` `brew doctor` `Your system is ready to brew.` ![command output for brew doctor](brew-doctor.png)  This output means you’re ready to install Python packages through Homebrew. |
 
 ##### **Installing Python 3**
 
