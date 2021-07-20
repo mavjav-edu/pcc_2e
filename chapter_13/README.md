@@ -28,7 +28,6 @@ This code returns a random integer between ΓÇô10 and 10. Using your code
 in [Exercise 13-1](../chapter_13/README.md#ch13exe1), adjust each star&rsquo;s position by a
 random amount.
 
-
 ## TRY IT YOURSELF #2
 
 <span id="ch13exe3"></span>**13-3. Raindrops:** Find an image of a
@@ -39,7 +38,6 @@ the bottom of the screen until they disappear.
 [Exercise 13-3](../chapter_13/README.md#ch13exe3) so that when a row of raindrops
 disappears off the bottom of the screen, a new row appears at the top of
 the screen and begins to fall.
-
 
 ## TRY IT YOURSELF #3
 
@@ -54,7 +52,6 @@ the bottom of the screen.
 
 
 <span id="page_290"></span>
-
 ## TRY IT YOURSELF #4
 
 <span id="ch13exe6"></span>**13-6. Game Over:** Using your code from

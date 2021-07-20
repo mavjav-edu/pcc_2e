@@ -5,7 +5,9 @@ one of the most important skills to learn as a programmer is how to get
 unstuck efficiently. This appendix outlines several ways to help you get
 unstuck when programming gets confusing.
 
-### **First Steps** [app03lev1sec01]
+## Outline of how to get unstuck
+
+### **First Steps**
 
 When you’re stuck, your first step should be to assess your situation.
 Before you can get help from anyone else, you’ll need to be able to
@@ -41,7 +43,7 @@ inanimate object) clearly, and ask it a specific question, you’ll often
 be able to answer your own question. Some programming shops even keep a
 real rubber duck around to encourage people to “talk to the duck.”
 
-#### ***Try It Again*** [app03lev2sec01]
+#### ***Try It Again***
 
 Just going back to the start and trying again can be enough to solve
 many problems. Say you’re trying to write a for loop based on an example
@@ -49,7 +51,7 @@ from this book. You might have only missed something simple, like a
 colon at the end of the for line. Going through the steps again might
 help you avoid repeating the same mistake.
 
-#### ***Take a Break*** [app03lev2sec02]
+#### ***Take a Break***
 
 If you’ve been working on the same problem for a while, taking a break
 is actually one of the best tactics you can try. When we work on the
@@ -65,7 +67,7 @@ If you’re getting frustrated, it might be worth putting your work away
 for the day. A good night’s sleep almost always makes a problem more
 approachable.
 
-#### ***Refer to This Book’s Resources*** [app03lev2sec03]
+#### ***Refer to This Book’s Resources***
 
 The online resources for this book, available through
 *<https://www.nostarch.com/pythoncrashcourse/>*, include a number of
@@ -73,7 +75,7 @@ helpful sections about setting up your system and working through each
 chapter. If you haven’t done so already, take a look at these resources
 and see if there’s anything that helps.
 
-### **Searching Online** [app03lev1sec02]
+### **Searching Online**
 
 Chances are that someone else has had the same problem you’re having and
 has written about it online. Good searching skills and specific
@@ -86,9 +88,9 @@ Searching the exact error message can be extremely helpful too. For
 example, say you get the following error when you try to start a Python
 terminal session:
 
-\> python  
-'python' is not recognized as an internal or external command  
-\>
+    \> python  
+    'python' is not recognized as an internal or external command  
+    \>
 
 Searching for the full phrase *python is not recognized as an internal
 or external command* will probably yield some good advice.
@@ -97,7 +99,7 @@ When you start searching for programming-related topics, a few sites
 will appear repeatedly. I’ll describe some of these sites briefly, so
 you’ll know how helpful they’re likely to be.
 
-#### ***Stack Overflow*** [app03lev2sec04]
+#### ***Stack Overflow***
 
 Stack Overflow (*<http://stackoverflow.com/>*) is one of the most
 popular question-and-answer sites for programmers, and will often appear
@@ -112,7 +114,7 @@ to post updates too, so responses tend to stay relatively current. At
 the time of this writing, over 400,000 Python-related questions have
 been answered on Stack Overflow.
 
-#### ***The Official Python Documentation*** [app03lev2sec05]
+#### ***The Official Python Documentation***
 
 The official Python documentation (*<http://docs.python.org/>*) is a bit
 more hit or miss for beginners, because the purpose is more to document
@@ -122,7 +124,7 @@ shown. Still, it’s a good resource to check when it comes up in your
 searches and will become more useful to you as you continue building
 your understanding of Python.
 
-#### ***Official Library Documentation*** [app03lev2sec06]
+#### ***Official Library Documentation***
 
 If you’re using a specific library, such as Pygame, matplotlib, Django,
 and so on, links to the official documentation for that project will
@@ -130,14 +132,14 @@ often appear in searches—for example, *<http://docs.djangoproject.com/>*
 is very helpful. If you’re planning to work with any of these libraries,
 it’s a good idea to become familiar with the official documentation.
 
-#### ***r/learnpython*** [app03lev2sec07]
+#### ***r/learnpython***
 
 Reddit is made up of a number of subforums called *subreddits*. The
 *r/learnpython* subreddit (*<http://reddit.com/r/learnpython/>*) is
 fairly active and supportive. Here you can read others’ questions and
 post your own.
 
-#### ***Blog Posts*** [app03lev2sec08]
+#### ***Blog Posts***
 
 Many programmers maintain blogs and share posts about the parts of the
 language they’re working with. You should skim the first few comments on
@@ -145,7 +147,7 @@ a blog post to see what reactions other people have had before taking
 any advice. If no comments appear, take the post with a grain of salt.
 It’s possible no one else has verified the advice.
 
-### **IRC (Internet Relay Chat)** [app03lev1sec03]
+### **IRC (Internet Relay Chat)**
 
 Programmers interact in real time through IRC. If you’re stuck on a
 problem and searching online isn’t providing answers, asking in an IRC
@@ -154,7 +156,7 @@ channels are polite and helpful, especially if you can be specific about
 what you’re trying to do, what you’ve already tried, and what results
 you’re getting.
 
-#### ***Make an IRC Account*** [app03lev2sec09]
+#### ***Make an IRC Account***
 
 To create an account on IRC, go to *<http://webchat.freenode.net/>*.
 Choose a nickname, fill out the Captcha box, and click **Connect**.
@@ -176,7 +178,7 @@ Paste this line into the IRC site with nickname as the name you chose
 earlier and a value for verification_code. Now you’re ready to join a
 channel.
 
-#### ***Channels to Join*** [app03lev2sec10]
+#### ***Channels to Join***
 
 To join the main Python channel, enter /join #python in the input box.
 You’ll see a confirmation that you joined the channel and some general
@@ -193,7 +195,7 @@ you’re working on web applications.
 After you’ve joined a channel, you can read the conversations other
 people are having and ask your own questions as well.
 
-#### ***IRC Culture*** [app03lev2sec11]
+#### ***IRC Culture***
 
 To get effective help, you should know a few details about IRC culture.
 Focusing on the three questions at the beginning of this appendix will

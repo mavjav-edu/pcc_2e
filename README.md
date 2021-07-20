@@ -14,7 +14,7 @@ Twitter: [@ehmatthes](http://twitter.com/ehmatthes/)
 
 ### Get Started
 
-If you are a student following this curriculum for the first time, please jump to the [setup instructions below](#setup_instructions) below.
+If you are a student following this curriculum for the first time, please jump to the [setup instructions below](#setup-instructions) below.
 
 ### Homework
 
@@ -23,7 +23,7 @@ If you are a student following this curriculum for the first time, please jump t
 <a href="try_it_yourself"></a>Exercises ✍🏽
 ---
 The book has several sections that reinforce learning through exercises. Practice what you just read where you see:
-<img src="./images/tiy.svg"   width="188vw" alt="Try It Yourself in Adobe Dogma font"/>
+<img src="./images/tiy.svg"   width="188vw" alt="'Try It Yourself' in Adobe Dogma typeface"/>
 
 - Getting Started \([Chapter 1](/chapter_01/README.md#try-it-yourself-\#1)\)
 
@@ -65,9 +65,8 @@ The book has several sections that reinforce learning through exercises. Practic
 
 - Styling And Deploying An App \([Chapter 20](/chapter_20/README.md#try-it-yourself-\#1)\)
 
-
 ### Setup Instructions
----
+
 Here you can find instructions for:
 
 - [Installing Python](/appendix_a/README.md)&#09;(Appendix A)

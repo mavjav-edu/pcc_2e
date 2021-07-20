@@ -9,7 +9,6 @@ dictionary. Additionally, you’ll learn to nest dictionaries inside
 lists, lists inside dictionaries, and even dictionaries inside other
 dictionaries.
 
-
 ## TRY IT YOURSELF #1
 
 <span id="ch6exe1"></span>**6-1. Person:** Use a dictionary to store
@@ -38,7 +37,6 @@ print the word followed by a colon and then its meaning, or print the
 word on one line and then print its meaning indented on a second line.
 Use the newline character (`\n`) to insert a blank line between each
 word-meaning pair in your output.
-
 
 ## TRY IT YOURSELF #2
 
@@ -74,7 +72,6 @@ not.
 already taken the poll, print a message thanking them for responding. If
 they have not yet taken the poll, print a message inviting them to take
 the poll.
-
 
 ## TRY IT YOURSELF #3
 

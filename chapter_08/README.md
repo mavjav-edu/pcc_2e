@@ -10,7 +10,6 @@ the function dedicated to handling that task, and the call tells Python
 to run the code inside the function. You’ll find that using functions
 makes your programs easier to write, read, test, and fix.
 
-
 ## TRY IT YOURSELF #1
 
 <span id="ch8exe1"></span>**8-1. Message:** Write a function called
@@ -23,7 +22,6 @@ called `favorite_book()` that accepts one parameter, `title`. The
 function should print a message, such as
 `One of my favorite books is Alice in Wonderland`. Call the function,
 making sure to include a book title as an argument in the function call.
-
 
 ## TRY IT YOURSELF #2
 
@@ -47,7 +45,6 @@ function should print a simple sentence, such as
 `Reykjavik is in Iceland`. Give the parameter for the country a default
 value. Call your function for three different cities, at least one of
 which is not in the default country.
-
 
 ## TRY IT YOURSELF #3
 
@@ -83,7 +80,6 @@ information, call `make_album()` with the user&rsquo;s input and print the
 dictionary that&rsquo;s created. Be sure to include a quit value in the
 `while` loop.
 
-
 ## TRY IT YOURSELF #4
 
 <span id="ch8exe9"></span>**8-9. Magicians:** Make a list of magician&rsquo;s
@@ -107,7 +103,6 @@ to each magician&rsquo;s name.
 
 
 <span id="page_154"></span>
-
 ## TRY IT YOURSELF #5
 
 <span id="ch8exe12"></span>**8-12. Sandwiches:** Write a function that
@@ -139,7 +134,6 @@ was stored correctly.
 
 
 <span id="page_159"></span>
-
 ## TRY IT YOURSELF #6
 
 <span id="ch8exe15"></span>**8-15. Printing Models:** Put the functions

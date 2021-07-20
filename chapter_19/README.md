@@ -7,7 +7,6 @@ entries, and edit existing entries. You’ll also learn how Django guards
 against common attacks to form-based pages so you don’t have to spend
 too much time thinking about securing your apps.
 
-
 ## TRY IT YOURSELF #1
 
 <span id="ch19exe1"></span>**19-1. Blog:** Start a new Django project
@@ -20,7 +19,6 @@ posts in chronological order.
 Create a form for making new posts and another for editing existing
 posts. Fill in your forms to make sure they work.
 
-
 ## TRY IT YOURSELF #2
 
 <span id="ch19exe2"></span>**19-2. Blog Accounts:** Add a user
@@ -32,7 +30,6 @@ unregistered users see a link to the registration page.
 
 
 <span id="page_454"></span>
-
 ## TRY IT YOURSELF #3
 
 <span id="ch19exe3"></span>**19-3. Refactoring:** There are two places

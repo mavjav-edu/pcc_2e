@@ -44,7 +44,6 @@ verifies you can call your function with the values `'santiago'`,
 `'chile'`, and `'population=5000000'`. Run *test_cities.py* again, and
 make sure this new test passes.
 
-
 ## TRY IT YOURSELF #2
 
 <span id="ch11exe3"></span>**11-3. Employee:** Write a class called

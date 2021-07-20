@@ -6,7 +6,6 @@ computer; if it isn’t, you’ll install it. You’ll also install a text
 editor to work with your Python programs. Text editors recognize Python
 code and highlight sections as you write, making it easy to understand
 the structure of your code.
-
 ## TRY IT YOURSELF #1
 
 The exercises in this chapter are exploratory in nature. Starting in

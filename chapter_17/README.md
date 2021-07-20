@@ -9,7 +9,6 @@ visualization. Because programs written like this will always use
 current data to generate a visualization, even when that data might be
 rapidly changing, it will always be up to date.
 
-
 ## TRY IT YOURSELF #1
 
 <span id="ch17exe1"></span>**17-1. Other Languages:** Modify the API

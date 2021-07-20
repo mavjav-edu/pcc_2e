@@ -43,7 +43,6 @@ in for any locations you&rsquo;re curious about.
 
 
 <span id="page_375"></span>
-
 ## TRY IT YOURSELF #2
 
 <span id="ch16exe5"></span>**16-5. All Countries:** On the population

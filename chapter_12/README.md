@@ -1,13 +1,15 @@
 # A Ship That Fires Bullets
 
-Let’s build a game! We’ll use Pygame, a collection of fun, powerful
+Let’s build a game!
+
+!['Good Game' animation by matthewhenrydesign.com](gg-good-game-galaga-RtpmUzMbynBeCgEa5E.gif)
+
+We’ll use Pygame, a collection of fun, powerful
 Python modules that manage graphics, animation, and even sound, making
 it easier for you to build sophisticated games. With Pygame handling
 tasks like drawing images to the screen, you can skip much of the
 tedious, difficult coding and focus on the higher-level logic of game
 dynamics.
-
-
 ## TRY IT YOURSELF #1
 
 <span id="ch12exe1"></span>**12-1. Blue Sky:** Make a Pygame window with
@@ -18,7 +20,6 @@ of a game character you like or convert an image to a bitmap. Make a
 class that draws the character at the center of the screen and match the
 background color of the image to the background color of the screen, or
 vice versa.
-
 
 ## TRY IT YOURSELF #2
 
@@ -31,7 +32,6 @@ rocket never moves beyond any edge of the screen.
 creates an empty screen. In the event loop, print the `event.key`
 attribute whenever a `pygame.KEYDOWN` event is detected. Run the program
 and press various keys to see how Pygame responds.
-
 
 ## TRY IT YOURSELF #3
 

@@ -7,7 +7,6 @@ level, and we’ll implement a scoring system. By the end of the chapter,
 you’ll know enough to start writing games that increase in difficulty as
 a player progresses and that show scores.
 
-
 ## TRY IT YOURSELF #1
 
 <span id="ch14exe1"></span>**14-1. Press P to Play:** Because Alien
@@ -25,7 +24,6 @@ target. Add a Play button that starts the game, and when the player
 misses the target three times, end the game and make the Play button
 reappear. Let the player restart the game with this Play button.
 
-
 ## TRY IT YOURSELF #2
 
 <span id="ch14exe3"></span>**14-3. Challenging Target Practice:** Start
@@ -37,7 +35,6 @@ Play.
 
 
 <span id="page_317"></span>
-
 ## TRY IT YOURSELF #3
 
 <span id="ch14exe4"></span>**14-4. All-Time High Score:** The high score

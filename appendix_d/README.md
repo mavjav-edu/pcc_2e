@@ -20,13 +20,13 @@ work well for solo developers. Git implements version control by
 tracking the changes made to every file in a project; if you make a
 mistake, you can just return to a previously saved state.
 
-### **Installing Git** [app04lev1sec01]
+### **Installing Git**
 
 Git runs on all operating systems, but there are different approaches to
 installing it on each system. The following sections provide specific
 instructions for each operating system.
 
-#### ***Installing Git on Linux*** [app04lev2sec01]
+#### ***Installing Git on Linux***
 
 To install Git on Linux, enter the following:
 
@@ -34,7 +34,7 @@ To install Git on Linux, enter the following:
 
 That’s it. You can now use Git in your projects.
 
-#### ***Installing Git on OS X*** [app04lev2sec02]
+#### ***Installing Git on OS X***
 
 Git may already be installed on your system, so try issuing the command
 git --version. If you see output listing a specific version number, Git
@@ -44,11 +44,11 @@ install or update Git, simply follow the onscreen directions.
 You can also go to *<https://git-scm.com/>*, follow the Downloads link,
 and click an appropriate installer for your system.
 
-#### ***Installing Git on Windows*** [app04lev2sec03]
+#### ***Installing Git on Windows***
 
 You can install Git for Windows from *<http://msysgit.github.io/>*.
 
-#### ***Configuring Git*** [app04lev2sec04]
+#### ***Configuring Git***
 
 Git keeps track of who makes changes to a project, even when there’s
 only one person working on the project. To do this, Git needs to know
@@ -61,7 +61,7 @@ to make up a fake email address:
 If you forget this step, Git will prompt you for this information when
 you make your first commit.
 
-### **Making a Project** [app04lev1sec02]
+### **Making a Project**
 
 Let’s make a project to work with. Create a folder somewhere on your
 system called *git_practice*. Inside the folder, make a simple Python
@@ -73,7 +73,7 @@ print("Hello Git world!")
 
 We’ll use this program to explore Git’s basic functionality.
 
-### **Ignoring Files** [app04lev1sec03]
+### **Ignoring Files**
 
 Files with the extension *.pyc* are automatically generated from *.py*
 files, so we don’t need Git to keep track of them. These files are
@@ -101,7 +101,7 @@ You might need to modify your text editor’s settings so it will show
 hidden files in order to open *.gitignore*. Some editors are set to
 ignore filenames that begin with a dot.
 
-### **Initializing a Repository** [app04lev1sec04]
+### **Initializing a Repository**
 
 Now that you have a directory containing a Python file and a
 *.gitignore* file, you can initialize a Git repository. Open a terminal,
@@ -118,7 +118,7 @@ are located in the hidden directory *.git/*, which you won’t need to
 work with at all. Just don’t delete that directory, or you’ll lose your
 project’s history.
 
-### **Checking the Status** [app04lev1sec05]
+### **Checking the Status**
 
 Before doing anything else, let’s look at the status of the project:
 
@@ -148,7 +148,7 @@ haven’t told it which files to track yet. Then we’re told that there’s
 nothing added to the current commit, but there are untracked files
 present that we might want to add to the repository ➌.
 
-### **Adding Files to the Repository** [app04lev1sec06]
+### **Adding Files to the Repository**
 
 Let’s add the two files to the repository, and check the status again:
 
@@ -173,7 +173,7 @@ status of the project now, we can see that Git recognizes some changes
 that need to be committed ➋. The label *new file* means these files were
 newly added to the repository ➌.
 
-### **Making a Commit** [app04lev1sec07]
+### **Making a Commit**
 
 Let’s make the first commit:
 
@@ -198,7 +198,7 @@ want to see each time you commit a working state of your project. If you
 get a different message, read it carefully; it’s likely you forgot to
 add a file before making a commit.
 
-### **Checking the Log** [app04lev1sec08]
+### **Checking the Log**
 
 Git keeps a log of all commits made to the project. Let’s check the log:
 
@@ -223,7 +223,7 @@ The --pretty=oneline flag provides the two most important pieces of
 information: the reference ID of the commit and the message recorded for
 the commit.
 
-### **The Second Commit** [app04lev1sec09]
+### **The Second Commit**
 
 To see the real power of version control, we need to make a change to
 the project and commit that change. Here we’ll just add another line to
@@ -275,7 +275,7 @@ When we check the status of the project, we see that we once again have
 a clean working directory ➋. Finally, we see the two commits in the log
 ➌.
 
-### **Reverting a Change** [app04lev1sec10]
+### **Reverting a Change**
 
 Now let’s see how to abandon a change and revert back to the previous
 working state. First, add a new line to *hello_world.py*:
@@ -340,7 +340,7 @@ for you.
 *You might have to click in your editor’s window to refresh the file and
 see the previous version.*
 
-### **Checking Out Previous Commits** [app04lev1sec11]
+### **Checking Out Previous Commits**
 
 You can check out any commit in your log, not just the most recent, by
 including the first six characters of the reference ID instead of a dot.
@@ -414,7 +414,7 @@ again and see we’re on the master branch with nothing to commit ➍. When
 we look at the log again, we see that we’re at the commit we wanted to
 start over from ➎.
 
-### **Deleting the Repository** [app04lev1sec12]
+### **Deleting the Repository**
 
 Sometimes you’ll mess up your repository’s history and won’t know how to
 recover it. If this happens, first consider asking for help using the

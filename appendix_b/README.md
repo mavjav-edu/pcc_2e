@@ -19,13 +19,15 @@ at Emacs and vim, two advanced editors you’ll hear frequently mentioned
 as you spend more time programming. We’ll use *hello_world.py* as an
 example program to run in each editor.
 
-### **Geany** [app02lev1sec01]
+## Choice of Text Editor
+
+### **Geany**
 
 Geany is a simple text editor that lets you run almost all of your
 programs directly from the editor. It also displays your output in a
 terminal window, which helps you get comfortable using terminals.
 
-#### ***Installing Geany on Linux*** [app02lev2sec01]
+#### ***Installing Geany on Linux***
 
 You can install Geany using one line on most Linux systems:
 
@@ -55,7 +57,7 @@ python3 "%f"
 Again, make sure the spacing and capitalization exactly match what is
 shown here.
 
-#### ***Installing Geany on Windows*** [app02lev2sec02]
+#### ***Installing Geany on Windows***
 
 You can download a Windows installer for Geany by going to
 *<http://www.geany.org/>* and clicking Releases in the Download menu.
@@ -92,7 +94,7 @@ exactly match what is shown here. When you have these lines set
 correctly, click **OK**. You should now be able to run your program
 successfully.
 
-#### ***Running Python Programs in Geany*** [app02lev2sec03]
+#### ***Running Python Programs in Geany***
 
 There are three ways to run a program in Geany. To run *hello_world.py*,
 select **Build ▸ Execute** in the menu, or click the icon with a set of
@@ -105,12 +107,12 @@ Hello Python world!
 (program exited with code: 0)  
 Press return to continue
 
-#### ***Customizing Geany Settings*** [app02lev2sec04]
+#### ***Customizing Geany Settings***
 
 Now we’ll set up Geany to be as efficient as possible by customizing the
 features mentioned at the beginning of this appendix.
 
-##### **Converting Tabs to Spaces** [app02lev3sec01]
+##### **Converting Tabs to Spaces**
 
 Mixing tabs and spaces in your code can cause problems in your Python
 programs that are very difficult to diagnose. To check the indentation
@@ -120,7 +122,7 @@ Set the tab width to **4**, and set **Type** to **Spaces**.
 If you have a mix of tabs and spaces in one of your programs, you can
 convert all tabs to spaces with **Document ▸ Replace Tabs by Spaces**.
 
-##### **Setting the Line Length Indicator** [app02lev3sec02]
+##### **Setting the Line Length Indicator**
 
 Most editors allow you to set up a visual cue, usually a vertical line,
 to show where your lines should end. Set this feature by selecting
@@ -128,13 +130,13 @@ to show where your lines should end. Set this feature by selecting
 line marker** is enabled. Then make sure the value of Column is set to
 79.
 
-##### **Indenting and Unindenting Code Blocks** [app02lev3sec03]
+##### **Indenting and Unindenting Code Blocks**
 
 To indent a block of code, highlight the code and go to **Edit ▸ Format
 ▸ Increase Indent**, or press CTRL-I. To unindent a block of code, go to
 **Edit ▸ Format ▸ Decrease Indent**, or press CTRL-U.
 
-##### **Commenting Out Blocks of Code** [app02lev3sec04]
+##### **Commenting Out Blocks of Code**
 
 To temporarily disable a block of code, you can highlight the block and
 comment it so Python will ignore it. Go to **Edit ▸ Format ▸ Toggle Line
@@ -143,7 +145,7 @@ sequence (#\~) to indicate it’s not a regular comment. When you want to
 uncomment the block of code, highlight the block and issue the same
 command again.
 
-### **Sublime Text** [app02lev1sec02]
+### **Sublime Text**
 
 Sublime Text is a simple text editor that’s easy to install on OS X (and
 other systems as well), and lets you run almost all your programs
@@ -157,14 +159,14 @@ purchase a license if you like it and want to continue using it. We’ll
 download Sublime Text 3, the most recent version at the time of this
 writing.
 
-#### ***Installing Sublime Text on OS X*** [app02lev2sec05]
+#### ***Installing Sublime Text on OS X***
 
 Download the installer for Sublime Text from
 *<http://www.sublimetext.com/3>*. Follow the download link and click the
 installer for OS X. When it’s downloaded, open the installer and drag
 the Sublime Text icon into your *Applications* folder.
 
-#### ***Installing Sublime Text on Linux*** [app02lev2sec06]
+#### ***Installing Sublime Text on Linux***
 
 On most Linux systems, it’s easiest to install Sublime Text from a
 terminal session, like this:
@@ -173,12 +175,12 @@ terminal session, like this:
 \$ sudo apt-get update  
 \$ sudo apt-get install sublime-text-installer
 
-#### ***Installing Sublime Text on Windows*** [app02lev2sec07]
+#### ***Installing Sublime Text on Windows***
 
 Download an installer for Windows from *<http://www.sublimetext.com/3>*.
 Run the installer, and you should see Sublime Text in your Start menu.
 
-#### ***Running Python Programs in Sublime Text*** [app02lev2sec08]
+#### ***Running Python Programs in Sublime Text***
 
 If you’re using the version of Python that came with your system, you’ll
 probably be able to run your programs without adjusting any settings. To
@@ -189,7 +191,7 @@ of the Sublime Text window displaying the following output:
 Hello Python world!  
 \[Finished in 0.1s\]
 
-#### ***Configuring Sublime Text*** [app02lev2sec09]
+#### ***Configuring Sublime Text***
 
 If you have multiple versions of Python installed or if Sublime Text
 won’t run Python programs automatically, you’ll have to set up a
@@ -226,40 +228,40 @@ Open *hello_world.py*, select **Tools ▸ Build System ▸ Python3**, and
 then select **Tools ▸ Build**. You should see your output in a terminal
 embedded at the bottom of the Sublime Text window.
 
-#### ***Customizing Sublime Text Settings*** [app02lev2sec10]
+#### ***Customizing Sublime Text Settings***
 
 Now we’ll set up Sublime Text to be as efficient as possible by
 customizing the features mentioned at the beginning of this appendix.
 
-##### **Converting Tabs to Spaces** [app02lev3sec05]
+##### **Converting Tabs to Spaces**
 
 Go to **View ▸ Indentation** and make sure there’s a check mark next to
 Indent Using Spaces. If there isn’t, check it.
 
-##### **Setting the Line Length Indicator** [app02lev3sec06]
+##### **Setting the Line Length Indicator**
 
 Go to **View ▸ Ruler**, and then click **80**. Sublime Text will place a
 vertical line at the 80-character mark.
 
-##### **Indenting and Unindenting Code Blocks** [app02lev3sec07]
+##### **Indenting and Unindenting Code Blocks**
 
 To indent a block of code, highlight it and select **Edit ▸ Line ▸
 Indent** or press CTRL-\]. To unindent a block of code, click **Edit ▸
 Line ▸ Unindent** or press CTRL-\[.
 
-##### **Commenting Out Blocks of Code** [app02lev3sec08]
+##### **Commenting Out Blocks of Code**
 
 To comment out a highlighted block of code, select **Edit ▸ Comment ▸
 Toggle Comment**, or press CTRL-/. To uncomment a block of code, issue
 the same command again.
 
-### **IDLE** [app02lev1sec03]
+### **IDLE**
 
 Idle is Python’s default editor. It’s a little less intuitive to work
 with than Geany or Sublime Text, but you’ll see references to it in
 other tutorials aimed at beginners, so you might want to give it a try.
 
-#### ***Installing IDLE on Linux*** [app02lev2sec11]
+#### ***Installing IDLE on Linux***
 
 If you’re using Python 3, install the idle3 package like this:
 
@@ -269,7 +271,7 @@ If you’re using Python 2, install the idle package like this:
 
 \$ sudo apt-get install idle
 
-#### ***Installing IDLE on OS X*** [app02lev2sec12]
+#### ***Installing IDLE on OS X***
 
 If you used Homebrew to install Python, IDLE is probably already on your
 system. In a terminal, run the command brew linkapps, which tells IDLE
@@ -280,31 +282,31 @@ Otherwise, go to *<https://www.python.org/download/mac/tcltk/>* and
 follow the instructions there; you’ll also need to install a few
 graphical packages that IDLE depends on.
 
-#### ***Installing IDLE on Windows*** [app02lev2sec13]
+#### ***Installing IDLE on Windows***
 
 IDLE should have been installed automatically when you installed Python.
 You should find it in your Start menu.
 
-#### ***Customizing IDLE Settings*** [app02lev2sec14]
+#### ***Customizing IDLE Settings***
 
 Because it’s the default Python editor, most of the settings in IDLE are
 already attuned to recommended Python settings: tabs are automatically
 converted into spaces, and the line length indicator is set to 80
 characters wide.
 
-##### **Indenting and Unindenting Code Blocks** [app02lev3sec09]
+##### **Indenting and Unindenting Code Blocks**
 
 To indent a block of code, highlight it and select **Format ▸ Indent
 Region** or press CTRL-\]. To unindent a block of code, select **Format
 ▸ Dedent Region** or press CTRL-\[.
 
-##### **Commenting Out Blocks of Code** [app02lev3sec10]
+##### **Commenting Out Blocks of Code**
 
 To comment out a block of code, highlight the code, and then select
 **Format ▸ Comment Out Region**, or press ALT-3. To uncomment the code,
 select **Format ▸ Uncomment Region**, or press ALT-4.
 
-### **Emacs and vim** [app02lev1sec04]
+### **Emacs and vim**
 
 Emacs and vim are two popular editors favored by many experienced
 programmers because they’re designed to be used so your hands never have

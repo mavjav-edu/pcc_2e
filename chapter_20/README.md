@@ -20,7 +20,6 @@ style the Blog project you created in [Chapter 19](../chapter_19/README.md#ch19)
 
 
 <span id="page_482"></span>
-
 ## TRY IT YOURSELF #2
 
 <span id="ch20exe3"></span>**20-3. Live Blog:** Deploy the Blog project

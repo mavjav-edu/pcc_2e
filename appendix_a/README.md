@@ -5,13 +5,13 @@ up on each operating system. This appendix is useful if the approach in
 [Chapter 1](ch01.html#ch01) didn’t work, or if you want to install a
 different version of Python than the one that came with your system.
 
-### **Python on Linux** [app01lev1sec01]
+### **Python on Linux**
 
 Python is included by default on almost every Linux system, but you
 might want to use a different version than the default. If so, first
 find out which version of Python you already have installed.
 
-#### ***Finding the Installed Version*** [app01lev2sec01]
+#### ***Finding the Installed Version***
 
 Open a terminal window and issue the following command:
 
@@ -28,7 +28,7 @@ Python 3.5.0
 Python 3.5.0 is also installed. It’s worth running both commands before
 you attempt to install a new version.
 
-#### ***Installing Python 3 on Linux*** [app01lev2sec02]
+#### ***Installing Python 3 on Linux***
 
 If you don’t have Python 3, or if you want to install a newer version of
 Python 3, you can install it in just a few lines. We’ll use a package
@@ -48,13 +48,13 @@ code will start a terminal session running Python 3.5:
 You’ll also want to use this command when you configure your text editor
 to use Python 3 and when you run programs from the terminal.
 
-### **Python on OS X** [app01lev1sec02]
+### **Python on OS X**
 
 Python is already installed on most OS X systems, but you might want to
 use a different version than the default. If so, first find out which
 version of Python you already have installed.
 
-#### ***Finding the Installed Version*** [app01lev2sec03]
+#### ***Finding the Installed Version***
 
 Open a terminal window, and enter the following command:
 
@@ -65,13 +65,13 @@ You should also try running the command **python3 --version**. You’ll
 probably get an error message, but it’s worth checking to see if the
 version you want is already installed.
 
-#### ***Using Homebrew to Install Python 3*** [app01lev2sec04]
+#### ***Using Homebrew to Install Python 3***
 
 If you only have Python 2 installed, or if you have an older version of
 Python 3, you can install the latest version of Python 3 using a package
 called Homebrew.
 
-##### **Installing Homebrew** [app01lev3sec01]
+##### **Installing Homebrew**
 
 Homebrew depends on Apple’s Xcode package, so open a terminal and run
 this command:
@@ -104,7 +104,7 @@ Your system is ready to brew.
 This output means you’re ready to install Python packages through
 Homebrew.
 
-##### **Installing Python 3** [app01lev3sec02]
+##### **Installing Python 3**
 
 To install the latest version of Python 3, enter the following command:
 
@@ -120,7 +120,7 @@ Now you can start a Python 3 terminal session using the command python3,
 and you can use the python3 command to configure your text editor so it
 runs Python programs with Python 3 instead of Python 2.
 
-### **Python on Windows** [app01lev1sec03]
+### **Python on Windows**
 
 Python isn’t usually included by default on Windows, but it’s worth
 checking to see if it exists on the system. Open a terminal window by
@@ -136,7 +136,7 @@ If you see output like this, Python is already installed, but you still
 might want to install a newer version. If you see an error message,
 you’ll need to download and install Python.
 
-#### ***Installing Python 3 on Windows*** [app01lev2sec05]
+#### ***Installing Python 3 on Windows***
 
 Go to *<http://python.org/downloads/>* and click the version of Python
 you want. Download the installer, and when you run it make sure to check
@@ -146,7 +146,7 @@ and you won’t have to modify your system’s environment variables
 manually. After you’ve installed Python, issue the python --version
 command in a new terminal window. If it works, you’re done.
 
-#### ***Finding the Python Interpreter*** [app01lev2sec06]
+#### ***Finding the Python Interpreter***
 
 If the simple command python doesn’t work, you’ll need to tell Windows
 where to find the Python interpreter. To find it, open your C drive and
@@ -162,7 +162,7 @@ installed:
 \$ C:\\\\Python35\\python --version  
 Python 3.5.0
 
-#### ***Adding Python to Your Path Variable*** [app01lev2sec07]
+#### ***Adding Python to Your Path Variable***
 
 It’s annoying to type the full path each time you want to start a Python
 terminal, so we’ll add the path to the system so you can just use the
@@ -187,7 +187,7 @@ Path variable into your terminal session. Now when you enter python
 Path variable. You can now start a Python terminal session by just
 entering python at a command prompt.
 
-### **Python Keywords and Built-in Functions** [app01lev1sec04]
+### **Python Keywords and Built-in Functions**
 
 Python comes with its own set of keywords and built-in functions. It’s
 important to be aware of these when you’re naming variables. One
@@ -199,7 +199,7 @@ Python’s built-in functions because you’ll overwrite the functions.
 In this section we’ll list Python’s keywords and built-in function
 names, so you’ll know which names to avoid.
 
-#### ***Python Keywords*** [app01lev2sec08]
+#### ***Python Keywords***
 
 Each of the following keywords has a specific meaning, and you’ll see an
 error if you try to use them as a variable name.
@@ -212,7 +212,7 @@ as       elif       if         or         yield
 assert   else       import     pass  
 break    except     in         raise
 
-#### ***Python Built-in Functions*** [app01lev2sec09]
+#### ***Python Built-in Functions***
 
 You won’t get an error if you use one of the following readily available
 built-in functions as a variable name, but you’ll override the behavior

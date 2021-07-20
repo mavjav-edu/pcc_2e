@@ -7,7 +7,6 @@ use Django (*<http://djangoproject.com/>*) to build a project called
 Learning Log—an online journal system that lets you keep track of
 information you’ve learned about particular topics.
 
-
 ## TRY IT YOURSELF #1
 
 <span id="ch18exe1"></span>**18-1. New Projects:** To get a better idea
@@ -26,7 +25,6 @@ if you wish.
 
 
 <span id="page_412"></span>
-
 ## TRY IT YOURSELF #2
 
 <span id="ch18exe2"></span>**18-2. Short Entries:** The `__str__()`
@@ -55,7 +53,6 @@ key to `Pizza`, and `name` should be able to hold values such as
 Register both models with the admin site, and use the site to enter some
 pizza names and toppings. Use the shell to explore the data you entered.
 
-
 ## TRY IT YOURSELF #3
 
 <span id="ch18exe5"></span>**18-5. Meal Planner:** Consider an app that
@@ -67,7 +64,6 @@ for this project.
 <span id="ch18exe6"></span>**18-6. Pizzeria Home Page:** Add a home page
 to the *Pizzeria* project you started in [Exercise
 18-4](../chapter_18/README.md#ch18exe4) ([page 412](../chapter_18/README.md#page_412)).
-
 
 ## TRY IT YOURSELF #4
 
