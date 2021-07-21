@@ -11,7 +11,7 @@ has_toc: false
 
 Solutions for selected exercises from each chapter can be found below. Be careful about looking at the solutions too quickly; make sure you've given yourself time to wrestle with the concepts you just learned before looking at a solution. Also, there are several ways to solve many of the exercises, and the solutions only show one possible way to complete each exercise.
 
-I haven't included solutions for Chapters 18-20, because the exercises for those chapters are really projects in themselves. If you're having trouble with an exercise from one of those chapters consider posting on [Stack Overflow](https://stackoverflow.com/), [r/learnpython](https://www.reddit.com/r/learnpython/), or get in touch.
+The book's author hasn't included solutions for Chapters 18-20, because the exercises for those chapters are really projects in themselves. If you're having trouble with an exercise from one of those chapters consider posting on [Stack Overflow](https://stackoverflow.com/), [r/learnpython](https://www.reddit.com/r/learnpython/), or [join the Discord server](https://discord.gg/KzzTBbr).
 
 - [Chapter 2](../chapter_2/)
 - [Chapter 3](../chapter_3/)
@@ -33,8 +33,7 @@ I haven't included solutions for Chapters 18-20, because the exercises for those
 <a name="questions"></a>Questions and Feedback
 ---
 
-If you're stuck on something and what you see here isn't helping, please feel free to get in touch. Also, if you think you've found a mistake in the book or in the online resources, I'd love to know about it!
+If you're stuck on something and what you see here isn't helping, please [join the Discord server](https://discord.gg/KzzTBbr). Also, if you think you've found a mistake in the book or in the online resources, please contact the author:
 
-Email: [ehmatthes@gmail.com](mailto:ehmatthes@gmail.com)
-
-Twitter: [@ehmatthes](https://twitter.com/ehmatthes/)
+- [📧 `ehmatthes@gmail.com`](mailto:ehmatthes@gmail.com)
+- [<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" width="15"/>  @ehmatthes](http://twitter.com/ehmatthes/)

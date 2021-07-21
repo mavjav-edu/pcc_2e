@@ -10,7 +10,7 @@ has_toc: false
 
 This is an expanded set of exercises and challenges that go beyond what's asked of readers in the book. Many of these challenges are good starting points for deeper investigations, and can be expanded into full projects. You can do each of these challenges using what's been presented in the book to that point; if you need something else to complete the challenge, that information is presented in the challenge itself.
 
-I may write some articles about how some of these challenges could be implemented, but I have no intention of developing an overall solution set. The point of these challenges is to push yourself to develop a working solution, and then share it with others for feedback.
+I may write some articles about how some of these challenges could be implemented, but the book's author has no intention of developing an overall solution set. The point of these challenges is to push yourself to develop a working solution, and then share it with others for feedback.
 
 For many interesting challenges, a fully-specified problem description would be really long. You may need to make decisions about how to interpret some of these challenges as you work on implementing them. For example, if you're asked to write a function that deals a hand from a deck of cards, you may have to decide whether to remove the cards from the deck, or just return the hand.
 

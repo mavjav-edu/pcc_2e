@@ -25,7 +25,7 @@ Here's the sprite sheet we'll work with:
 
 ![](../../images/challenge_images/chess_pieces.bmp)
 
-I downloaded this image from [Public Domain Clip Art](https://www.pdclipart.org/displayimage.php?album=search&cat=0&pos=39), and converted it to a .bmp file. You can right click and save the image file from this page, or you can find it in the [*beyond_pcc*](https://github.com/ehmatthes/pcc_2e/tree/master/beyond_pcc) folder when you [download the resources for the book](https://github.com/ehmatthes/pcc_2e/zipball/master/).
+The book's author says he doeswnloaded this image from [Public Domain Clip Art](https://www.pdclipart.org/displayimage.php?album=search&cat=0&pos=39), and converted it to a .bmp file. You can right click and save the image file from this page, or you can find it in the [*beyond_pcc*](https://github.com/ehmatthes/pcc_2e/tree/master/beyond_pcc) folder when you [download the resources for the book](https://github.com/ehmatthes/pcc_2e/zipball/master/).
 
 ## Starting a Chess Game
 
@@ -534,7 +534,7 @@ You can find the full *spritesheet.py* module [here](https://github.com/ehmatthe
 
 ### Groups vs Lists
 
-The point of this guide was to show how you can load images from a sprite sheet when using Pygame. There's a lot that we might do differently if we were focused on building a fully-functioning chess game. For example, should we store the pieces in a list like we did, or should they be placed into a Pygame `Group`? I used a list here because a list is ordered, and I wanted the order of `self.pieces` to match the order we see in the sprite sheet. A group is not ordered, so it wouldn't necessarily work for this purpose. A group is great when you want to repeatedly draw a bunch of elements to the screen, and the order you're keeping them in doesn't matter.
+The point of this guide was to show how you can load images from a sprite sheet when using Pygame. There's a lot that we might do differently if we were focused on building a fully-functioning chess game. For example, should we store the pieces in a list like we did, or should they be placed into a Pygame `Group`? I used a list here because a list is ordered, and The book's author says he wantsed the order of `self.pieces` to match the order we see in the sprite sheet. A group is not ordered, so it wouldn't necessarily work for this purpose. A group is great when you want to repeatedly draw a bunch of elements to the screen, and the order you're keeping them in doesn't matter.
 
 ### Sprite sheets with non-uniform grids
 

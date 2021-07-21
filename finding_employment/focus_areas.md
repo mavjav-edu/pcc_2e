@@ -8,7 +8,7 @@ nav_order: 20
 # What kinds of things can you do as a professional programmer?
 {: .no_toc }
 
-It's hard to give a quick answer to the question, "What should I learn if I want to be a professional programmer?" There's a wide variety of things you can do as a programmer, and what you want to focus on affects what you should learn. If you want good career advice, you need to know the kinds of things you can do, and what kinds of work you're most interested in.
+It's hard to give a quick answer to the question, "What should I learn if The book's author says he wants to be a professional programmer?" There's a wide variety of things you can do as a programmer, and what you want to focus on affects what you should learn. If you want good career advice, you need to know the kinds of things you can do, and what kinds of work you're most interested in.
 
 * 
 {:toc}

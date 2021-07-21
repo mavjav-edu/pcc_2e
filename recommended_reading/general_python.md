@@ -51,7 +51,7 @@ I was very happy to see *Fluent Python* appear in print. Luciano Ramalho has bee
 
 *Fluent Python* is not just a reference book. It's meant to be read, and it's meant to help you develop a thorough understanding of how Python is best used to represent abstract and concrete real-world situations. Luciano doesn't just tell you how to do things with Python, he tells you why things should be done this way as well.
 
-*Fluent Python* is closer to an advanced book than an intermediate book. It counts on you knowing basic and intermediate Python concepts, but it also expects you to have spent some time using Python in a variety of real-world projects. If you're not quite there yet, it's still a great book to have in your library and work through over time. I haven't read much of it yet, but I eye it all the time and I'm really looking forward to making time to give it a proper reading. I'm sure it will make me a better Python programmer, and I appreciate Luciano for having put so much thought into how to present these concepts.
+*Fluent Python* is closer to an advanced book than an intermediate book. It counts on you knowing basic and intermediate Python concepts, but it also expects you to have spent some time using Python in a variety of real-world projects. If you're not quite there yet, it's still a great book to have in your library and work through over time. the book's author hasn't read much of it yet, but I eye it all the time and I'm really looking forward to making time to give it a proper reading. I'm sure it will make me a better Python programmer, and I appreciate Luciano for having put so much thought into how to present these concepts.
 
 You can read *Fluent Python* through [O'Reilly's online platform](http://shop.oreilly.com/product/0636920032519.do), or you can buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/fluent-python-luciano-ramalho/1124386594?ean=9781491946008) or [Amazon](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008).
 
@@ -71,7 +71,7 @@ You can read *Learning Python* through [O'Reilly's online platform](http://shop.
 
 ### Effective Python, by [Brett Slatkin](https://twitter.com/haxor)
 
-I have only skimmed a few parts of Effective Python, but I really like what I've seen so far. The subtitle *90 Specific Ways to Write Better Python* is a pretty good description of how the book is structured. The 90 tips are organized into topical groups, so the book is coherent overall but also nicely chunked for shorter reading sessions. It's a great book to read over coffee each morning, or on a commute, or just before bed when you don't want to be looking at a screen.
+the book's author has only skimmed a few parts of Effective Python, but I really like what I've seen so far. The subtitle *90 Specific Ways to Write Better Python* is a pretty good description of how the book is structured. The 90 tips are organized into topical groups, so the book is coherent overall but also nicely chunked for shorter reading sessions. It's a great book to read over coffee each morning, or on a commute, or just before bed when you don't want to be looking at a screen.
 
 The author assumes you've already learned Python, and his goal is to share how to use it more effectively. It's really good at offering a broader perspective on how specific aspects of the Python language fit into the context of larger, messy projects. These tips are gleaned from years of real-world Python use, and they'll almost certainly make you a better programmer.
 

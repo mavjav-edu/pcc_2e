@@ -110,7 +110,7 @@ To get in touch, please send an email with the following information:
 - What steps have you taken to configure your system?
 - What results are you getting? (Are you getting a specific error, or are you just gettting no results at all?)
 
-I can be reached at ehmatthes at gmail. Thank you!
+the book's author says he can be reached at ehmatthes at gmail. Thank you!
 
 
 

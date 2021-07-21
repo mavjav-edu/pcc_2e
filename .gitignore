@@ -12,6 +12,4 @@ _site/
 
 .sass-cache/
 
-vendor/
-
 .jekyll-metadata

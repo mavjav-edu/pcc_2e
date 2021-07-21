@@ -115,7 +115,7 @@ Mode: RGB
 First pixel: (31, 52, 21)
 ```
 
-Each pixel is represented as a tuple with three elements, corresponding to the RGB components of thepixel's color. We can see that this pixel has a red component of 31, a green component of 52, and a blue component of 21. You can plug these values into an [online color tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) and see what color this pixel is if you're curious:
+Each pixel is represented as a tuple with three elements, corresponding to the RGB components of the pixel's color. We can see that this pixel has a red component of 31, a green component of 52, and a blue component of 21. You can plug these values into an [online color tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) and see what color this pixel is if you're curious:
 
 ![](../../images/challenge_images/color_31_52_21.png)
 
@@ -316,7 +316,7 @@ We first pull the original pixel, and assign it to `orig_pixel`. We then assign 
 
 We create three new variables: `new_r`, `new_g`, and `new_b`. We use these to create a new pixel, which is a tuple containing the three RGB component values that we want for this pixel. Then we assign this new pixel to the appropriate point in `new_pixel_map`.
 
-The result is an exact copy of the original image, just as we made previously. However, this approach gives us a lot of flexibility in how we might want to modify the image. You can use any rule you want for settingt he values of `new_r`, `new_g`, and `new_b`. You can bump the original values up, you can decrease them, you can change only some of them. If you set them all to the same value according to some rule, you'll end up with a black and white image.
+The result is an exact copy of the original image, just as we made previously. However, this approach gives us a lot of flexibility in how we might want to modify the image. You can use any rule you want for setting the values of `new_r`, `new_g`, and `new_b`. You can bump the original values up, you can decrease them, you can change only some of them. If you set them all to the same value according to some rule, you'll end up with a black and white image.
 
 ## Brightening the Image
 
@@ -347,7 +347,7 @@ for x in range(width):
 new_image.show()
 ```
 
-We set a brightness factor, which we'll multiply every RGB component value by. If this is equal to 1, we'll get an exact copy of the image. If it's greater than 1 we'll get a brighter image, and if it's less than 1 we'll get a darker image. The value 1.4 is probably higher than what you'd want for artistic purposes, but I want it to be really clear that the new image is brighter than the original.
+We set a brightness factor, which we'll multiply every RGB component value by. If this is equal to 1, we'll get an exact copy of the image. If it's greater than 1 we'll get a brighter image, and if it's less than 1 we'll get a darker image. The value 1.4 is probably higher than what you'd want for artistic purposes, but we want it to be really clear that the new image is brighter than the original.
 
 Component values in this color model need to be integers, so we wrap the `int()` function around the multiplication operation for each pixel. The result is a brighter image, which you can see by looking at the original next to the brightened image:
 
@@ -406,7 +406,7 @@ for x in range(width):
 my_image.show()
 ```
 
-We import the [`randint()` function](/beyond_pcc/random_functions/#generating-a-random-integer) from the `random` module, which returns a random integer bewteen the bounds you provide. We then load the pixels as you saw earlier, so we can work with each pixel individually. This time we're not reading any pixels in the loop, since we're not basing our new pixels off of an existing image. In the loop we choose a random value between 0 and 255 for each of the RGB components, and we build a pixel from these values. Then we set the current pixel.
+We import the [`randint()` function](/beyond_pcc/random_functions/#generating-a-random-integer) from the `random` module, which returns a random integer between the bounds you provide. We then load the pixels as you saw earlier, so we can work with each pixel individually. This time we're not reading any pixels in the loop, since we're not basing our new pixels off of an existing image. In the loop we choose a random value between 0 and 255 for each of the RGB components, and we build a pixel from these values. Then we set the current pixel.
 
 The result is an image where every color is completely random:
 
@@ -416,6 +416,6 @@ If you look at this image in a file browser, you'll notice that it takes up much
 
 ## Final Words
 
-This just touches on what you can with an image processing library. I have not shown a number of things that are possible, because it's so much more fun to try it yourself than to read about it here. For example, you can build your own photo filters and run them on your own images. You can generate images containing all possible colors.  You can do more compex analysis, like finding edges and sharpening images. You can even write code that identifies, say, all the ice worms in an image.
+This just touches on what you can with an image processing library. The book has not shown a number of things that are possible, because it's so much more fun to try it yourself than to read about it here. For example, you can build your own photo filters and run them on your own images. You can generate images containing all possible colors.  You can do more complex analysis, like finding edges and sharpening images. You can even write code that identifies, say, all the ice worms in an image.
 
-This work is the basis of how apps like Instagram and tools like Photoshop are built. Enjoy your explorations, and if you make something interesting please share it! I'm @ehmatthes on Twitter, and you can also email me at ehmatthes@gmail.
+This work is the basis of how apps like [Instagram](https://github.com/Instagram) and tools like [Photoshop](https://github.com/topics/adobe-photoshop) are built. Enjoy your explorations, and if you make something interesting please share it! The author is @ehmatthes on Twitter[<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" width="15"/>  @ehmatthes](http://twitter.com/ehmatthes/), and you can also email him at [📧 `ehmatthes@gmail.com`](mailto:ehmatthes@gmail.com).

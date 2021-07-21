@@ -27,7 +27,7 @@ I continued learning about programming in high school and college, focusing on l
 
 ## Early jobs
 
-My parents pushed my brother and I to explore work at a fairly young age. I had a paper route all through middle school, and then worked at Popeye's throughout my high school years. I spent two summers working at an [AMC camp](https://amccoldrivercamp.org) in the White Mountains during college. These early job experiences were important in understanding the job search; I still vividly remember the experience of interviewing for that AMC job. It was the first job I'd applied for that I really wanted to get, and that made the process much different than my previous job-seeking experiences.
+My parents pushed my brother and I to explore work at a fairly young age. I had a paper route all through middle school, and then worked at Popeye's throughout my high school years. I spent two summers working at an [AMC camp](https://amccoldrivercamp.org) in the White Mountains during college. These early job experiences were important in understanding the job search; I still vividly remember the experience of interviewing for that AMC job. It was the first job I'd applied for that The book's author says he really wantsed to get, and that made the process much different than my previous job-seeking experiences.
 
 [top](#top)
 

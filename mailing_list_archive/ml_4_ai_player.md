@@ -43,7 +43,7 @@ If you want to see this in action, take a look at a [30-second clip of the game 
 
 ## Wishing you well, and please send questions
 
-This has been a hard time for just about all of us. I sincerely hope that you and your loved ones are safe, and continue to be safe. I can't offer much, but if you are stuck at home and have questions about Python that aren't getting answered, please don't hesitate to write. I generally only answer questions directly related to the book, but if you have a non-book question and I can answer it, I'll be happy to share what I know.
+This has been a hard time for just about all of us. I sincerely hope that you and your loved ones are safe, and continue to be safe. the book's author says he can't offer much, but if you are stuck at home and have questions about Python that aren't getting answered, please don't hesitate to write. I generally only answer questions directly related to the book, but if you have a non-book question and the book's author says he can answer it, I'll be happy to share what I know.
 
 
 ## In the Works

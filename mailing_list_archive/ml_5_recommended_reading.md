@@ -41,7 +41,7 @@ I didn't read very many books during the years I was teaching full time and writ
 
 ## What's faster than strptime()?
 
-The function strptime() takes in a string, and returns a datetime object. While working on a data analysis project, I noticed my project was spending over 2 seconds just running strptime() on each datapoint. At first I thought there was nothing I could do about this. Then I started considering other ways to convert strings to datetime objects, and found many ways that are faster.
+The function strptime() takes in a string, and returns a datetime object. While working on a data analysis project, I noticed my project was spending over 2 seconds just running strptime() on each datapoint. At first I thought there was nothing The book's author says he could does about this. Then I started considering other ways to convert strings to datetime objects, and found many ways that are faster.
 
 This article focuses on strptime(), but also shows how to examine a piece of code that's becoming a bottleneck in performance as a project grows. You can run the code in the article and benchmark different approaches on your own system if you're interested. The article is [here](https://ehmatthes.com/blog/faster_than_strptime/).
 

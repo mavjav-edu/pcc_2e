@@ -25,9 +25,9 @@ If you want to take this as a challenge before reading this guide, feel free to 
 
 ### The Pygame Mixer module
 
-The Pygame Mixer Module manages music and sound effects. You can take a look at the [documentation](https://www.pygame.org/docs/ref/mixer.html); I also found this [Nerd Paradise post](https://nerdparadise.com/programming/pygame/part3) helpful. (If the official Pygame docs are "sleeping", try [this mirror site](https://blubbervision.neocities.org/pygame/ref/mixer.html).)
+The Pygame Mixer Module manages music and sound effects. You can take a look at the [documentation](https://www.pygame.org/docs/ref/mixer.html); The book's author says he also found this [Nerd Paradise post](https://nerdparadise.com/programming/pygame/part3) helpful. (If the official Pygame docs are "sleeping", try [this mirror site](https://blubbervision.neocities.org/pygame/ref/mixer.html).)
 
-There are lots of resources available for finding sound effects. I found some useful ones at [opengameart.org](https://opengameart.org). I chose [laser1.wav](https://opengameart.org/content/laser-fire) from user [dklon](https://opengameart.org/users/dklon) for firing bullets, and [Explosion_02.wav](https://opengameart.org/content/laser-fire) from Little Robot Sound Factory for an alien being hit. Make a new folder in your *alien_invasion* folder called *sounds*. This folder should be at the same directory level as your *images* folder. Store the sound files you want to use in your *sounds* folder.
+There are lots of resources available for finding sound effects. The book's author says he found some useful ones at [opengameart.org](https://opengameart.org). The book's author says he chose [laser1.wav](https://opengameart.org/content/laser-fire) from user [dklon](https://opengameart.org/users/dklon) for firing bullets, and [Explosion_02.wav](https://opengameart.org/content/laser-fire) from Little Robot Sound Factory for an alien being hit. Make a new folder in your *alien_invasion* folder called *sounds*. This folder should be at the same directory level as your *images* folder. Store the sound files you want to use in your *sounds* folder.
 
 ### The *sound_effects.py* file
 
@@ -290,7 +290,7 @@ That's it! Now when you run the game the ship will sweep right and left, firing 
 
 ### Refactoring
 
-The main while loop in `run_game()` is getting pretty long, so we should pull out the automation logic into a separate method. I made a new method called `_implement_strategy()`, and moved the code for moving the ship and firing bullets into this method:
+The main while loop in `run_game()` is getting pretty long, so we should pull out the automation logic into a separate method. The book's author says he made a new method called `_implement_strategy()`, and moved the code for moving the ship and firing bullets into this method:
 
 ```python
 class AIPlayer:
@@ -344,7 +344,7 @@ class AIPlayer:
         self.ai_game._fire_bullet()
 ```
 
-The call to `_implement_strategy()` is placed right after the call to `_check_events()`, and before the code that updates the game elememts (1). This way any changes we want to make to the game elements are implemented before those elements are drawn to the screen.
+The call to `_implement_strategy()` is placed right after the call to `_check_events()`, and before the code that updates the game elements (1). This way any changes we want to make to the game elements are implemented before those elements are drawn to the screen.
 
 This is an improvement, because all of the code that handles the automation is now in its own section of the file. Most of `_implement_strategy()` is currently focused on making the ship sweep right and left. This method is going to get really long as soon as we start to do any other work, so let's move most of this code to a new method called `_sweep_right_left()`:
 
@@ -424,7 +424,7 @@ We want to be able to easily speed up the game when we're trying out new strateg
 
 In `_modify_speed()` we adjust the speed of the ship, the bullets, and the aliens (2).
 
-Now when you play the game with a speed factor of something like 10 you'll see how effective the strategy is, and you'll see its weak points as well. For example I can see that the sweeping strategy is pretty effective at clearing out most of the fleet, but it's really inefficient when there's only one or two aliens left:
+Now when you play the game with a speed factor of something like 10 you'll see how effective the strategy is, and you'll see its weak points as well. For example the book's author says he can see that the sweeping strategy is pretty effective at clearing out most of the fleet, but it's really inefficient when there's only one or two aliens left:
 
 {% include vimeoPlayer.html id=403210419 %}
 
@@ -462,7 +462,7 @@ class AIPlayer:
 
 We first import the `random()` function from the `random` module (1). In `_implement_strategy()` we define a firing frequency, in this case 0.5 (2). We test whether a randomly-generated number is less than this firing frequency, and only fire a bullet if it is. To really see that this code works, set the firing frequency to something really low like 0.1 or 0.01. You should see the ship fire much less frequently, and with some randomness.
 
-I don't think this approach helps the current strategy, but I have found it a useful approach in some situations. If you want, you can put this in a new method called `_fire_bullet()`, and give it a parameter for the firing frequency. Then you could use different firing frequencies in specific situations, such as when there are only a certain number of aliens left on the screen.
+The book's author says he doesn't think this approach helps the current strategy, but the book's author has found it a useful approach in some situations. If you want, you can put this in a new method called `_fire_bullet()`, and give it a parameter for the firing frequency. Then you could use different firing frequencies in specific situations, such as when there are only a certain number of aliens left on the screen.
 
 Next we'll look at targeting a specific alien.
 
@@ -470,7 +470,7 @@ Next we'll look at targeting a specific alien.
 
 ### Changing strategies mid-level
 
-I don't want to give away all the best strategies, because it's a lot of fun to try different approaches on your own. So I'll close out this guide by introducing two final ideas you can play with. The first is to use different strategies depending on the size of the remaining fleet. The second is to focus on a specific alien.
+The book's author says he doesn't want to give away all the best strategies, because it's a lot of fun to try different approaches on your own. So I'll close out this guide by introducing two final ideas you can play with. The first is to use different strategies depending on the size of the remaining fleet. The second is to focus on a specific alien.
 
 Clearly the sweeping approach works well to destroy most of the fleet. But it struggles when there's only one alien left, and most of the bullets just fly up through an empty screen. It seems a good idea to respond differently near the end of a level, than when there's a mostly full fleet.
 
@@ -519,7 +519,7 @@ class AIPlayer:
 
 First we create an attribute called `fleet_size` (1). We need to initialize this in `run_game()` before starting the while loop, because we need to grab the fleet size before any of the aliens have been shot down.
 
-In `_implement_strategy()`, we call `_sweep_right_left()` as long as the current fleet size, `len(self.ai_game.aliens)` is greater than half of the original fleet size (2). When half of the fleet has been destroyed, we stop the ship's movement and no longer call `_sweep_right_left()`. Note that I also bumped the firing frequency back up to 1.0 here (3).
+In `_implement_strategy()`, we call `_sweep_right_left()` as long as the current fleet size, `len(self.ai_game.aliens)` is greater than half of the original fleet size (2). When half of the fleet has been destroyed, we stop the ship's movement and no longer call `_sweep_right_left()`. Note that The book's author says he also bumped the firing frequency back up to 1.0 here (3).
 
 {% include vimeoPlayer.html id=403210435 %}
 
@@ -578,11 +578,11 @@ In this approach we'll always target the right-most alien in the bottom row. We'
 
 In `_implement_strategy()`, we remove the existing code that moves the ship. We keep the method `_sweep_right_left()` in the class because we might want to use it in another strategy, but we remove the call to that method.
 
-Let's look at `_get_target_alien()`, because that's the first call we make in `_implement_strategy()` (1). We want to pick out the alien that's farthest on the right in the bottom row. There are a number of ways to do this, and the approach I use here is not necessarily the best or most efficient approach. When writing for a wide audience, I usually choose an approach that's likely to be clear to many people, over a more efficient approach that might be confusing to some people. If you know a more efficient approach to pick out the target alien, feel free to implement that approach.
+Let's look at `_get_target_alien()`, because that's the first call we make in `_implement_strategy()` (1). We want to pick out the alien that's farthest on the right in the bottom row. There are a number of ways to do this, and the approach the book's author uses is not necessarily the best or most efficient approach. When writing for a wide audience, he says he usually chooses an approach that's likely to be clear to many people, over a more efficient approach that might be confusing to some people. If you know a more efficient approach to pick out the target alien, feel free to implement that approach.
 
 Remember that a Pygame group is similar to a list, but it's not an actual list. The elements in a group are not kept in a specific order, so you can't grab an element by using an index. The `sprites()` method puts the elements of the group into a list, but not in a predictable order. In `_get_target_alien()` we use `sprites()` to put the aliens in a list so we can grab an individual alien (3). Then we cycle through all the aliens in the list. If an alien is farther down the screen than `target_alien`, we assign the current alien to `target_alien` (4). If the alien is farther up the screen, we ignore this alien and continue the loop (5). Otherwise the alien is in the same row as `target_alien`, and we choose this alien if it's farther to the right than `target_alien` (6).
 
-This if block was a little tricky to develop; I didn't get it right the first time. My first attempt examined x and y at the same time, and ended up chasing aliens that were farther up the screen but also farther right than the rightmost alien in the bottom row. This is actually an interesting strategy, because it makes it harder for the fleet to hit the edge and descend. You might try implementing a strategy that aims at clearing the fleet one column at a time, starting from one of the edges.
+This `if` block was a little tricky to develop; the book's author says he didn't get it right the first time. My first attempt examined x and y at the same time, and ended up chasing aliens that were farther up the screen but also farther right than the rightmost alien in the bottom row. This is actually an interesting strategy, because it makes it harder for the fleet to hit the edge and descend. You might try implementing a strategy that aims at clearing the fleet one column at a time, starting from one of the edges.
 
 Once we have a target alien selected, we can position the ship. Back in `_implement_strategy()`, if the ship is to the left of the target alien we start moving right (2). If the ship is to the right of the target alien, we move left.
 
@@ -590,16 +590,16 @@ When you run this code, you'll see that matching an alien's position exactly doe
 
 {% include vimeoPlayer.html id=403210456 %}
 
-The ship ends up chasing aliens until they're so low they can't get away. This is a case where introducing a bit of randomness into the firing can be effective. You can also explore strategies for targeting specific aliens, but not staying right underneath them. It's an interesting geometry exercise to try and work out how to make a bullet hit the desired alien every time. But if that's not your strong suit, there are plenty of ways to get near enough to specific aliens that you can reliably shoot them down. If you don't want to try working out an exact solution to hitting aliens, you can try adding some randomness to the ship's position. I imagine the right amount of randomness might cause the ship to end up in the right position often enough to hit the alien without getting into long stretches of alway firing behind the alien's position. You might also try stopping, and firing when the alien is a certain distance away to see if that results in a higher level of accuracy. There are lots of approaches you can try implementing, even if you can't work out the most mathematically optimal approach. Many of these strategies are really interesting to watch at higher speeds.
+The ship ends up chasing aliens until they're so low they can't get away. This is a case where introducing a bit of randomness into the firing can be effective. You can also explore strategies for targeting specific aliens, but not staying right underneath them. It's an interesting geometry exercise to try and work out how to make a bullet hit the desired alien every time. But if that's not your strong suit, there are plenty of ways to get near enough to specific aliens that you can reliably shoot them down. If you don't want to try working out an exact solution to hitting aliens, you can try adding some randomness to the ship's position. We might imagine that the right amount of randomness might cause the ship to end up in the right position often enough to hit the alien without getting into long stretches of alway firing behind the alien's position. You might also try stopping, and firing when the alien is a certain distance away to see if that results in a higher level of accuracy. There are lots of approaches you can try implementing, even if you can't work out the most mathematically optimal approach. Many of these strategies are really interesting to watch at higher speeds.
 
 Here's a slightly better version that tries to position the ship in anticipation of where the alien will be by the time the bullet reaches the vertical position of the ship:
 
 {% include vimeoPlayer.html id=402839185 %}
 
-
-I also want to point out that I haven't optimized any of this code. I'm writing this guide to show people how you can start to automate the game play in Alien Invasion, and this is representative of how I approach some of my development work. Often times in exploratory work I jot a sentence or two about what I'm trying to do, then write some code to see how that idea works. If I like that approach but I'm not going to do anything more with it, I leave the unoptimized code in place. If I'm going to build on that code, I spend some more time thinking about how to make the code more efficient. Here, for example, we're looping through the list of aliens on every game cycle. That's really inefficient! But it doesn't appear to affect the game's performance, so I'm not too worried about it at the moment. If I was building on this project, I'd make `target_alien` an attribute of the class, and then only call `_get_target_alien()` if `target_alien` doesn't exist, which should happen every time the target alien is destroyed. The loop would never run more than once per the number of aliens on the screen. If you're curious about this, try to implement this approach. You can code a counter to see how many times `_get_target_alien()` is called in the course of a game, and find out if your optimization made a difference or not.
-
-Sometimes, especially on a larger project or a project that I'm doing for someone else, I'll plan out my overall approach much more carefully and build in some optimization from the beginning.
+The book's author hasn't optimized this code. Rather, this guide shows how we can start to automate the game play in *Alien Invasion*, and this is representative of how we approach some development work. The author continues:
+> Often times in exploratory work I jot a sentence or two about what I'm trying to do, then write some code to see how that idea works. If I like that approach but I'm not going to do anything more with it, I will leave the un-optimized code in place. If I'm going to build on that code, I spend some more time thinking about how to make the code more efficient. 
+> Here, for example, we're looping through the list of aliens on every game cycle. That's really inefficient! But it doesn't appear to affect the game's performance, so he's not too worried about it at the moment. If I were building on this project, I'd make `target_alien` an attribute of the class, and then only call `_get_target_alien()` if `target_alien` doesn't exist, which should happen every time the target alien is destroyed. The loop would never run more than once per the number of aliens on the screen. If you're curious about this, try to implement this approach. You can code a counter to see how many times `_get_target_alien()` is called in the course of a game, and find out if your optimization made a difference or not.
+> Sometimes, especially on a larger project or a project that I'm doing for someone else, I'll plan out my overall approach much more carefully and build in some optimization from the beginning.
 
 [top](#top)
 
@@ -609,6 +609,6 @@ Sometimes, especially on a larger project or a project that I'm doing for someon
 
 If you are enjoying this project, you might want to implement a more refined approach to tracking statistics in the game. You can track hits and misses, and report a hit/miss ratio. Then you can compare different strategies not just on the high scores or completed levels they achieve, but on how efficiently they perform as well. If you're interested in this, see the challenge [AI Player 7: Scoring Accuracy](../../challenges/ai_player/#ai-player-7-scoring-accuracy).
 
-Hopefully this guide helps you get started automating the game play in Alien Invasion. If you come up with an effective or interesting strategy, please share it! You can tag your solution with [#ai_player](https://twitter.com/hashtag/ai_player) on Twitter, or send it to me through email (ehmatthes at gmail). Good luck, and if this doesn't work for you please let me know as well.
+Hopefully this guide helps you get started automating the game play in Alien Invasion. If you come up with an effective or interesting strategy, please share it! You can tag your solution with [#ai_player](https://twitter.com/hashtag/ai_player) on Twitter, or send it to me through email ([📧 `ehmatthes@gmail.com`](mailto:ehmatthes@gmail.com)). Good luck, and if this doesn't work for you please let him know as well.
 
 [top](#top)

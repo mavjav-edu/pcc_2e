@@ -6,10 +6,10 @@ nav_order: 90
 has_toc: false
 ---
 
-# Finding Employment as a (New) Programmer
+## Finding a Job as a (New) Programmer
 {: .no_toc }
 
-People have a wide variety of reasons for learning to code, and finding work as a programmer is one of the most common reasons. In the [ongoing survey](https://docs.google.com/forms/d/e/1FAIpQLSez7B3mKB9hmOKoiE7LS5ZmpaWME_KNOiLsznH4zb0UtSoxsA/viewform?usp=sf_link) I have posted, just over half of the people who've responded say that one of their goals is to find employment as a professional programmer.
+People have a wide variety of reasons for learning to code, and finding work as a programmer is one of the most common reasons. In the [ongoing survey](https://docs.google.com/forms/d/e/1FAIpQLSez7B3mKB9hmOKoiE7LS5ZmpaWME_KNOiLsznH4zb0UtSoxsA/viewform?usp=sf_link) the book's author has posted, just over half of the people who've responded say that one of their goals is to find employment as a professional programmer.
 
 People often ask what it takes to get hired as a programmer, and how long it will take to find a job. Answers to these kinds of questions depend on a lot of factors, and can't really be answered quickly.
 
@@ -28,10 +28,9 @@ This section looks at the kinds of work you can find as a programmer, and shares
 
 ---
 
-Do you have suggestions for how to improve this section? Finding a job is a really big topic, and everyone's experience is a little different. If there's anything I've missed that you think others would benefit from knowing, please feel free to get in touch.
+Do you have suggestions for how to improve this section? Finding a job is a really big topic, and everyone's experience is a little different. If there's anything this overview has missed that you think others would benefit from knowing, please feel free to get in touch.
 
-Also, I would like to include profiles of a few people who have read PCC with the goal of finding employment. If you'd be willing to share your story, whether your job search has been successful or not, please feel free to reach out.
+Also, the book's author says he would like to include profiles of a few people who have read PCC with the goal of finding employment. If you'd be willing to share your story, whether your job search has been successful or not, consider reaching out to the book's author.
 
-Email: ehmatthes at gmail
-
-Twitter: [@ehmatthes](https://twitter.com/ehmatthes)
+- [📧 `ehmatthes@gmail.com`](mailto:ehmatthes@gmail.com)
+- [<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" width="15"/>  @ehmatthes](http://twitter.com/ehmatthes/)

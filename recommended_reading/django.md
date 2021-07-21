@@ -35,7 +35,7 @@ You can start with an [overview](https://docs.djangoproject.com/en/3.0/intro/) o
 
 ### Django for Beginners, Django for APIs, and Django for Professionals, by [Will Vincent](https://wsvincent.com/about/)
 
-I haven't read any of these books, but I've read many of Will Vincent's articles about specific topics in Django. Every article has been accurate and up to date, with clear instructions and explanations. I have no doubt his books are of the same quality. Will is also a board member of the [Django Software Foundation](https://www.djangoproject.com/foundation/), and he co-hosts the [Django Chat](https://djangochat.com/) podcast and co-curates the weekly [Django News](https://django-news.com) newsletter.
+the book's author hasn't read any of these books, but I've read many of Will Vincent's articles about specific topics in Django. Every article has been accurate and up to date, with clear instructions and explanations. the book's author has no doubt his books are of the same quality. Will is also a board member of the [Django Software Foundation](https://www.djangoproject.com/foundation/), and he co-hosts the [Django Chat](https://djangochat.com/) podcast and co-curates the weekly [Django News](https://django-news.com) newsletter.
 
 *Django for Beginners* walks you through building a series of increasingly complex websites using Django. *Django for APIs* shows you how to build web apps where Django is used for the backend and a JavaScript library (React in this case) is used for the frontend. *Django for Professionals* takes you from the tutorial-focused world to the real world by building a professional-quality project complete with support for payments through Stripe.
 
