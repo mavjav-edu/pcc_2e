@@ -25,7 +25,7 @@ has_toc: false
   </div>
 
   <div class="cip_pcc_link">
-    <a href="../pcc_2e/regular_index/">online resources</a> for Python Crash Course
+    <a href="../pcc_2e/index/">online resources</a> for Python Crash Course
   </div>
   <div class="cip_csj_link">
     <a href="../pcc_2e/challenges/coding_for_social_justice/">Coding for Social Justice</a>, a series of exercises focusing on social justice issues and the Black Lives Matter movement

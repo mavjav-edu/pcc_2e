@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "ruby.h": "c",
+        "defines.h": "c",
+        "missing.h": "c",
+        "dosish.h": "c"
+    }
+}
