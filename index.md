@@ -11,7 +11,7 @@ description: "Online resources for Python Crash Course."
 
 [<img src="./images/cover.jpg" width="128"/>]([https://link](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl))
 
-This is a tutoring curriculum for learning Python using [Python Crash Course, 2nd Edition](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl), an introductory programming book from [No Starch Press](http://www.nostarch.com/pythoncrashcourse/) by Eric Matthes. Click [here](https://mavaddat-javid-education.github.io/pcc_2e/regular_index/) for a tidier visual presentation of these online resources.
+This is a tutoring curriculum for learning Python using [Python Crash Course, 2nd Edition](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl), an introductory programming book from [No Starch Press](http://www.nostarch.com/pythoncrashcourse/) by Eric Matthes. Click [here](https://mavaddat-javid-education.github.io/pcc_2e/index/) for a tidier visual presentation of these online resources.
 
 ### Contact
 
@@ -20,14 +20,13 @@ If you have any questions about Python Crash Course, please  [join the Discord s
 [📧 `ehmatthes@gmail.com`](mailto:ehmatthes@gmail.com)
 
 [<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" width="15"/>  @ehmatthes](http://twitter.com/ehmatthes/)
+<img src="https://pbs.twimg.com/profile_images/1153801365543538688/6ZRVUWah.png"  width="20vw">
 
 ### Get Started
 
 If you are a student following this curriculum for the first time, please jump to the [setup instructions below](#setup-instructions) below.
 
 ### Homework
-
-<img src="https://pbs.twimg.com/profile_images/1153801365543538688/6ZRVUWah.png"  width="60vw">
 
 <a href="try_it_yourself"></a>Exercises ✍🏽
 ---
