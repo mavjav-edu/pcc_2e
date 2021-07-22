@@ -2,23 +2,24 @@
 
 ## A Hands-On, Project-Based Introduction to Programming
 
-This is a curriculum for learning Python using [Python Crash Course, 2nd Edition](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl), an introductory programming book from [No Starch Press](http://www.nostarch.com/pythoncrashcourse/) by Eric Matthes. Click [here](https://mavaddat-javid-education.github.io/pcc_2e/regular_index/) for a tidier visual presentation of these online resources.
+[<img src="./images/cover.jpg" width="128"/>]([https://link](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl))
+
+This is a tutoring curriculum for learning Python using [Python Crash Course, 2nd Edition](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl), an introductory programming book from [No Starch Press](http://www.nostarch.com/pythoncrashcourse/) by Eric Matthes. Click [here](https://mavaddat-javid-education.github.io/pcc_2e/index/) for a tidier visual presentation of these online resources.
 
 ### Contact
 
-If you have any questions about Python Crash Course, please contact [Mavaddat](https://www.mavaddat.ca) or feel free to get in touch with the text author:
+If you have any questions about Python Crash Course, please  [join the Discord server](https://discord.gg/KzzTBbr), contact [Mavaddat](https://www.mavaddat.ca), or get in touch with the book's author:
 
-Email: `ehmatthes@gmail.com`
+[📧 `ehmatthes@gmail.com`](mailto:ehmatthes@gmail.com)
 
-Twitter: [@ehmatthes](http://twitter.com/ehmatthes/)
+[<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" width="15"/>  @ehmatthes](http://twitter.com/ehmatthes/)
+<img src="https://pbs.twimg.com/profile_images/1153801365543538688/6ZRVUWah.png"  width="20vw">
 
 ### Get Started
 
 If you are a student following this curriculum for the first time, please jump to the [setup instructions below](#setup-instructions) below.
 
 ### Homework
-
-<img src="https://pbs.twimg.com/profile_images/1153801365543538688/6ZRVUWah.png"  width="60vw">
 
 <a href="try_it_yourself"></a>Exercises ✍🏽
 ---
@@ -79,7 +80,7 @@ Here you can find instructions for:
 
 <a href="source_code"></a>Downloading source code
 ---
-The simplest way to get the online resources for the book is to click on the [*Download ZIP*](https://github.com/mavaddat-javid-education/pcc_2e/archive/master.zip) button on the upper right side of [this page](https://github.com/mavaddat-javid-education/pcc_2e), which will download the source code files (and other resources) for the entire book.
+The most direct way to get the online resources for the book is to click on the [*Download ZIP*](https://github.com/mavaddat-javid-education/pcc_2e/archive/master.zip) button on the upper right side of [this page](https://github.com/mavaddat-javid-education/pcc_2e), which will download the source code files (and other resources) for the entire book.
 
 [Cheat Sheets](/cheatsheets/README.md)
 ---
@@ -94,4 +95,3 @@ Some of the [PyPI](https://en.wikipedia.org/wiki/Python_Package_Index) libraries
 When packages are updated you have the option of using the version that was featured in the book, which lets you run code exactly as it's written in the book. You can also choose to install the latest version of each package, and modify the code in the book slightly. Each approach is outlined clearly in these updates.
 
 A list of updates is kept [here](/updates.md).
-
