@@ -1,34 +1,42 @@
-Get-ChildItem -Path "." -Filter "chapter*" -Directory | ForEach-Object { 
+
+Get-ChildItem -Path "." -Filter "chapter*" -Directory -ErrorAction Inquire | ForEach-Object { 
     $chStr = (Select-String -InputObject $_.BaseName -Pattern "chapter_(\d+)").Matches.Groups[1]
-    if(Test-Path "$env:TEMP\pcc-chapter-$chStr" -PathType Container ) {
-        Remove-Item "$env:TEMP\pcc-chapter-$chStr" -Force -Recurse -ErrorAction Ignore
+    if(Test-Path "$env:TEMP\pcc-chapter-$chStr" -PathType Container -ErrorAction Inquire ) {
+        Remove-Item "$env:TEMP\pcc-chapter-$chStr" -Force -Recurse -ErrorAction Inquire
     }
     Write-Host "Processing chapter $chStr"
-    Push-Location $env:TEMP
+    Set-Location $env:TEMP
     git clone "https://github.com/mavaddat-javid-education/pcc-chapter-$chStr.git"
     Push-Location -Path ".\pcc-chapter-$chStr" -ErrorAction Break
+    if(Test-Path ".\chapter_$chStr" -PathType Container ){
+        Remove-Item ".\chapter_$chStr" -Force -Recurse -ErrorAction Inquire
+    }
     Write-Host "Removing the chapter folder"
     git rm -r *
     if (-not $?) {
-        throw "Error with git remove!"
+        throw "Error with git remove on ch $chStr!"
     }
     Write-Host "Copying to the chapter folder"
-    Copy-Item -Path $_ -Recurse -Destination . -ErrorAction Break
+    $currPath = $_
+    Get-ChildItem $currPath -Recurse | ForEach-Object { 
+        Copy-Item $_ -Destination . -Recurse -Force -ErrorAction Inquire
+    }
+    Copy-Item -Path $_ -Recurse -Destination . -Force -ErrorAction Break
     Write-Host "Staging the chapter"
     git add *
     if (-not $?) {
-        throw "Error with git add!"
+        throw "Error with git add on ch $chStr!"
     }
     Write-Host "Committing the chapter"
-    git commit -a -m "update to pcc_2e"
+    git commit -m "update to pcc_2e"
     if (-not $?) {
         throw "Error with git commit!"
     }
     Write-Host "Pushing the chapter"
     git push --force
     if (-not $?) {
-        throw "Error with git push!"
+        throw "Error with git push on ch $chStr!"
     }
     #gh repo create "mavaddat-javid-education/pcc-chapter-$chStr" -d="$title`: Assignment for Ch $chInt in Python Crash Course" --enable-issues=false --enable-wiki=false --confirm --public
-    Pop-Location
+    Set-Location  "~\Documents\GitHub\pcc_2e\"
 }
