@@ -24,7 +24,7 @@ from random import randint
 random_number = randint(-10,10)
 ```
 
-This code returns a random integer between ΓÇô10 and 10. Using your code
+This code returns a random integer between -10 and 10. Using your code
 in [Exercise 13-1](../chapter_13/README.md#ch13exe1), adjust each star&rsquo;s position by a
 random amount.
 
