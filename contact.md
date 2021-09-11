@@ -20,4 +20,4 @@ If you have feedback specifically for the author of the book, you can reach out 
 
 | Survey    |
 | --- |
-|  The book author wants to know what you think of *Python Crash Course*. If you're willing, consider taking his [survey for you](https://docs.google.com/forms/d/e/1FAIpQLSez7B3mKB9hmOKoiE7LS5ZmpaWME_KNOiLsznH4zb0UtSoxsA/viewform?usp=sf_link). Mavaddat does will not see your response to this survey.   |
+|  The book author wants to know what you think of *Python Crash Course*. If you're willing, consider taking his [survey for you](https://docs.google.com/forms/d/e/1FAIpQLSez7B3mKB9hmOKoiE7LS5ZmpaWME_KNOiLsznH4zb0UtSoxsA/viewform?usp=sf_link). <em>Mavaddat will not see responses to this survey.</em>   |
