@@ -40,8 +40,8 @@ $outStr
     }
     foreach ($TryItYourself in $TryItYourselfs) {
         $i++
-        $outStr = Out-String -InputObject (("<BR/>" + (Out-String -InputObject $TryItYourself.innerHTML) -creplace '<STRONG>TRY IT YOURSELF</STRONG>', "<H2>TRY IT YOURSELF &#35;$i</H2>" -replace '<([^>\s]+)\s*class="?programs"?>([\s\S]+?)<\/\1>', '<pre class="python"><code>$2</code></pre>' -replace '<span\s*class="?literal"?>([\s\S]+?)</span>', '<code>$1</code>' | pandoc @("--from=HTML", "--to=markdown_mmd+backtick_code_blocks+fenced_code_blocks+autolink_bare_uris")) -replace 'ch(\d+)\.html', '../chapter_$1/README.md')
-
+        $outStr = Out-String -InputObject (("<BR/>" + (Out-String -InputObject $TryItYourself.innerHTML) -creplace '<STRONG>TRY IT YOURSELF</STRONG>', "<H2>TRY IT YOURSELF &#35;$i</H2>" -replace '<([^>\s]+)\s*class="?programs"?>([\s\S]+?)<\/\1>', '<pre class="python"><code>$2</code></pre>' -replace '<span\s*class="?literal"?>([\s\S]+?)</span>', '<code>$1</code>' | pandoc @("--from=HTML", "--to=markdown_mmd+backtick_code_blocks+fenced_code_blocks+autolink_bare_uris")) -replace 'ch(\d+)\.html', '../chapter_$1/README.md') -replace '(id="ch(\d+)e[\w\W]+?)\([^\)]+chapter_(?:0\2|\2)[^\)]+README\.md(#[^\)]+)\)','$1($3)'
+ 
         if ($TESTING) {
             Out-Host -InputObject $outStr
             pause
