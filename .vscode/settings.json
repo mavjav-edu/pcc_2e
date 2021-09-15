@@ -2,5 +2,6 @@
     "python.pythonPath": "C:\\Users\\MavaddatJavid\\.pyenv\\pyenv-win\\versions\\3.10.0a7\\python.exe",
     "cSpell.words": [
         "Matthes"
-    ]
+    ],
+    "cmake.configureOnOpen": false
 }
