@@ -17,24 +17,24 @@ find out which version of Python you already have installed.
 
 Open a terminal window and issue the following command:
 
-\$ python --version  
-Python 2.7.6
+    $ python --version  
+    Python {}
 
-The result shows that the default version is 2.7.6. However, you might
+These result shows that the default version is 2.7.6. However, you might
 also have a version of Python 3 installed. To check, enter the following
 command:
 
-\$ python3 --version  
-Python 3.5.0
+    $ python3 --version  
+    Python 3.5.0
 
-Python 3.5.0 is also installed. It’s worth running both commands before
+We see Python 3.5.0 is also installed. It’s worth running both commands before
 you attempt to install a new version.
 
 #### ***Installing Python 3 on Linux***
 
 If you don’t have Python 3, or if you want to install a newer version of
 Python 3, you can install it in just a few lines. We’ll use a package
-called deadsnakes, which makes it easy to install multiple versions of
+called `deadsnakes`, which makes it easy to install multiple versions of
 Python:
 
 \$ sudo add-apt-repository ppa:fkrull/deadsnakes  
