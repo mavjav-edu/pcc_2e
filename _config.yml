@@ -16,7 +16,7 @@
 title: Python Crash Course, 2nd Edition
 description: Online Resources for Python Crash Course, from No Starch Press
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mavaddat-javid-education.github.io/pcc_2e" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mavjav-edu.github.io/pcc_2e" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["vendor/", "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
