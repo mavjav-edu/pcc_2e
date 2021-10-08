@@ -19,7 +19,7 @@ has_toc: false
     
   </div>
   <div class="cip_text">
-    <blockquote>It is abundantly clear in the US, and in many places around the world, that those who have power are desperate to hold on to that power, and are willing to use force - "any means necessary" is an all too common phrase - to hold on to that power. And that force is disproportionally, to a mind-boggling degree, used against Black people, Indigenous people, and anyone who can be classified as a minority.</blockquote>
+    <blockquote>It is abundantly clear in the US, and in many places around the world, that those who have power are desperate to hold on to that power, and are willing to use force &mdash; "any means necessary" is an all too common phrase &mdash; to hold on to that power. And that force is disproportionally, to a mind-boggling degree, used against Black people, Indigenous people, and anyone who can be classified as a minority.</blockquote>
   </div>
   <div class="cip_text">
    <blockquote>As you learn to code, please be aware of the power you are gaining. As you work on projects, whether your own projects or those that are controlled by someone else, please focus on projects that share power. Please refuse to work on projects that consolidate power, especially for those who will use it against others.</blockquote>
