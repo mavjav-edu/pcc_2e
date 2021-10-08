@@ -13,7 +13,7 @@ has_toc: false
   </div>
 
   <div class="cip_text">
-    The book's author says he's often asked why he cares so much about helping people learn to code. "I always responded by saying that *code is power*," he wrote, "and *learning to code gives you power*." He goes on:
+    The book's author reports he's often asked why he cares so much about helping people learn to code. "I always responded by saying that <em>code is power</em>," he wrote, "<em>learning to code gives you power</em>." He goes on:
 
 <blockquote>The more you understand code, the more you understand how much impact tech platforms and products have on people's lives &mdash; whether through the implementation of specific features, or the lack of implementation of certain features. It matters little whether these impacts are intentional or not. When you've built a platform that a significant part of society uses for communication, for example, your code has direct impact on society itself. When you write code that helps determine who gets a loan, you impact who can afford to buy a home.</blockquote>
     
