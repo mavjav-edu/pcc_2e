@@ -1,4 +1,8 @@
-# Testing Your Code
+---
+layout: default
+title:  Testing Your Code
+nav_exclude: true
+---
 
 When you write a function or a class, you can also write tests for that
 code. Testing proves that your code works as it’s supposed to in

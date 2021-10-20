@@ -1,4 +1,8 @@
-# Classes
+---
+layout: default
+title:  Classes
+nav_exclude: true
+---
 
 *Object-oriented programming* is one of the most effective approaches to
 writing software. In object-oriented programming you write *classes*

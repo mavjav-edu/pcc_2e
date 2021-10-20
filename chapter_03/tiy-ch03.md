@@ -1,4 +1,8 @@
-# Introducing Lists
+---
+layout: default
+title:  Introducing Lists
+nav_exclude: true
+---
 
 In this chapter and the next you’ll learn what lists are and how to
 start working with the elements in a list. Lists allow you to store sets

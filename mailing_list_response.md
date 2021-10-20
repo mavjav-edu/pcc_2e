@@ -1,6 +1,7 @@
 ---
 layout: default
 nav_exclude: true
+parent: Home
 ---
 
 # Thank you for subscribing!

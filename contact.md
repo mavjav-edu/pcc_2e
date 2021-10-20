@@ -3,6 +3,7 @@ layout: default
 title: Contact
 nav_order: 500
 has_children: false
+parent: Home
 has_toc: false
 ---
 

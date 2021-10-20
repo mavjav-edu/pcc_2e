@@ -1,4 +1,8 @@
-# Using Git For Version Control
+---
+layout: default
+title:  Using Git For Version Control
+nav_exclude: true
+---
 
 Version control software allows you to take snapshots of a project
 whenever it’s in a working state. When you make changes to a project—for

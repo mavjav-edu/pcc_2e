@@ -1,4 +1,8 @@
-# Getting Started With Django
+---
+layout: default
+title:  Getting Started With Django
+nav_exclude: true
+---
 
 Behind the scenes, today’s websites are actually rich applications that
 act like fully developed desktop applications. Python has a great set of

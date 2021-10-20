@@ -3,6 +3,7 @@ layout: default
 title: Mailing List
 nav_order: 110
 has_children: true
+parent: Home
 has_toc: false
 ---
 

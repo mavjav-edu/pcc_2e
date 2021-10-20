@@ -3,6 +3,7 @@ layout: default
 title: Reader Questions
 nav_order: 65
 has_children: true
+parent: Home
 has_toc: false
 ---
 

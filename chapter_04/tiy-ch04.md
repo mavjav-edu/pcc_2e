@@ -1,5 +1,9 @@
-# Working With Lists
-In [Chapter 3](ch03.html) you learned how to make a simple list,
+---
+layout: default
+title:  Working With Lists
+nav_exclude: true
+---
+In [Chapter 3](../chapter_03/tiy-ch03.md) you learned how to make a simple list,
 and you learned to work with the individual elements in a list. In this
 chapter you’ll learn how to *loop* through an entire list using just a
 few lines of code regardless of how long the list is. Looping allows you

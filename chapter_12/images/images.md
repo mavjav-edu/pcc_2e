@@ -1,4 +1,8 @@
-# Images
+---
+layout: default
+title:  Images
+nav_exclude: true
+---
 
 This folder contains images you can use for your game.
 

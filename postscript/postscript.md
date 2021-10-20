@@ -1,4 +1,8 @@
-# Using Git For Version Control
+---
+layout: default
+title:  Using Git For Version Control
+nav_exclude: true
+---
 
 Congratulations! You’ve learned the basics of Python and applied your
 knowledge to meaningful projects. You’ve made a game, visualized some

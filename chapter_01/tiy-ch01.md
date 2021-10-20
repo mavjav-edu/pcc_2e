@@ -1,4 +1,8 @@
-# Getting Started
+---
+layout: default
+title:  Getting Started
+nav_exclude: true
+---
 
 In this chapter you’ll run your first Python program, *hello_world.py*.
 First, you’ll need to check whether Python is installed on your

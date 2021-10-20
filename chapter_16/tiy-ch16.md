@@ -1,4 +1,8 @@
-# Downloading Data
+---
+layout: default
+title:  Downloading Data
+nav_exclude: true
+---
 
 In this chapter you’ll download data sets from online sources and create
 working visualizations of that data. An incredible variety of data can

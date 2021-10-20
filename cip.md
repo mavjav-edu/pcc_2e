@@ -3,6 +3,7 @@ layout: cip
 title: Coding is political
 nav_order: 1
 has_children: false
+parent: Home
 has_toc: false
 ---
 
@@ -26,10 +27,10 @@ has_toc: false
   </div>
 
   <div class="cip_pcc_link">
-    <a href="../pcc_2e/index/">online resources</a> for Python Crash Course
+    <a href="/index">Online resources</a> for Python Crash Course
   </div>
   <div class="cip_csj_link">
-    <a href="../../challenges/coding_for_social_justice/">Coding for Social Justice</a>, a series of exercises focusing on social justice issues and the Black Lives Matter movement
+    <a href="//ehmatthes.github.io/pcc_2e/challenges/coding_for_social_justice/">Coding for Social Justice</a>, a series of exercises focusing on social justice issues and the Black Lives Matter movement
   </div>
 
 </div>

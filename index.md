@@ -3,6 +3,7 @@ layout: default
 title: Home
 nav_order: 10
 description: "Online resources for Python Crash Course."
+has_children: true
 ---
 
 # Python Crash Course

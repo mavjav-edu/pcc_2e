@@ -1,4 +1,8 @@
-# Text Editors
+---
+layout: default
+title:  Text Editors
+nav_exclude: true
+---
 
 Programmers spend a lot of time writing, reading, and editing code, and
 using a text editor that makes this work as efficient as possible is

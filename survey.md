@@ -3,6 +3,7 @@ layout: default
 title: Survey
 nav_order: 100
 has_children: false
+parent: Home
 has_toc: false
 ---
 

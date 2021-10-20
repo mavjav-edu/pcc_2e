@@ -1,4 +1,8 @@
-# Variables And Simple Data Types
+---
+layout: default
+title:  Variables And Simple Data Types
+nav_exclude: true
+---
 
 In this chapter you’ll learn about the different kinds of data you can
 work with in your Python programs. You’ll also learn how to store your

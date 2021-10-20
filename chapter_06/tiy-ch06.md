@@ -1,4 +1,8 @@
-# Dictionaries
+---
+layout: default
+title:  Dictionaries
+nav_exclude: true
+---
 
 In this chapter you’ll learn how to use Python’s dictionaries, which
 allow you to connect pieces of related information. You’ll learn how to

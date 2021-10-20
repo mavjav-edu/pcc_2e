@@ -9,7 +9,9 @@
     "stylelint": "^9.10.1",
     "stylelint-config-primer": "^3.0.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lunr": "^2.3.9"
+  },
   "scripts": {
     "test": "stylelint '**/*.scss'"
   }

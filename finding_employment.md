@@ -2,6 +2,7 @@
 layout: default
 title: Finding Employment
 has_children: true
+parent: Home
 nav_order: 90
 has_toc: false
 ---

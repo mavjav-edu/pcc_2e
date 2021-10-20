@@ -1,4 +1,8 @@
-# Aliens!
+---
+layout: default
+title:  Aliens!
+nav_exclude: true
+---
 
 In this chapter we’ll add aliens to Alien Invasion. First, we’ll add one
 alien near the top of the screen, and then we’ll generate a whole fleet

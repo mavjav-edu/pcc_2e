@@ -1,4 +1,8 @@
-# Scoring
+---
+layout: default
+title:  Scoring
+nav_exclude: true
+---
 
 In this chapter we’ll finish the Alien Invasion game. We’ll add a Play
 button to start a game on demand or to restart a game once it ends.

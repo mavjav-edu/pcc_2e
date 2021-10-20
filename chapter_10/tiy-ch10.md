@@ -1,4 +1,8 @@
-# Files And Exceptions
+---
+layout: default
+title:  Files And Exceptions
+nav_exclude: true
+---
 
 Now that you’ve mastered the basic skills you need to write organized
 programs that are easy to use, it’s time to think about making your

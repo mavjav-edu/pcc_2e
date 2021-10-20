@@ -1,4 +1,8 @@
-# Styling And Deploying An App
+---
+layout: default
+title:  Styling And Deploying An App
+nav_exclude: true
+---
 
 Learning Log is fully functional now, but it has no styling and runs
 only on your local machine. In this chapter we’ll style the project in a

@@ -1,4 +1,8 @@
-# Generating Data
+---
+layout: default
+title:  Generating Data
+nav_exclude: true
+---
 
 *Data visualization* involves exploring data through visual
 representations. It’s closely associated with *data mining*, which uses

@@ -1,4 +1,8 @@
-# Getting Help
+---
+layout: default
+title:  Getting Help
+nav_exclude: true
+---
 
 Everyone gets stuck at some point when they’re learning to program, and
 one of the most important skills to learn as a programmer is how to get

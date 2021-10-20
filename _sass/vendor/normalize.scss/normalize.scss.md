@@ -1,4 +1,9 @@
-# normalize.scss v0.1.0
+---
+layout: default
+title:  normalize.scss v0.1.0
+nav_exclude: true
+parent: Home
+---
 
 Normalize.scss is the SCSS version of [normalize.css](http://necolas.github.io/normalize.css), a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards.
 

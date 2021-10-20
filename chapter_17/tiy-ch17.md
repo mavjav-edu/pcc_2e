@@ -1,4 +1,8 @@
-# Working With Apis
+---
+layout: default
+title:  Working With Apis
+nav_exclude: true
+---
 
 In this chapter you’ll learn how to write a self-contained program to
 generate a visualization based on data that it retrieves. Your program

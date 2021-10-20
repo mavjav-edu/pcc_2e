@@ -1,4 +1,8 @@
-# User Accounts
+---
+layout: default
+title:  User Accounts
+nav_exclude: true
+---
 
 At the heart of a web application is the ability for any user, anywhere
 in the world, to register an account with your app and start using it.
