@@ -139,7 +139,7 @@ with PEP 8:
 
 - Use four spaces for each indentation level. Set your text editor to
 insert four spaces every time you press <span class="small">TAB</span>,
-if you haven&rsquo;t already done so (see [Appendix B](app02.html) for
+if you haven&rsquo;t already done so (see [Appendix B](..\appendix_b\appendix_b.md) for
 instructions on how to do this).
 
 - Use less than 80 characters on each line, and set your editor to show

@@ -422,7 +422,7 @@ start over from ➎.
 
 Sometimes you’ll mess up your repository’s history and won’t know how to
 recover it. If this happens, first consider asking for help using the
-methods discussed in [Appendix C](app03.html). If you can’t fix it
+methods discussed in [Appendix C](..\appendix_c\appendix_c.md). If you can’t fix it
 and you’re working on a solo project, you can continue working with the
 files but get rid of the project’s history by deleting the *.git*
 directory. This won’t affect the current state of any of the files, but
