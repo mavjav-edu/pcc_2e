@@ -1,7 +1,31 @@
 .cip_body {
     background-color: #1a1a1a;
-    color: #aaaaaa;
+    color: #aaaaaa;    
+    background-image: url('/pcc_2e/assets/images/fist.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+blockquote {
+    background: #f9f9f93b;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  blockquote p {
+    display: inline;
+  }
 
 .cip_box {
     border: 0px solid black;
@@ -24,8 +48,17 @@
 
 .cip_pcc_link {
     border-top: 1px solid #cccccc;
-    margin: 50px 50px;
+    /*margin: 50px 50px;*/
+    margin: 50px 50px 0px 50px;
     padding: 10px 0px;
+    font-size: 16px;
+    color: #cccccc;
+}
+
+.cip_csj_link {
+    border-top: 0px solid #cccccc;
+    margin: 0px 50px;
+    padding: 0px 0px;
     font-size: 16px;
     color: #cccccc;
 }
