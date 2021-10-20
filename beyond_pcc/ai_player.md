@@ -42,7 +42,7 @@ bullet_sound = pygame.mixer.Sound('sounds/laser1.wav')
 alien_sound = pygame.mixer.Sound('sounds/Explosion_02.wav')
 ```
 
-We import `pygame`, and initialize the `mixer` module. Then we define two sounds, `bullet_sound` and `alien_sound`. To make a sound in Pygame you make an instance of the [Sound](https://www.pygame.org/docs/ref/mixer.html#pygame.mixer.Sound) class, with a path to the sound file as the only argument. (Here's the [mirror page](https://blubbervision.neocities.org/pygame/ref/mixer.html#pygame.mixer.Sound) for the `Sound` class.)
+We import `pygame`, and initialize the `mixer` module. Then we define two sounds, `bullet_sound` and `alien_sound`. To make a sound in Pygame you make an instance of the [Sound](https://www.pygame.org/docs/ref/mixer.html) class, with a path to the sound file as the only argument. (Here's the [mirror page](https://blubbervision.neocities.org/pygame/ref/mixer.html) for the `Sound` class.)
 
 ### Modifying *alien_invasion.py*
 
@@ -232,7 +232,7 @@ You might also notice that the mouse is visible when the game is playing. That's
 
 Make sure you also add an `import pygame` statement at the top of the file.
 
-Now that you've seen how to take control of the game, feel free to try automating the ship's movement on your own. See the challenge [AI Player 2: Sweeping Strategy](../../challenges/ai_player/#ai-player-2-sweeping-strategy) if you're interested in trying this on your own before reading further.
+Now that you've seen how to take control of the game, feel free to try automating the ship's movement on your own. See the challenge [AI Player 2: Sweeping Strategy](../../challenges/ai_player/) if you're interested in trying this on your own before reading further.
 
 [top](#top)
 
@@ -434,7 +434,7 @@ You should be aware that speeding up the game affects the high score that your s
 
 ### Randomized firing
 
-One interesting idea is to give some slight randomness to the decision about whether to fire or not. Right now the ship is firing whenever it can. That means it immediately fires three bullets, and then fires every time a bullet hits an alien or disappears off the top of the screen. This means the bullets often end up in a tightly-packed group, especially when there's only one alien left and the ship is moving out of sync with the alien. If you want to try this on your own first, see the challenge [AI Player #3: Randomized Shooting](../../challenges/ai_player/#ai-player-3-randomized-shooting).
+One interesting idea is to give some slight randomness to the decision about whether to fire or not. Right now the ship is firing whenever it can. That means it immediately fires three bullets, and then fires every time a bullet hits an alien or disappears off the top of the screen. This means the bullets often end up in a tightly-packed group, especially when there's only one alien left and the ship is moving out of sync with the alien. If you want to try this on your own first, see the challenge [AI Player #3: Randomized Shooting](../../challenges/ai_player/).
 
 We can use the [random()](../../random_functions/) function to determine when to fire. The `random()` function returns a decimal between 0 and 1. So if we only fire when we get a random number less than 0.5, we'll fire a bullet on half of the game cycles where we can fire.
 
@@ -531,7 +531,7 @@ In the last section, we'll look at how you can pick out a specific alien and tar
 
 ### Targeting a specific alien
 
-At some point you'll probably want to target a specific alien. You can develop some interesting strategies and game play by targeting specific aliens, or groups of aliens. In this section, I'll show you one such strategy and leave you to implement more effective strategies. If you want to try this on your own first, see the challenge [AI Player 4: Targeting Specific Aliens](../../challenges/ai_player/#ai-player-4-targeting-specific-aliens).
+At some point you'll probably want to target a specific alien. You can develop some interesting strategies and game play by targeting specific aliens, or groups of aliens. In this section, I'll show you one such strategy and leave you to implement more effective strategies. If you want to try this on your own first, see the challenge [AI Player 4: Targeting Specific Aliens](../../challenges/ai_player/).
 
 In this approach we'll always target the right-most alien in the bottom row. We'll pick that alien from the group of aliens, and then always move the ship towards that alien. All of the code to do this goes in `_implement_strategy()`, and a new method called `_get_target_alien()`:
 
@@ -607,7 +607,7 @@ The book's author hasn't optimized this code. Rather, this guide shows how we ca
 
 ## Closing Thoughts
 
-If you are enjoying this project, you might want to implement a more refined approach to tracking statistics in the game. You can track hits and misses, and report a hit/miss ratio. Then you can compare different strategies not just on the high scores or completed levels they achieve, but on how efficiently they perform as well. If you're interested in this, see the challenge [AI Player 7: Scoring Accuracy](../../challenges/ai_player/#ai-player-7-scoring-accuracy).
+If you are enjoying this project, you might want to implement a more refined approach to tracking statistics in the game. You can track hits and misses, and report a hit/miss ratio. Then you can compare different strategies not just on the high scores or completed levels they achieve, but on how efficiently they perform as well. If you're interested in this, see the challenge [AI Player 7: Scoring Accuracy](../../challenges/ai_player/).
 
 Hopefully this guide helps you get started automating the game play in Alien Invasion. If you come up with an effective or interesting strategy, please share it! You can tag your solution with [#ai_player](https://twitter.com/hashtag/ai_player) on Twitter, or send it to me through email ([📧 `ehmatthes@gmail.com`](mailto:ehmatthes@gmail.com)). Good luck, and if this doesn't work for you please let him know as well.
 

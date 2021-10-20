@@ -29,7 +29,7 @@ If you're interested in building real-world Django projects, it's important to u
 
 Each Django release has a major version number, a minor number, and a patch number. Django recently went from version 2.2.8 to version 3.0.0. This was nothing like the transition from Python 2 to Python 3; there were few if any breaking changes when upgrading a Django 2.2 project to run on Django 3.0.
 
-Django releases are supported for about 16 months. Some releases, designated *LTS* for *Long Term Support*, are supported for about 3 years. Django 3.2 is the most recent LTS release. Here's a great [visual representation](https://www.djangoproject.com/download/#supported-versions) and description of the official release cycle.
+Django releases are supported for about 16 months. Some releases, designated *LTS* for *Long Term Support*, are supported for about 3 years. Django 3.2 is the most recent LTS release. Here's a great [visual representation](https://www.djangoproject.com/download/) and description of the official release cycle.
 
 If you want to see a detailed description of the Django release process, you can find the [documentation here](https://docs.djangoproject.com/en/3.2/internals/release-process/). If you want to see the entire evolution of Django, all of the release notes to date are [listed here](https://docs.djangoproject.com/en/dev/releases/).
 
@@ -71,6 +71,6 @@ On page 448 in the section *Installing Required Packages*, it says to install th
 
 ### The Python Runtime
 
-The latest Python runtimes available on Heroku are listed [here](https://devcenter.heroku.com/articles/python-support#specifying-a-python-version). The ones you're probably interested in are `python-3.9.6` and `python-3.8.11`. You can use either of these in the *runtime.txt* file described on page 449.
+The latest Python runtimes available on Heroku are listed [here](https://devcenter.heroku.com/articles/python-support). The ones you're probably interested in are `python-3.9.6` and `python-3.8.11`. You can use either of these in the *runtime.txt* file described on page 449.
 
 This is not a critical update; if you specify a runtime that's slightly out of date, Heroku will use the closest match it finds in its available runtimes.

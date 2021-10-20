@@ -18,7 +18,7 @@ your friends in a list called `names`. Print each person&rsquo;s name by
 accessing each element in the list, one at a time.
 
 <span id="ch3exe2"></span>**3-2. Greetings:** Start with the list you
-used in [Exercise 3-1](../chapter_03/tiy-ch03.md#ch3exe1), but instead of just printing
+used in [Exercise 3-1](../chapter_03/tiy-ch03.md), but instead of just printing
 each person&rsquo;s name, print a message to them. The text of each message
 should be the same, but each message should be personalized with the
 person&rsquo;s name.
@@ -45,7 +45,7 @@ dinner.
 that one of your guests can&rsquo;t make the dinner, so you need to send out a
 new set of invitations. You&rsquo;ll have to think of someone else to invite.
 
-- Start with your program from [Exercise 3-4](../chapter_03/tiy-ch03.md#ch3exe4). Add a
+- Start with your program from [Exercise 3-4](../chapter_03/tiy-ch03.md). Add a
 `print` statement at the end of your program stating the name of the
 guest who can&rsquo;t make it.
 
@@ -59,8 +59,8 @@ still in your list.
 dinner table, so now more space is available. Think of three more guests
 to invite to dinner.
 
-- Start with your program from [Exercise 3-4](../chapter_03/tiy-ch03.md#ch3exe4) or
-[Exercise 3-5](../chapter_03/tiy-ch03.md#ch3exe5). Add a `print` statement to the end of
+- Start with your program from [Exercise 3-4](../chapter_03/tiy-ch03.md) or
+[Exercise 3-5](../chapter_03/tiy-ch03.md). Add a `print` statement to the end of
 your program informing people that you found a bigger dinner table.
 
 - Use `insert()` to add one new guest to the beginning of your list.
@@ -76,7 +76,7 @@ list.
 Guest List:** You just found out that your new dinner table won&rsquo;t arrive
 in time for the dinner, and you have space for only two guests.
 
-- Start with your program from [Exercise 3-6](../chapter_03/tiy-ch03.md#ch3exe6). Add a
+- Start with your program from [Exercise 3-6](../chapter_03/tiy-ch03.md). Add a
 new line that prints a message saying that you can invite only two
 people for dinner.
 
@@ -130,8 +130,8 @@ Print the list to show that its order has been changed.
 alphabetical order. Print the list to show that its order has changed.
 
 <span id="ch3exe9"></span>**3-9. Dinner Guests:** Working with one of
-the programs from [Exercises 3-4](../chapter_03/tiy-ch03.md#ch3exe4) through
-[3-7](../chapter_03/tiy-ch03.md#ch3exe7) ([page 46](../chapter_03/tiy-ch03.md#page_46)), use `len()` to
+the programs from [Exercises 3-4](../chapter_03/tiy-ch03.md) through
+[3-7](../chapter_03/tiy-ch03.md) ([page 46](../chapter_03/tiy-ch03.md)), use `len()` to
 print a message indicating the number of people you are inviting to
 dinner.
 

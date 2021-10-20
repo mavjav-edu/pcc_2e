@@ -84,7 +84,7 @@ In Chapter 6, we learn about dictionaries. With dictionaries, we can really star
 
 ### CSJ 6-1: Annual Incidents of US Police Killings
 
-Visit the [National Trends](https://mappingpoliceviolence.org/nationaltrends) page on [Mapping Police Violence](../social_justice_datasets#mapping_police_violence). Choose several years from the data shown, and make a dictionary where the keys are the years and the values are the number of people killed by police officers in the US for that year. Loop through your dictionary, and print a summary of how many people were killed for each year in your data set.
+Visit the [National Trends](https://mappingpoliceviolence.org/nationaltrends) page on [Mapping Police Violence](../social_justice_datasets). Choose several years from the data shown, and make a dictionary where the keys are the years and the values are the number of people killed by police officers in the US for that year. Loop through your dictionary, and print a summary of how many people were killed for each year in your data set.
 
 ### CSJ 6-2: International Rates of Police Killings
 

@@ -35,7 +35,7 @@ Everything in the book works with Python 3.9.
 
 Django 3.2 was released in April 2021. Read [more about this release](../django3_2).
 
-Everything in the Learning Log project (Chapters 18-20) should work on Django 3.2, with only minor changes in the second half of Chapter 20. For these updates, see the section [Deploying to Heroku](../django3_2#deploying-to-heroku).
+Everything in the Learning Log project (Chapters 18-20) should work on Django 3.2, with only minor changes in the second half of Chapter 20. For these updates, see the section [Deploying to Heroku](../django3_2).
 
 ---
 

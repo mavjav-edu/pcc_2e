@@ -2,7 +2,7 @@
 
 Python has several different versions and a number of ways it can be set
 up on each operating system. This appendix is useful if the approach in
-[Chapter 1](ch01.html#ch01) didn’t work, or if you want to install a
+[Chapter 1](ch01.html) didn’t work, or if you want to install a
 different version of Python than the one that came with your system.
 
 ## Operating Systems

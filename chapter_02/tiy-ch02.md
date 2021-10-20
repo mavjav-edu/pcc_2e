@@ -22,7 +22,7 @@ to a new message, and print the new message.
 
 Save each of the following exercises as a separate file with a name like
 *name_cases.py*. If you get stuck, take a break or see the suggestions
-in [Appendix C](app03.html#app03).
+in [Appendix C](app03.html).
 
 <span id="ch2exe3"></span>**2-3. Personal Message:** Store a person&rsquo;s
 name in a variable, and print a message to that person. Your message

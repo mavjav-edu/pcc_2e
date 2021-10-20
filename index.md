@@ -33,45 +33,45 @@ If you are a student following this curriculum for the first time, please jump t
 The book has several sections that reinforce learning through exercises. Practice what you just read where you see:
 <img src="./images/tiy.svg"   width="188vw" alt="'Try It Yourself' in Adobe Dogma typeface"/>
 
-- Getting Started \([Chapter 1](/chapter_01/tiy-ch01.md#try-it-yourself-\#1)\)
+- Getting Started \([Chapter 1](/chapter_01/tiy-ch01.md)\)
 
-- Variables And Simple Data Types \([Chapter 2](/chapter_02/tiy-ch02.md#try-it-yourself-\#1)\)
+- Variables And Simple Data Types \([Chapter 2](/chapter_02/tiy-ch02.md)\)
 
-- Introducing Lists \([Chapter 3](/chapter_03/tiy-ch03.md#try-it-yourself-\#1)\)
+- Introducing Lists \([Chapter 3](/chapter_03/tiy-ch03.md)\)
 
-- Working With Lists \([Chapter 4](/chapter_04/tiy-ch04.md#try-it-yourself-\#1)\)
+- Working With Lists \([Chapter 4](/chapter_04/tiy-ch04.md)\)
 
-- If Statements \([Chapter 5](/chapter_05/tiy-ch05.md#try-it-yourself-\#1)\)
+- If Statements \([Chapter 5](/chapter_05/tiy-ch05.md)\)
 
-- Dictionaries \([Chapter 6](/chapter_06/tiy-ch06.md#try-it-yourself-\#1)\)
+- Dictionaries \([Chapter 6](/chapter_06/tiy-ch06.md)\)
 
-- User Input And While Loops \([Chapter 7](/chapter_07/tiy-ch07.md#try-it-yourself-\#1)\)
+- User Input And While Loops \([Chapter 7](/chapter_07/tiy-ch07.md)\)
 
-- Functions \([Chapter 8](/chapter_08/tiy-ch08.md#try-it-yourself-\#1)\)
+- Functions \([Chapter 8](/chapter_08/tiy-ch08.md)\)
 
-- Classes \([Chapter 9](/chapter_09/tiy-ch09.md#try-it-yourself-\#1)\)
+- Classes \([Chapter 9](/chapter_09/tiy-ch09.md)\)
 
-- Files And Exceptions \([Chapter 10](/chapter_10/tiy-ch10.md#try-it-yourself-\#1)\)
+- Files And Exceptions \([Chapter 10](/chapter_10/tiy-ch10.md)\)
 
-- Testing Your Code \([Chapter 11](/chapter_11/tiy-ch11.md#try-it-yourself-\#1)\)
+- Testing Your Code \([Chapter 11](/chapter_11/tiy-ch11.md)\)
 
-- A Ship That Fires Bullets \([Chapter 12](/chapter_12/tiy-ch12.md#try-it-yourself-\#1)\)
+- A Ship That Fires Bullets \([Chapter 12](/chapter_12/tiy-ch12.md)\)
 
-- Aliens! \([Chapter 13](/chapter_13/tiy-ch13.md#try-it-yourself-\#1)\)
+- Aliens! \([Chapter 13](/chapter_13/tiy-ch13.md)\)
 
-- Scoring \([Chapter 14](/chapter_14/tiy-ch14.md#try-it-yourself-\#1)\)
+- Scoring \([Chapter 14](/chapter_14/tiy-ch14.md)\)
 
-- Generating Data \([Chapter 15](/chapter_15/tiy-ch15.md#try-it-yourself-\#1)\)
+- Generating Data \([Chapter 15](/chapter_15/tiy-ch15.md)\)
 
-- Downloading Data \([Chapter 16](/chapter_16/tiy-ch16.md#try-it-yourself-\#1)\)
+- Downloading Data \([Chapter 16](/chapter_16/tiy-ch16.md)\)
 
-- Working With API's \([Chapter 17](/chapter_17/tiy-ch17.md#try-it-yourself-\#1)\)
+- Working With API's \([Chapter 17](/chapter_17/tiy-ch17.md)\)
 
-- Getting Started With Django \([Chapter 18](/chapter_18/tiy-ch18.md#try-it-yourself-\#1)\)
+- Getting Started With Django \([Chapter 18](/chapter_18/tiy-ch18.md)\)
 
-- User Accounts \([Chapter 19](/chapter_19/tiy-ch19.md#try-it-yourself-\#1)\)
+- User Accounts \([Chapter 19](/chapter_19/tiy-ch19.md)\)
 
-- Styling And Deploying An App \([Chapter 20](/chapter_20/tiy-ch20.md#try-it-yourself-\#1)\)
+- Styling And Deploying An App \([Chapter 20](/chapter_20/tiy-ch20.md)\)
 
 ### Setup Instructions
 

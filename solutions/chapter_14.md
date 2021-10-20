@@ -38,7 +38,7 @@ Because *Alien Invasion* uses keyboard input to control the ship, it would be us
 
 Create a rectangle at the right edge of the screen that moves up and down at a steady rate. Then have a ship appear on the left side of the screen that the player can move up and down while firing bullets at the moving, rectangular target. Add a Play button that starts the game, and when the player misses the target three times, end the game and make the Play button reappear. Let the player restart the game with this Play button.
 
-Note: *This solution uses the `pygame.sprite.spritecollide()` function, which detects whether a single sprite has collided with any member of a group. It might be helpful to look at the [documentation for this function](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.spritecollide) before looking at the solution.*
+Note: *This solution uses the `pygame.sprite.spritecollide()` function, which detects whether a single sprite has collided with any member of a group. It might be helpful to look at the [documentation for this function](https://www.pygame.org/docs/ref/sprite.html) before looking at the solution.*
 
 [Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_14/solution_14_2)
 

@@ -15,7 +15,7 @@ changes to the rest of the form-based pages: `new_entry` and
 `edit_entry`, and `register`.
 
 <span id="ch20exe2"></span>**20-2. Stylish Blog:** Use Bootstrap to
-style the Blog project you created in [Chapter 19](../chapter_19/tiy-ch19.md#ch19).
+style the Blog project you created in [Chapter 19](../chapter_19/tiy-ch19.md).
 
 
 

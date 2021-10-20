@@ -1,5 +1,5 @@
 # Working With Lists
-In [Chapter 3](ch03.html#ch03) you learned how to make a simple list,
+In [Chapter 3](ch03.html) you learned how to make a simple list,
 and you learned to work with the individual elements in a list. In this
 chapter you’ll learn how to *loop* through an entire list using just a
 few lines of code regardless of how long the list is. Looping allows you
@@ -85,7 +85,7 @@ a slice to print three items from the middle of the list.
 slice to print the last three items in the list.
 
 <span id="ch4exe11"></span>**4-11. My Pizzas, Your Pizzas:** Start with
-your program from [Exercise 4-1](../chapter_04/tiy-ch04.md#ch4exe1) ([page
+your program from [Exercise 4-1](../chapter_04/tiy-ch04.md) ([page
 60](../chapter_04/tiy-ch04.md#page_60)). Make a copy of the list of pizzas, and call it
 `friend_pizzas`. Then, do the following:
 
@@ -135,7 +135,7 @@ with PEP 8:
 
 - Use four spaces for each indentation level. Set your text editor to
 insert four spaces every time you press <span class="small">TAB</span>,
-if you haven&rsquo;t already done so (see [Appendix B](app02.html#app02) for
+if you haven&rsquo;t already done so (see [Appendix B](app02.html) for
 instructions on how to do this).
 
 - Use less than 80 characters on each line, and set your editor to show

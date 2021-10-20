@@ -384,7 +384,7 @@ In this section you'll make an app that users can work with to modify their imag
 
 You can create an app that allows you to apply filters through a browser. To do this you'll need to allow users to upload and store an image, and choose a filter to apply. You'll also need to be able to display the original and processed images.
 
-To develop a model representing an image, look at the [ImageField](https://docs.djangoproject.com/en/3.0/ref/models/fields/#imagefield) entry in the [Django Model field](https://docs.djangoproject.com/en/3.0/ref/models/fields/) reference page. To allow users to upload files, take a look at the documenation about [File Uploads](https://docs.djangoproject.com/en/3.0/topics/http/file-uploads/).
+To develop a model representing an image, look at the [ImageField](https://docs.djangoproject.com/en/3.0/ref/models/fields/) entry in the [Django Model field](https://docs.djangoproject.com/en/3.0/ref/models/fields/) reference page. To allow users to upload files, take a look at the documenation about [File Uploads](https://docs.djangoproject.com/en/3.0/topics/http/file-uploads/).
 
 You will also need to add two settings to *settings.py*:
 

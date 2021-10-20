@@ -27,7 +27,7 @@ There are new features in Python 3.9, but there's nothing that should affect pro
 
 ## What's new?
 
-Python is a pretty stable language, so most of the new features involve more advanced usage. A good place to look for what's new in the latest release is in the official [What's New in Python 3.9](https://docs.python.org/3/whatsnew/3.9.html) article from python.org. If you want even more detailed information about what's changed, see the official [release notes](https://docs.python.org/release/3.9.6/whatsnew/changelog.html#changelog).
+Python is a pretty stable language, so most of the new features involve more advanced usage. A good place to look for what's new in the latest release is in the official [What's New in Python 3.9](https://docs.python.org/3/whatsnew/3.9.html) article from python.org. If you want even more detailed information about what's changed, see the official [release notes](https://docs.python.org/release/3.9.6/whatsnew/changelog.html).
 
 If you want a friendly but more detailed description of what's listed here, [Real Python](https://realpython.com/python39-new-features/) has a great summary with examples of each new feature.
 

@@ -108,7 +108,7 @@ django_heroku.settings(locals())
 
 ##### The Python Runtime (page 449)
 
-The latest Python runtimes available on Heroku are listed [here](https://devcenter.heroku.com/articles/python-support#specifying-a-python-version). The ones you're probably interested in are `python-3.8.5` and `python-3.7.8`. You can use either of these in the *runtime.txt* file described on page 449.
+The latest Python runtimes available on Heroku are listed [here](https://devcenter.heroku.com/articles/python-support). The ones you're probably interested in are `python-3.8.5` and `python-3.7.8`. You can use either of these in the *runtime.txt* file described on page 449.
 
 This is not a critical update; if you specify a runtime that's slightly out of date, Heroku will use the closest match it finds in its available runtimes.
 

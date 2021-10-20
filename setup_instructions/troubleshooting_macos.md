@@ -35,13 +35,13 @@ For the rest of this guide, we'll assume that the command **python3** works on y
 
 When you run a Python program, Sublime Text tells the Python interpreter to run your program, and Sublime Text then shows you the results. When you first install Sublime Text, it's configured to run any file ending in *.py* using the command **python**.
 
-If you're at this troubleshooting page, you probably already defined a build system using the **New Build System** command (see *Configuring Sublime Text* [here](../macos/#configuring-sublime-text)). Hopefully you saved that file in the default location that Sublime Text suggests, and called it *Python3.sublime-build*. If you didn't do that, go back and try it.
+If you're at this troubleshooting page, you probably already defined a build system using the **New Build System** command (see *Configuring Sublime Text* [here](../macos/)). Hopefully you saved that file in the default location that Sublime Text suggests, and called it *Python3.sublime-build*. If you didn't do that, go back and try it.
 
 If things are still not working, you'll need to open that file.
 
 - Open your *hello_world.py* file in Sublime Text, so you have a Python file open.
 - Go to **Sublime Text > Preferences > User**.
-- Expand the *User* folder that appears, and you should see your *Python3.sublime-build* file listed. Double click the file to open it. If you don't see this file, then your build system was probably not saved. Try the **New Build System** command again, as described in the *Configuring Sublime Text* section [here](../macos/#configuring-sublime-text), and see if you get different results.
+- Expand the *User* folder that appears, and you should see your *Python3.sublime-build* file listed. Double click the file to open it. If you don't see this file, then your build system was probably not saved. Try the **New Build System** command again, as described in the *Configuring Sublime Text* section [here](../macos/), and see if you get different results.
 
 You should see something like the following:
 
