@@ -11,6 +11,8 @@ tasks like drawing images to the screen, you can skip much of the
 tedious, difficult coding and focus on the higher-level logic of game
 dynamics.
 
+Resources for spaceship and enemy ship images can be found in [images](./images/images.md).
+
 ## TRY IT YOURSELF #1
 
 <span id="ch12exe1"></span>**12-1. Blue Sky:** Make a Pygame window with
