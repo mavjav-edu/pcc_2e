@@ -17,7 +17,7 @@ tasks like drawing images to the screen, you can skip much of the
 tedious, difficult coding and focus on the higher-level logic of game
 dynamics.
 
-Resources for spaceship and enemy ship images can be found in [images](./images/images.md).
+Resources for spaceship and enemy ship images can be found in [images](./images/index.md).
 
 ## TRY IT YOURSELF #1
 

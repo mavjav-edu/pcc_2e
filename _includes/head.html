@@ -8,20 +8,50 @@
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ "/assets/css/just-the-docs.css" | relative_url }}">
   {% if site.ga_tracking != nil %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-      gtag('config', "{{ site.ga_tracking }}");
-    </script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', "{{ site.ga_tracking }}");
+  </script>
   {% endif %}
+  {% if page.url == "/chapter_12/images/index.html" %}
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
 
+    /* (A) GRID CONTAINER */
+    #grid-col {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    /* (B) GRID CELLS */
+    div.cell {
+      background: LightBlue;
+      border: 1px solid Blue;
+      padding: 10px;
+    }
+
+    /* (C) RESPONSIVE - 1 COLUMN ON SMALL SCREENS */
+    @media screen and (max-width: 640px) {
+      #grid-col {
+        grid-template-columns: 100%;
+      }
+    }
+  </style>
+  {% endif %}
   {% if site.search_enabled != false %}
-    <script type="text/javascript" src="{{ "/assets/js/vendor/lunr.min.js" |  relative_url }}"></script>
+  <script type="text/javascript" src="{{ "/assets/js/vendor/lunr.min.js" |  relative_url }}"></script>
   {% endif %}
   <script type="text/javascript" src="{{ "/assets/js/just-the-docs.js" | relative_url }}"></script>
+
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
