@@ -71,6 +71,7 @@ The book has several sections that reinforce learning through exercises. Practic
 
 Here you can find instructions for:
 
+<<<<<<< HEAD
 - [Installing Python](/appendix_a/appendix_a.md)&#09;(Appendix A)
 - [Installing and configuring Python](/chapter_01/tiy-ch01.md)&#09;(Chapter 1)
 - [Installing and using pip](/chapter_12/installing_pip.md)&#09;(Chapter 12)
@@ -78,15 +79,31 @@ Here you can find instructions for:
 - [Installing matplotlib and Pygal](/chapter_15/tiy-ch15.md) &#09;(Chapter 15)
 - [Creating a Virtual Environment](/chapter_18/tiy-ch18.md)&#09;(Chapter 18)
 - [Deploying a Project to Heroku](/chapter_20/tiy-ch20.md)&#09;(Chapter 20)
+=======
+- [Installing Python](/appendix_a/README.md)&#09;(Appendix A)
+- [Installing and configuring Python](/chapter_01/README.md)&#09;(Chapter 1)
+- [Installing and using pip](/chapter_12/installing_pip.md)&#09;(Chapter 12)
+- [Installing Pygame](/chapter_12/README.md)&#09;(Chapter 12)
+- [Installing matplotlib and Pygal](/chapter_15/README.md) &#09;(Chapter 15)
+- [Creating a Virtual Environment](/chapter_18/README.md)&#09;(Chapter 18)
+- [Deploying a Project to Heroku](/chapter_20/README.md)&#09;(Chapter 20)
+>>>>>>> f1d86ea4638ea7426ffff389278b5aee4d4c24b9
 
 <a href="source_code"></a>Downloading source code
 ---
 The most direct way to get the online resources for the book is to click on the [*Download ZIP*](https://github.com/mavjav-edu/pcc_2e/archive/master.zip) button on the upper right side of [this page](https://github.com/mavjav-edu/pcc_2e), which will download the source code files (and other resources) for the entire book.
 
+<<<<<<< HEAD
 [Cheat Sheets](/cheatsheets/cheatsheets.md)
 ---
 
 Cheat sheets can be really helpful when you're working on a set of programming exercises or a project. This set of [cheat sheets](/cheatsheets/cheatsheets.md) will help remind you of the concepts you're learning, as well as the Python syntax for these concepts.
+=======
+[Cheat Sheets](/cheatsheets/README.md)
+---
+
+Cheat sheets can be really helpful when you're working on a set of programming exercises or a project. This set of [cheat sheets](/cheatsheets/README.md) will help remind you of the concepts you're learning, as well as the Python syntax for these concepts.
+>>>>>>> f1d86ea4638ea7426ffff389278b5aee4d4c24b9
 
 [Updates](/updates.md)
 ---
