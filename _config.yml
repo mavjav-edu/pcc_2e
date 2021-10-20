@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Python Crash Course, 2nd Edition
 description: Online Resources for Python Crash Course, from No Starch Press
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mavjav-edu.github.io/pcc_2e" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/pcc_2e" # the subpath of your site, e.g. /blog
+url: "https://mavjav-edu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["vendor/", "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
@@ -36,4 +36,4 @@ color_scheme: nil
 # e.g, UA-1234567-89
 ga_tracking: G-H1B6T2W9DJ
 
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
