@@ -2,6 +2,8 @@
 layout: default
 title:  Images
 nav_exclude: true
+parent: A Ship That Fires Bullets
+grandparent: Home
 ---
 
 This folder contains images you can use for your game.
