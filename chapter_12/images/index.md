@@ -2,8 +2,8 @@
 layout: default
 title:  Images
 nav_exclude: true
-parent: {{ './chapter_12/tiy-ch12.md' | relative_url }}
-grandparent: Home
+parent: A Ship That Fires Bullets
+grand_parent: Home
 ---
 
 This folder contains images you can use for your game.
