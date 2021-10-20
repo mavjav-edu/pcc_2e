@@ -452,7 +452,7 @@
 
     jtd.setTheme = function(theme) {
       var cssFile = document.querySelector('[rel="stylesheet"]');
-      cssFile.setAttribute('href', '{{ "assets/css/just-the-docs-" | absolute_url }}' + theme + '.css');
+      cssFile.setAttribute('href', '{{ "assets/css/just-the-docs-" | relative_url }}' + theme + '.css');
     }
 
     // Document ready
