@@ -37,3 +37,6 @@ color_scheme: nil
 ga_tracking: G-H1B6T2W9DJ
 
 theme: just-the-docs
+
+plugins:
+  - jekyll-seo-tag
