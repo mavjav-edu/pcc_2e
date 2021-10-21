@@ -32,45 +32,45 @@ If you are a student following this curriculum for the first time, please jump t
 The book has several sections that reinforce learning through exercises. Practice what you just read where you see:
 <img src="./images/tiy.svg"   width="188vw" alt="'Try It Yourself' in Adobe Dogma typeface"/>
 
-- Getting Started \([Chapter 1](/chapter_01/tiy-ch01.md)\)
+- Getting Started \([Chapter 1](/chapter_01/tiy.md)\)
 
-- Variables And Simple Data Types \([Chapter 2](/chapter_02/tiy-ch02.md)\)
+- Variables And Simple Data Types \([Chapter 2](/chapter_02/tiy.md)\)
 
-- Introducing Lists \([Chapter 3](/chapter_03/tiy-ch03.md)\)
+- Introducing Lists \([Chapter 3](/chapter_03/tiy.md)\)
 
-- Working With Lists \([Chapter 4](/chapter_04/tiy-ch04.md)\)
+- Working With Lists \([Chapter 4](/chapter_04/tiy.md)\)
 
-- If Statements \([Chapter 5](/chapter_05/tiy-ch05.md)\)
+- If Statements \([Chapter 5](/chapter_05/tiy.md)\)
 
-- Dictionaries \([Chapter 6](/chapter_06/tiy-ch06.md)\)
+- Dictionaries \([Chapter 6](/chapter_06/tiy.md)\)
 
-- User Input And While Loops \([Chapter 7](/chapter_07/tiy-ch07.md)\)
+- User Input And While Loops \([Chapter 7](/chapter_07/tiy.md)\)
 
-- Functions \([Chapter 8](/chapter_08/tiy-ch08.md)\)
+- Functions \([Chapter 8](/chapter_08/tiy.md)\)
 
-- Classes \([Chapter 9](/chapter_09/tiy-ch09.md)\)
+- Classes \([Chapter 9](/chapter_09/tiy.md)\)
 
-- Files And Exceptions \([Chapter 10](/chapter_10/tiy-ch10.md)\)
+- Files And Exceptions \([Chapter 10](/chapter_10/tiy.md)\)
 
-- Testing Your Code \([Chapter 11](/chapter_11/tiy-ch11.md)\)
+- Testing Your Code \([Chapter 11](/chapter_11/tiy.md)\)
 
-- A Ship That Fires Bullets \([Chapter 12](/chapter_12/tiy-ch12.md)\)
+- A Ship That Fires Bullets \([Chapter 12](/chapter_12/tiy.md)\)
 
-- Aliens! \([Chapter 13](/chapter_13/tiy-ch13.md)\)
+- Aliens! \([Chapter 13](/chapter_13/tiy.md)\)
 
-- Scoring \([Chapter 14](/chapter_14/tiy-ch14.md)\)
+- Scoring \([Chapter 14](/chapter_14/tiy.md)\)
 
-- Generating Data \([Chapter 15](/chapter_15/tiy-ch15.md)\)
+- Generating Data \([Chapter 15](/chapter_15/tiy.md)\)
 
-- Downloading Data \([Chapter 16](/chapter_16/tiy-ch16.md)\)
+- Downloading Data \([Chapter 16](/chapter_16/tiy.md)\)
 
-- Working With API's \([Chapter 17](/chapter_17/tiy-ch17.md)\)
+- Working With API's \([Chapter 17](/chapter_17/tiy.md)\)
 
-- Getting Started With Django \([Chapter 18](/chapter_18/tiy-ch18.md)\)
+- Getting Started With Django \([Chapter 18](/chapter_18/tiy.md)\)
 
-- User Accounts \([Chapter 19](/chapter_19/tiy-ch19.md)\)
+- User Accounts \([Chapter 19](/chapter_19/tiy.md)\)
 
-- Styling And Deploying An App \([Chapter 20](/chapter_20/tiy-ch20.md)\)
+- Styling And Deploying An App \([Chapter 20](/chapter_20/tiy.md)\)
 
 #### Solutions
 
@@ -81,12 +81,12 @@ After you have tried the exercises yourself, you can check the author's implemen
 Here you can find instructions for:
 
 - [Installing Python](/appendix_a/index.md)&#09;(Appendix A)
-- [Installing and configuring Python](/chapter_01/tiy-ch01.md)&#09;(Chapter 1)
+- [Installing and configuring Python](/chapter_01/tiy.md)&#09;(Chapter 1)
 - [Installing and using pip](/chapter_12/installing_pip.md)&#09;(Chapter 12)
-- [Installing Pygame](/chapter_12/tiy-ch12.md)&#09;(Chapter 12)
-- [Installing matplotlib and Pygal](/chapter_15/tiy-ch15.md) &#09;(Chapter 15)
-- [Creating a Virtual Environment](/chapter_18/tiy-ch18.md)&#09;(Chapter 18)
-- [Deploying a Project to Heroku](/chapter_20/tiy-ch20.md)&#09;(Chapter 20)
+- [Installing Pygame](/chapter_12/tiy.md)&#09;(Chapter 12)
+- [Installing matplotlib and Pygal](/chapter_15/tiy.md) &#09;(Chapter 15)
+- [Creating a Virtual Environment](/chapter_18/tiy.md)&#09;(Chapter 18)
+- [Deploying a Project to Heroku](/chapter_20/tiy.md)&#09;(Chapter 20)
 
 <a href="source_code"></a>Downloading source code
 ---

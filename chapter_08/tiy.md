@@ -1,7 +1,8 @@
 ---
 layout: default
-title:  Functions
+title:  $1
 nav_exclude: true
+parent: Home
 ---
 
 In this chapter you’ll learn to write *functions*, which are named
@@ -78,7 +79,7 @@ least one new function call that includes the number of tracks on an
 album.
 
 <span id="ch8exe8"></span>**8-8. User Albums:** Start with your program
-from [Exercise 8-7](../chapter_08/tiy-ch08.md). Write a `while` loop that allows
+from [Exercise 8-7](../chapter_08/tiy.md). Write a `while` loop that allows
 users to enter an album&rsquo;s artist and title. Once you have that
 information, call `make_album()` with the user&rsquo;s input and print the
 dictionary that&rsquo;s created. Be sure to include a quit value in the
@@ -91,13 +92,13 @@ names. Pass the list to a function called `show_magicians()`, which
 prints the name of each magician in the list.
 
 <span id="ch8exe10"></span>**8-10. Great Magicians:** Start with a copy
-of your program from [Exercise 8-9](../chapter_08/tiy-ch08.md). Write a function
+of your program from [Exercise 8-9](../chapter_08/tiy.md). Write a function
 called `make_great()` that modifies the list of magicians by adding the
 phrase *the Great* to each magician&rsquo;s name. Call `show_magicians()` to
 see that the list has actually been modified.
 
 <span id="ch8exe11"></span>**8-11. Unchanged Magicians:** Start with
-your work from [Exercise 8-10](../chapter_08/tiy-ch08.md). Call the function
+your work from [Exercise 8-10](../chapter_08/tiy.md). Call the function
 `make_great()` with a copy of the list of magicians&rsquo; names. Because the
 original list will be unchanged, return the new list and store it in a
 separate list. Call `show_magicians()` with each list to show that you
@@ -117,7 +118,7 @@ being ordered. Call the function three times, using a different number
 of arguments each time.
 
 <span id="ch8exe13"></span>**8-13. User Profile:** Start with a copy of
-*user_profile.py* from [page 153](../chapter_08/tiy-ch08.md). Build a profile
+*user_profile.py* from [page 153](../chapter_08/tiy.md). Build a profile
 of yourself by calling `build_profile()`, using your first and last
 names and three other key-value pairs that describe you.
 

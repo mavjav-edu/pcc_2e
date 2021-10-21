@@ -1,7 +1,8 @@
 ---
 layout: default
-title:  Downloading Data
+title:  $1
 nav_exclude: true
+parent: Home
 ---
 
 In this chapter you’ll download data sets from online sources and create
@@ -30,7 +31,7 @@ temperature scales on the Sitka and Death Valley graphs reflect the
 different ranges of the data. To accurately compare the temperature
 range in Sitka to that of Death Valley, you need identical scales on the
 y-axis. Change the settings for the y-axis on one or both of the charts
-in [Figures 16-5](../chapter_16/tiy-ch16.md) and [16-6](../chapter_16/tiy-ch16.md),
+in [Figures 16-5](../chapter_16/tiy.md) and [16-6](../chapter_16/tiy.md),
 and make a direct comparison between temperature ranges in Sitka and
 Death Valley (or any two places you want to compare). You can also try
 plotting the two data sets on the same chart.
@@ -86,5 +87,5 @@ values. Plot the data on a `Worldmap` and style the map as you like.
 **Module:** When we wrote the `country_codes` module, we used `print`
 statements to check whether the `get_country_code()` function worked.
 Write a proper test for this function using what you learned in [Chapter
-11](../chapter_11/tiy-ch11.md#ch11).
+11](../chapter_11/tiy.md#ch11).
 

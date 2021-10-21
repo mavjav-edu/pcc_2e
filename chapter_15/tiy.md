@@ -1,7 +1,8 @@
 ---
 layout: default
-title:  Generating Data
+title:  $1
 nav_exclude: true
+parent: Home
 ---
 
 *Data visualization* involves exploring data through visual

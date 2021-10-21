@@ -1,12 +1,13 @@
 ---
 layout: default
-title:  Installing Python
+title:  $1
 nav_exclude: true
+parent: Home
 ---
 
 Python has several different versions and a number of ways it can be set
 up on each operating system. This appendix is useful if the approach in
-[Chapter 1](../chapter_01/tiy-ch01.md) didn’t work, or if you want to install a
+[Chapter 1](../chapter_01/tiy.md) didn’t work, or if you want to install a
 different version of Python than the one that came with your system.
 
 ## Operating Systems

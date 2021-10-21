@@ -1,7 +1,8 @@
 ---
 layout: default
-title:  Using Git For Version Control
+title:  $1
 nav_exclude: true
+parent: Home
 ---
 
 Version control software allows you to take snapshots of a project

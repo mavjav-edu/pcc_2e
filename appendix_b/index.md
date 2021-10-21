@@ -1,7 +1,8 @@
 ---
 layout: default
-title:  Text Editors
+title:  $1
 nav_exclude: true
+parent: Home
 ---
 
 Programmers spend a lot of time writing, reading, and editing code, and

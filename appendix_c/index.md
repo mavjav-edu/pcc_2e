@@ -1,7 +1,8 @@
 ---
 layout: default
-title:  Getting Help
+title:  $1
 nav_exclude: true
+parent: Home
 ---
 
 Everyone gets stuck at some point when they’re learning to program, and

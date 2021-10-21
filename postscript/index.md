@@ -1,7 +1,8 @@
 ---
 layout: default
-title:  Using Git For Version Control
+title:  $1
 nav_exclude: true
+parent: Home
 ---
 
 Congratulations! You’ve learned the basics of Python and applied your

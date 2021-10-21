@@ -1,7 +1,8 @@
 ---
 layout: default
-title:  Getting Started
+title:  $1
 nav_exclude: true
+parent: Home
 ---
 
 In this chapter you’ll run your first Python program, *hello_world.py*.
@@ -14,7 +15,7 @@ the structure of your code.
 ## TRY IT YOURSELF #1
 
 The exercises in this chapter are exploratory in nature. Starting in
-[Chapter 2](../chapter_02/tiy-ch02.md), the challenges you&rsquo;ll solve will be based
+[Chapter 2](../chapter_02/tiy.md), the challenges you&rsquo;ll solve will be based
 on what you&rsquo;ve learned.
 
 <span id="ch1exe1"></span>**1-1. python.org:** Explore the Python home

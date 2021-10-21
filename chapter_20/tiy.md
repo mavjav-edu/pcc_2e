@@ -1,7 +1,8 @@
 ---
 layout: default
-title:  Styling And Deploying An App
+title:  $1
 nav_exclude: true
+parent: Home
 ---
 
 Learning Log is fully functional now, but it has no styling and runs
@@ -19,7 +20,7 @@ changes to the rest of the form-based pages: `new_entry` and
 `edit_entry`, and `register`.
 
 <span id="ch20exe2"></span>**20-2. Stylish Blog:** Use Bootstrap to
-style the Blog project you created in [Chapter 19](../chapter_19/tiy-ch19.md).
+style the Blog project you created in [Chapter 19](../chapter_19/tiy.md).
 
 
 
