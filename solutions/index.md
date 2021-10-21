@@ -2,6 +2,7 @@
 layout: default
 title: Solutions
 nav_order: 60
+parent: Home
 has_children: true
 has_toc: false
 ---

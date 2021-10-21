@@ -72,11 +72,15 @@ The book has several sections that reinforce learning through exercises. Practic
 
 - Styling And Deploying An App \([Chapter 20](/chapter_20/tiy-ch20.md)\)
 
+#### Solutions
+
+After you have tried the exercises yourself, you can check the author's implementations to compare. solutions to the homework may be found [here](solutions/index.md).
+
 ### Setup Instructions
 
 Here you can find instructions for:
 
-- [Installing Python](/appendix_a/appendix_a.md)&#09;(Appendix A)
+- [Installing Python](/appendix_a/index.md)&#09;(Appendix A)
 - [Installing and configuring Python](/chapter_01/tiy-ch01.md)&#09;(Chapter 1)
 - [Installing and using pip](/chapter_12/installing_pip.md)&#09;(Chapter 12)
 - [Installing Pygame](/chapter_12/tiy-ch12.md)&#09;(Chapter 12)
@@ -86,18 +90,24 @@ Here you can find instructions for:
 
 <a href="source_code"></a>Downloading source code
 ---
-The most direct way to get the online resources for the book is to click on the [*Download ZIP*](https://github.com/mavjav-edu/pcc_2e/archive/master.zip) button on the upper right side of [this page](https://github.com/mavjav-edu/pcc_2e), which will download the source code files (and other resources) for the entire book.
+A direct way to get these online resources is to download as a ZIP file. 
 
-[Cheat Sheets](/cheat_sheets/cheat_sheets.md)
+![Click the Download ZIP Option]({{ '/assets/images/download_zip.png' | relative_url }})
+
+Click on the [*Download ZIP*](https://github.com/mavjav-edu/pcc_2e/archive/master.zip) button on the upper right side of [this page](https://github.com/mavjav-edu/pcc_2e), which will download the source code files (and other resources) for the entire book.
+
+A more flexible way is to [fork this repository and clone it](https://guides.github.com/activities/forking/) to your local computer using `git`.
+
+[Cheat Sheets](/cheat_sheets/index.md)
 ---
 
-Cheat sheets can be really helpful when you're working on a set of programming exercises or a project. This set of [cheat sheets](/cheat_sheets/cheat_sheets.md) will help remind you of the concepts you're learning, as well as the Python syntax for these concepts.
+Cheat sheets can be really helpful when you're working on a set of programming exercises or a project. This set of [cheat sheets](/cheat_sheets/index.md) will help remind you of the concepts you're learning, as well as the Python syntax for these concepts.
 
-[Updates](/updates/updates.md)
+[Updates](/updates/index.md)
 ---
 
 Some of the [PyPI](https://en.wikipedia.org/wiki/Python_Package_Index) libraries featured in the book have been updated recently, which is a good thing &mdash; it means that the Python packages you're learning to use are being steadily improved.
 
 When packages are updated you have the option of using the version that was featured in the book, which lets you run code exactly as it's written in the book. You can also choose to install the latest version of each package, and modify the code in the book slightly. Each approach is outlined clearly in these updates.
 
-A list of updates is kept [here](/updates/updates.md).
+A list of updates is kept [here](/updates/index.md).
