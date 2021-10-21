@@ -36,15 +36,29 @@
   <style>
     /* (A) GRID CONTAINER */
     #grid-col {
-      display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: auto auto auto;
+      grid-auto-flow: dense;
     }
 
     /* (B) GRID CELLS */
+    div.cell:nth-child(even) {
+      background: {{ purple-300 }};
+    }
+    div.cell:nth-child(odd) {
+      background: {{ purple-200 }};
+    }
+
     div.cell {
-      background: LightBlue;
-      border: 1px solid Blue;
       padding: 10px;
+      align-self: center;
+      text-align: center;
+    }
+
+    .cell > img {
+      height: auto;
+      max-width: 60vw;
+      width: 9vw;
+      padding: 1vw;
     }
 
     /* (C) RESPONSIVE - 1 COLUMN ON SMALL SCREENS */
