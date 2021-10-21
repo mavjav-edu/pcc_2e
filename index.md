@@ -10,15 +10,13 @@ has_children: true
 
 ## A Hands-On, Project-Based Introduction to Programming
 
-[<img src="./images/cover.jpg" width="128"/>]([https://link](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl))
+[<img src="./images/cover.jpg" width="128"/>](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl)
 
 This is a tutoring curriculum for learning Python using [Python Crash Course, 2nd Edition](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl), an introductory programming book from [No Starch Press](http://www.nostarch.com/pythoncrashcourse/) by [Eric Matthes](https://github.com/ehmatthes).
 
 ### Contact
 
-If you have any questions about Python Crash Course, please  [join the Discord server](https://discord.gg/KzzTBbr), contact [Mavaddat](https://www.mavaddat.ca), or get in touch with the book's author:
-
-[📧 `ehmatthes@gmail.com`](mailto:ehmatthes@gmail.com)
+If you have any questions about Python Crash Course, please  [join the Discord server](https://discord.gg/KzzTBbr), contact [Mavaddat](https://www.mavaddat.ca), or get in touch with the book's author, [📧 `ehmatthes@gmail.com`](mailto:ehmatthes@gmail.com).
 
 [<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" width="15"/>  @ehmatthes](http://twitter.com/ehmatthes/)
 <img src="https://pbs.twimg.com/profile_images/1153801365543538688/6ZRVUWah.png"  width="20vw">

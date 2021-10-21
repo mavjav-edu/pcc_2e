@@ -10,11 +10,11 @@
   {% endif %}
   {% endunless %}
 
-  <link rel="shortcut icon" href="{{ 'favicon.ico' | relative_url }}" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32x32.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ 'favicon-16x16.png' | relative_url }}">
-  <link rel="manifest" href="{{ 'site.webmanifest' | relative_url }}">
+  <link rel="shortcut icon" href="{{ './favicon.ico' | relative_url }}" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ './apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ './favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ './favicon-16x16.png' | relative_url }}">
+  <link rel="manifest" href="{{ './site.webmanifest' | relative_url }}">
 
   <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
 
@@ -28,11 +28,11 @@
     }
     gtag('js', new Date());
 
-    { % if site.ga_tracking_anonymize_ip != nil % }
+    {% if site.ga_tracking_anonymize_ip != nil %}
     gtag('config', '{{ site.ga_tracking }}', { 'anonymize_ip': true } );
-    { % else % }
+    {% else %}
     gtag('config', '{{ site.ga_tracking }}');
-    { % endif % }
+    {% endif %}
   </script>
 
   {% endif %}
@@ -40,10 +40,13 @@
   <style>
     /* (A) GRID CONTAINER */
     #grid-col {
-      grid-template-columns: auto auto auto;
-      grid-auto-flow: dense;
-      grid: 270px 270px / repeat(4, 270px);
-      justify-content: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-auto-flow: column;
+      align-content: space-evenly;
+      align-items: center;
+      justify-items: center;
     }
 
     /* (B) GRID CELLS */
