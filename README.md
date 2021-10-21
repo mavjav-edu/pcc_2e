@@ -1,5 +1,5 @@
 # Python Crash Course
-
+[![Jekyll site CI](https://github.com/mavjav-edu/pcc_2e/actions/workflows/jekyll.yml/badge.svg?branch=gh-pages)](https://github.com/mavjav-edu/pcc_2e/actions/workflows/jekyll.yml)
 ## A Hands-On, Project-Based Introduction to Programming
 
 Are you new to Python programming?
