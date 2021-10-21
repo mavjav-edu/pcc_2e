@@ -3,26 +3,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
   {% unless site.plugins contains "jekyll-seo-tag" %}
-    <title>{{ page.title }} - {{ site.title }}</title>
+  <title>{{ page.title }} - {{ site.title }}</title>
 
-    {% if page.description %}
-      <meta name="Description" content="{{ page.description }}">
-    {% endif %}
+  {% if page.description %}
+  <meta name="Description" content="{{ page.description }}">
+  {% endif %}
   {% endunless %}
 
   <link rel="shortcut icon" href="{{ 'favicon.ico' | relative_url }}" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png`' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32x32.png`' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ 'favicon-16x16.png`' | relative_url }}">
+  <link rel="manifest" href="{{ 'site.webmanifest`' | relative_url }}">
 
   <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
 
   {% if site.ga_tracking != nil %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-      gtag('config', '{{ site.ga_tracking }}'{% unless site.ga_tracking_anonymize_ip == nil %}, { 'anonymize_ip': true }{% endunless %});
-    </script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.ga_tracking }}' {
+      % unless site.ga_tracking_anonymize_ip == nil %
+    }, {
+      'anonymize_ip': true
+    } {
+      % endunless %
+    });
+  </script>
 
   {% endif %}
   {% if page.url == "/chapter_12/images/" %}
@@ -32,6 +45,7 @@
       display: grid;
       grid-template-columns: auto auto;
     }
+
     /* (B) GRID CELLS */
     div.cell {
       background: LightBlue;
@@ -48,7 +62,7 @@
   </style>
   {% endif %}
   {% if site.search_enabled != false %}
-    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
   {% endif %}
   <script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
 
