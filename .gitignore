@@ -1,0 +1,16 @@
+__pycache__/
+
+*.pyc
+notes/
+
+*_env/
+*_env*/
+
+*.DS_Store
+
+_site/
+
+.sass-cache/
+
+.jekyll-metadata
+node_modules
