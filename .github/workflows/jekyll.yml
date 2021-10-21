@@ -13,9 +13,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: ruby/setup-ruby@v1.84.0
       with:
         submodules: true
+    - uses: ruby/setup-ruby@v1.84.0
+      with:
         bundler: 'Gemfile.lock'
     - name: Build the site in the jekyll/builder container
       run: |
