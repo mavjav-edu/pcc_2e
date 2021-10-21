@@ -39,4 +39,4 @@ Everything in the Learning Log project (Chapters 18-20) should work on Django 3.
 
 ---
 
-If you find an error in the book or can't get something to work, please let me know! You can reach me through email at ehmatthes@gmail.com, or on Twitter at [@ehmatthes](https://twitter.com/ehmatthes).
+If you find an error in the book or can't get something to work, please let me know! You can reach me through email at <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a> , or on Twitter at [@ehmatthes](https://twitter.com/ehmatthes).

@@ -16,7 +16,7 @@ For many interesting challenges, a fully-specified problem description would be 
 
 Before trying any of the more complex challenges, consider working through Appendix D, *Using Git for Version Control*. Using a version control system is critical when working on projects where you could easily make a mistake at some point, but won't want to start over from scratch.
 
-If you have suggestions or feedback on any of these, please feel free to [get in touch](/). Good luck, and have fun!
+If you have suggestions or feedback on any of these, please feel free to [get in touch](/contact). Good luck, and have fun!
 
 ---
 
