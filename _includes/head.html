@@ -28,9 +28,11 @@
     }
     gtag('js', new Date());
 
-    { % unless site.ga_tracking_anonymize_ip == nil % }
+    { % if site.ga_tracking_anonymize_ip != nil % }
     gtag('config', '{{ site.ga_tracking }}', { 'anonymize_ip': true } );
-    { % endunless % }
+    { % else % }
+    gtag('config', '{{ site.ga_tracking }}');
+    { % endif % }
   </script>
 
   {% endif %}
