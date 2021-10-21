@@ -23,8 +23,8 @@ jobs:
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future --trace"
+        -v ${{ github.workspace }}:/vendor/bundle/jekyll -v ${{ github.workspace }}/_site:/vendor/bundle/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /vendor/bundle/jekyll && jekyll build --future --trace"
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
