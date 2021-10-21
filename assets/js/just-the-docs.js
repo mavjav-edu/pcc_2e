@@ -5,11 +5,14 @@
 // Event handling
 
 jtd.addEvent = function(el, type, handler) {
-  //Check if el is not null
-  if (el !== null && el.attachEvent) el.attachEvent('on'+type, handler); else el.addEventListener(type, handler);
+  //return if el is null
+  if (el === null) {
+    return;
+  }
+  if (el.attachEvent) el.attachEvent('on'+type, handler); else el.addEventListener(type, handler);
 }
 jtd.removeEvent = function(el, type, handler) {
-  if (el !== null && el.detachEvent) el.detachEvent('on'+type, handler); else el.removeEventListener(type, handler);
+  if (el.detachEvent) el.detachEvent('on'+type, handler); else el.removeEventListener(type, handler);
 }
 jtd.onReady = function(ready) {
   // in case the document is already rendered
