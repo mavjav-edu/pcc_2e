@@ -11,9 +11,9 @@
   {% endunless %}
 
   <link rel="shortcut icon" href="{{ 'favicon.ico' | relative_url }}" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png`' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32x32.png`' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ 'favicon-16x16.png`' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ 'favicon-16x16.png' | relative_url }}">
   <link rel="manifest" href="{{ 'site.webmanifest' | relative_url }}">
 
   <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
@@ -42,6 +42,8 @@
     #grid-col {
       grid-template-columns: auto auto auto;
       grid-auto-flow: dense;
+      grid: 270px 270px / repeat(4, 270px);
+      justify-content: center;
     }
 
     /* (B) GRID CELLS */
