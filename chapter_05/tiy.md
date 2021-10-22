@@ -1,4 +1,9 @@
-# If Statements
+---
+layout: default
+title:  If Statements
+nav_exclude: true
+parent: Home
+---
 
 Programming often involves examining a set of conditions and deciding
 which action to take based on those conditions. Python’s `if` statement allows you to examine the current
