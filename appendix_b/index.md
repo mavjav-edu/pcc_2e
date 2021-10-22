@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  $1
+title:  Text Editors
 nav_exclude: true
 parent: Home
 ---

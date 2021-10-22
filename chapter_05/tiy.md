@@ -67,7 +67,7 @@ it is, print a message that the player just earned 5 points.
 another that fails. (The version that fails will have no output.)
 
 <span id="ch5exe4"></span>**5-4. Alien Colors #2:** Choose a color for
-an alien as you did in [Exercise 5-3](../chapter_05/tiy-ch05.md), and write an
+an alien as you did in [Exercise 5-3](../chapter_05/tiy.md), and write an
 `if`-`else` chain.
 
 - If the alien&rsquo;s color is green, print a statement that the player just
@@ -81,7 +81,7 @@ that runs the `else` block.
 
 <span id="page_89"></span><span id="ch5exe5"></span>**5-5. Alien Colors
 
-#3:** Turn your `if`-`else` chain from [Exercise 5-4](../chapter_05/tiy-ch05.md)
+#3:** Turn your `if`-`else` chain from [Exercise 5-4](../chapter_05/tiy.md)
 into an `if`-`elif-else` chain.
 
 - If the alien is green, print a message that the player earned 5
