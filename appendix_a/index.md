@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  $1
+title:  Installing Python
 nav_exclude: true
 parent: Home
 ---

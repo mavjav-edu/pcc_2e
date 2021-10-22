@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  $1
+title:  Using Git For Version Control
 nav_exclude: true
 parent: Home
 ---

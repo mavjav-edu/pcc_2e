@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  $1
+title:  Getting Help
 nav_exclude: true
 parent: Home
 ---
