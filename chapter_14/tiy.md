@@ -1,8 +1,7 @@
 ---
 layout: default
-title:  $1
+title:  Scoring
 nav_exclude: true
-parent: Home
 ---
 
 In this chapter we’ll finish the Alien Invasion game. We’ll add a Play
@@ -32,8 +31,8 @@ reappear. Let the player restart the game with this Play button.
 ## TRY IT YOURSELF #2
 
 <span id="ch14exe3"></span>**14-3. Challenging Target Practice:** Start
-with your work from [Exercise 14-2](../chapter_14/tiy.md) ([page
-298](../chapter_14/tiy.md#page_298)). Make the target move faster as the game
+with your work from [Exercise 14-2](../chapter_14/tiy-ch14.md) ([page
+298](../chapter_14/tiy-ch14.md#page_298)). Make the target move faster as the game
 progresses, and restart at the original speed when the player clicks
 Play.
 

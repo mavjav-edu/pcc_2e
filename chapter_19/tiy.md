@@ -1,8 +1,7 @@
 ---
 layout: default
-title:  $1
+title:  User Accounts
 nav_exclude: true
-parent: Home
 ---
 
 At the heart of a web application is the ability for any user, anywhere
@@ -28,7 +27,7 @@ posts. Fill in your forms to make sure they work.
 
 <span id="ch19exe2"></span>**19-2. Blog Accounts:** Add a user
 authentication and registration system to the Blog project you started
-in [Exercise 19-1](../chapter_19/tiy.md) ([page 438](../chapter_19/tiy.md)).
+in [Exercise 19-1](../chapter_19/tiy-ch19.md) ([page 438](../chapter_19/tiy-ch19.md)).
 Make sure logged-in users see their username somewhere on the screen and
 unregistered users see a link to the registration page.
 

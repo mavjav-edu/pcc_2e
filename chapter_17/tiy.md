@@ -1,8 +1,7 @@
 ---
 layout: default
-title:  $1
+title:  Working With Apis
 nav_exclude: true
-parent: Home
 ---
 
 In this chapter you’ll learn how to write a self-contained program to
