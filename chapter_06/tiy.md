@@ -2,6 +2,7 @@
 layout: default
 title:  Dictionaries
 nav_exclude: true
+parent: Home
 ---
 
 In this chapter you’ll learn how to use Python’s dictionaries, which

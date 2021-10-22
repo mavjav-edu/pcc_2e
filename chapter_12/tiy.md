@@ -3,6 +3,7 @@ layout: default
 title: A Ship That Fires Bullets
 nav_exclude: true
 parent: Home
+parent: Home
 has_children: true
 ---
 

@@ -2,6 +2,7 @@
 layout: default
 title:  Working With Lists
 nav_exclude: true
+parent: Home
 ---
 In [Chapter 3](../chapter_03/tiy-ch03.md) you learned how to make a simple list,
 and you learned to work with the individual elements in a list. In this

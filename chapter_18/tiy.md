@@ -2,6 +2,7 @@
 layout: default
 title:  Getting Started With Django
 nav_exclude: true
+parent: Home
 ---
 
 Behind the scenes, today’s websites are actually rich applications that

@@ -2,6 +2,7 @@
 layout: default
 title:  Classes
 nav_exclude: true
+parent: Home
 ---
 
 *Object-oriented programming* is one of the most effective approaches to

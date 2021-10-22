@@ -2,6 +2,7 @@
 layout: default
 title:  Getting Started
 nav_exclude: true
+parent: Home
 ---
 
 In this chapter you’ll run your first Python program, *hello_world.py*.

@@ -2,6 +2,7 @@
 layout: default
 title:  Aliens!
 nav_exclude: true
+parent: Home
 ---
 
 In this chapter we’ll add aliens to Alien Invasion. First, we’ll add one

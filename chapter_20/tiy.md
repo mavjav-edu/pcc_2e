@@ -2,6 +2,7 @@
 layout: default
 title:  Styling And Deploying An App
 nav_exclude: true
+parent: Home
 ---
 
 Learning Log is fully functional now, but it has no styling and runs

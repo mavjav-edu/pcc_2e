@@ -2,6 +2,7 @@
 layout: default
 title:  Downloading Data
 nav_exclude: true
+parent: Home
 ---
 
 In this chapter you’ll download data sets from online sources and create

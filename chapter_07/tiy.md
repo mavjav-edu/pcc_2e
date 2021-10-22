@@ -2,6 +2,7 @@
 layout: default
 title:  User Input And While Loops
 nav_exclude: true
+parent: Home
 ---
 
 Most programs are written to solve an end user’s problem. To do so, you

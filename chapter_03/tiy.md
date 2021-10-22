@@ -2,6 +2,7 @@
 layout: default
 title:  Introducing Lists
 nav_exclude: true
+parent: Home
 ---
 
 In this chapter and the next you’ll learn what lists are and how to

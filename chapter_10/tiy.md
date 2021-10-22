@@ -2,6 +2,7 @@
 layout: default
 title:  Files And Exceptions
 nav_exclude: true
+parent: Home
 ---
 
 Now that you’ve mastered the basic skills you need to write organized

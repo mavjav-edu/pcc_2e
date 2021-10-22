@@ -2,6 +2,7 @@
 layout: default
 title:  Functions
 nav_exclude: true
+parent: Home
 ---
 
 In this chapter you’ll learn to write *functions*, which are named

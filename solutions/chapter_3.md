@@ -2,6 +2,7 @@
 layout: default
 title: Chapter 3
 parent: Solutions
+grand_parent: Home
 nav_order: 20
 ---
 

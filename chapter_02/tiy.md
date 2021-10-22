@@ -2,6 +2,7 @@
 layout: default
 title:  Variables And Simple Data Types
 nav_exclude: true
+parent: Home
 ---
 
 In this chapter you’ll learn about the different kinds of data you can

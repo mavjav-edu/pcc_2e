@@ -2,6 +2,7 @@
 layout: default
 title:  User Accounts
 nav_exclude: true
+parent: Home
 ---
 
 At the heart of a web application is the ability for any user, anywhere

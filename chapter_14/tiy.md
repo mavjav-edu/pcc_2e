@@ -2,6 +2,7 @@
 layout: default
 title:  Scoring
 nav_exclude: true
+parent: Home
 ---
 
 In this chapter we’ll finish the Alien Invasion game. We’ll add a Play
