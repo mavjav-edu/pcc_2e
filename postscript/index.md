@@ -1,11 +1,11 @@
 ---
 layout: default
-title:  Using Git For Version Control
+title:  Afterward
 nav_exclude: true
 parent: Home
 ---
 
-Congratulations! You’ve learned the basics of Python and applied your
+Congratulations! 🎉 You’ve learned the basics of Python and applied your
 knowledge to meaningful projects. You’ve made a game, visualized some
 data, and made a web application. From here, you can go in a number of
 different directions to continue developing your programming skills.

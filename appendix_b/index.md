@@ -17,10 +17,8 @@ but doesn’t have a steep learning curve. It’s also good to know a little
 about more advanced editors so you’ll know when to consider upgrading.
 
 We’ll look at a quality editor for each of the main operating systems:
-Geany for beginners working on Linux or Windows, and Sublime Text for OS
-X (though it also works well on Linux and Windows). We’ll also look at
-IDLE, the editor that comes with Python by default. Finally, we’ll look
-at Emacs and vim, two advanced editors you’ll hear frequently mentioned
+
+Finally, we’ll look at Emacs and vim, two advanced editors you’ll hear frequently mentioned
 as you spend more time programming. We’ll use *hello_world.py* as an
 example program to run in each editor.
 
