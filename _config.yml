@@ -32,7 +32,7 @@ aux_links:
     - "//github.com/mavjav-edu/pcc_2e"
 
 # Color scheme currently only supports "dark" or nil (default)
-color_scheme: nil
+color_scheme: dark
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89

@@ -36,6 +36,12 @@
    #grid-col {
      grid-template-columns: 100%;
    }
+
+   .cell>img {
+     max-width: 100vw;
+     width: 64vw;
+   }
+
  }
 
  img.email {
