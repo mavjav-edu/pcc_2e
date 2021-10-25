@@ -40,11 +40,6 @@
 
  img.email {
    display: inline;
-   position: sticky;
    max-height: 3rem;
-   margin-bottom: calc(-1rem - 0.5vh);
    max-width: 17rem;
-   object-fit: cover;
-   overflow: hidden;
-   object-position: center;
  }
