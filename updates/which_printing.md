@@ -2,6 +2,9 @@
 layout: default
 title: Which printing do I have?
 parent: Updates
+grand_parent: Home
+parent: Updates
+grand_parent: Home
 nav_order: 100
 ---
 

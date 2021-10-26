@@ -2,6 +2,9 @@
 layout: default
 title: Django 3.2
 parent: Updates
+grand_parent: Home
+parent: Updates
+grand_parent: Home
 nav_order: 1010
 ---
 

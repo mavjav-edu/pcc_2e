@@ -2,6 +2,9 @@
 layout: default
 title: Third printing
 parent: Updates
+grand_parent: Home
+parent: Updates
+grand_parent: Home
 nav_order: 30
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Django 3.1
+parent: Updates
+grand_parent: Home
 nav_exclude: true
 ---
 

@@ -2,6 +2,7 @@
 layout: default
 title: Updates
 nav_order: 50
+parent: Home
 has_children: true
 has_toc: false
 ---

@@ -2,6 +2,7 @@
 layout: default
 nav_exclude: true
 parent: Updates
+grand_parent: Home
 nav_order: 1000
 ---
 
