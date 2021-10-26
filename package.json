@@ -2,17 +2,43 @@
   "name": "just-the-docs",
   "version": "0.2.3",
   "description": "A modern Jekyll theme for documentation",
-  "repository": "pmarsceill/just-the-docs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmarsceill/just-the-docs.git"
+  },
   "license": "MIT",
-  "bugs": "https://github.com/pmarsceill/just-the-docs/issues",
+  "bugs": {
+    "url": "https://github.com/pmarsceill/just-the-docs/issues"
+  },
   "devDependencies": {
-    "stylelint": "^9.10.1",
-    "stylelint-config-primer": "^3.0.1"
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "stylelint": "^14.0.0",
+    "stylelint-config-primer": "^11.1.1"
   },
   "dependencies": {
-    "lunr": "^2.3.9"
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "glob": "^7.2.0",
+    "lunr": "^2.3.9",
+    "rollup": "^2.58.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
   },
   "scripts": {
-    "test": "stylelint '**/*.scss'"
-  }
+    "test": "stylelint '**/*.scss'",
+    "watch": "bundle exec jekyll serve",
+    "build": "npm run build:scripts && bundle exec jekyll build",
+    "watch:scripts": "npm run build:scripts -- -w",
+    "build:scripts": "rollup -c"
+  },
+  "homepage": "https://github.com/pmarsceill/just-the-docs#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": ""
 }
