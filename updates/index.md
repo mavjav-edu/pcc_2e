@@ -8,17 +8,17 @@ has_toc: false
 
 # Updates
 
-When looking for updates it's helpful to know which printing you're working from, as minor corrections are made every time the book goes through another print run. Right now, the book is on its sixth printing. You can see which printing you have by looking on the copyright page, which is on the [back of the second page in the physical book](../which_printing/).
+When looking for updates it's helpful to know which printing you're working from, as minor corrections are made every time the book goes through another print run. Right now, the book is on its sixth printing. You can see which printing you have by looking on the copyright page, which is on the [back of the second page in the physical book]({{ /updates/which_printing | relative_url }}).
 
-- [First printing](../first_printing/)
-- [Second printing](../second_printing/)
-- [Third printing](../third_printing/)
-- [Fourth printing](../fourth_printing/)
-- [Fifth printing](../fifth_printing/)
-- [Sixth printing](../sixth_printing/)
-- [Seventh printing](../seventh_printing/)
-- [Eighth printing](../eighth_printing/)
-- [Ninth printing](../ninth_printing/)
+- [First printing]({{ /updates/first_printing | relative_url }})
+- [Second printing]({{ /updates/second_printing | relative_url }})
+- [Third printing]({{ /updates/third_printing | relative_url }})
+- [Fourth printing]({{ /updates/fourth_printing | relative_url }})
+- [Fifth printing]({{ /updates/fifth_printing | relative_url }})
+- [Sixth printing]({{ /updates/sixth_printing | relative_url }})
+- [Seventh printing]({{ /updates/seventh_printing | relative_url }})
+- [Eighth printing]({{ /updates/eighth_printing | relative_url }})
+- [Ninth printing]({{ /updates/ninth_printing | relative_url }})
 
 
 ---
@@ -27,15 +27,15 @@ When looking for updates it's helpful to know which printing you're working from
 
 ### Python 3.9 is out
 
-The latest version of Python 3.9 was released on October 5th, 2020. Read [more about the Python 3.9 release](../python3_9/).
+The latest version of Python 3.9 was released on October 5th, 2020. Read [more about the Python 3.9 release]({{ /updates/python3_9 | relative_url }}).
 
 Everything in the book works with Python 3.9.
 
 ### Django 3.2 is out
 
-Django 3.2 was released in April 2021. Read [more about this release](../django3_2).
+Django 3.2 was released in April 2021. Read [more about this release]({{ /updates/django3_2 | relative_url }}).
 
-Everything in the Learning Log project (Chapters 18-20) should work on Django 3.2, with only minor changes in the second half of Chapter 20. For these updates, see the section [Deploying to Heroku](../django3_2).
+Everything in the Learning Log project (Chapters 18-20) should work on Django 3.2, with only minor changes in the second half of Chapter 20. For these updates, see the section [Deploying to Heroku]({{ /updates/django3_2 | relative_url }}).
 
 ---
 
