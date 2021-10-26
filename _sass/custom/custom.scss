@@ -1,4 +1,4 @@
- /* (A) GRID CONTAINER */
+ /* grid container */
  #grid-col {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -9,7 +9,7 @@
    justify-items: center;
  }
 
- /* (B) GRID CELLS */
+ /* grid cells */
  div.cell:nth-child(even) {
    background: $purple-200;
  }
@@ -31,7 +31,7 @@
    padding: 1vw;
  }
 
- /* (C) RESPONSIVE - 1 COLUMN ON SMALL SCREENS */
+ /* responsive - 1 column on small screens */
  @media screen and (max-width: 640px) {
    #grid-col {
      grid-template-columns: 100%;
@@ -46,6 +46,5 @@
 
  img.email {
    display: inline;
-   max-height: 3rem;
-   max-width: 17rem;
+   filter:  invert(7%) sepia(100%) saturate(7258%) hue-rotate(247deg) brightness(106%) contrast(143%); // #0000ff
  }
