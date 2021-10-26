@@ -47,4 +47,9 @@
  img.email {
    display: inline;
    filter:  invert(7%) sepia(100%) saturate(7258%) hue-rotate(247deg) brightness(106%) contrast(143%); // #0000ff
+   font-size: $root-font-size;
+   max-height: $content-line-height;
+   line-height: $content-line-height;
+
+
  }
