@@ -1,5 +1,13 @@
 {% if site.logo %}
-  <div class="site-logo"></div>
+  <div class="site-logo"><img
+sizes="(max-width: 1380px) 100vw, 1380px"
+srcset="
+{{ '/assets/images/pcc_logo_cysvew_c_scale,w_50.png' | relative_url }} 50w,
+{{ '/assets/images/pcc_logo_cysvew_c_scale,w_614.png' | relative_url }} 614w,
+{{ '/assets/images/pcc_logo_cysvew_c_scale,w_981.png' | relative_url }} 981w,
+{{ '/assets/images/pcc_logo_cysvew_c_scale,w_1380.png' | relative_url }} 1380w"
+src="{{ '/assets/images/pcc_logo_cysvew_c_scale,w_1380.png' | relative_url }}"
+alt=""></div>
 {% else %}
   {{ site.title }}
 {% endif %}
