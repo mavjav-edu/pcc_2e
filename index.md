@@ -15,9 +15,9 @@ has_children: true
         <img
         sizes="(max-width: 300px) 100vw, 300px"
         srcset="
-        '/assets/images/cover_g9giob_c_scale,w_200.png' 200w,
-        '/assets/images/cover_g9giob_c_scale,w_300.png' 300w"
-        src="/assets/images/cover_g9giob_c_scale,w_300.png"
+        {{ '/assets/images/cover_g9giob_c_scale,w_200.png' | relative_url }} 200w,
+        {{ '/assets/images/cover_g9giob_c_scale,w_300.png' | relative_url }} 300w"
+        src="{{ '/assets/images/cover_g9giob_c_scale,w_300.png' | relative_url }}"
         alt="Two printed copies of the book, 'Python Crash Course 2e', lying on a surface"/>
         <caption>Two printed copies of the book, 'Python Crash Course 2e', lying on a surface</caption>
     </picture>
@@ -98,7 +98,15 @@ Students will be assigned chapters from this book using [GitHub classroom](https
 
 If you are not a student, a direct way to get these online resources is to download as a ZIP file.
 
-![Click the Download ZIP Option]({{ '/assets/images/download_zip.png' | relative_url }})
+<picture>
+<img
+sizes="(max-width: 360px) 100vw, 360px"
+srcset="
+{{ '/assets/images/download_zip_vyd8au_c_scale,w_100.png' | relative_url }} 100w,
+{{ '/assets/images/download_zip_vyd8au_c_scale,w_268.png' | relative_url }} 268w,
+{{ '/assets/images/download_zip_vyd8au_c_scale,w_360.png' | relative_url }} 360w"
+src="{{ '/assets/images/download_zip_vyd8au_c_scale,w_360.png' | relative_url }}"
+ alt="Screenshot downloading zip of code in GitHub repository" title="Click the Download ZIP Option"/><caption>Screenshot downloading zip of code in GitHub repository</caption></picture>
 
 Click on the [_Download ZIP_](https://github.com/mavjav-edu/pcc_2e/archive/master.zip) button on the upper right side of [this page](https://github.com/mavjav-edu/pcc_2e), which will download the source code files (and other resources) for the entire book.
 
