@@ -1,6 +1,5 @@
 {% if site.logo %}
   <div class="site-logo">
-    {% assign logo_imgs = site.static_files | where_exp "item", "item.path contains 'assets\images\'" %}
     <img sizes="(max-width: 1380px) 100vw, 1380px"
 srcset="{{ '/assets/images/pcc_logo_csyivv_c_scale,w_50.png' | relative_url }} 50w,
 {{ '/assets/images/pcc_logo_csyivv_c_scale,w_508.png' | relative_url }} 508w,

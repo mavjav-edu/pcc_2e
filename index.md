@@ -10,16 +10,20 @@ has_children: true
 
 ## A Hands-On, Project-Based Introduction to Programming
 
-[<img src="./images/cover.jpg" width="128"/>](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl)
+<a href="https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl" target="_blank">
+    <picture>
+        <img
+        sizes="(max-width: 300px) 100vw, 300px"
+        srcset="
+        '/assets/images/cover_g9giob_c_scale,w_200.png' 200w,
+        '/assets/images/cover_g9giob_c_scale,w_300.png' 300w"
+        src="/assets/images/cover_g9giob_c_scale,w_300.png"
+        alt="Two printed copies of the book, 'Python Crash Course 2e', lying on a surface"/>
+        <caption>Two printed copies of the book, 'Python Crash Course 2e', lying on a surface</caption>
+    </picture>
+</a>
 
 This is a tutoring curriculum for learning Python using [Python Crash Course, 2nd Edition](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl), an introductory programming book from [No Starch Press](http://www.nostarch.com/pythoncrashcourse/) by [Eric Matthes](https://github.com/ehmatthes).
-
-### Contact
-
-If you have any questions about Python Crash Course, please  [join the Discord server](https://discord.gg/KzzTBbr), contact [Mavaddat](https://www.mavaddat.ca), or get in touch with the book's author, 📧 <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a>.
-
-[<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" width="15"/>  @ehmatthes](http://twitter.com/ehmatthes/)
-<img src="https://pbs.twimg.com/profile_images/1153801365543538688/6ZRVUWah.png"  width="20vw">
 
 ### Get Started
 
@@ -27,10 +31,10 @@ If you are a student following this curriculum for the first time, please jump t
 
 ### Homework
 
-<a href="try_it_yourself"></a>Exercises ✍🏽
----
+## <a href="try_it_yourself"></a>Exercises ✍🏽
+
 The book has several sections that reinforce learning through exercises. Practice what you just read where you see:
-<img src="./images/tiy.svg"   width="188vw" alt="'Try It Yourself' in Adobe Dogma typeface"/>
+<img src="{{ '/assets/images/tiy.svg' | relative_url }}"   width="188vw" alt="'Try It Yourself' in Adobe Dogma typeface"/>
 
 - Getting Started \([Chapter 1](/chapter_01/tiy.md)\)
 
@@ -88,26 +92,33 @@ Here you can find instructions for:
 - [Creating a Virtual Environment](/chapter_18/tiy.md)&#09;(Chapter 18)
 - [Deploying a Project to Heroku](/chapter_20/tiy.md)&#09;(Chapter 20)
 
-<a href="source_code"></a>Downloading source code
----
-A direct way to get these online resources is to download as a ZIP file. 
+## <a href="source_code"></a>Downloading source code
+
+Students will be assigned chapters from this book using [GitHub classroom](https://classroom.github.com/classrooms/49895023-python-with-mavi). <img src="https://avatars.githubusercontent.com/in/68187?s=120" alt="GitHub classroom logo" width="120px"/>
+
+If you are not a student, a direct way to get these online resources is to download as a ZIP file.
 
 ![Click the Download ZIP Option]({{ '/assets/images/download_zip.png' | relative_url }})
 
-Click on the [*Download ZIP*](https://github.com/mavjav-edu/pcc_2e/archive/master.zip) button on the upper right side of [this page](https://github.com/mavjav-edu/pcc_2e), which will download the source code files (and other resources) for the entire book.
+Click on the [_Download ZIP_](https://github.com/mavjav-edu/pcc_2e/archive/master.zip) button on the upper right side of [this page](https://github.com/mavjav-edu/pcc_2e), which will download the source code files (and other resources) for the entire book.
 
 A more flexible way is to [fork this repository and clone it](https://guides.github.com/activities/forking/) to your local computer using `git`.
 
-[Cheat Sheets](/cheat_sheets/index.md)
----
+## [Cheat Sheets](/cheat_sheets/index.md)
 
 Cheat sheets can be really helpful when you're working on a set of programming exercises or a project. This set of [cheat sheets](/cheat_sheets/index.md) will help remind you of the concepts you're learning, as well as the Python syntax for these concepts.
 
-[Updates](/updates/index.md)
----
+## [Updates](/updates/index.md)
 
 Some of the [PyPI](https://en.wikipedia.org/wiki/Python_Package_Index) libraries featured in the book have been updated recently, which is a good thing &mdash; it means that the Python packages you're learning to use are being steadily improved.
 
 When packages are updated you have the option of using the version that was featured in the book, which lets you run code exactly as it's written in the book. You can also choose to install the latest version of each package, and modify the code in the book slightly. Each approach is outlined clearly in these updates.
 
 A list of updates is kept [here](/updates/index.md).
+
+### Contact
+
+If you have any questions about Python Crash Course, please [join the Discord server](https://discord.gg/KzzTBbr), contact [Mavaddat](https://www.mavaddat.ca), or get in touch with the book's author, 📧 <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a>.
+
+[<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" alt="Twitter logo" width="15"/> @ehmatthes](http://twitter.com/ehmatthes/)
+<img src="https://pbs.twimg.com/profile_images/1153801365543538688/6ZRVUWah.png" title="the author on Twitter" alt="the author's Twitter profile image" width="20vw"/>
