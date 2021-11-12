@@ -30,7 +30,7 @@ random_number = randint(-10,10)
 ```
 
 This code returns a random integer between -10 and 10. Using your code
-in [Exercise 13-1](../chapter_13/tiy.md), adjust each star&rsquo;s position by a
+in [Exercise 13-1](../../chapter_13/tiy.md), adjust each star&rsquo;s position by a
 random amount.
 
 ## TRY IT YOURSELF #2
@@ -40,7 +40,7 @@ raindrop and create a grid of raindrops. Make the raindrops fall toward
 the bottom of the screen until they disappear.
 
 <span id="ch13exe4"></span>**13-4. Steady Rain:** Modify your code in
-[Exercise 13-3](../chapter_13/tiy.md) so that when a row of raindrops
+[Exercise 13-3](../../chapter_13/tiy.md) so that when a row of raindrops
 disappears off the bottom of the screen, a new row appears at the top of
 the screen and begins to fall.
 
@@ -60,7 +60,7 @@ the bottom of the screen.
 ## TRY IT YOURSELF #4
 
 <span id="ch13exe6"></span>**13-6. Game Over:** Using your code from
-[Exercise 13-5](../chapter_13/tiy.md) ([page 284](../chapter_13/tiy.md)),
+[Exercise 13-5](../../chapter_13/tiy.md) ([page 284](../../chapter_13/tiy.md)),
 keep track of the number of times the player misses the ball. When
 they&rsquo;ve missed the ball three times, end the game.
 

@@ -37,7 +37,7 @@ I would love to include profiles of a few readers who started with PCC and have 
 - [Django Chat](https://djangochat.com/) - a weekly podcast, co-hosted by Will and Carlton Gibson
 - [Django News](https://django-news.com/) - a weekly newsletter about recent Django news, articles, and projects
 - [How Django Works Behind the Scenes](https://wsvincent.com/how-django-works-behind-the-scenes/) - a recent post that explains some of the ways that Django is run, technically and organizationally
-- [Flask vs Django (2020)](https://learndjango.com/blog/flask-vs-django) - I completely agree with the reasoning here, and this is why Python Crash Course continues to use Django instead of Flask
+- [Flask vs Django (2020)](https://learndjango.com/tutorials/flask-vs-django) - I completely agree with the reasoning here, and this is why Python Crash Course continues to use Django instead of Flask
 
 ## Coming Soon
 

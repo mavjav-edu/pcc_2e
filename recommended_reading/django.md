@@ -10,7 +10,7 @@ nav_order: 40
 
 Django has been one of the most prominent Python web frameworks for almost 15 years now. Django is downloaded about 200,000 times each day, and powers millions of websites. You can use it for small projects where you're the only user, or for projects that just serve the teams you work with. But it's also powerful enough to serve some of the most popular sites on the internet such as Instagram, Pinterest, and Disqus.
 
-You can use books to get started with Django, but once you learn the overall structure of Django projects and how to do common tasks, you'll want to become familiar with the official documenation and some other online resources. Django has some of the best documentation of any open source project, and it's well worth your time to become familiar wtih it. This section will help you find some good followup resources after working through the Learning Log project, and also familiarize you with resources you're likely to use as long as you're an active Django developer.
+You can use books to get started with Django, but once you learn the overall structure of Django projects and how to do common tasks, you'll want to become familiar with the official documentation and some other online resources. Django has some of the best documentation of any open source project, and it's well worth your time to become familiar with it. This section will help you find some good follow-up resources after working through the Learning Log project, and also familiarize you with resources you're likely to use as long as you're an active Django developer.
 
 Note: Some of the resources mentioned in the [General Python Resources](../general_python/) have sections that are relevant to Django developers. I won't repeat those resources here, but you should check them out as well.
 
@@ -21,7 +21,7 @@ Note: Some of the resources mentioned in the [General Python Resources](../gener
 
 ## The Official Django Tutorial (The Polls Tutorial)
 
-The Django documentation includes an in-depth tutorial that's really worth going through. In fact, I highly recommend it as your next step after completing the Learning Log project. You'll be familiar wtih much of what you see, but you'll also learn more details about many aspects of Django, and see some new features as well. For example you'll see how to test your Django apps, which is absolutely critical for many webapp-based projects. The tutorial also has links to the technical documentation throughout, which is a great way to start exploring the technical documentation.
+The Django documentation includes an in-depth tutorial that's really worth going through. In fact, I highly recommend it as your next step after completing the Learning Log project. You'll be familiar with much of what you see, but you'll also learn more details about many aspects of Django, and see some new features as well. For example you'll see how to test your Django apps, which is absolutely critical for many webapp-based projects. The tutorial also has links to the technical documentation throughout, which is a great way to start exploring the technical documentation.
 
 Almost everyone in the Django community has worked through the Polls tutorial at some point, and working through it gives you common ground in your early communication with other Django developers.
 
@@ -49,7 +49,7 @@ If you're interested in any of these books, you can see more about them and buy 
 
 Daniel and Audrey Feldroy are the authors of *Two Scoops of Django*, which focuses on more advanced aspects of Django. *Django Crash Course* (which has no affiliation with *Python Crash Course*) is their foray into introductory Django topics. *Django Crash Course* is based on materials that Daniel and Audrey have used for years in corporate training programs. They have repackaged their material to be accessible to anyone already familiar with Python, but not necessarily having a background in Django. They are planning a series of extensions to the book which will cover specific topics that build on the material in this book.
 
-*Django Crash Course* is available now as an ebook. You can preorder a paperback, coil-bound, or hardbound copy as well. All of these versions are available [here](https://www.feldroy.com/products/django-crash-course).
+*Django Crash Course* is available now as an e-book. You can preorder a paperback, coil-bound, or hardbound copy as well. All of these versions are available [here](https://www.feldroy.com/books/a-wedge-of-django).
 
 ![](../../images/recommended_reading/dcc_cover.png)
 
@@ -59,7 +59,7 @@ Daniel and Audrey Feldroy are the authors of *Two Scoops of Django*, which focus
 
 *Two Scoops of Django* is not a good resource to read immediately after *Python Crash Course*. It is, however, a really good book to be aware of as you gain more experience with Django. TSD is aimed at people who have built a number of Django projects, and are looking to better understand how to manage all the working parts of a significant webapp project built in Django. The recommendations in this book come from years of experiencing building and maintaining many Django-based sites of various sizes, and years of training professional Django developers.
 
-You can see a full table of contents and order an electronic version of the book [here](https://www.feldroy.com/collections/everything/products/two-scoops-of-django-3-x). A print version of the book should be available soon.
+You can see a full table of contents and order an electronic version of the book [here](https://www.feldroy.com/books/two-scoops-of-django-3-x). A print version of the book should be available soon.
 
 ![](../../images/recommended_reading/tsd_cover.jpg)
 
@@ -69,7 +69,7 @@ You can see a full table of contents and order an electronic version of the book
 
 Most Django projects are deployed to Linux-based servers, and if you're going to continue working with Django it will certainly help to be familiar with the Linux command line. Even if you deploy to a platform like Heroku that tries to automate most of the deployment work for you, you'll still need to use the command line at times to do things like creating a superuser on your live site, or run migrations. Even if you use Heroku's admin panel for some of these tasks, it's inevitable that at some point you'll need to use a command line for troubleshooting, or to run specific commands that don't have a browser-based GUI. *The Linux Command Line* is a great resource, and you can either read it straight through or skim it and focus on the sections that seem most relevant to your work.
 
-If you buy the book [direct from No Starch Press](https://nostarch.com/tlcl2) you get a free ebook with the printed copy. You can also buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/the-linux-command-line-2nd-edition-william-shotts/1132292602/) or [Amazon](https://www.amazon.com/Linux-Command-Line-2nd-Introduction-dp-1593279523/dp/1593279523/). You can see more information about using Linux at the author's site, [linuxcommand.org](http://linuxcommand.org/tlcl.php), where you can also download a free PDF version of the book.
+If you buy the book [direct from No Starch Press](https://nostarch.com/tlcl2) you get a free e-book with the printed copy. You can also buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/the-linux-command-line-2nd-edition-william-shotts/1132292602/) or [Amazon](https://www.amazon.com/Linux-Command-Line-2nd-Introduction-dp-1593279523/dp/1593279523/). You can see more information about using Linux at the author's site, [linuxcommand.org](http://linuxcommand.org/tlcl.php), where you can also download a free PDF version of the book.
 
 ![](../../images/recommended_reading/lcl_cover.jpg)
 
@@ -79,7 +79,7 @@ If you buy the book [direct from No Starch Press](https://nostarch.com/tlcl2) yo
 
 There's some overlap between this and *The Linux Command Line*, but if you enjoy learning about Linux this is another great book to read straight through, or skim and focus on the parts most relevant to your work. *How Linux Works* has been a mainstay in the Linux world for many years, and if you're continuing in web development it's well worth your time.
 
-If you buy the book [direct from No Starch Press](https://nostarch.com/howlinuxworks2) you get a free ebook with the printed copy. You can also buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/how-linux-works-2nd-edition-brian-ward/1126896249/) or [Amazon](https://www.amazon.com/How-Linux-Works-2nd-Superuser/dp/1593275676/).
+If you buy the book [direct from No Starch Press](https://nostarch.com/howlinuxworks2) you get a free e-book with the printed copy. You can also buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/how-linux-works-2nd-edition-brian-ward/1126896249/) or [Amazon](https://www.amazon.com/How-Linux-Works-2nd-Superuser/dp/1593275676/).
 
 ![](../../images/recommended_reading/hlw_cover.jpg)
 
@@ -87,9 +87,9 @@ If you buy the book [direct from No Starch Press](https://nostarch.com/howlinuxw
 
 ### Practical SQL, by [Anthony DeBarros](https://twitter.com/anthonydb)
 
-Django's Object Relational Mapper, or ORM as it's commonly referred to, is a tool that allows you to query for data from a database by writing pure Python. Django converts this to Structured Query Language, or SQL as it's commonly called. The ORM is an amazing tool that's made working with databases much easier over the years. But the farther you go with Django, the more an understanding of SQL will help you. It will help you write more efficient queries, even if you only never actually write raw SQL yourself. *Practial SQL* uses Postgres to teach you SQL, and Postgres is one of the most common databases that Django developers use.
+Django's Object Relational Mapper, or ORM as it's commonly referred to, is a tool that allows you to query for data from a database by writing pure Python. Django converts this to Structured Query Language, or SQL as it's commonly called. The ORM is an amazing tool that's made working with databases much easier over the years. But the farther you go with Django, the more an understanding of SQL will help you. It will help you write more efficient queries, even if you only never actually write raw SQL yourself. *Practical SQL* uses Postgres to teach you SQL, and Postgres is one of the most common databases that Django developers use.
 
-If you buy the book [direct from No Starch Press](https://nostarch.com/practicalSQL) you get a free ebook with the printed copy. You can also buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/practical-sql-anthony-debarros/1126049058/) or [Amazon](https://www.amazon.com/Practical-SQL-Beginners-Guide-Storytelling/dp/1593278276/). The code, data, and other online resources are available at [the author's GitHub page](https://github.com/anthonydb/practical-sql).
+If you buy the book [direct from No Starch Press](https://nostarch.com/practicalSQL) you get a free e-book with the printed copy. You can also buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/practical-sql-anthony-debarros/1126049058/) or [Amazon](https://www.amazon.com/Practical-SQL-Beginners-Guide-Storytelling/dp/1593278276/). The code, data, and other online resources are available at [the author's GitHub page](https://github.com/anthonydb/practical-sql).
 
 ![](../../images/recommended_reading/psql_cover.jpg)
 
@@ -165,7 +165,7 @@ The online documentation is [here](https://django-extensions.readthedocs.io/en/l
 
 ### Django REST framework
 
-Many sites use an API at some point to provide access to data. This can be used within the project itself, for example to feed data to a JavaScript framework for a responsive frontend, or to provide a way for users to query for data programatically. Django REST framework, or DRF for short, is the go-to package for creating and managing APIs within Django projects.
+Many sites use an API at some point to provide access to data. This can be used within the project itself, for example to feed data to a JavaScript framework for a responsive frontend, or to provide a way for users to query for data programmatically. Django REST framework, or DRF for short, is the go-to package for creating and managing APIs within Django projects.
 
 The online documentation is at [django-rest-framework.org](https://www.django-rest-framework.org), and the code is [here](https://github.com/encode/django-rest-framework).
 

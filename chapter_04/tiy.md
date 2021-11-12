@@ -4,7 +4,7 @@ title:  Working With Lists
 nav_exclude: true
 parent: Home
 ---
-In [Chapter 3](../chapter_03/tiy.md) you learned how to make a simple list,
+In [Chapter 3](../../chapter_03/tiy.md) you learned how to make a simple list,
 and you learned to work with the individual elements in a list. In this
 chapter you’ll learn how to *loop* through an entire list using just a
 few lines of code regardless of how long the list is. Looping allows you
@@ -90,8 +90,8 @@ a slice to print three items from the middle of the list.
 slice to print the last three items in the list.
 
 <span id="ch4exe11"></span>**4-11. My Pizzas, Your Pizzas:** Start with
-your program from [Exercise 4-1](../chapter_04/tiy.md) ([page
-60](../chapter_04/tiy.md#page_60)). Make a copy of the list of pizzas, and call it
+your program from [Exercise 4-1](../../chapter_04/tiy.md) ([page
+60](../../chapter_04/tiy.md#page_60)). Make a copy of the list of pizzas, and call it
 `friend_pizzas`. Then, do the following:
 
 - Add a new pizza to the original list.

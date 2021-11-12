@@ -27,7 +27,7 @@ to a new message, and print the new message.
 
 Save each of the following exercises as a separate file with a name like
 *name_cases.py*. If you get stuck, take a break or see the suggestions
-in [Appendix C](..\appendix_c\appendix_c.md).
+in [Appendix C](..\appendix_c).
 
 <span id="ch2exe3"></span>**2-3. Personal Message:** Store a person&rsquo;s
 name in a variable, and print a message to that person. Your message
@@ -47,7 +47,7 @@ quotation marks:
 tried anything new.&rdquo;*
 
 <span id="ch2exe6"></span>**2-6. Famous Quote 2:** Repeat [Exercise
-2-5](../chapter_02/tiy.md#ch2exe5), but this time store the famous person&rsquo;s name in
+2-5](../../chapter_02/tiy.md#ch2exe5), but this time store the famous person&rsquo;s name in
 a variable called `famous_person`. Then compose your message and store
 it in a new variable called `message`. Print your message.
 

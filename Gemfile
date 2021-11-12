@@ -9,14 +9,14 @@ end
 gem 'git'
 
 
+# Performance-booster for watching directories on Windows
+gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
+  
 # Windows and JRuby do not include zoneinfo files, so bundle tzinfo-data gem
 # and associated library files.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
     gem "tzinfo"
     gem "tzinfo-data"
-  end
-  
-  # Performance-booster for watching directories on Windows
-  gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
+end
   
 gem "webrick", "~> 1.7"

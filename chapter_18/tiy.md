@@ -68,7 +68,7 @@ for this project.
 
 <span id="ch18exe6"></span>**18-6. Pizzeria Home Page:** Add a home page
 to the *Pizzeria* project you started in [Exercise
-18-4](../chapter_18/tiy.md#ch18exe4) ([page 412](../chapter_18/tiy.md)).
+18-4](../../chapter_18/tiy.md#ch18exe4) ([page 412](../../chapter_18/tiy.md)).
 
 ## TRY IT YOURSELF #4
 
@@ -78,8 +78,8 @@ Django template documentation at
 back to it when you&rsquo;re working on your own projects.
 
 <span id="ch18exe8"></span>**18-8. Pizzeria Pages:** Add a page to the
-*Pizzeria* project from [Exercise 18-6](../chapter_18/tiy.md) ([page
-416](../chapter_18/tiy.md#page_416)) that shows the names of available pizzas. Then
+*Pizzeria* project from [Exercise 18-6](../../chapter_18/tiy.md) ([page
+416](../../chapter_18/tiy.md#page_416)) that shows the names of available pizzas. Then
 link each pizza name to a page displaying the pizza&rsquo;s toppings. Make
 sure you use template inheritance to build your pages efficiently.
 

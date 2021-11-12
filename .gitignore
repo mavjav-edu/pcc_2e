@@ -15,3 +15,5 @@ _site/
 .jekyll-metadata
 node_modules
 .jekyll-cache/*
+vendor/bundle/*
+parse_as_raw.html

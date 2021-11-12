@@ -208,7 +208,7 @@ definitely help guide you to a successful solution. People will be happy
 to help you if you can explain precisely what you’re trying to do, what
 you’ve already tried, and the exact results you’re getting. If you need
 to share code or output, IRC members use external sites made for this
-purpose, such as *<https://bpaste.net/+python/>*. (This is where #python
+purpose, such as *<https://trinket.io/python>*. (This is where #python
 sends you to share code and output.) This keeps the channels from being
 flooded with code and also makes it much easier to read the code that
 people share.
