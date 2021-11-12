@@ -10,18 +10,16 @@ has_children: true
 
 ## A Hands-On, Project-Based Introduction to Programming
 
-<a href="https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl" target="_blank">
-    <figure>
-        <img
-        sizes="(max-width: 300px) 100vw, 300px"
-        srcset="
-        {{ '/assets/images/cover_g9giob_c_scale,w_200.png' | relative_url }} 200w,
-        {{ '/assets/images/cover_g9giob_c_scale,w_300.png' | relative_url }} 300w"
-        src="{{ '/assets/images/cover_g9giob_c_scale,w_300.png' | relative_url }}"
-        alt="Two printed copies of the book, 'Python Crash Course 2e', lying on a surface"/>
-        <figcaption>Two printed copies of the book, 'Python Crash Course 2e', lying on a surface</figcaption>
-    </figure>
-</a>
+<figure>
+    <img
+    sizes="(max-width: 300px) 100vw, 300px"
+    srcset="
+    {{ '/assets/images/cover_g9giob_c_scale,w_200.png' | relative_url }} 200w,
+    {{ '/assets/images/cover_g9giob_c_scale,w_300.png' | relative_url }} 300w"
+    src="{{ '/assets/images/cover_g9giob_c_scale,w_300.png' | relative_url }}"
+    alt="Two printed copies of the book, 'Python Crash Course 2e', lying on a surface"/>
+    <figcaption>Two printed copies of the book, <a href="https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl" target="_blank">'Python Crash Course 2e'</a>, lying on a surface</figcaption>
+</figure>
 
 This is a tutoring curriculum for learning Python using [Python Crash Course, 2nd Edition](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl), an introductory programming book from [No Starch Press](http://www.nostarch.com/pythoncrashcourse/) by [Eric Matthes](https://github.com/ehmatthes).
 
