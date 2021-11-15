@@ -10,7 +10,7 @@ has_children: true
 
 ## A Hands-On, Project-Based Introduction to Programming
 
-<figure>
+<figure class="figurefx pushup">
     <img
     sizes="(max-width: 300px) 100vw, 300px"
     srcset="
