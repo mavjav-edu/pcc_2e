@@ -9,9 +9,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
     ffi (1.15.4)
-    ffi (1.15.4-x64-mingw32)
     forwardable-extended (2.6.0)
     git (1.9.1)
       rchardet (~> 1.8)
@@ -65,23 +63,15 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
-    sassc (2.4.0-x64-mingw32)
-      ffi (~> 1.9)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2021.5)
-      tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
-    wdm (0.1.1)
     webrick (1.7.0)
 
 PLATFORMS
   ruby
-  x64-mingw-ucrt
-  x64-mingw32
-  x86_64-linux
 
 DEPENDENCIES
   git
