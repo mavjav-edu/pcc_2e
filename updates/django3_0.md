@@ -1,11 +1,9 @@
 ---
 layout: default
 title: Django 3.0
-<<<<<<< HEAD
-=======
+
 parent: Updates
 grand_parent: Home
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 nav_exclude: true
 ---
 
@@ -114,3 +112,4 @@ There's only one minor change you'll need to make in order to deploy your Learni
 The latest Python runtimes available on Heroku are listed [here](https://devcenter.heroku.com/articles/python-support). The ones you're probably interested in are `python-3.8.0` and `python-3.7.5`. You can use either of these in the *runtime.txt* file described on page 449.
 
 This is not a critical update; if you specify a runtime that's slightly out of date, Heroku will use the closest match it finds in its available runtimes.
+

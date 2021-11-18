@@ -2,12 +2,10 @@
 layout: default
 title: Django 3.2
 parent: Updates
-<<<<<<< HEAD
-=======
+
 grand_parent: Home
 parent: Updates
 grand_parent: Home
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 nav_order: 1010
 ---
 
@@ -80,3 +78,4 @@ On page 448 in the section *Installing Required Packages*, it says to install th
 The latest Python runtimes available on Heroku are listed [here](https://devcenter.heroku.com/articles/python-support). The ones you're probably interested in are `python-3.9.6` and `python-3.8.11`. You can use either of these in the *runtime.txt* file described on page 449.
 
 This is not a critical update; if you specify a runtime that's slightly out of date, Heroku will use the closest match it finds in its available runtimes.
+

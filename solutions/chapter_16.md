@@ -2,10 +2,8 @@
 layout: default
 title: Chapter 16
 parent: Solutions
-<<<<<<< HEAD
-=======
+
 grand_parent: Home
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 nav_order: 120
 ---
 
@@ -434,6 +432,7 @@ Output:
 ![Map of global fire activity over 1-day period](../../images/solution_images/global_fire_activity.png)
 
 [top](#top)
+
 
 
 
