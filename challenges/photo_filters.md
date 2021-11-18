@@ -39,7 +39,11 @@ Using the color picker you worked with in Challenge 3-1, store the HSL values fo
 
 ### Photo Filter 3-3: Hex Colors
 
+<<<<<<< HEAD
 Another format stores individual colors as a hexadecimal string. In this model, each value ranges from 00 to FF. If you're unfamiliar with hexadecimal numbers, they start at 0 and keep going past nine; it's a base-16 number system, as opposed to the base-10 system most of us are accustomed to. In this system 00 represents 0, and FF represents 255, so you can represent just as many colors in hexadecimal as you can in the 0-255 format. The advantage is that each color is represented as a six-character string, typically preceeded by a # sign. The brightest red is `'#ff0000'`, bright green is `'#00ff00'`, and bright blue is `'#0000ff'`.
+=======
+Another format stores individual colors as a hexadecimal string. In this model, each value ranges from 00 to FF. If you're unfamiliar with hexadecimal numbers, they start at 0 and keep going past nine; it's a base-16 number system, as opposed to the base-10 system most of us are accustomed to. In this system 00 represents 0, and FF represents 255, so you can represent just as many colors in hexadecimal as you can in the 0-255 format. The advantage is that each color is represented as a six-character string, typically preceded by a # sign. The brightest red is `'#ff0000'`, bright green is `'#00ff00'`, and bright blue is `'#0000ff'`.
+>>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 
 Pick three colors you like, and store them in a list using the hexadecimal color representation. Print each color.
 
@@ -266,7 +270,11 @@ Place any filtering functions you want to try out on an actual image in a module
 
 After completing Chapter 10, you're ready to start working with images. Read through the guide [*Pillow - Working with Images*](../../beyond_pcc/pillow/) for an overview of how to load images, and how to work with individual pixels in an image.
 
+<<<<<<< HEAD
 If you are successful with any of these challenges, I'd love to see the results! Post them on Twitter with the hashtag [#pcc_photo_filter](https://twitter.com/search?q=%23pcc_photo_filter), or send them to me at ehmatthes@gmail.
+=======
+If you are successful with any of these challenges, I'd love to see the results! Post them on Twitter with the hashtag [#pcc_photo_filter](https://twitter.com/search?q=%23pcc_photo_filter), or send them to me at 
+>>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 
 ### Photo Filter 10-1: Grayscale Filter
 
@@ -306,7 +314,11 @@ Create a new, blank image that's 4096 x 4096 pixels. Make each pixel a different
 
 ### Photo Filter 10-6: Sharpening Images
 
+<<<<<<< HEAD
 Many image manipulation programs have tools for sharpening images. This can be done by looking for adjacent pixels that have significanly different component values, and increasing the difference between those values.
+=======
+Many image manipulation programs have tools for sharpening images. This can be done by looking for adjacent pixels that have significantly different component values, and increasing the difference between those values.
+>>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 
 For example if you look at the total brightness of two adjacent pixels, and those two totals are different by a certain amount, you would want to increase the component values of the brighter pixel, and decrease the component values of the darker pixel. This increases the contrast between these two pixels, which makes a sharper edge in that region of the image. If the difference between the two pixels' brightness totals is not different by your threshold amount, you leave the pixels as they are.
 
@@ -384,7 +396,11 @@ In this section you'll make an app that users can work with to modify their imag
 
 You can create an app that allows you to apply filters through a browser. To do this you'll need to allow users to upload and store an image, and choose a filter to apply. You'll also need to be able to display the original and processed images.
 
+<<<<<<< HEAD
 To develop a model representing an image, look at the [ImageField](https://docs.djangoproject.com/en/3.0/ref/models/fields/) entry in the [Django Model field](https://docs.djangoproject.com/en/3.0/ref/models/fields/) reference page. To allow users to upload files, take a look at the documenation about [File Uploads](https://docs.djangoproject.com/en/3.0/topics/http/file-uploads/).
+=======
+To develop a model representing an image, look at the [ImageField](https://docs.djangoproject.com/en/3.0/ref/models/fields/) entry in the [Django Model field](https://docs.djangoproject.com/en/3.0/ref/models/fields/) reference page. To allow users to upload files, take a look at the documentation about [File Uploads](https://docs.djangoproject.com/en/3.0/topics/http/file-uploads/).
+>>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 
 You will also need to add two settings to *settings.py*:
 

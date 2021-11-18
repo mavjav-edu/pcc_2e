@@ -2,6 +2,12 @@
 layout: default
 title: Django 3.2
 parent: Updates
+<<<<<<< HEAD
+=======
+grand_parent: Home
+parent: Updates
+grand_parent: Home
+>>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 nav_order: 1010
 ---
 

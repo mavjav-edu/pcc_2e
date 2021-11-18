@@ -609,6 +609,10 @@ The book's author hasn't optimized this code. Rather, this guide shows how we ca
 
 If you are enjoying this project, you might want to implement a more refined approach to tracking statistics in the game. You can track hits and misses, and report a hit/miss ratio. Then you can compare different strategies not just on the high scores or completed levels they achieve, but on how efficiently they perform as well. If you're interested in this, see the challenge [AI Player 7: Scoring Accuracy](../../challenges/ai_player/).
 
+<<<<<<< HEAD
 Hopefully this guide helps you get started automating the game play in Alien Invasion. If you come up with an effective or interesting strategy, please share it! You can tag your solution with [#ai_player](https://twitter.com/hashtag/ai_player) on Twitter, or send it to me through email ([📧 `<a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a> `](mailto:<a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a> )). Good luck, and if this doesn't work for you please let him know as well.
+=======
+Hopefully this guide helps you get started automating the game play in Alien Invasion. If you come up with an effective or interesting strategy, please share it! You can tag your solution with [#ai_player](https://twitter.com/hashtag/ai_player) on Twitter, or send it to me through email (📧 <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a>). Good luck, and if this doesn't work for you please let him know as well.
+>>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 
 [top](#top)

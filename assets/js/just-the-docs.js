@@ -5,6 +5,13 @@
 // Event handling
 
 jtd.addEvent = function(el, type, handler) {
+<<<<<<< HEAD
+=======
+  //return if el is null
+  if (el === null) {
+    return;
+  }
+>>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
   if (el.attachEvent) el.attachEvent('on'+type, handler); else el.addEventListener(type, handler);
 }
 jtd.removeEvent = function(el, type, handler) {

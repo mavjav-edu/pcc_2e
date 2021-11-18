@@ -5,6 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.9)
+<<<<<<< HEAD
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -15,6 +16,18 @@ GEM
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.8.10)
+=======
+    em-websocket (0.5.3)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0)
+    eventmachine (1.2.7)
+    ffi (1.15.4)
+    forwardable-extended (2.6.0)
+    git (1.9.1)
+      rchardet (~> 1.8)
+    http_parser.rb (0.8.0)
+    i18n (1.8.11)
+>>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
       concurrent-ruby (~> 1.0)
     jekyll (4.2.1)
       addressable (~> 2.4)
@@ -57,11 +70,16 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+<<<<<<< HEAD
+=======
+    rchardet (1.8.0)
+>>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
     rexml (3.2.5)
     rouge (3.26.1)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
+<<<<<<< HEAD
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
     terminal-table (2.0.0)
@@ -78,3 +96,26 @@ DEPENDENCIES
 
 BUNDLED WITH
    2.2.29
+=======
+    terminal-table (2.0.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    unicode-display_width (1.8.0)
+    webrick (1.7.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  git
+  jekyll-seo-tag
+  just-the-docs
+  tzinfo
+  tzinfo-data
+  wdm
+  webrick (~> 1.7)
+
+BUNDLED WITH
+   2.2.31
+>>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)

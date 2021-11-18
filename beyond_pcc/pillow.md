@@ -406,7 +406,11 @@ for x in range(width):
 my_image.show()
 ```
 
+<<<<<<< HEAD
 We import the [`randint()` function](/beyond_pcc/random_functions/) from the `random` module, which returns a random integer between the bounds you provide. We then load the pixels as you saw earlier, so we can work with each pixel individually. This time we're not reading any pixels in the loop, since we're not basing our new pixels off of an existing image. In the loop we choose a random value between 0 and 255 for each of the RGB components, and we build a pixel from these values. Then we set the current pixel.
+=======
+We import the [`randint()` function](./beyond_pcc/random_functions/) from the `random` module, which returns a random integer between the bounds you provide. We then load the pixels as you saw earlier, so we can work with each pixel individually. This time we're not reading any pixels in the loop, since we're not basing our new pixels off of an existing image. In the loop we choose a random value between 0 and 255 for each of the RGB components, and we build a pixel from these values. Then we set the current pixel.
+>>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 
 The result is an image where every color is completely random:
 
@@ -418,4 +422,8 @@ If you look at this image in a file browser, you'll notice that it takes up much
 
 This just touches on what you can with an image processing library. The book has not shown a number of things that are possible, because it's so much more fun to try it yourself than to read about it here. For example, you can build your own photo filters and run them on your own images. You can generate images containing all possible colors.  You can do more complex analysis, like finding edges and sharpening images. You can even write code that identifies, say, all the ice worms in an image.
 
+<<<<<<< HEAD
 This work is the basis of how apps like [Instagram](https://github.com/Instagram) and tools like [Photoshop](https://github.com/topics/adobe-photoshop) are built. Enjoy your explorations, and if you make something interesting please share it! The author is @ehmatthes on Twitter[<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" width="15"/>  @ehmatthes](http://twitter.com/ehmatthes/), and you can also email him at [📧 `<a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a> `](mailto:<a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a> ).
+=======
+This work is the basis of how apps like [Instagram](https://github.com/Instagram) and tools like [Photoshop](https://github.com/topics/adobe-photoshop) are built. Enjoy your explorations, and if you make something interesting please share it! The author is @ehmatthes on Twitter[<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" width="15"/>  @ehmatthes](http://twitter.com/ehmatthes/), and you can also email him at 📧 <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a>.
+>>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
