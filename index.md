@@ -34,45 +34,45 @@ If you are a student following this curriculum for the first time, please jump t
 The book has several sections that reinforce learning through exercises. Practice what you just read where you see:
 <img src="{{ '/assets/images/tiy.svg' | relative_url }}"   width="188vw" alt="'Try It Yourself' in Adobe Dogma typeface"/>
 
-- Getting Started \({{ '[Chapter 1](./chapter_01/tiy)\)
+- Getting Started \([Chapter 1](./chapter_01/tiy)\)
 
-- Variables And Simple Data Types \({{ '[Chapter 2](./chapter_02/tiy)\)
+- Variables And Simple Data Types \([Chapter 2](./chapter_02/tiy)\)
 
-- Introducing Lists \({{ '[Chapter 3](./chapter_03/tiy)\)
+- Introducing Lists \([Chapter 3](./chapter_03/tiy)\)
 
-- Working With Lists \({{ '[Chapter 4](./chapter_04/tiy)\)
+- Working With Lists \([Chapter 4](./chapter_04/tiy)\)
 
-- If Statements \({{ '[Chapter 5](./chapter_05/tiy)\)
+- If Statements \([Chapter 5](./chapter_05/tiy)\)
 
-- Dictionaries \({{ '[Chapter 6](./chapter_06/tiy)\)
+- Dictionaries \([Chapter 6](./chapter_06/tiy)\)
 
-- User Input And While Loops \({{ '[Chapter 7](./chapter_07/tiy)\)
+- User Input And While Loops \([Chapter 7](./chapter_07/tiy)\)
 
-- Functions \({{ '[Chapter 8](./chapter_08/tiy)\)
+- Functions \([Chapter 8](./chapter_08/tiy)\)
 
-- Classes \({{ '[Chapter 9](./chapter_09/tiy)\)
+- Classes \([Chapter 9](./chapter_09/tiy)\)
 
-- Files And Exceptions \({{ '[Chapter 10](./chapter_10/tiy)\)
+- Files And Exceptions \([Chapter 10](./chapter_10/tiy)\)
 
-- Testing Your Code \({{ '[Chapter 11](./chapter_11/tiy)\)
+- Testing Your Code \([Chapter 11](./chapter_11/tiy)\)
 
-- A Ship That Fires Bullets \({{ '[Chapter 12](./chapter_12/tiy)\)
+- A Ship That Fires Bullets \([Chapter 12](./chapter_12/tiy)\)
 
-- Aliens! \({{ '[Chapter 13](./chapter_13/tiy)\)
+- Aliens! \([Chapter 13](./chapter_13/tiy)\)
 
-- Scoring \({{ '[Chapter 14](./chapter_14/tiy)\)
+- Scoring \([Chapter 14](./chapter_14/tiy)\)
 
-- Generating Data \({{ '[Chapter 15](./chapter_15/tiy)\)
+- Generating Data \([Chapter 15](./chapter_15/tiy)\)
 
-- Downloading Data \({{ '[Chapter 16](./chapter_16/tiy)\)
+- Downloading Data \([Chapter 16](./chapter_16/tiy)\)
 
-- Working With API's \({{ '[Chapter 17](./chapter_17/tiy)\)
+- Working With API's \([Chapter 17](./chapter_17/tiy)\)
 
-- Getting Started With Django \({{ '[Chapter 18](./chapter_18/tiy)\)
+- Getting Started With Django \([Chapter 18](./chapter_18/tiy)\)
 
-- User Accounts \({{ '[Chapter 19](./chapter_19/tiy)\)
+- User Accounts \([Chapter 19](./chapter_19/tiy)\)
 
-- Styling And Deploying An App \({{ '[Chapter 20](./chapter_20/tiy)\)
+- Styling And Deploying An App \([Chapter 20](./chapter_20/tiy)\)
 
 #### Solutions
 
