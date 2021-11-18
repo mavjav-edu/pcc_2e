@@ -22,6 +22,7 @@ jobs:
         bundler-cache: true
     - name: Build the site in the jekyll/builder container
       run: |
+        apt-get update && && apt-get upgrade -y && apt-get install -y rsync
         # Download installing_pip.md
         curl -sL https://raw.githubusercontent.com/pypa/pip/main/docs/html/installation.md -o ./chapter_12/installing_pip.md
         # Write the Liquid markup header to ./chapter_12/pip_markup_header.tmp
@@ -44,7 +45,8 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: _site
-        CLEAN: true
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages
+        folder: ./_site
+        target-folder: _site
+        clean: true
