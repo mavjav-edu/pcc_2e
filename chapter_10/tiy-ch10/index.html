@@ -1,0 +1,388 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  
+
+
+  <link rel="shortcut icon" href="/pcc_2e/assets/images/favicon.ico" type="image/x-icon"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/pcc_2e/assets/images/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/pcc_2e/assets/images/favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/pcc_2e/assets/images/favicon-16x16.png"/>
+  <link rel="manifest" href="/pcc_2e/assets/site.webmanifest"/>
+
+  <link rel="stylesheet" href="/pcc_2e/assets/css/just-the-docs-default.css">
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1B6T2W9DJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    
+    gtag('config', 'G-H1B6T2W9DJ');
+    
+  </script>
+
+  
+
+  
+  <script type="text/javascript" src="/pcc_2e/assets/js/vendor/lunr.min.js"></script>
+  
+  <script type="text/javascript" src="/pcc_2e/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Files And Exceptions | Python Crash Course, 2nd Edition</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Files And Exceptions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Online Resources for Python Crash Course, from No Starch Press" />
+<meta property="og:description" content="Online Resources for Python Crash Course, from No Starch Press" />
+<link rel="canonical" href="https://mavjav-edu.github.io/pcc_2e/chapter_10/tiy-ch10/" />
+<meta property="og:url" content="https://mavjav-edu.github.io/pcc_2e/chapter_10/tiy-ch10/" />
+<meta property="og:site_name" content="Python Crash Course, 2nd Edition" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Files And Exceptions" />
+<script type="application/ld+json">
+{"headline":"Files And Exceptions","@type":"WebPage","description":"Online Resources for Python Crash Course, from No Starch Press","url":"https://mavjav-edu.github.io/pcc_2e/chapter_10/tiy-ch10/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://mavjav-edu.github.io/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_788.png"}},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      <a href="https://mavjav-edu.github.io/pcc_2e/" class="site-title lh-tight">
+  <div class="site-logo">
+    <img sizes="(max-width: 1380px) 100vw, 1380px"
+srcset="/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_50.png 50w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_508.png 508w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_788.png 788w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_1380.png 1380w"
+src="/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_1380.png"
+alt="Python Crash Course 2nd Edition"></div>
+
+</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      
+        <ul class="nav-list"><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/" class="nav-list-link">Home</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/cip/" class="nav-list-link">Coding is political</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/updates/" class="nav-list-link">Updates</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/first_printing/" class="nav-list-link">First printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/second_printing/" class="nav-list-link">Second printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/third_printing/" class="nav-list-link">Third printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/fourth_printing/" class="nav-list-link">Fourth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/fifth_printing/" class="nav-list-link">Fifth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/sixth_printing/" class="nav-list-link">Sixth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/seventh_printing/" class="nav-list-link">Seventh printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/eighth_printing/" class="nav-list-link">Eighth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/ninth_printing/" class="nav-list-link">Ninth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/which_printing/" class="nav-list-link">Which printing do I have?</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/django3_2/" class="nav-list-link">Django 3.2</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/solutions/" class="nav-list-link">Solutions</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_2/" class="nav-list-link">Chapter 2</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_3/" class="nav-list-link">Chapter 3</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_4/" class="nav-list-link">Chapter 4</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_5/" class="nav-list-link">Chapter 5</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/" class="nav-list-link">Chapter 6</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_7/" class="nav-list-link">Chapter 7</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_8/" class="nav-list-link">Chapter 8</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_9/" class="nav-list-link">Chapter 9</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/" class="nav-list-link">Chapter 10</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_11/" class="nav-list-link">Chapter 11</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_12/" class="nav-list-link">Chapter 12</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_13/" class="nav-list-link">Chapter 13</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_14/" class="nav-list-link">Chapter 14</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_15/" class="nav-list-link">Chapter 15</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_16/" class="nav-list-link">Chapter 16</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_17/" class="nav-list-link">Chapter 17</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/reader_questions/" class="nav-list-link">Reader Questions</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/finding_employment/" class="nav-list-link">Finding Employment</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/survey/" class="nav-list-link">Survey</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/mailing_list/" class="nav-list-link">Mailing List</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/contact/" class="nav-list-link">Contact</a></li></ul></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/new_in_2e/new_in_2e/" class="nav-list-link">What's new?</a></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/new_in_2e/" class="nav-list-link">What's new?</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/" class="nav-list-link">Setup Instructions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/windows/" class="nav-list-link">Setting up Python on Windows</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/macos/" class="nav-list-link">Setting up Python on macOS</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/linux/" class="nav-list-link">Setting up Python on Linux</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/setup_instructions/" class="nav-list-link">Setup Instructions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/windows/" class="nav-list-link">Setting up Python on Windows</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/macos/" class="nav-list-link">Setting up Python on macOS</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/linux/" class="nav-list-link">Setting up Python on Linux</a></li></ul></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/cheat_sheets/" class="nav-list-link">Cheat Sheets</a></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/cheat_sheets/cheat_sheets/" class="nav-list-link">Cheat Sheets</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/updates/updates/" class="nav-list-link">Updates</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/first_printing/" class="nav-list-link">First printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/second_printing/" class="nav-list-link">Second printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/third_printing/" class="nav-list-link">Third printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/fourth_printing/" class="nav-list-link">Fourth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/fifth_printing/" class="nav-list-link">Fifth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/sixth_printing/" class="nav-list-link">Sixth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/seventh_printing/" class="nav-list-link">Seventh printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/eighth_printing/" class="nav-list-link">Eighth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/ninth_printing/" class="nav-list-link">Ninth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/which_printing/" class="nav-list-link">Which printing do I have?</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/django3_2/" class="nav-list-link">Django 3.2</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/solutions/solutions/" class="nav-list-link">Solutions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_2/" class="nav-list-link">Chapter 2</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_3/" class="nav-list-link">Chapter 3</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_4/" class="nav-list-link">Chapter 4</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_5/" class="nav-list-link">Chapter 5</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/" class="nav-list-link">Chapter 6</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_7/" class="nav-list-link">Chapter 7</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_8/" class="nav-list-link">Chapter 8</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_9/" class="nav-list-link">Chapter 9</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/" class="nav-list-link">Chapter 10</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_11/" class="nav-list-link">Chapter 11</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_12/" class="nav-list-link">Chapter 12</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_13/" class="nav-list-link">Chapter 13</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_14/" class="nav-list-link">Chapter 14</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_15/" class="nav-list-link">Chapter 15</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_16/" class="nav-list-link">Chapter 16</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_17/" class="nav-list-link">Chapter 17</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/challenges/challenges/" class="nav-list-link">Challenges</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/" class="nav-list-link">Playing Cards</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/photo_filters/" class="nav-list-link">Photo Filters</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/coding_for_social_justice/" class="nav-list-link">Coding for Social Justice</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/ai_player/" class="nav-list-link">Automated Alien Invasion Player</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/challenges/" class="nav-list-link">Challenges</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/" class="nav-list-link">Playing Cards</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/photo_filters/" class="nav-list-link">Photo Filters</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/coding_for_social_justice/" class="nav-list-link">Coding for Social Justice</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/ai_player/" class="nav-list-link">Automated Alien Invasion Player</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/" class="nav-list-link">Beyond PCC</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/random_functions/" class="nav-list-link">Random Functions</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pygame_sprite_sheets/" class="nav-list-link">Using Sprite Sheets in Pygame</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/ai_player/" class="nav-list-link">Pygame - Adding Sound and Automating Game Play</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pillow/" class="nav-list-link">Pillow - Working with Images</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/extracting_from_excel/" class="nav-list-link">Extracting Data from Excel Files</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/beyond_pcc/" class="nav-list-link">Beyond PCC</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/random_functions/" class="nav-list-link">Random Functions</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pygame_sprite_sheets/" class="nav-list-link">Using Sprite Sheets in Pygame</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/ai_player/" class="nav-list-link">Pygame - Adding Sound and Automating Game Play</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pillow/" class="nav-list-link">Pillow - Working with Images</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/extracting_from_excel/" class="nav-list-link">Extracting Data from Excel Files</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/recommended_reading/" class="nav-list-link">Recommended Reading</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/first_steps/" class="nav-list-link">First Steps</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/" class="nav-list-link">General Python Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/data_science/" class="nav-list-link">Data Science Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/django/" class="nav-list-link">Django Resources</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/" class="nav-list-link">Recommended Reading</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/first_steps/" class="nav-list-link">First Steps</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/" class="nav-list-link">General Python Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/data_science/" class="nav-list-link">Data Science Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/django/" class="nav-list-link">Django Resources</a></li></ul></li></ul>
+
+      
+    </nav>
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+      
+        <div class="search">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Python Crash Course, 2nd Edition" aria-label="Search Python Crash Course, 2nd Edition" autocomplete="off">
+            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      
+      
+      
+        <nav aria-label="Auxiliary" class="aux-nav">
+          <ul class="aux-nav-list">
+            
+              <li class="aux-nav-list-item">
+                <a href="//github.com/mavjav-edu/pcc_2e" class="site-button"
+                  
+                >
+                  Python Crash Course on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        </nav>
+      
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+      
+      <div id="main-content" class="main-content" role="main">
+        
+          <p>Now that you’ve mastered the basic skills you need to write organized
+programs that are easy to use, it’s time to think about making your
+programs even more relevant and usable. In this chapter you’ll learn to
+work with files so your programs can quickly analyze lots of data.
+You’ll learn to handle errors so your programs don’t crash when they
+encounter unexpected situations. You’ll learn about <em>exceptions</em>, which
+are special objects Python creates to manage errors that arise while a
+program is running. You’ll also learn about the <code class="language-plaintext highlighter-rouge">json</code> module, which allows you to save user data
+so it isn’t lost when your program stops running.</p>
+
+<p><span id="page_197"></span></p>
+      <h2 id="try-it-yourself-1">
+        
+        
+          <a href="#try-it-yourself-1" class="anchor-heading" aria-labelledby="try-it-yourself-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> TRY IT YOURSELF #1
+        
+        
+      </h2>
+    
+
+<p><span id="ch10exe1"></span><strong>10-1. Learning Python:</strong> Open a blank file
+in your text editor and write a few lines summarizing what you’ve
+learned about Python so far. Start each line with the phrase <em>In Python
+you can…</em>. Save the file as <em>learning_python.txt</em> in the same
+directory as your exercises from this chapter. Write a program that
+reads the file and prints what you wrote three times. Print the contents
+once by reading in the entire file, once by looping over the file
+object, and once by storing the lines in a list and then working with
+them outside the <code class="language-plaintext highlighter-rouge">with</code> block.</p>
+
+<p><span id="ch10exe2"></span><strong>10-2. Learning C:</strong> You can use the
+<code class="language-plaintext highlighter-rouge">replace()</code> method to replace any word in a string with a different
+word. Here’s a quick example showing how to replace <code class="language-plaintext highlighter-rouge">'dog'</code> with <code class="language-plaintext highlighter-rouge">'cat'</code>
+in a sentence:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">message</span> <span class="o">=</span> <span class="s">"I really like dogs."</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">message</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'dog'</span><span class="p">,</span> <span class="s">'cat'</span><span class="p">)</span>
+<span class="s">'I really like cats.'</span>
+</code></pre></div></div>
+
+<p>Read in each line from the file you just created, <em>learning_python.txt</em>,
+and replace the word <em>Python</em> with the name of another language, such as
+<em>C</em>. Print each modified line to the screen.</p>
+      <h2 id="try-it-yourself-2">
+        
+        
+          <a href="#try-it-yourself-2" class="anchor-heading" aria-labelledby="try-it-yourself-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> TRY IT YOURSELF #2
+        
+        
+      </h2>
+    
+
+<p><span id="ch10exe3"></span><strong>10-3. Guest:</strong> Write a program that prompts
+the user for their name. When they respond, write their name to a file
+called <em>guest.txt</em>.</p>
+
+<p><span id="ch10exe4"></span><strong>10-4. Guest Book:</strong> Write a <code class="language-plaintext highlighter-rouge">while</code> loop
+that prompts users for their name. When they enter their name, print a
+greeting to the screen and add a line recording their visit in a file
+called <em>guest_book.txt</em>. Make sure each entry appears on a new line in
+the file.</p>
+
+<p><span id="ch10exe5"></span><strong>10-5. Programming Poll:</strong> Write a <code class="language-plaintext highlighter-rouge">while</code>
+loop that asks people why they like programming. Each time someone
+enters a reason, add their reason to a file that stores all the
+responses.</p>
+      <h2 id="try-it-yourself-3">
+        
+        
+          <a href="#try-it-yourself-3" class="anchor-heading" aria-labelledby="try-it-yourself-3"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> TRY IT YOURSELF #3
+        
+        
+      </h2>
+    
+
+<p><span id="ch10exe6"></span><strong>10-6. Addition:</strong> One common problem when
+prompting for numerical input occurs when people provide text instead of
+numbers. When you try to convert the input to an <code class="language-plaintext highlighter-rouge">int</code>, you’ll get a
+<code class="language-plaintext highlighter-rouge">ValueError</code>. Write a program that prompts for two numbers. Add them
+together and print the result. Catch the <code class="language-plaintext highlighter-rouge">ValueError</code> if either input
+value is not a number, and print a friendly error message. Test your
+program by entering two numbers and then by entering some text instead
+of a number.</p>
+
+<p><span id="page_208"></span><span id="ch10exe7"></span><strong>10-7. Addition
+Calculator:</strong> Wrap your code from <a href="../chapter_10/tiy-ch10.md">Exercise 10-6</a> in
+a <code class="language-plaintext highlighter-rouge">while</code> loop so the user can continue entering numbers even if they
+make a mistake and enter text instead of a number.</p>
+
+<p><span id="ch10exe8"></span><strong>10-8. Cats and Dogs:</strong> Make two files,
+<em>cats.txt</em> and <em>dogs.txt</em>. Store at least three names of cats in the
+first file and three names of dogs in the second file. Write a program
+that tries to read these files and print the contents of the file to the
+screen. Wrap your code in a <code class="language-plaintext highlighter-rouge">try-except</code> block to catch the
+<code class="language-plaintext highlighter-rouge">FileNotFound</code> error, and print a friendly message if a file is missing.
+Move one of the files to a different location on your system, and make
+sure the code in the <code class="language-plaintext highlighter-rouge">except</code> block executes properly.</p>
+
+<p><span id="ch10exe9"></span><strong>10-9. Silent Cats and Dogs:</strong> Modify your
+<code class="language-plaintext highlighter-rouge">except</code> block in <a href="../chapter_10/tiy-ch10.md">Exercise 10-8</a> to fail silently
+if either file is missing.</p>
+
+<p><span id="ch10exe10"></span><strong>10-10. Common Words:</strong> Visit Project
+Gutenberg (<em><a href="http://gutenberg.org/">http://gutenberg.org/</a></em>) and find a few texts you’d like to
+analyze. Download the text files for these works, or copy the raw text
+from your browser into a text file on your computer.</p>
+
+<p>You can use the <code class="language-plaintext highlighter-rouge">count()</code> method to find out how many times a word or
+phrase appears in a string. For example, the following code counts the
+number of times <code class="language-plaintext highlighter-rouge">'row'</code> appears in a string:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">line</span> <span class="o">=</span> <span class="s">"Row, row, row your boat"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">line</span><span class="p">.</span><span class="n">count</span><span class="p">(</span><span class="s">'row'</span><span class="p">)</span>
+<span class="mi">2</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">line</span><span class="p">.</span><span class="n">lower</span><span class="p">().</span><span class="n">count</span><span class="p">(</span><span class="s">'row'</span><span class="p">)</span>
+<span class="mi">3</span>
+</code></pre></div></div>
+
+<p>Notice that converting the string to lowercase using <code class="language-plaintext highlighter-rouge">lower()</code> catches
+all appearances of the word you’re looking for, regardless of how it’s
+formatted.</p>
+
+<p>Write a program that reads the files you found at Project Gutenberg and
+determines how many times the word <code class="language-plaintext highlighter-rouge">'the'</code> appears in each text.</p>
+      <h2 id="try-it-yourself-4">
+        
+        
+          <a href="#try-it-yourself-4" class="anchor-heading" aria-labelledby="try-it-yourself-4"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> TRY IT YOURSELF #4
+        
+        
+      </h2>
+    
+
+<p><span id="ch10exe11"></span><strong>10-11. Favorite Number:</strong> Write a program
+that prompts for the user’s favorite number. Use <code class="language-plaintext highlighter-rouge">json.dump()</code> to store
+this number in a file. Write a separate program that reads in this value
+and prints the message, “I know your favorite number! It’s _____.”</p>
+
+<p><span id="ch10exe12"></span><strong>10-12. Favorite Number Remembered:</strong>
+Combine the two programs from <a href="../chapter_10/tiy-ch10.md">Exercise 10-11</a> into
+one file. If the number is already stored, report the favorite number to
+the user. If not, prompt for the user’s favorite number and store it in
+a file. Run the program twice to see that it works.</p>
+
+<p><span id="ch10exe13"></span><strong>10-13. Verify User:</strong> The final listing
+for <em>remember_me.py</em> assumes either that the user has already entered
+their username or that the program is running for the first time. We
+should modify it in case the current user is not the person who last
+used the program.</p>
+
+<p>Before printing a welcome back message in <code class="language-plaintext highlighter-rouge">greet_user()</code>, ask the user
+if this is the correct username. If it’s not, call <code class="language-plaintext highlighter-rouge">get_new_username()</code>
+to get the correct username.</p>
+
+
+        
+
+        
+
+        
+        
+
+      </div>
+    </div>
+
+    
+      
+
+      <div class="search-overlay"></div>
+    
+  </div>
+</body>
+</html>
+

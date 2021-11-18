@@ -1,0 +1,582 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  
+
+
+  <link rel="shortcut icon" href="/pcc_2e/assets/images/favicon.ico" type="image/x-icon"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/pcc_2e/assets/images/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/pcc_2e/assets/images/favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/pcc_2e/assets/images/favicon-16x16.png"/>
+  <link rel="manifest" href="/pcc_2e/assets/site.webmanifest"/>
+
+  <link rel="stylesheet" href="/pcc_2e/assets/css/just-the-docs-default.css">
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1B6T2W9DJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    
+    gtag('config', 'G-H1B6T2W9DJ');
+    
+  </script>
+
+  
+
+  
+  <script type="text/javascript" src="/pcc_2e/assets/js/vendor/lunr.min.js"></script>
+  
+  <script type="text/javascript" src="/pcc_2e/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Installing Python | Python Crash Course, 2nd Edition</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Installing Python" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Online Resources for Python Crash Course, from No Starch Press" />
+<meta property="og:description" content="Online Resources for Python Crash Course, from No Starch Press" />
+<link rel="canonical" href="https://mavjav-edu.github.io/pcc_2e/appendix_a/" />
+<meta property="og:url" content="https://mavjav-edu.github.io/pcc_2e/appendix_a/" />
+<meta property="og:site_name" content="Python Crash Course, 2nd Edition" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Installing Python" />
+<script type="application/ld+json">
+{"headline":"Installing Python","@type":"WebPage","description":"Online Resources for Python Crash Course, from No Starch Press","url":"https://mavjav-edu.github.io/pcc_2e/appendix_a/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://mavjav-edu.github.io/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_788.png"}},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      <a href="https://mavjav-edu.github.io/pcc_2e/" class="site-title lh-tight">
+  <div class="site-logo">
+    <img sizes="(max-width: 1380px) 100vw, 1380px"
+srcset="/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_50.png 50w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_508.png 508w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_788.png 788w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_1380.png 1380w"
+src="/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_1380.png"
+alt="Python Crash Course 2nd Edition"></div>
+
+</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      
+        <ul class="nav-list"><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/" class="nav-list-link">Home</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/cip/" class="nav-list-link">Coding is political</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/updates/" class="nav-list-link">Updates</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/first_printing/" class="nav-list-link">First printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/second_printing/" class="nav-list-link">Second printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/third_printing/" class="nav-list-link">Third printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/fourth_printing/" class="nav-list-link">Fourth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/fifth_printing/" class="nav-list-link">Fifth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/sixth_printing/" class="nav-list-link">Sixth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/seventh_printing/" class="nav-list-link">Seventh printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/eighth_printing/" class="nav-list-link">Eighth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/ninth_printing/" class="nav-list-link">Ninth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/which_printing/" class="nav-list-link">Which printing do I have?</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/django3_2/" class="nav-list-link">Django 3.2</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/solutions/" class="nav-list-link">Solutions</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_2/" class="nav-list-link">Chapter 2</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_3/" class="nav-list-link">Chapter 3</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_4/" class="nav-list-link">Chapter 4</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_5/" class="nav-list-link">Chapter 5</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/" class="nav-list-link">Chapter 6</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_7/" class="nav-list-link">Chapter 7</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_8/" class="nav-list-link">Chapter 8</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_9/" class="nav-list-link">Chapter 9</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/" class="nav-list-link">Chapter 10</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_11/" class="nav-list-link">Chapter 11</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_12/" class="nav-list-link">Chapter 12</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_13/" class="nav-list-link">Chapter 13</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_14/" class="nav-list-link">Chapter 14</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_15/" class="nav-list-link">Chapter 15</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_16/" class="nav-list-link">Chapter 16</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_17/" class="nav-list-link">Chapter 17</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/reader_questions/" class="nav-list-link">Reader Questions</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/finding_employment/" class="nav-list-link">Finding Employment</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/survey/" class="nav-list-link">Survey</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/mailing_list/" class="nav-list-link">Mailing List</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/contact/" class="nav-list-link">Contact</a></li></ul></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/new_in_2e/new_in_2e/" class="nav-list-link">What's new?</a></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/new_in_2e/" class="nav-list-link">What's new?</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/" class="nav-list-link">Setup Instructions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/windows/" class="nav-list-link">Setting up Python on Windows</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/macos/" class="nav-list-link">Setting up Python on macOS</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/linux/" class="nav-list-link">Setting up Python on Linux</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/setup_instructions/" class="nav-list-link">Setup Instructions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/windows/" class="nav-list-link">Setting up Python on Windows</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/macos/" class="nav-list-link">Setting up Python on macOS</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/linux/" class="nav-list-link">Setting up Python on Linux</a></li></ul></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/cheat_sheets/" class="nav-list-link">Cheat Sheets</a></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/cheat_sheets/cheat_sheets/" class="nav-list-link">Cheat Sheets</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/updates/updates/" class="nav-list-link">Updates</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/first_printing/" class="nav-list-link">First printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/second_printing/" class="nav-list-link">Second printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/third_printing/" class="nav-list-link">Third printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/fourth_printing/" class="nav-list-link">Fourth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/fifth_printing/" class="nav-list-link">Fifth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/sixth_printing/" class="nav-list-link">Sixth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/seventh_printing/" class="nav-list-link">Seventh printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/eighth_printing/" class="nav-list-link">Eighth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/ninth_printing/" class="nav-list-link">Ninth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/which_printing/" class="nav-list-link">Which printing do I have?</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/django3_2/" class="nav-list-link">Django 3.2</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/solutions/solutions/" class="nav-list-link">Solutions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_2/" class="nav-list-link">Chapter 2</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_3/" class="nav-list-link">Chapter 3</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_4/" class="nav-list-link">Chapter 4</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_5/" class="nav-list-link">Chapter 5</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/" class="nav-list-link">Chapter 6</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_7/" class="nav-list-link">Chapter 7</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_8/" class="nav-list-link">Chapter 8</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_9/" class="nav-list-link">Chapter 9</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/" class="nav-list-link">Chapter 10</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_11/" class="nav-list-link">Chapter 11</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_12/" class="nav-list-link">Chapter 12</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_13/" class="nav-list-link">Chapter 13</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_14/" class="nav-list-link">Chapter 14</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_15/" class="nav-list-link">Chapter 15</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_16/" class="nav-list-link">Chapter 16</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_17/" class="nav-list-link">Chapter 17</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/challenges/challenges/" class="nav-list-link">Challenges</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/" class="nav-list-link">Playing Cards</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/photo_filters/" class="nav-list-link">Photo Filters</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/coding_for_social_justice/" class="nav-list-link">Coding for Social Justice</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/ai_player/" class="nav-list-link">Automated Alien Invasion Player</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/challenges/" class="nav-list-link">Challenges</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/" class="nav-list-link">Playing Cards</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/photo_filters/" class="nav-list-link">Photo Filters</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/coding_for_social_justice/" class="nav-list-link">Coding for Social Justice</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/ai_player/" class="nav-list-link">Automated Alien Invasion Player</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/" class="nav-list-link">Beyond PCC</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/random_functions/" class="nav-list-link">Random Functions</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pygame_sprite_sheets/" class="nav-list-link">Using Sprite Sheets in Pygame</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/ai_player/" class="nav-list-link">Pygame - Adding Sound and Automating Game Play</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pillow/" class="nav-list-link">Pillow - Working with Images</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/extracting_from_excel/" class="nav-list-link">Extracting Data from Excel Files</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/beyond_pcc/" class="nav-list-link">Beyond PCC</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/random_functions/" class="nav-list-link">Random Functions</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pygame_sprite_sheets/" class="nav-list-link">Using Sprite Sheets in Pygame</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/ai_player/" class="nav-list-link">Pygame - Adding Sound and Automating Game Play</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pillow/" class="nav-list-link">Pillow - Working with Images</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/extracting_from_excel/" class="nav-list-link">Extracting Data from Excel Files</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/recommended_reading/" class="nav-list-link">Recommended Reading</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/first_steps/" class="nav-list-link">First Steps</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/" class="nav-list-link">General Python Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/data_science/" class="nav-list-link">Data Science Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/django/" class="nav-list-link">Django Resources</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/" class="nav-list-link">Recommended Reading</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/first_steps/" class="nav-list-link">First Steps</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/" class="nav-list-link">General Python Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/data_science/" class="nav-list-link">Data Science Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/django/" class="nav-list-link">Django Resources</a></li></ul></li></ul>
+
+      
+    </nav>
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+      
+        <div class="search">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Python Crash Course, 2nd Edition" aria-label="Search Python Crash Course, 2nd Edition" autocomplete="off">
+            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      
+      
+      
+        <nav aria-label="Auxiliary" class="aux-nav">
+          <ul class="aux-nav-list">
+            
+              <li class="aux-nav-list-item">
+                <a href="//github.com/mavjav-edu/pcc_2e" class="site-button"
+                  
+                >
+                  Python Crash Course on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        </nav>
+      
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list">
+              
+                <li class="breadcrumb-nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/">Home</a></li>
+              
+              <li class="breadcrumb-nav-list-item"><span>Installing Python</span></li>
+            </ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+        
+          <p>Python has several different versions and a number of ways it can be set
+up on each operating system. This appendix is useful if the approach in
+<a href="../../chapter_01/tiy.md">Chapter 1</a> didn’t work, or if you want to install a
+different version of Python than the one that came with your system.</p>
+      <h2 id="operating-systems">
+        
+        
+          <a href="#operating-systems" class="anchor-heading" aria-labelledby="operating-systems"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Operating Systems
+        
+        
+      </h2>
+    
+      <h3 id="python-on-linux">
+        
+        
+          <a href="#python-on-linux" class="anchor-heading" aria-labelledby="python-on-linux"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Python on Linux</strong>
+        
+        
+      </h3>
+    
+
+<p>Python is included by default on almost every Linux system, but you
+might want to use a different version than the default. If so, first
+find out which version of Python you already have installed.</p>
+      <h4 id="finding-the-installed-version-in-linux">
+        
+        
+          <a href="#finding-the-installed-version-in-linux" class="anchor-heading" aria-labelledby="finding-the-installed-version-in-linux"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong><em>Finding the Installed Version in Linux</em></strong>
+        
+        
+      </h4>
+    
+
+<p>Open a terminal window and issue the following command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ python --version  
+Python {}
+</code></pre></div></div>
+
+<p>These result shows that the default version is 2.7.6. However, you might
+also have a version of Python 3 installed. To check, enter the following
+command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ python3 --version  
+Python 3.5.0
+</code></pre></div></div>
+
+<p>We see Python 3.5.0 is also installed. It’s worth running both commands before
+you attempt to install a new version.</p>
+      <h4 id="installing-python-3-on-linux">
+        
+        
+          <a href="#installing-python-3-on-linux" class="anchor-heading" aria-labelledby="installing-python-3-on-linux"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong><em>Installing Python 3 on Linux</em></strong>
+        
+        
+      </h4>
+    
+
+<p>If you don’t have Python 3, or if you want to install a newer version of
+Python 3, you can install it in just a few lines. We’ll use a package
+called <code class="language-plaintext highlighter-rouge">deadsnakes</code>, which makes it easy to install multiple versions of
+Python:</p>
+
+<p>$ sudo add-apt-repository ppa:fkrull/deadsnakes<br />
+$ sudo apt-get update<br />
+$ sudo apt-get install python3.5</p>
+
+<p>These commands will install Python 3.5 to your system. The following
+code will start a terminal session running Python 3.5:</p>
+
+<p>$ python3.5<br />
+&gt;&gt;&gt;</p>
+
+<p>You’ll also want to use this command when you configure your text editor
+to use Python 3 and when you run programs from the terminal.</p>
+      <h3 id="python-on-macos">
+        
+        
+          <a href="#python-on-macos" class="anchor-heading" aria-labelledby="python-on-macos"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Python on macOS</strong>
+        
+        
+      </h3>
+    
+
+<p>Python is already installed on most macOS systems, but you might want to
+use a different version than the default. If so, first find out which
+version of Python you already have installed.</p>
+      <h4 id="finding-the-installed-version-in-macos">
+        
+        
+          <a href="#finding-the-installed-version-in-macos" class="anchor-heading" aria-labelledby="finding-the-installed-version-in-macos"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong><em>Finding the Installed Version in macOS</em></strong>
+        
+        
+      </h4>
+    
+
+<p>Open a terminal window, and enter the following command:</p>
+
+<p>$ python –version<br />
+Python 2.7.6</p>
+
+<p>You should also try running the command <strong>python3 –version</strong>. You’ll
+probably get an error message, but it’s worth checking to see if the
+version you want is already installed.</p>
+      <h4 id="using-homebrew-to-install-python-3">
+        
+        
+          <a href="#using-homebrew-to-install-python-3" class="anchor-heading" aria-labelledby="using-homebrew-to-install-python-3"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong><em>Using Homebrew to Install Python 3</em></strong>
+        
+        
+      </h4>
+    
+
+<p>If you only have Python 2 installed, or if you have an older version of
+Python 3, you can install the latest version of Python 3 using a package
+called Homebrew.</p>
+      <h5 id="installing-homebrew">
+        
+        
+          <a href="#installing-homebrew" class="anchor-heading" aria-labelledby="installing-homebrew"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Installing Homebrew</strong>
+        
+        
+      </h5>
+    
+
+<p>Homebrew depends on Apple’s Xcode package, so open a terminal and run
+this command:</p>
+
+<p>$ xcode-select –install</p>
+
+<p>Click through the confirmation dialogs that pop up (this may take a
+while, depending on the speed of your connection). Next, install
+Homebrew:</p>
+
+<p>$ ruby -e “$(curl -fsSL
+https://raw.githubusercontent.com/Homebrew/install/<br />
+master/install)”</p>
+
+<p>You can find this command on the front page of the Homebrew site at
+<em><a href="http://brew.sh/">http://brew.sh/</a></em>. Make sure you include a space between curl -fsSL
+and the URL.</p>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th><strong>NOTE</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>The</em> -e <em>in this command tells Ruby (the programming language Homebrew is written in) to execute the code that’s downloaded here. You should only run commands like this from sources you trust.</em> To confirm that Homebrew installed correctly, run this command:<code class="language-plaintext highlighter-rouge">$</code> <code class="language-plaintext highlighter-rouge">brew doctor</code> <code class="language-plaintext highlighter-rouge">Your system is ready to brew.</code> <img src="brew-doctor.png" alt="command output for brew doctor" />  This output means you’re ready to install Python packages through Homebrew.</td>
+    </tr>
+  </tbody>
+</table></div>
+      <h5 id="installing-python-3">
+        
+        
+          <a href="#installing-python-3" class="anchor-heading" aria-labelledby="installing-python-3"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Installing Python 3</strong>
+        
+        
+      </h5>
+    
+
+<p>To install the latest version of Python 3, enter the following command:</p>
+
+<p>$ brew install python3</p>
+
+<p>Let’s check which version was installed using this command:</p>
+
+<p>$ python3 –version<br />
+Python 3.5.0<br />
+$</p>
+
+<p>Now you can start a Python 3 terminal session using the command python3,
+and you can use the python3 command to configure your text editor so it
+runs Python programs with Python 3 instead of Python 2.</p>
+      <h3 id="python-on-windows">
+        
+        
+          <a href="#python-on-windows" class="anchor-heading" aria-labelledby="python-on-windows"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Python on Windows</strong>
+        
+        
+      </h3>
+    
+
+<p>Python isn’t usually included by default on Windows, but it’s worth
+checking to see if it exists on the system. Open a terminal window by
+right-clicking on your desktop while holding the SHIFT key, and then
+select <strong>Open Command Window Here</strong>. You can also enter command into the
+Start Menu. In the terminal window that pops up, run the following
+command:</p>
+
+<p>&gt; python –version<br />
+Python 3.5.0</p>
+
+<p>If you see output like this, Python is already installed, but you still
+might want to install a newer version. If you see an error message,
+you’ll need to download and install Python.</p>
+      <h4 id="installing-python-3-on-windows">
+        
+        
+          <a href="#installing-python-3-on-windows" class="anchor-heading" aria-labelledby="installing-python-3-on-windows"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong><em>Installing Python 3 on Windows</em></strong>
+        
+        
+      </h4>
+    
+
+<p>Go to <em><a href="http://python.org/downloads/">http://python.org/downloads/</a></em> and click the version of Python
+you want. Download the installer, and when you run it make sure to check
+the <em>Add Python to PATH</em> option. This will let you use the python
+command instead of having to enter your system’s full path to python,
+and you won’t have to modify your system’s environment variables
+manually. After you’ve installed Python, issue the python –version
+command in a new terminal window. If it works, you’re done.</p>
+      <h4 id="finding-the-python-interpreter">
+        
+        
+          <a href="#finding-the-python-interpreter" class="anchor-heading" aria-labelledby="finding-the-python-interpreter"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong><em>Finding the Python Interpreter</em></strong>
+        
+        
+      </h4>
+    
+
+<p>If the simple command python doesn’t work, you’ll need to tell Windows
+where to find the Python interpreter. To find it, open your C drive and
+find the folder with a name starting with <em>Python</em> (you might need to
+enter the word python in the Windows Explorer search bar to find the
+right folder). Open the folder, and look for a file with the lowercase
+name <em>python</em>. Right-click this file and choose <strong>Properties</strong>; you’ll
+see the path to this file under the heading <em>Location</em>.</p>
+
+<p>In the terminal window, use the path to confirm the version you just
+installed:</p>
+
+<p>$ C:\\Python35\python –version<br />
+Python 3.5.0</p>
+      <h4 id="adding-python-to-your-path-variable">
+        
+        
+          <a href="#adding-python-to-your-path-variable" class="anchor-heading" aria-labelledby="adding-python-to-your-path-variable"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong><em>Adding Python to Your Path Variable</em></strong>
+        
+        
+      </h4>
+    
+
+<p>It’s annoying to type the full path each time you want to start a Python
+terminal, so we’ll add the path to the system so you can just use the
+command python. If you already checked the <em>Add Python to PATH</em> box when
+installing, you can skip this step. Open your system’s <strong>Control
+Panel</strong>, choose <strong>System and Security</strong>, and then choose <strong>System</strong>.
+Click <strong>Advanced System Settings</strong>. In the window that pops up, click
+<strong>Environment Variables</strong>.</p>
+
+<p>In the box labeled <em>System variables</em>, look for a variable called Path.
+Click <strong>Edit</strong>. In the box that pops up, click in the box labeled
+<em>Variable value</em> and use the right arrow key to scroll all the way to
+the right. Be careful not to overwrite the existing variable; if you do,
+click Cancel and try again. Add a semicolon and the path to your
+<em>python.exe</em> file to the existing variable:</p>
+
+<p>%SystemRoot%\system32\…\System32\WindowsPowerShell\v1.0\;C:\Python34</p>
+
+<p>Close your terminal window and open a new one. This will load the new
+Path variable into your terminal session. Now when you enter python
+–version, you should see the version of Python you just set in your
+Path variable. You can now start a Python terminal session by just
+entering python at a command prompt.</p>
+      <h3 id="python-keywords-and-built-in-functions">
+        
+        
+          <a href="#python-keywords-and-built-in-functions" class="anchor-heading" aria-labelledby="python-keywords-and-built-in-functions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Python Keywords and Built-in Functions</strong>
+        
+        
+      </h3>
+    
+
+<p>Python comes with its own set of keywords and built-in functions. It’s
+important to be aware of these when you’re naming variables. One
+challenge in programming is coming up with good variable names, which
+can be anything that’s reasonably short and descriptive. But you can’t
+use any of Python’s keywords, and you shouldn’t use the name of any of
+Python’s built-in functions because you’ll overwrite the functions.</p>
+
+<p>In this section we’ll list Python’s keywords and built-in function
+names, so you’ll know which names to avoid.</p>
+      <h4 id="python-keywords">
+        
+        
+          <a href="#python-keywords" class="anchor-heading" aria-labelledby="python-keywords"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong><em>Python Keywords</em></strong>
+        
+        
+      </h4>
+    
+
+<p>Each of the following keywords has a specific meaning, and you’ll see an
+error if you try to use them as a variable name.</p>
+
+<p>False    class      finally    is         return<br />
+None     continue   for        lambda     try<br />
+True     def        from       nonlocal   while<br />
+and      del        global     not        with<br />
+as       elif       if         or         yield<br />
+assert   else       import     pass<br />
+break    except     in         raise</p>
+      <h4 id="python-built-in-functions">
+        
+        
+          <a href="#python-built-in-functions" class="anchor-heading" aria-labelledby="python-built-in-functions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong><em>Python Built-in Functions</em></strong>
+        
+        
+      </h4>
+    
+
+<p>You won’t get an error if you use one of the following readily available
+built-in functions as a variable name, but you’ll override the behavior
+of that function:</p>
+
+<p>abs()          divmod()      input()         open()      staticmethod()<br />
+all()          enumerate()   int()           ord()       str()<br />
+any()          eval()        isinstance()    pow()       sum()<br />
+basestring()   execfile()    issubclass()    print()     super()<br />
+bin()          file()        iter()          property()  tuple()<br />
+bool()         filter()      len()           range()     type()<br />
+bytearray()    float()       list()          raw_input() unichr()<br />
+callable()     format()      locals()        reduce()    unicode()<br />
+chr()          frozenset()   long()          reload()    vars()<br />
+classmethod()  getattr()     map()           repr()      xrange()<br />
+cmp()          globals()     max()           reversed()  zip()<br />
+compile()      hasattr()     memoryview()    round()     __import__()<br />
+complex()      hash()        min()           set()       apply()<br />
+delattr()      help()        next()          setattr()   buffer()<br />
+dict()         hex()         object()        slice()     coerce()<br />
+dir()          id()          oct()           sorted()    intern()</p>
+
+<p><strong>NOTE</strong></p>
+
+<p><em>In Python 2.7</em> print <em>is a keyword, not a function. Also,</em> unicode()
+<em>is not available in Python 3. Neither of these words should be used as
+a variable name.</em></p>
+
+
+        
+
+        
+
+        
+        
+
+      </div>
+    </div>
+
+    
+      
+
+      <div class="search-overlay"></div>
+    
+  </div>
+</body>
+</html>
+

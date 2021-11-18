@@ -1,0 +1,815 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  
+
+
+  <link rel="shortcut icon" href="/pcc_2e/assets/images/favicon.ico" type="image/x-icon"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/pcc_2e/assets/images/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/pcc_2e/assets/images/favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/pcc_2e/assets/images/favicon-16x16.png"/>
+  <link rel="manifest" href="/pcc_2e/assets/site.webmanifest"/>
+
+  <link rel="stylesheet" href="/pcc_2e/assets/css/just-the-docs-default.css">
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1B6T2W9DJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    
+    gtag('config', 'G-H1B6T2W9DJ');
+    
+  </script>
+
+  
+
+  
+  <script type="text/javascript" src="/pcc_2e/assets/js/vendor/lunr.min.js"></script>
+  
+  <script type="text/javascript" src="/pcc_2e/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Playing Cards | Python Crash Course, 2nd Edition</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Playing Cards" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Online Resources for Python Crash Course, from No Starch Press" />
+<meta property="og:description" content="Online Resources for Python Crash Course, from No Starch Press" />
+<link rel="canonical" href="https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/" />
+<meta property="og:url" content="https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/" />
+<meta property="og:site_name" content="Python Crash Course, 2nd Edition" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Playing Cards" />
+<script type="application/ld+json">
+{"headline":"Playing Cards","@type":"WebPage","description":"Online Resources for Python Crash Course, from No Starch Press","url":"https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://mavjav-edu.github.io/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_788.png"}},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      <a href="https://mavjav-edu.github.io/pcc_2e/" class="site-title lh-tight">
+  <div class="site-logo">
+    <img sizes="(max-width: 1380px) 100vw, 1380px"
+srcset="/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_50.png 50w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_508.png 508w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_788.png 788w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_1380.png 1380w"
+src="/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_1380.png"
+alt="Python Crash Course 2nd Edition"></div>
+
+</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      
+        <ul class="nav-list"><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/" class="nav-list-link">Home</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/cip/" class="nav-list-link">Coding is political</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/updates/" class="nav-list-link">Updates</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/first_printing/" class="nav-list-link">First printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/second_printing/" class="nav-list-link">Second printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/third_printing/" class="nav-list-link">Third printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/fourth_printing/" class="nav-list-link">Fourth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/fifth_printing/" class="nav-list-link">Fifth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/sixth_printing/" class="nav-list-link">Sixth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/seventh_printing/" class="nav-list-link">Seventh printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/eighth_printing/" class="nav-list-link">Eighth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/ninth_printing/" class="nav-list-link">Ninth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/which_printing/" class="nav-list-link">Which printing do I have?</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/django3_2/" class="nav-list-link">Django 3.2</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/solutions/" class="nav-list-link">Solutions</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_2/" class="nav-list-link">Chapter 2</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_3/" class="nav-list-link">Chapter 3</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_4/" class="nav-list-link">Chapter 4</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_5/" class="nav-list-link">Chapter 5</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/" class="nav-list-link">Chapter 6</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_7/" class="nav-list-link">Chapter 7</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_8/" class="nav-list-link">Chapter 8</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_9/" class="nav-list-link">Chapter 9</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/" class="nav-list-link">Chapter 10</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_11/" class="nav-list-link">Chapter 11</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_12/" class="nav-list-link">Chapter 12</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_13/" class="nav-list-link">Chapter 13</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_14/" class="nav-list-link">Chapter 14</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_15/" class="nav-list-link">Chapter 15</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_16/" class="nav-list-link">Chapter 16</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_17/" class="nav-list-link">Chapter 17</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/reader_questions/" class="nav-list-link">Reader Questions</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/finding_employment/" class="nav-list-link">Finding Employment</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/survey/" class="nav-list-link">Survey</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/mailing_list/" class="nav-list-link">Mailing List</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/contact/" class="nav-list-link">Contact</a></li></ul></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/new_in_2e/new_in_2e/" class="nav-list-link">What's new?</a></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/new_in_2e/" class="nav-list-link">What's new?</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/" class="nav-list-link">Setup Instructions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/windows/" class="nav-list-link">Setting up Python on Windows</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/macos/" class="nav-list-link">Setting up Python on macOS</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/linux/" class="nav-list-link">Setting up Python on Linux</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/setup_instructions/" class="nav-list-link">Setup Instructions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/windows/" class="nav-list-link">Setting up Python on Windows</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/macos/" class="nav-list-link">Setting up Python on macOS</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/linux/" class="nav-list-link">Setting up Python on Linux</a></li></ul></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/cheat_sheets/" class="nav-list-link">Cheat Sheets</a></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/cheat_sheets/cheat_sheets/" class="nav-list-link">Cheat Sheets</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/updates/updates/" class="nav-list-link">Updates</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/first_printing/" class="nav-list-link">First printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/second_printing/" class="nav-list-link">Second printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/third_printing/" class="nav-list-link">Third printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/fourth_printing/" class="nav-list-link">Fourth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/fifth_printing/" class="nav-list-link">Fifth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/sixth_printing/" class="nav-list-link">Sixth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/seventh_printing/" class="nav-list-link">Seventh printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/eighth_printing/" class="nav-list-link">Eighth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/ninth_printing/" class="nav-list-link">Ninth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/which_printing/" class="nav-list-link">Which printing do I have?</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/django3_2/" class="nav-list-link">Django 3.2</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/solutions/solutions/" class="nav-list-link">Solutions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_2/" class="nav-list-link">Chapter 2</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_3/" class="nav-list-link">Chapter 3</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_4/" class="nav-list-link">Chapter 4</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_5/" class="nav-list-link">Chapter 5</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/" class="nav-list-link">Chapter 6</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_7/" class="nav-list-link">Chapter 7</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_8/" class="nav-list-link">Chapter 8</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_9/" class="nav-list-link">Chapter 9</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/" class="nav-list-link">Chapter 10</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_11/" class="nav-list-link">Chapter 11</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_12/" class="nav-list-link">Chapter 12</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_13/" class="nav-list-link">Chapter 13</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_14/" class="nav-list-link">Chapter 14</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_15/" class="nav-list-link">Chapter 15</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_16/" class="nav-list-link">Chapter 16</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_17/" class="nav-list-link">Chapter 17</a></li></ul></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/challenges/challenges/" class="nav-list-link">Challenges</a><ul class="nav-list "><li class="nav-list-item  active"><a href="https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/" class="nav-list-link active">Playing Cards</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/photo_filters/" class="nav-list-link">Photo Filters</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/coding_for_social_justice/" class="nav-list-link">Coding for Social Justice</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/ai_player/" class="nav-list-link">Automated Alien Invasion Player</a></li></ul></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/challenges/" class="nav-list-link">Challenges</a><ul class="nav-list "><li class="nav-list-item  active"><a href="https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/" class="nav-list-link active">Playing Cards</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/photo_filters/" class="nav-list-link">Photo Filters</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/coding_for_social_justice/" class="nav-list-link">Coding for Social Justice</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/ai_player/" class="nav-list-link">Automated Alien Invasion Player</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/" class="nav-list-link">Beyond PCC</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/random_functions/" class="nav-list-link">Random Functions</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pygame_sprite_sheets/" class="nav-list-link">Using Sprite Sheets in Pygame</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/ai_player/" class="nav-list-link">Pygame - Adding Sound and Automating Game Play</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pillow/" class="nav-list-link">Pillow - Working with Images</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/extracting_from_excel/" class="nav-list-link">Extracting Data from Excel Files</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/beyond_pcc/" class="nav-list-link">Beyond PCC</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/random_functions/" class="nav-list-link">Random Functions</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pygame_sprite_sheets/" class="nav-list-link">Using Sprite Sheets in Pygame</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/ai_player/" class="nav-list-link">Pygame - Adding Sound and Automating Game Play</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pillow/" class="nav-list-link">Pillow - Working with Images</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/extracting_from_excel/" class="nav-list-link">Extracting Data from Excel Files</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/recommended_reading/" class="nav-list-link">Recommended Reading</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/first_steps/" class="nav-list-link">First Steps</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/" class="nav-list-link">General Python Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/data_science/" class="nav-list-link">Data Science Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/django/" class="nav-list-link">Django Resources</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/" class="nav-list-link">Recommended Reading</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/first_steps/" class="nav-list-link">First Steps</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/" class="nav-list-link">General Python Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/data_science/" class="nav-list-link">Data Science Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/django/" class="nav-list-link">Django Resources</a></li></ul></li></ul>
+
+      
+    </nav>
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+      
+        <div class="search">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Python Crash Course, 2nd Edition" aria-label="Search Python Crash Course, 2nd Edition" autocomplete="off">
+            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      
+      
+      
+        <nav aria-label="Auxiliary" class="aux-nav">
+          <ul class="aux-nav-list">
+            
+              <li class="aux-nav-list-item">
+                <a href="//github.com/mavjav-edu/pcc_2e" class="site-button"
+                  
+                >
+                  Python Crash Course on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        </nav>
+      
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list">
+              
+                <li class="breadcrumb-nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/challenges/">Challenges</a></li>
+              
+              <li class="breadcrumb-nav-list-item"><span>Playing Cards</span></li>
+            </ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+        
+          <h1 class="no_toc" id="challenges---playing-cards">
+        
+        
+          <a href="#challenges---playing-cards" class="anchor-heading" aria-labelledby="challenges---playing-cards"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Challenges - Playing Cards
+        
+        
+      </h1>
+    
+
+<p>In this investigation, you’ll start out by modeling a deck of playing cards. You’ll then write a set of functions or classes that let you work with your deck. You’ll write code that lets you play one or more card games against the computer, at varying levels of difficulty. You can then choose to make a graphical card game, analyze the results of playing the games many times, or build a web app that lets you play the game.</p>
+
+<p>You do not have to do every challenge in the set. If a challenge depends on completing another set, that is indicated in the challenge. Challenges are grouped by chapter, so you’ll know when you can start on each challenge.</p>
+
+<ul id="markdown-toc">
+  <li><a href="#chapter-3" id="markdown-toc-chapter-3">Chapter 3</a>    <ul>
+      <li><a href="#playing-cards-3-1-hearts" id="markdown-toc-playing-cards-3-1-hearts">Playing Cards 3-1: Hearts</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-4" id="markdown-toc-chapter-4">Chapter 4</a>    <ul>
+      <li><a href="#playing-cards-4-2-heart-loops" id="markdown-toc-playing-cards-4-2-heart-loops">Playing Cards 4-2: Heart Loops</a></li>
+      <li><a href="#playing-cards-4-3-full-deck" id="markdown-toc-playing-cards-4-3-full-deck">Playing Cards 4-3: Full Deck</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-6" id="markdown-toc-chapter-6">Chapter 6</a>    <ul>
+      <li><a href="#playing-cards-6-1-full-deck" id="markdown-toc-playing-cards-6-1-full-deck">Playing Cards 6-1: Full Deck</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-8" id="markdown-toc-chapter-8">Chapter 8</a>    <ul>
+      <li><a href="#playing-cards-8-1-basic-card-functions" id="markdown-toc-playing-cards-8-1-basic-card-functions">Playing Cards 8-1: Basic Card Functions</a></li>
+      <li><a href="#playing-cards-8-2-basic-deck-functions" id="markdown-toc-playing-cards-8-2-basic-deck-functions">Playing Cards 8-2: Basic Deck Functions</a></li>
+      <li><a href="#playing-cards-8-3-go-fish" id="markdown-toc-playing-cards-8-3-go-fish">Playing Cards 8-3: Go Fish</a></li>
+      <li><a href="#playing-cards-8-4-ai-go-fish" id="markdown-toc-playing-cards-8-4-ai-go-fish">Playing Cards 8-4: AI Go Fish</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-9" id="markdown-toc-chapter-9">Chapter 9</a>    <ul>
+      <li><a href="#playing-cards-9-1-deck-of-cards" id="markdown-toc-playing-cards-9-1-deck-of-cards">Playing Cards 9-1: Deck of Cards</a></li>
+      <li><a href="#playing-cards-9-2-go-fish" id="markdown-toc-playing-cards-9-2-go-fish">Playing Cards 9-2: Go Fish</a></li>
+      <li><a href="#playing-cards-9-3-scoring-go-fish" id="markdown-toc-playing-cards-9-3-scoring-go-fish">Playing Cards 9-3: Scoring Go Fish</a></li>
+      <li><a href="#playing-cards-9-4-ai-go-fish" id="markdown-toc-playing-cards-9-4-ai-go-fish">Playing Cards 9-4: AI Go Fish</a></li>
+      <li><a href="#playing-cards-9-5-other-card-games" id="markdown-toc-playing-cards-9-5-other-card-games">Playing Cards 9-5: Other Card Games</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-10" id="markdown-toc-chapter-10">Chapter 10</a>    <ul>
+      <li><a href="#playing-cards-10-1-statistics" id="markdown-toc-playing-cards-10-1-statistics">Playing Cards 10-1: Statistics</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-11" id="markdown-toc-chapter-11">Chapter 11</a>    <ul>
+      <li><a href="#playing-cards-11-1-testing-your-deck" id="markdown-toc-playing-cards-11-1-testing-your-deck">Playing Cards 11-1: Testing Your Deck</a></li>
+      <li><a href="#playing-cards-11-2-testing-go-fish" id="markdown-toc-playing-cards-11-2-testing-go-fish">Playing Cards 11-2: Testing Go Fish</a></li>
+      <li><a href="#playing-cards-11-3-testing-other-games" id="markdown-toc-playing-cards-11-3-testing-other-games">Playing Cards 11-3: Testing Other Games</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-14" id="markdown-toc-chapter-14">Chapter 14</a>    <ul>
+      <li><a href="#playing-cards-14-1-go-fish-game" id="markdown-toc-playing-cards-14-1-go-fish-game">Playing Cards 14-1: Go Fish Game</a></li>
+      <li><a href="#playing-cards-14-2-other-card-games" id="markdown-toc-playing-cards-14-2-other-card-games">Playing Cards 14-2: Other Card Games</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-15" id="markdown-toc-chapter-15">Chapter 15</a>    <ul>
+      <li><a href="#playing-cards-15-1-go-fish-statistics---visualized" id="markdown-toc-playing-cards-15-1-go-fish-statistics---visualized">Playing Cards 15-1: Go Fish Statistics - Visualized</a></li>
+      <li><a href="#playing-cards-15-2-other-card-games---visualized" id="markdown-toc-playing-cards-15-2-other-card-games---visualized">Playing Cards 15-2: Other Card Games - Visualized</a></li>
+    </ul>
+  </li>
+  <li><a href="#chapter-20" id="markdown-toc-chapter-20">Chapter 20</a>    <ul>
+      <li><a href="#playing-cards-20-1-go-fish-online" id="markdown-toc-playing-cards-20-1-go-fish-online">Playing Cards 20-1: Go Fish Online</a></li>
+      <li><a href="#playing-cards-20-2-online-card-games" id="markdown-toc-playing-cards-20-2-online-card-games">Playing Cards 20-2: Online Card Games</a></li>
+    </ul>
+  </li>
+</ul><hr />
+      <h2 id="chapter-3">
+        
+        
+          <a href="#chapter-3" class="anchor-heading" aria-labelledby="chapter-3"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Chapter 3
+        
+        
+      </h2>
+    
+      <h3 id="playing-cards-3-1-hearts">
+        
+        
+          <a href="#playing-cards-3-1-hearts" class="anchor-heading" aria-labelledby="playing-cards-3-1-hearts"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 3-1: Hearts
+        
+        
+      </h3>
+    
+
+<p>Make a list of all the cards in a deck of cards that have hearts on them. Your list would have items like ‘2 of Hearts’, ‘3 of Hearts’, ‘4 of Hearts’, etc. Print 3 of your cards.</p>
+
+<p>Build your list using the syntax you want to practice. For example, you might consider starting with an empty list and using a series of <code class="language-plaintext highlighter-rouge">append()</code> or <code class="language-plaintext highlighter-rouge">insert()</code> calls.</p>
+
+<p><a href="#top">top</a></p><hr />
+      <h2 id="chapter-4">
+        
+        
+          <a href="#chapter-4" class="anchor-heading" aria-labelledby="chapter-4"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Chapter 4
+        
+        
+      </h2>
+    
+      <h3 id="playing-cards-4-2-heart-loops">
+        
+        
+          <a href="#playing-cards-4-2-heart-loops" class="anchor-heading" aria-labelledby="playing-cards-4-2-heart-loops"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 4-2: Heart Loops
+        
+        
+      </h3>
+    
+
+<p>Make a list of all the cards in a deck of cards that have hearts on them. Your list would have items like ‘2 of Hearts’, ‘3 of Hearts’, ‘4 of Hearts’. Do this efficiently by using a loop to generate as many cards as you can.</p>
+
+<ul>
+  <li>Loop through your list and print out all of the cards in order.</li>
+  <li>Loop through a slice of your list and print out just the cards with numbers on them.</li>
+  <li>Loop through a slice of your list and print out just the face cards.</li>
+</ul>
+      <h3 id="playing-cards-4-3-full-deck">
+        
+        
+          <a href="#playing-cards-4-3-full-deck" class="anchor-heading" aria-labelledby="playing-cards-4-3-full-deck"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 4-3: Full Deck
+        
+        
+      </h3>
+    
+
+<p>Expand on <em>Hearts</em> to generate a list containing every card in a standard deck of cards. Using loops to generate some of the cards, how efficiently can you do this?</p>
+
+<p>Print the entire deck. Then choose a suit, and print just the cards in that suit.</p>
+
+<p><em>Prerequisite: <a href="#playing-cards-4-2-heart-loops">Playing Cards 4-2: Heart Loops</a></em></p>
+
+<p><a href="#top">top</a></p><hr />
+      <h2 id="chapter-6">
+        
+        
+          <a href="#chapter-6" class="anchor-heading" aria-labelledby="chapter-6"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Chapter 6
+        
+        
+      </h2>
+    
+      <h3 id="playing-cards-6-1-full-deck">
+        
+        
+          <a href="#playing-cards-6-1-full-deck" class="anchor-heading" aria-labelledby="playing-cards-6-1-full-deck"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 6-1: Full Deck
+        
+        
+      </h3>
+    
+
+<p>Now that you’ve learned about nested loops, can you write a nested loop that creates an entire deck of cards?</p>
+
+<p>Print the entire deck. Then choose a suit, and print just the cards in that suit.</p>
+
+<p><em>Prerequisite: <a href="#playing-cards-4-2-heart-loops">Playing Cards 4-2: Heart Loops</a></em></p><hr />
+      <h2 id="chapter-8">
+        
+        
+          <a href="#chapter-8" class="anchor-heading" aria-labelledby="chapter-8"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Chapter 8
+        
+        
+      </h2>
+    
+      <h3 id="playing-cards-8-1-basic-card-functions">
+        
+        
+          <a href="#playing-cards-8-1-basic-card-functions" class="anchor-heading" aria-labelledby="playing-cards-8-1-basic-card-functions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 8-1: Basic Card Functions
+        
+        
+      </h3>
+    
+
+<p>Write a series of functions that help you work with cards from your deck:</p>
+
+<ul>
+  <li>Write a function called <code class="language-plaintext highlighter-rouge">build_deck()</code>. This function takes no arguments, and returns a list containing all the cards in a standard deck, in order.</li>
+  <li>Write a function called <code class="language-plaintext highlighter-rouge">get_suit()</code>. This function takes one card as an argument, and returns the suit of that card.</li>
+  <li>Write a function called <code class="language-plaintext highlighter-rouge">get_value()</code>. This function takes one card as an argument, and returns the value of the card. The value of a face card would be ‘J’ or ‘Jack’, ‘Q’ or ‘Queen’, and so forth.</li>
+  <li>Write a function called <code class="language-plaintext highlighter-rouge">same_value()</code>. This function takes two cards, and returns <code class="language-plaintext highlighter-rouge">True</code> if the cards have the same value, and <code class="language-plaintext highlighter-rouge">False</code> if they do not.
+    <ul>
+      <li>Extension: Write this function so that it works for two or more cards.</li>
+    </ul>
+  </li>
+  <li>Write a function called <code class="language-plaintext highlighter-rouge">same_suit()</code>. This function takes two cards, and returns <code class="language-plaintext highlighter-rouge">True</code> if the cards have the same suit, and <code class="language-plaintext highlighter-rouge">False</code> if they do not.
+    <ul>
+      <li>Extension: Write this function so that it works for two or more cards.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><em>Prerequisite: <a href="#playing-cards-6-1-full-deck">Playing Cards 6-1: Full Deck</a></em></p>
+      <h3 id="playing-cards-8-2-basic-deck-functions">
+        
+        
+          <a href="#playing-cards-8-2-basic-deck-functions" class="anchor-heading" aria-labelledby="playing-cards-8-2-basic-deck-functions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 8-2: Basic Deck Functions
+        
+        
+      </h3>
+    
+
+<p>Write a series of functions that work with a whole deck. You might need to see the short <a href="../../beyond_pcc/random_functions/">guide to working with the <code class="language-plaintext highlighter-rouge">random</code> module</a> when implementing some of these functions.</p>
+
+<ul>
+  <li>Write a function called <code class="language-plaintext highlighter-rouge">deal_top_card()</code>. This function accepts a deck as an argument, and returns the first card in the deck. It also removes that card from the deck.</li>
+  <li>Write a function called <code class="language-plaintext highlighter-rouge">get_random_card()</code>. This function accepts a deck as an argument, and returns a random card from the deck. It also removes that card from the deck.</li>
+  <li>Write a function called <code class="language-plaintext highlighter-rouge">shuffle_deck()</code>. This function accepts a deck as an argument, and randomizes the order of the deck.</li>
+  <li>Write a function called <code class="language-plaintext highlighter-rouge">deal_hand()</code>. This function accepts a deck as an argument, and the size of the hand. The function returns a list containing the cards in the hand. The function also removes these cards from the deck.
+    <ul>
+      <li>Extra challenge: This function should more properly be called <code class="language-plaintext highlighter-rouge">deal_hands()</code>. It should accept three arguments - the deck, the number of hands to deal, and the size of the hand. It should return a list of hands. This is more complicated, so consider taking the simplified route of just writing <code class="language-plaintext highlighter-rouge">deal_hand()</code>, and call it sequentially when you need to generate a number of hands.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><em>Prerequisite: <a href="#playing-cards-8-1-basic-card-functions">Playing Cards 8-1: Basic Card Functions</a></em></p>
+      <h3 id="playing-cards-8-3-go-fish">
+        
+        
+          <a href="#playing-cards-8-3-go-fish" class="anchor-heading" aria-labelledby="playing-cards-8-3-go-fish"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 8-3: Go Fish
+        
+        
+      </h3>
+    
+
+<p>Implement a game of Go Fish that you can play against the computer. A basic Go Fish game has the following rules:</p>
+
+<ul>
+  <li>Each player is dealt a hand of 7 cards.</li>
+  <li>If either player has a pair, they pull the pair from their hands and place them on the table.</li>
+  <li>One player goes first. The player picks a card in their hand that they’re trying to match, and they say, “Do you have a Jack?”
+    <ul>
+      <li>If the other player has a Jack, the asking player gets that card and places both Jacks on the table. The asking player goes again.</li>
+      <li>If the other player doesn’t have a Jack, they say “Go Fish!” The asking player draws a card from the deck and puts it in their hand.
+        <ul>
+          <li>If the drawn card is the card they asked for, they place the pair on the table and go again.</li>
+          <li>If the drawn card matches any other card in their hand, they place the pair on the table but don’t go again.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The game is over whenever one player runs out of cards.</li>
+  <li>The player with the most pairs at the end of the game wins, regardless of who ran out of cards first.</li>
+</ul>
+
+<p><em>Note: There are a number of variations to Go Fish. Feel free to make any changes you need to the above rules to match your style of play.</em></p>
+
+<p><em>Prerequisite: <a href="#playing-cards-8-2-basic-deck-functions">Playing Cards 8-2: Basic Deck Functions</a></em></p>
+      <h3 id="playing-cards-8-4-ai-go-fish">
+        
+        
+          <a href="#playing-cards-8-4-ai-go-fish" class="anchor-heading" aria-labelledby="playing-cards-8-4-ai-go-fish"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 8-4: AI Go Fish
+        
+        
+      </h3>
+    
+
+<p>If the computer player in your Go Fish game makes moves by randomly choosing a card in its hand to ask you about, you have a very weak Go Fish player. Consider a strategy for playing Go Fish well, and implement that strategy in code. For example, a good Go Fish player remembers when the other player has asked about a card. Your computer player should do this as well!</p>
+
+<p><em>Prerequisite: <a href="#playing-cards-8-3-go-fish">Playing Cards 8-3: Go Fish</a></em></p>
+
+<p><a href="#top">top</a></p><hr />
+      <h2 id="chapter-9">
+        
+        
+          <a href="#chapter-9" class="anchor-heading" aria-labelledby="chapter-9"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Chapter 9
+        
+        
+      </h2>
+    
+      <h3 id="playing-cards-9-1-deck-of-cards">
+        
+        
+          <a href="#playing-cards-9-1-deck-of-cards" class="anchor-heading" aria-labelledby="playing-cards-9-1-deck-of-cards"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 9-1: Deck of Cards
+        
+        
+      </h3>
+    
+
+<p>Write a class, or set of classes, to represent a deck of cards. Your code should contain all the functionality described in Challenges 8-1 and 8-2, <em><a href="#playing-cards-8-1-basic-card-functions">Basic Card Functions</a></em> and <em><a href="#playing-cards-8-2-basic-deck-functions">Basic Deck Functions</a></em>. To recap, that includes the following functions or methods:</p>
+
+<ul>
+  <li>Card-focused functionality
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">get_suit()</code></li>
+      <li><code class="language-plaintext highlighter-rouge">get_value()</code></li>
+      <li><code class="language-plaintext highlighter-rouge">same_value()</code></li>
+      <li><code class="language-plaintext highlighter-rouge">same_suit()</code></li>
+    </ul>
+  </li>
+  <li>Deck-focused functionality
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">build_deck()</code></li>
+      <li><code class="language-plaintext highlighter-rouge">get_first_card()</code></li>
+      <li><code class="language-plaintext highlighter-rouge">get_random_card()</code></li>
+      <li><code class="language-plaintext highlighter-rouge">shuffle_deck()</code></li>
+      <li><code class="language-plaintext highlighter-rouge">deal_hand()</code></li>
+    </ul>
+  </li>
+</ul>
+
+<p><em>Prerequisites: There are no prerequisites for this challenge. If you haven’t done the previous card-related challenges, and you want to jump in here, go ahead. If the class-based version of this challenge is too difficult, consider trying some of the earlier challenges in this series.</em></p>
+
+<p><em>You might need to see the short <a href="../../beyond_pcc/random_functions/">guide to working with the <code class="language-plaintext highlighter-rouge">random</code> module</a> when implementing some of these methods.</em></p>
+      <h3 id="playing-cards-9-2-go-fish">
+        
+        
+          <a href="#playing-cards-9-2-go-fish" class="anchor-heading" aria-labelledby="playing-cards-9-2-go-fish"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 9-2: Go Fish
+        
+        
+      </h3>
+    
+
+<p>Use your class-based deck of cards to implement a game of Go Fish that you can play against the computer. A basic Go Fish game has the following rules:</p>
+
+<ul>
+  <li>Each player is dealt a hand of 7 cards.</li>
+  <li>If either player has a pair, they pull the pair from their hands and place them on the table.</li>
+  <li>One player goes first. The player picks a card in their hand that they’re trying to match, and they say, “Do you have a Jack?”
+    <ul>
+      <li>If the other player has a Jack, the asking player gets that card and places both Jacks on the table. The asking player goes again.</li>
+      <li>If the other player doesn’t have a Jack, they say “Go Fish!” The asking player draws a card from the deck and puts it in their hand.
+        <ul>
+          <li>If the drawn card is the card they asked for, they place the pair on the table and go again.</li>
+          <li>If the drawn card matches any other card in their hand, they place the pair on the table but don’t go again.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The game is over whenever one player runs out of cards.</li>
+  <li>The player with the most pairs at the end of the game wins, regardless of who ran out of cards first.</li>
+</ul>
+
+<p><em>Note: There are a number of variations to Go Fish. Feel free to make any variations you need to the above rules to match your style of play.</em></p>
+
+<p><em>Prerequisite: <a href="#playing-cards-9-1-deck-of-cards">Playing Cards 9-1: Deck of Cards</a></em></p>
+      <h3 id="playing-cards-9-3-scoring-go-fish">
+        
+        
+          <a href="#playing-cards-9-3-scoring-go-fish" class="anchor-heading" aria-labelledby="playing-cards-9-3-scoring-go-fish"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 9-3: Scoring Go Fish
+        
+        
+      </h3>
+    
+
+<p>Report the number of cards in the player’s hand, and the computer’s hand. Report the number of turns that have been played. Keep track of the pairs that each player has won, and display the number of pairs won by each player.</p>
+
+<p><em>Prerequisite: <a href="#playing-cards-9-2-go-fish">Playing Cards 9-2: Go Fish</a></em></p>
+      <h3 id="playing-cards-9-4-ai-go-fish">
+        
+        
+          <a href="#playing-cards-9-4-ai-go-fish" class="anchor-heading" aria-labelledby="playing-cards-9-4-ai-go-fish"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 9-4: AI Go Fish
+        
+        
+      </h3>
+    
+
+<p>If the computer player in your Go Fish game makes moves by randomly choosing a card in its hand to ask you about, you have a very weak Go Fish player. Consider a strategy for playing Go Fish well, and implement that strategy in code. For example, a good Go Fish player remembers when the other player has asked about a card. Your computer player should do this as well!</p>
+
+<p>Extension: Write a version of this game where the computer plays itself.</p>
+
+<p><em>Prerequisite: <a href="#playing-cards-9-2-go-fish">Playing Cards 9-2: Go Fish</a> It will probably also be helpful to complete <a href="#playing-cards-9-3-scoring-go-fish">Playing Cards 9-3: Scoring Go Fish</a> as well.</em></p>
+      <h3 id="playing-cards-9-5-other-card-games">
+        
+        
+          <a href="#playing-cards-9-5-other-card-games" class="anchor-heading" aria-labelledby="playing-cards-9-5-other-card-games"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 9-5: Other Card Games
+        
+        
+      </h3>
+    
+
+<p>Consider other card-based games you know such as Poker, Solitaire, War, Rummy, Crazy Eights, and others. Implement one of these games so that you can play it against the computer.</p>
+
+<p><em>Note: Many card-based games are much easier to work on in a graphical environment. For example, it’s much easier to examine a poker hand when you can see the colors of the cards in your hand. If the game you’re working on is getting difficult because of the text-based terminal interface, you might want to work through Chapters 12-14 and then implement the game using Pygame.</em></p>
+
+<p><em>That said, it can be easier to work on some of the game logic outside the complexity of a graphical framework. So if you’re enjoying working on card games and don’t want to wait until after Chapter 14, go ahead and get started on the game you’re interested in.</em></p>
+
+<p><a href="#top">top</a></p><hr />
+      <h2 id="chapter-10">
+        
+        
+          <a href="#chapter-10" class="anchor-heading" aria-labelledby="chapter-10"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Chapter 10
+        
+        
+      </h2>
+    
+      <h3 id="playing-cards-10-1-statistics">
+        
+        
+          <a href="#playing-cards-10-1-statistics" class="anchor-heading" aria-labelledby="playing-cards-10-1-statistics"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 10-1: Statistics
+        
+        
+      </h3>
+    
+
+<p>Create a file that tracks statistics for the card game you’ve implemented. Keep track of wins and losses, and update the statistics after each completed game. You may choose to keep track of just wins and losses, or more detailed information such as how many turns were played, how many pairs each player ended with, and how many cards the losing player was left holding. Display the overall statistics at the start of the game, and after each game has finished.</p>
+
+<p><em>Prereqisite: Any of the challenges where you have implemented a card game that you can play against the computer.</em></p>
+
+<p><a href="#top">top</a></p><hr />
+      <h2 id="chapter-11">
+        
+        
+          <a href="#chapter-11" class="anchor-heading" aria-labelledby="chapter-11"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Chapter 11
+        
+        
+      </h2>
+    
+      <h3 id="playing-cards-11-1-testing-your-deck">
+        
+        
+          <a href="#playing-cards-11-1-testing-your-deck" class="anchor-heading" aria-labelledby="playing-cards-11-1-testing-your-deck"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 11-1: Testing Your Deck
+        
+        
+      </h3>
+    
+
+<p>Write some tests for the deck functions or classes that you’ve written. You might start with any or all of the following tests:</p>
+
+<ul>
+  <li>Test that a newly-built deck has the correct number of cards in it.</li>
+  <li>Test that a newly-built deck has the correct number of 2s, 3s, 4s, etc.</li>
+  <li>Write a full deck to a file. Build a new deck, and test that your new deck matches the deck you’ve saved in a file.</li>
+  <li>Build a new deck, and deal some cards. Test that the cards that should have been dealt were actually dealt. Test that the remaining deck is the size it should be.</li>
+</ul>
+
+<p><em>Prerequisites: Any of the card or deck functions or classes you’ve written, such as <a href="#playing-cards-8-2-basic-deck-functions">Playing Cards 8-2: Basic Deck Functions</a> or <a href="#playing-cards-9-1-deck-of-cards">Playing Cards 9-1: Deck of Cards</a>.</em></p>
+      <h3 id="playing-cards-11-2-testing-go-fish">
+        
+        
+          <a href="#playing-cards-11-2-testing-go-fish" class="anchor-heading" aria-labelledby="playing-cards-11-2-testing-go-fish"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 11-2: Testing Go Fish
+        
+        
+      </h3>
+    
+
+<p>Write some tests for your Go Fish game. Consider any or all of the following:</p>
+
+<ul>
+  <li>Build non-random hands for each player. Test that a correct guess is processed correctly, and that an incorrect guess is processed correctly. Make sure you test the processing of the user’s guesses, and the computer’s guesses.</li>
+  <li>Build a hand for each player that has one or two pairs in it. Test that these pairs are pulled from the hands before the first turn happens.</li>
+  <li>Write a test ensuring that when either player draws a card that matches another card in their hand, that pair is pulled before the next turn.</li>
+</ul>
+
+<p><em>Prerequisites: A Go Fish game, such as <a href="#playing-cards-8-3-go-fish">Playing Cards 8-3: Go Fish</a> or <a href="#playing-cards-9-2-go-fish">Playing Cards 9-2: Go Fish</a>.</em></p>
+      <h3 id="playing-cards-11-3-testing-other-games">
+        
+        
+          <a href="#playing-cards-11-3-testing-other-games" class="anchor-heading" aria-labelledby="playing-cards-11-3-testing-other-games"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 11-3: Testing Other Games
+        
+        
+      </h3>
+    
+
+<p>Write some tests for a different card game that you’ve made.</p>
+
+<p><em>Prerequisite: <a href="#playing-cards-9-5-other-card-games">Playing Cards 9-5: Other Card Games</a>.</em></p>
+
+<p><a href="#top">top</a></p><hr />
+      <h2 id="chapter-14">
+        
+        
+          <a href="#chapter-14" class="anchor-heading" aria-labelledby="chapter-14"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Chapter 14
+        
+        
+      </h2>
+    
+      <h3 id="playing-cards-14-1-go-fish-game">
+        
+        
+          <a href="#playing-cards-14-1-go-fish-game" class="anchor-heading" aria-labelledby="playing-cards-14-1-go-fish-game"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 14-1: Go Fish Game
+        
+        
+      </h3>
+    
+
+<p>PyGame is a great framework for building a graphical version of Go Fish. You can find a set of card images <a href="https://pixabay.com/vectors/card-deck-deck-cards-playing-cards-161536/">here</a>. You can also find this file as <em>playing_cards.bmp</em> in the <a href="https://github.com/ehmatthes/pcc_2e/tree/master/beyond_pcc"><em>beyond_pcc</em></a> folder in the <a href="https://github.com/ehmatthes/pcc_2e/zipball/master/">zip file</a> of online resources for the book. To load the card images, you’ll need to see the guide <a href="../../beyond_pcc/pygame_sprite_sheets/"><em>Pygame - Using Sprite Sheets</em></a>.</p>
+
+<p>In your Go Fish game, the player should see all the cards in their hand once the game begins. They should see a card back for each card in the computer’s hand, and a set of cards representing the draw pile. They should be able to click on a button to ask for a certain card. If they are incorrect, they should have to click on the draw pile to draw their card. They should see their card, and if they got what they asked for they should get to go again. When their turn is completely over, they should click a button to let the computer take its turn.</p>
+
+<p>Start with a basic version of the game, and then implement a scoring system.</p>
+
+<p><em>Prerequisites: A Go Fish game, such as <a href="#playing-cards-9-2-go-fish">Playing Cards 9-2: Go Fish</a>.</em></p>
+      <h3 id="playing-cards-14-2-other-card-games">
+        
+        
+          <a href="#playing-cards-14-2-other-card-games" class="anchor-heading" aria-labelledby="playing-cards-14-2-other-card-games"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 14-2: Other Card Games
+        
+        
+      </h3>
+    
+
+<p>Make a graphical version of a different card game that you’ve made.</p>
+
+<p><em>Prerequisite: <a href="#playing-cards-9-5-other-card-games">Playing Cards 9-5: Other Card Games</a>.</em></p>
+
+<p><a href="#top">top</a></p><hr />
+      <h2 id="chapter-15">
+        
+        
+          <a href="#chapter-15" class="anchor-heading" aria-labelledby="chapter-15"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Chapter 15
+        
+        
+      </h2>
+    
+      <h3 id="playing-cards-15-1-go-fish-statistics---visualized">
+        
+        
+          <a href="#playing-cards-15-1-go-fish-statistics---visualized" class="anchor-heading" aria-labelledby="playing-cards-15-1-go-fish-statistics---visualized"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 15-1: Go Fish Statistics - Visualized
+        
+        
+      </h3>
+    
+
+<p>Create a Go Fish game, in which the computer follows a specific strategy. Make a version of the game where the computer plays itself. Write a loop of some sort that makes the computer play itself 100 times or more.</p>
+
+<p>Develop several questions about what might happen over the course of a large number of Go Fish games, such as:</p>
+
+<ul>
+  <li>At the end of each game, how many cards was each player holding?</li>
+  <li>How many games does each player win?</li>
+  <li>How often does one player end up with all the cards?</li>
+</ul>
+
+<p>Make a guess about what you think the answers to these questions might be. Then make a visualization, or series of visualizations, that answer these questions based on your simulated game play.</p>
+
+<p><em>Prerequisites: A Go Fish game, such as <a href="#playing-cards-9-2-go-fish">Playing Cards 9-2: Go Fish</a>.</em></p>
+      <h3 id="playing-cards-15-2-other-card-games---visualized">
+        
+        
+          <a href="#playing-cards-15-2-other-card-games---visualized" class="anchor-heading" aria-labelledby="playing-cards-15-2-other-card-games---visualized"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 15-2: Other Card Games - Visualized
+        
+        
+      </h3>
+    
+
+<p>Develop a version of your other card game where the computer can play itself. Write a loop of some sort that makes the computer play itself 100 times or more.</p>
+
+<p>Develop several questions about what might happen over the course of a large number of these games. Make a guess about what you think the answers to these questions might be. Then make a visualization, or series of visualizations, that answer these questions based on your simulated game play.</p>
+
+<p><em>Prerequisite: <a href="#playing-cards-9-5-other-card-games">Playing Cards 9-5: Other Card Games</a>.</em></p>
+
+<p><a href="#top">top</a></p><hr />
+      <h2 id="chapter-20">
+        
+        
+          <a href="#chapter-20" class="anchor-heading" aria-labelledby="chapter-20"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Chapter 20
+        
+        
+      </h2>
+    
+      <h3 id="playing-cards-20-1-go-fish-online">
+        
+        
+          <a href="#playing-cards-20-1-go-fish-online" class="anchor-heading" aria-labelledby="playing-cards-20-1-go-fish-online"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 20-1: Go Fish Online
+        
+        
+      </h3>
+    
+
+<p>Develop an online version of Go Fish. This could be text-based, or it could be image based.</p>
+
+<p><em>Prerequisites: A Go Fish game, such as <a href="#playing-cards-9-2-go-fish">Playing Cards 9-2: Go Fish</a>.</em></p>
+      <h3 id="playing-cards-20-2-online-card-games">
+        
+        
+          <a href="#playing-cards-20-2-online-card-games" class="anchor-heading" aria-labelledby="playing-cards-20-2-online-card-games"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Playing Cards 20-2: Online Card Games
+        
+        
+      </h3>
+    
+
+<p>Develop an online version of your other card game. This could be text-based, or it could be image based.</p>
+
+<p><em>Prerequisite: <a href="#playing-cards-9-5-other-card-games">Playing Cards 9-5: Other Card Games</a>.</em></p>
+
+<p><a href="#top">top</a></p>
+
+
+        
+
+        
+
+        
+        
+
+      </div>
+    </div>
+
+    
+      
+
+      <div class="search-overlay"></div>
+    
+  </div>
+</body>
+</html>
+

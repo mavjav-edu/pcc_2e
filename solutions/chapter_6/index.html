@@ -1,0 +1,837 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  
+
+
+  <link rel="shortcut icon" href="/pcc_2e/assets/images/favicon.ico" type="image/x-icon"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/pcc_2e/assets/images/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/pcc_2e/assets/images/favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/pcc_2e/assets/images/favicon-16x16.png"/>
+  <link rel="manifest" href="/pcc_2e/assets/site.webmanifest"/>
+
+  <link rel="stylesheet" href="/pcc_2e/assets/css/just-the-docs-default.css">
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1B6T2W9DJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    
+    gtag('config', 'G-H1B6T2W9DJ');
+    
+  </script>
+
+  
+
+  
+  <script type="text/javascript" src="/pcc_2e/assets/js/vendor/lunr.min.js"></script>
+  
+  <script type="text/javascript" src="/pcc_2e/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Chapter 6 | Python Crash Course, 2nd Edition</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Chapter 6" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Online Resources for Python Crash Course, from No Starch Press" />
+<meta property="og:description" content="Online Resources for Python Crash Course, from No Starch Press" />
+<link rel="canonical" href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/" />
+<meta property="og:url" content="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/" />
+<meta property="og:site_name" content="Python Crash Course, 2nd Edition" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Chapter 6" />
+<script type="application/ld+json">
+{"headline":"Chapter 6","@type":"WebPage","description":"Online Resources for Python Crash Course, from No Starch Press","url":"https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://mavjav-edu.github.io/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_788.png"}},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      <a href="https://mavjav-edu.github.io/pcc_2e/" class="site-title lh-tight">
+  <div class="site-logo">
+    <img sizes="(max-width: 1380px) 100vw, 1380px"
+srcset="/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_50.png 50w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_508.png 508w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_788.png 788w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_1380.png 1380w"
+src="/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_1380.png"
+alt="Python Crash Course 2nd Edition"></div>
+
+</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      
+        <ul class="nav-list"><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/" class="nav-list-link">Home</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/cip/" class="nav-list-link">Coding is political</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/updates/" class="nav-list-link">Updates</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/first_printing/" class="nav-list-link">First printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/second_printing/" class="nav-list-link">Second printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/third_printing/" class="nav-list-link">Third printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/fourth_printing/" class="nav-list-link">Fourth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/fifth_printing/" class="nav-list-link">Fifth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/sixth_printing/" class="nav-list-link">Sixth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/seventh_printing/" class="nav-list-link">Seventh printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/eighth_printing/" class="nav-list-link">Eighth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/ninth_printing/" class="nav-list-link">Ninth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/which_printing/" class="nav-list-link">Which printing do I have?</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/django3_2/" class="nav-list-link">Django 3.2</a>
+                  </li></ul></li><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/solutions/" class="nav-list-link">Solutions</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_2/" class="nav-list-link">Chapter 2</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_3/" class="nav-list-link">Chapter 3</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_4/" class="nav-list-link">Chapter 4</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_5/" class="nav-list-link">Chapter 5</a>
+                  </li><li class="nav-list-item  active">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/" class="nav-list-link active">Chapter 6</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_7/" class="nav-list-link">Chapter 7</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_8/" class="nav-list-link">Chapter 8</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_9/" class="nav-list-link">Chapter 9</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/" class="nav-list-link">Chapter 10</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_11/" class="nav-list-link">Chapter 11</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_12/" class="nav-list-link">Chapter 12</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_13/" class="nav-list-link">Chapter 13</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_14/" class="nav-list-link">Chapter 14</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_15/" class="nav-list-link">Chapter 15</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_16/" class="nav-list-link">Chapter 16</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_17/" class="nav-list-link">Chapter 17</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/reader_questions/" class="nav-list-link">Reader Questions</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/finding_employment/" class="nav-list-link">Finding Employment</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/survey/" class="nav-list-link">Survey</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/mailing_list/" class="nav-list-link">Mailing List</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/contact/" class="nav-list-link">Contact</a></li></ul></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/new_in_2e/new_in_2e/" class="nav-list-link">What's new?</a></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/new_in_2e/" class="nav-list-link">What's new?</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/" class="nav-list-link">Setup Instructions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/windows/" class="nav-list-link">Setting up Python on Windows</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/macos/" class="nav-list-link">Setting up Python on macOS</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/linux/" class="nav-list-link">Setting up Python on Linux</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/setup_instructions/" class="nav-list-link">Setup Instructions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/windows/" class="nav-list-link">Setting up Python on Windows</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/macos/" class="nav-list-link">Setting up Python on macOS</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/linux/" class="nav-list-link">Setting up Python on Linux</a></li></ul></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/cheat_sheets/" class="nav-list-link">Cheat Sheets</a></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/cheat_sheets/cheat_sheets/" class="nav-list-link">Cheat Sheets</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/updates/updates/" class="nav-list-link">Updates</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/first_printing/" class="nav-list-link">First printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/second_printing/" class="nav-list-link">Second printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/third_printing/" class="nav-list-link">Third printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/fourth_printing/" class="nav-list-link">Fourth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/fifth_printing/" class="nav-list-link">Fifth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/sixth_printing/" class="nav-list-link">Sixth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/seventh_printing/" class="nav-list-link">Seventh printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/eighth_printing/" class="nav-list-link">Eighth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/ninth_printing/" class="nav-list-link">Ninth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/which_printing/" class="nav-list-link">Which printing do I have?</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/django3_2/" class="nav-list-link">Django 3.2</a></li></ul></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/solutions/solutions/" class="nav-list-link">Solutions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_2/" class="nav-list-link">Chapter 2</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_3/" class="nav-list-link">Chapter 3</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_4/" class="nav-list-link">Chapter 4</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_5/" class="nav-list-link">Chapter 5</a></li><li class="nav-list-item  active"><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/" class="nav-list-link active">Chapter 6</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_7/" class="nav-list-link">Chapter 7</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_8/" class="nav-list-link">Chapter 8</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_9/" class="nav-list-link">Chapter 9</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/" class="nav-list-link">Chapter 10</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_11/" class="nav-list-link">Chapter 11</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_12/" class="nav-list-link">Chapter 12</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_13/" class="nav-list-link">Chapter 13</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_14/" class="nav-list-link">Chapter 14</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_15/" class="nav-list-link">Chapter 15</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_16/" class="nav-list-link">Chapter 16</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_17/" class="nav-list-link">Chapter 17</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/challenges/challenges/" class="nav-list-link">Challenges</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/" class="nav-list-link">Playing Cards</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/photo_filters/" class="nav-list-link">Photo Filters</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/coding_for_social_justice/" class="nav-list-link">Coding for Social Justice</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/ai_player/" class="nav-list-link">Automated Alien Invasion Player</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/challenges/" class="nav-list-link">Challenges</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/" class="nav-list-link">Playing Cards</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/photo_filters/" class="nav-list-link">Photo Filters</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/coding_for_social_justice/" class="nav-list-link">Coding for Social Justice</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/ai_player/" class="nav-list-link">Automated Alien Invasion Player</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/" class="nav-list-link">Beyond PCC</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/random_functions/" class="nav-list-link">Random Functions</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pygame_sprite_sheets/" class="nav-list-link">Using Sprite Sheets in Pygame</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/ai_player/" class="nav-list-link">Pygame - Adding Sound and Automating Game Play</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pillow/" class="nav-list-link">Pillow - Working with Images</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/extracting_from_excel/" class="nav-list-link">Extracting Data from Excel Files</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/beyond_pcc/" class="nav-list-link">Beyond PCC</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/random_functions/" class="nav-list-link">Random Functions</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pygame_sprite_sheets/" class="nav-list-link">Using Sprite Sheets in Pygame</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/ai_player/" class="nav-list-link">Pygame - Adding Sound and Automating Game Play</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pillow/" class="nav-list-link">Pillow - Working with Images</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/extracting_from_excel/" class="nav-list-link">Extracting Data from Excel Files</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/recommended_reading/" class="nav-list-link">Recommended Reading</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/first_steps/" class="nav-list-link">First Steps</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/" class="nav-list-link">General Python Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/data_science/" class="nav-list-link">Data Science Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/django/" class="nav-list-link">Django Resources</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/" class="nav-list-link">Recommended Reading</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/first_steps/" class="nav-list-link">First Steps</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/" class="nav-list-link">General Python Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/data_science/" class="nav-list-link">Data Science Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/django/" class="nav-list-link">Django Resources</a></li></ul></li></ul>
+
+      
+    </nav>
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+      
+        <div class="search">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Python Crash Course, 2nd Edition" aria-label="Search Python Crash Course, 2nd Edition" autocomplete="off">
+            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      
+      
+      
+        <nav aria-label="Auxiliary" class="aux-nav">
+          <ul class="aux-nav-list">
+            
+              <li class="aux-nav-list-item">
+                <a href="//github.com/mavjav-edu/pcc_2e" class="site-button"
+                  
+                >
+                  Python Crash Course on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        </nav>
+      
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list">
+              
+                <li class="breadcrumb-nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/solutions/solutions/">Home</a></li>
+                <li class="breadcrumb-nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/">Solutions</a></li>
+              
+              <li class="breadcrumb-nav-list-item"><span>Chapter 6</span></li>
+            </ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+        
+          <h1 class="no_toc" id="solutions---chapter-6">
+        
+        
+          <a href="#solutions---chapter-6" class="anchor-heading" aria-labelledby="solutions---chapter-6"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Solutions - Chapter 6
+        
+        
+      </h1>
+    
+
+<ul id="markdown-toc">
+  <li><a href="#6-1-person" id="markdown-toc-6-1-person">6-1: Person</a></li>
+  <li><a href="#6-2-favorite-numbers" id="markdown-toc-6-2-favorite-numbers">6-2: Favorite Numbers</a></li>
+  <li><a href="#6-3-glossary" id="markdown-toc-6-3-glossary">6-3: Glossary</a></li>
+  <li><a href="#6-4-glossary-2" id="markdown-toc-6-4-glossary-2">6-4: Glossary 2</a></li>
+  <li><a href="#6-5-rivers" id="markdown-toc-6-5-rivers">6-5: Rivers</a></li>
+  <li><a href="#6-6-polling" id="markdown-toc-6-6-polling">6-6: Polling</a></li>
+  <li><a href="#6-7-people" id="markdown-toc-6-7-people">6-7: People</a></li>
+  <li><a href="#6-8-pets" id="markdown-toc-6-8-pets">6-8: Pets</a></li>
+  <li><a href="#6-9-favorite-places" id="markdown-toc-6-9-favorite-places">6-9: Favorite Places</a></li>
+  <li><a href="#6-10-favorite-numbers" id="markdown-toc-6-10-favorite-numbers">6-10: Favorite Numbers</a></li>
+  <li><a href="#6-11-cities" id="markdown-toc-6-11-cities">6-11: Cities</a></li>
+</ul>
+
+<p>Back to <a href="../solutions">solutions</a>.</p><hr />
+      <h2 id="6-1-person">
+        
+        
+          <a href="#6-1-person" class="anchor-heading" aria-labelledby="6-1-person"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 6-1: Person
+        
+        
+      </h2>
+    
+
+<p>Use a dictionary to store information about a person you  know. Store their first name, last name, age, and the city in which they live. You should have keys such as <code class="language-plaintext highlighter-rouge">first_name</code>, <code class="language-plaintext highlighter-rouge">last_name</code>, <code class="language-plaintext highlighter-rouge">age</code>, and <code class="language-plaintext highlighter-rouge">city</code>. Print each piece of information stored in your dictionary.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">person</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'first_name'</span><span class="p">:</span> <span class="s">'eric'</span><span class="p">,</span>
+    <span class="s">'last_name'</span><span class="p">:</span> <span class="s">'matthes'</span><span class="p">,</span>
+    <span class="s">'age'</span><span class="p">:</span> <span class="mi">43</span><span class="p">,</span>
+    <span class="s">'city'</span><span class="p">:</span> <span class="s">'sitka'</span><span class="p">,</span>
+    <span class="p">}</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">person</span><span class="p">[</span><span class="s">'first_name'</span><span class="p">])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">person</span><span class="p">[</span><span class="s">'last_name'</span><span class="p">])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">person</span><span class="p">[</span><span class="s">'age'</span><span class="p">])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">person</span><span class="p">[</span><span class="s">'city'</span><span class="p">])</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eric
+matthes
+43
+sitka
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="6-2-favorite-numbers">
+        
+        
+          <a href="#6-2-favorite-numbers" class="anchor-heading" aria-labelledby="6-2-favorite-numbers"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 6-2: Favorite Numbers
+        
+        
+      </h2>
+    
+
+<p>Use a dictionary to store people’s favorite numbers. Think of five names, and use them as keys in your dictionary. Think of a favorite number for each person, and store each as a value in your dictionary. Print each person’s name and their favorite number. For even more fun, poll a few friends and get some actual data for your program.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">favorite_numbers</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'mandy'</span><span class="p">:</span> <span class="mi">42</span><span class="p">,</span>
+    <span class="s">'micah'</span><span class="p">:</span> <span class="mi">23</span><span class="p">,</span>
+    <span class="s">'gus'</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span>
+    <span class="s">'hank'</span><span class="p">:</span> <span class="mi">1000_000</span><span class="p">,</span>
+    <span class="s">'maggie'</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="p">}</span>
+
+<span class="n">num</span> <span class="o">=</span> <span class="n">favorite_numbers</span><span class="p">[</span><span class="s">'mandy'</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Mandy's favorite number is </span><span class="si">{</span><span class="n">num</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+
+<span class="n">num</span> <span class="o">=</span> <span class="n">favorite_numbers</span><span class="p">[</span><span class="s">'micah'</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Micah's favorite number is </span><span class="si">{</span><span class="n">num</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+
+<span class="n">num</span> <span class="o">=</span> <span class="n">favorite_numbers</span><span class="p">[</span><span class="s">'gus'</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Gus's favorite number is </span><span class="si">{</span><span class="n">num</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+
+<span class="n">num</span> <span class="o">=</span> <span class="n">favorite_numbers</span><span class="p">[</span><span class="s">'hank'</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Hank's favorite number is </span><span class="si">{</span><span class="n">num</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+
+<span class="n">num</span> <span class="o">=</span> <span class="n">favorite_numbers</span><span class="p">[</span><span class="s">'maggie'</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Maggie's favorite number is </span><span class="si">{</span><span class="n">num</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Mandy's favorite number is 42.
+Micah's favorite number is 23.
+Gus's favorite number is 7.
+Hank's favorite number is 1000000.
+Maggie's favorite number is 0.
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="6-3-glossary">
+        
+        
+          <a href="#6-3-glossary" class="anchor-heading" aria-labelledby="6-3-glossary"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 6-3: Glossary
+        
+        
+      </h2>
+    
+
+<p>A Python dictionary can be used to model an actual dictionary. However, to avoid confusion, let’s call it a glossary.</p>
+
+<ul>
+  <li>Think of five programming words you’ve learned about in the previous chapters. Use these words as the keys in your glossary, and store their meanings as values.</li>
+  <li>Print each word and its meaning as neatly formatted output. You might print the word followed by a colon and then its meaning, or print the word on one line and then print its meaning indented on a second line. Use the newline character (<code class="language-plaintext highlighter-rouge">'\n'</code>) to insert a blank line between each word-meaning pair in your output.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">glossary</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'string'</span><span class="p">:</span> <span class="s">'A series of characters.'</span><span class="p">,</span>
+    <span class="s">'comment'</span><span class="p">:</span> <span class="s">'A note in a program that the Python interpreter ignores.'</span><span class="p">,</span>
+    <span class="s">'list'</span><span class="p">:</span> <span class="s">'A collection of items in a particular order.'</span><span class="p">,</span>
+    <span class="s">'loop'</span><span class="p">:</span> <span class="s">'Work through a collection of items, one at a time.'</span><span class="p">,</span>
+    <span class="s">'dictionary'</span><span class="p">:</span> <span class="s">"A collection of key-value pairs."</span><span class="p">,</span>
+    <span class="p">}</span>
+
+<span class="n">word</span> <span class="o">=</span> <span class="s">'string'</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="si">{</span><span class="n">word</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">glossary</span><span class="p">[</span><span class="n">word</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+<span class="n">word</span> <span class="o">=</span> <span class="s">'comment'</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="si">{</span><span class="n">word</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">glossary</span><span class="p">[</span><span class="n">word</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+<span class="n">word</span> <span class="o">=</span> <span class="s">'list'</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="si">{</span><span class="n">word</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">glossary</span><span class="p">[</span><span class="n">word</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+<span class="n">word</span> <span class="o">=</span> <span class="s">'loop'</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="si">{</span><span class="n">word</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">glossary</span><span class="p">[</span><span class="n">word</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+<span class="n">word</span> <span class="o">=</span> <span class="s">'dictionary'</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="si">{</span><span class="n">word</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">glossary</span><span class="p">[</span><span class="n">word</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>String: A series of characters.
+
+Comment: A note in a program that the Python interpreter ignores.
+
+List: A collection of items in a particular order.
+
+Loop: Work through a collection of items, one at a time.
+
+Dictionary: A collection of key-value pairs.
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="6-4-glossary-2">
+        
+        
+          <a href="#6-4-glossary-2" class="anchor-heading" aria-labelledby="6-4-glossary-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 6-4: Glossary 2
+        
+        
+      </h2>
+    
+
+<p>Now that you know how to loop through a dictionary, clean up the code from Exercise 6-3 (page 99) by replacing your series of <code class="language-plaintext highlighter-rouge">print</code> statements with a loop that runs through the dictionary’s keys and values. When you’re sure that your loop works, add five more Python terms to your glossary. When you run your program again, these new words and meanings should automatically be included in the output.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">glossary</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'string'</span><span class="p">:</span> <span class="s">'A series of characters.'</span><span class="p">,</span>
+    <span class="s">'comment'</span><span class="p">:</span> <span class="s">'A note in a program that the Python interpreter ignores.'</span><span class="p">,</span>
+    <span class="s">'list'</span><span class="p">:</span> <span class="s">'A collection of items in a particular order.'</span><span class="p">,</span>
+    <span class="s">'loop'</span><span class="p">:</span> <span class="s">'Work through a collection of items, one at a time.'</span><span class="p">,</span>
+    <span class="s">'dictionary'</span><span class="p">:</span> <span class="s">"A collection of key-value pairs."</span><span class="p">,</span>
+    <span class="s">'key'</span><span class="p">:</span> <span class="s">'The first item in a key-value pair in a dictionary.'</span><span class="p">,</span>
+    <span class="s">'value'</span><span class="p">:</span> <span class="s">'An item associated with a key in a dictionary.'</span><span class="p">,</span>
+    <span class="s">'conditional test'</span><span class="p">:</span> <span class="s">'A comparison between two values.'</span><span class="p">,</span>
+    <span class="s">'float'</span><span class="p">:</span> <span class="s">'A numerical value with a decimal component.'</span><span class="p">,</span>
+    <span class="s">'boolean expression'</span><span class="p">:</span> <span class="s">'An expression that evaluates to True or False.'</span><span class="p">,</span>
+    <span class="p">}</span>
+
+<span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">definition</span> <span class="ow">in</span> <span class="n">glossary</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="si">{</span><span class="n">word</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">definition</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dictionary: A collection of key-value pairs.
+
+String: A series of characters.
+
+Boolean Expression: An expression that evaluates to True or False.
+
+Comment: A note in a program that the Python interpreter ignores.
+
+Value: An item associated with a key in a dictionary.
+
+Loop: Work through a collection of items, one at a time.
+
+List: A collection of items in a particular order.
+
+Conditional Test: A comparison between two values.
+
+Key: The first item in a key-value pair in a dictionary.
+
+Float: A numerical value with a decimal component.
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="6-5-rivers">
+        
+        
+          <a href="#6-5-rivers" class="anchor-heading" aria-labelledby="6-5-rivers"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 6-5: Rivers
+        
+        
+      </h2>
+    
+
+<p>Make a dictionary containing three major rivers and the country each river runs through. One key-value pair might be <code class="language-plaintext highlighter-rouge">'nile': 'egypt'</code>.</p>
+
+<ul>
+  <li>Use a loop to print a sentence about each river, such as <em>The Nile runs through Egypt.</em></li>
+  <li>Use a loop to print the name of each river included in the dictionary.</li>
+  <li>Use a loop to print the name of each country included in the dictionary.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">rivers</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'nile'</span><span class="p">:</span> <span class="s">'egypt'</span><span class="p">,</span>
+    <span class="s">'mississippi'</span><span class="p">:</span> <span class="s">'united states'</span><span class="p">,</span>
+    <span class="s">'fraser'</span><span class="p">:</span> <span class="s">'canada'</span><span class="p">,</span>
+    <span class="s">'kuskokwim'</span><span class="p">:</span> <span class="s">'alaska'</span><span class="p">,</span>
+    <span class="s">'yangtze'</span><span class="p">:</span> <span class="s">'china'</span><span class="p">,</span>
+    <span class="p">}</span>
+
+<span class="k">for</span> <span class="n">river</span><span class="p">,</span> <span class="n">country</span> <span class="ow">in</span> <span class="n">rivers</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"The </span><span class="si">{</span><span class="n">river</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s"> flows through </span><span class="si">{</span><span class="n">country</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">The following rivers are included in this data set:"</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">river</span> <span class="ow">in</span> <span class="n">rivers</span><span class="p">.</span><span class="n">keys</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"- </span><span class="si">{</span><span class="n">river</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">The following countries are included in this data set:"</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">country</span> <span class="ow">in</span> <span class="n">rivers</span><span class="p">.</span><span class="n">values</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"- </span><span class="si">{</span><span class="n">country</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output*:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The Mississippi flows through United States.
+The Yangtze flows through China.
+The Fraser flows through Canada.
+The Nile flows through Egypt.
+The Kuskokwim flows through Alaska.
+
+The following rivers are included in this data set:
+- Mississippi
+- Yangtze
+- Fraser
+- Nile
+- Kuskokwim
+
+The following countries are included in this data set:
+- United States
+- China
+- Canada
+- Egypt
+- Alaska
+</code></pre></div></div>
+
+<p>*Sometimes we like to think of Alaska as our own separate country.</p>
+
+<p><a href="#top">top</a></p>
+      <h2 id="6-6-polling">
+        
+        
+          <a href="#6-6-polling" class="anchor-heading" aria-labelledby="6-6-polling"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 6-6: Polling
+        
+        
+      </h2>
+    
+
+<p>Use the code in <em>favorite_languages.py</em> (page 104).</p>
+
+<ul>
+  <li>Make a list of people who should take the favorite languages poll. Include some names that are already in the dictionary and some that are not.</li>
+  <li>Loop through the list of people who should take the poll. If they have already taken the poll, print a message thanking them for responding. If they have not yet taken the poll, print a message inviting them to take the poll.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">favorite_languages</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'jen'</span><span class="p">:</span> <span class="s">'python'</span><span class="p">,</span>
+    <span class="s">'sarah'</span><span class="p">:</span> <span class="s">'c'</span><span class="p">,</span>
+    <span class="s">'edward'</span><span class="p">:</span> <span class="s">'ruby'</span><span class="p">,</span>
+    <span class="s">'phil'</span><span class="p">:</span> <span class="s">'python'</span><span class="p">,</span>
+    <span class="p">}</span>
+
+<span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">language</span> <span class="ow">in</span> <span class="n">favorite_languages</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">name</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">'s favorite language is </span><span class="si">{</span><span class="n">language</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+
+<span class="n">coders</span> <span class="o">=</span> <span class="p">[</span><span class="s">'phil'</span><span class="p">,</span> <span class="s">'josh'</span><span class="p">,</span> <span class="s">'david'</span><span class="p">,</span> <span class="s">'becca'</span><span class="p">,</span> <span class="s">'sarah'</span><span class="p">,</span> <span class="s">'matt'</span><span class="p">,</span> <span class="s">'danielle'</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">coder</span> <span class="ow">in</span> <span class="n">coders</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">coder</span> <span class="ow">in</span> <span class="n">favorite_languages</span><span class="p">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Thank you for taking the poll, </span><span class="si">{</span><span class="n">coder</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">!"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">coder</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">, what's your favorite programming language?"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Jen's favorite language is Python.
+Sarah's favorite language is C.
+Phil's favorite language is Python.
+Edward's favorite language is Ruby.
+
+
+Thank you for taking the poll, Phil!
+Josh, what's your favorite programming language?
+David, what's your favorite programming language?
+Becca, what's your favorite programming language?
+Thank you for taking the poll, Sarah!
+Matt, what's your favorite programming language?
+Danielle, what's your favorite programming language?
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="6-7-people">
+        
+        
+          <a href="#6-7-people" class="anchor-heading" aria-labelledby="6-7-people"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 6-7: People
+        
+        
+      </h2>
+    
+
+<p>Start with the program you wrote for Exercise 6-1 (page 102). Make two new dictionaries representing different people, and store all three dictionaries in a list called <code class="language-plaintext highlighter-rouge">people</code>. Loop through your list of people. As you loop through the list, print everything you know about each person.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Make an empty list to store people in.
+</span><span class="n">people</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="c1"># Define some people, and add them to the list.
+</span><span class="n">person</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'first_name'</span><span class="p">:</span> <span class="s">'eric'</span><span class="p">,</span>
+    <span class="s">'last_name'</span><span class="p">:</span> <span class="s">'matthes'</span><span class="p">,</span>
+    <span class="s">'age'</span><span class="p">:</span> <span class="mi">46</span><span class="p">,</span>
+    <span class="s">'city'</span><span class="p">:</span> <span class="s">'sitka'</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="n">people</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">person</span><span class="p">)</span>
+
+<span class="n">person</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'first_name'</span><span class="p">:</span> <span class="s">'lemmy'</span><span class="p">,</span>
+    <span class="s">'last_name'</span><span class="p">:</span> <span class="s">'matthes'</span><span class="p">,</span>
+    <span class="s">'age'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+    <span class="s">'city'</span><span class="p">:</span> <span class="s">'sitka'</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="n">people</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">person</span><span class="p">)</span>
+
+<span class="n">person</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'first_name'</span><span class="p">:</span> <span class="s">'willie'</span><span class="p">,</span>
+    <span class="s">'last_name'</span><span class="p">:</span> <span class="s">'matthes'</span><span class="p">,</span>
+    <span class="s">'age'</span><span class="p">:</span> <span class="mi">11</span><span class="p">,</span>
+    <span class="s">'city'</span><span class="p">:</span> <span class="s">'sitka'</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="n">people</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">person</span><span class="p">)</span>
+
+<span class="c1"># Display all of the information in the dictionary.
+</span><span class="k">for</span> <span class="n">person</span> <span class="ow">in</span> <span class="n">people</span><span class="p">:</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">person</span><span class="p">[</span><span class="s">'first_name'</span><span class="p">].</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s"> </span><span class="si">{</span><span class="n">person</span><span class="p">[</span><span class="s">'last_name'</span><span class="p">].</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">"</span>
+    <span class="n">age</span> <span class="o">=</span> <span class="n">person</span><span class="p">[</span><span class="s">'age'</span><span class="p">]</span>
+    <span class="n">city</span> <span class="o">=</span> <span class="n">person</span><span class="p">[</span><span class="s">'city'</span><span class="p">].</span><span class="n">title</span><span class="p">()</span>
+    
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">, of </span><span class="si">{</span><span class="n">city</span><span class="si">}</span><span class="s">, is </span><span class="si">{</span><span class="n">age</span><span class="si">}</span><span class="s"> years old."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Eric Matthes, of Sitka, is 46 years old.
+Lemmy Matthes, of Sitka, is 2 years old.
+Willie Matthes, of Sitka, is 11 years old.
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="6-8-pets">
+        
+        
+          <a href="#6-8-pets" class="anchor-heading" aria-labelledby="6-8-pets"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 6-8: Pets
+        
+        
+      </h2>
+    
+
+<p>Make several dictionaries, where the name of each dictionary is the name of a pet. In each dictionary, include the kind of animal and the owner’s name. Store these dictionaries in a list called <code class="language-plaintext highlighter-rouge">pets</code>. Next, loop through your list and as you do print everything you know about each pet.</p>
+
+<p><em>Note: When I decided to post solutions and wrote complete programs to solve each exercise, I realized this problem was not as well phrased as it should have been. It doesn’t really make sense to name each dictionary for the pet it describes; that information should really be included in the dictionary, rather than being used as the name of the dictionary. This solution reflects that approach.</em></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Make an empty list to store the pets in.
+</span><span class="n">pets</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="c1"># Make individual pets, and store each one in the list.
+</span><span class="n">pet</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'animal type'</span><span class="p">:</span> <span class="s">'python'</span><span class="p">,</span>
+    <span class="s">'name'</span><span class="p">:</span> <span class="s">'john'</span><span class="p">,</span>
+    <span class="s">'owner'</span><span class="p">:</span> <span class="s">'guido'</span><span class="p">,</span>
+    <span class="s">'weight'</span><span class="p">:</span> <span class="mi">43</span><span class="p">,</span>
+    <span class="s">'eats'</span><span class="p">:</span> <span class="s">'bugs'</span><span class="p">,</span>
+<span class="p">}</span>
+<span class="n">pets</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">pet</span><span class="p">)</span>
+
+<span class="n">pet</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'animal type'</span><span class="p">:</span> <span class="s">'chicken'</span><span class="p">,</span>
+    <span class="s">'name'</span><span class="p">:</span> <span class="s">'clarence'</span><span class="p">,</span>
+    <span class="s">'owner'</span><span class="p">:</span> <span class="s">'tiffany'</span><span class="p">,</span>
+    <span class="s">'weight'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+    <span class="s">'eats'</span><span class="p">:</span> <span class="s">'seeds'</span><span class="p">,</span>
+<span class="p">}</span>
+<span class="n">pets</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">pet</span><span class="p">)</span>
+
+<span class="n">pet</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'animal type'</span><span class="p">:</span> <span class="s">'dog'</span><span class="p">,</span>
+    <span class="s">'name'</span><span class="p">:</span> <span class="s">'peso'</span><span class="p">,</span>
+    <span class="s">'owner'</span><span class="p">:</span> <span class="s">'eric'</span><span class="p">,</span>
+    <span class="s">'weight'</span><span class="p">:</span> <span class="mi">37</span><span class="p">,</span>
+    <span class="s">'eats'</span><span class="p">:</span> <span class="s">'shoes'</span><span class="p">,</span>
+<span class="p">}</span>
+<span class="n">pets</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">pet</span><span class="p">)</span>
+
+<span class="c1"># Display information about each pet.
+</span><span class="k">for</span> <span class="n">pet</span> <span class="ow">in</span> <span class="n">pets</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="s">Here's what I know about </span><span class="si">{</span><span class="n">pet</span><span class="p">[</span><span class="s">'name'</span><span class="p">].</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">:"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">pet</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\t</span><span class="si">{</span><span class="n">key</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">value</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here's what I know about John:
+    animal type: python
+    name: john
+    owner: guido
+    weight: 43
+    eats: rats
+
+Here's what I know about Clarence:
+    animal type: chicken
+    name: clarence
+    owner: tiffany
+    weight: 2
+    eats: seeds
+
+Here's what I know about Peso:
+    animal type: dog
+    name: peso
+    owner: eric
+    weight: 37
+    eats: shoes
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="6-9-favorite-places">
+        
+        
+          <a href="#6-9-favorite-places" class="anchor-heading" aria-labelledby="6-9-favorite-places"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 6-9: Favorite Places
+        
+        
+      </h2>
+    
+
+<p>Make a dictionary called <code class="language-plaintext highlighter-rouge">favorite_places</code>. Think of three names to use as keys in the dictionary, and store one to three favorite places for each person. To make this exericse a bit more interesting, ask some friends to name a few of their favorite places. Loop through the dictionary, and print each person’s name and their favorite places.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">favorite_places</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'eric'</span><span class="p">:</span> <span class="p">[</span><span class="s">'bear mountain'</span><span class="p">,</span> <span class="s">'death valley'</span><span class="p">,</span> <span class="s">'tierra del fuego'</span><span class="p">],</span>
+    <span class="s">'erin'</span><span class="p">:</span> <span class="p">[</span><span class="s">'hawaii'</span><span class="p">,</span> <span class="s">'iceland'</span><span class="p">],</span>
+    <span class="s">'willie'</span><span class="p">:</span> <span class="p">[</span><span class="s">'mt. verstovia'</span><span class="p">,</span> <span class="s">'the playground'</span><span class="p">,</span> <span class="s">'new hampshire'</span><span class="p">]</span>
+    <span class="p">}</span>
+
+<span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">places</span> <span class="ow">in</span> <span class="n">favorite_places</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="si">{</span><span class="n">name</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s"> likes the following places:"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">place</span> <span class="ow">in</span> <span class="n">places</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"- </span><span class="si">{</span><span class="n">place</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Eric likes the following places:
+- Bear Mountain
+- Death Valley
+- Tierra Del Fuego
+
+Erin likes the following places:
+- Hawaii
+- Iceland
+
+Willie likes the following places:
+- Mt. Verstovia
+- The Playground
+- New Hampshire
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="6-10-favorite-numbers">
+        
+        
+          <a href="#6-10-favorite-numbers" class="anchor-heading" aria-labelledby="6-10-favorite-numbers"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 6-10: Favorite Numbers
+        
+        
+      </h2>
+    
+
+<p>Modify your program from Exercise 6-2 (page 102) so each person can have more than one favorite number. Then print each person’s name along with their favorite numbers.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">favorite_numbers</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'mandy'</span><span class="p">:</span> <span class="p">[</span><span class="mi">42</span><span class="p">,</span> <span class="mi">17</span><span class="p">],</span>
+    <span class="s">'micah'</span><span class="p">:</span> <span class="p">[</span><span class="mi">42</span><span class="p">,</span> <span class="mi">39</span><span class="p">,</span> <span class="mi">56</span><span class="p">],</span>
+    <span class="s">'gus'</span><span class="p">:</span> <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">12</span><span class="p">],</span>
+    <span class="p">}</span>
+
+<span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">numbers</span> <span class="ow">in</span> <span class="n">favorite_numbers</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="si">{</span><span class="n">name</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s"> likes the following numbers:"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"  </span><span class="si">{</span><span class="n">number</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Micah likes the following numbers:
+  42
+  39
+  56
+
+Mandy likes the following numbers:
+  42
+  17
+
+Gus likes the following numbers:
+  7
+  12
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="6-11-cities">
+        
+        
+          <a href="#6-11-cities" class="anchor-heading" aria-labelledby="6-11-cities"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 6-11: Cities
+        
+        
+      </h2>
+    
+
+<p>Make a dictionary called <code class="language-plaintext highlighter-rouge">cities</code>. Use the names of three cities as keys in your dictionary. Create a dictionary of information about each city and include the country that the city is in, its approximate population, and one fact about that city. The keys for each city’s dictionary should be something like <code class="language-plaintext highlighter-rouge">country</code>, <code class="language-plaintext highlighter-rouge">population</code>, and <code class="language-plaintext highlighter-rouge">fact</code>. Print the name of each city and all of the information you have stored about it.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">cities</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'santiago'</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s">'country'</span><span class="p">:</span> <span class="s">'chile'</span><span class="p">,</span>
+        <span class="s">'population'</span><span class="p">:</span> <span class="mi">6_310_000</span><span class="p">,</span>
+        <span class="s">'nearby mountains'</span><span class="p">:</span> <span class="s">'andes'</span><span class="p">,</span>
+        <span class="p">},</span>
+    <span class="s">'talkeetna'</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s">'country'</span><span class="p">:</span> <span class="s">'united states'</span><span class="p">,</span>
+        <span class="s">'population'</span><span class="p">:</span> <span class="mi">876</span><span class="p">,</span>
+        <span class="s">'nearby mountains'</span><span class="p">:</span> <span class="s">'alaska range'</span><span class="p">,</span>
+        <span class="p">},</span>
+    <span class="s">'kathmandu'</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s">'country'</span><span class="p">:</span> <span class="s">'nepal'</span><span class="p">,</span>
+        <span class="s">'population'</span><span class="p">:</span> <span class="mi">975_453</span><span class="p">,</span>
+        <span class="s">'nearby mountains'</span><span class="p">:</span> <span class="s">'himilaya'</span><span class="p">,</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+<span class="k">for</span> <span class="n">city</span><span class="p">,</span> <span class="n">city_info</span> <span class="ow">in</span> <span class="n">cities</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">country</span> <span class="o">=</span> <span class="n">city_info</span><span class="p">[</span><span class="s">'country'</span><span class="p">].</span><span class="n">title</span><span class="p">()</span>
+    <span class="n">population</span> <span class="o">=</span> <span class="n">city_info</span><span class="p">[</span><span class="s">'population'</span><span class="p">]</span>
+    <span class="n">mountains</span> <span class="o">=</span> <span class="n">city_info</span><span class="p">[</span><span class="s">'nearby mountains'</span><span class="p">].</span><span class="n">title</span><span class="p">()</span>
+
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="si">{</span><span class="n">city</span><span class="p">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s"> is in </span><span class="si">{</span><span class="n">country</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"  It has a population of about </span><span class="si">{</span><span class="n">population</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"  The </span><span class="si">{</span><span class="n">mountains</span><span class="si">}</span><span class="s"> mounats are nearby."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Santiago is in Chile.
+  It has a population of about 6310000.
+  The Andes mounats are nearby.
+
+Talkeetna is in United States.
+  It has a population of about 876.
+  The Alaska Range mounats are nearby.
+
+Kathmandu is in Nepal.
+  It has a population of about 975453.
+  The Himilaya mounats are nearby.
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+
+
+        
+
+        
+
+        
+        
+
+      </div>
+    </div>
+
+    
+      
+
+      <div class="search-overlay"></div>
+    
+  </div>
+</body>
+</html>
+

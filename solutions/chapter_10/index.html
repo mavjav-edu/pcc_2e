@@ -1,0 +1,944 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  
+
+
+  <link rel="shortcut icon" href="/pcc_2e/assets/images/favicon.ico" type="image/x-icon"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/pcc_2e/assets/images/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/pcc_2e/assets/images/favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/pcc_2e/assets/images/favicon-16x16.png"/>
+  <link rel="manifest" href="/pcc_2e/assets/site.webmanifest"/>
+
+  <link rel="stylesheet" href="/pcc_2e/assets/css/just-the-docs-default.css">
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1B6T2W9DJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    
+    gtag('config', 'G-H1B6T2W9DJ');
+    
+  </script>
+
+  
+
+  
+  <script type="text/javascript" src="/pcc_2e/assets/js/vendor/lunr.min.js"></script>
+  
+  <script type="text/javascript" src="/pcc_2e/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Chapter 10 | Python Crash Course, 2nd Edition</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Chapter 10" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Online Resources for Python Crash Course, from No Starch Press" />
+<meta property="og:description" content="Online Resources for Python Crash Course, from No Starch Press" />
+<link rel="canonical" href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/" />
+<meta property="og:url" content="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/" />
+<meta property="og:site_name" content="Python Crash Course, 2nd Edition" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Chapter 10" />
+<script type="application/ld+json">
+{"headline":"Chapter 10","@type":"WebPage","description":"Online Resources for Python Crash Course, from No Starch Press","url":"https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://mavjav-edu.github.io/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_788.png"}},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      <a href="https://mavjav-edu.github.io/pcc_2e/" class="site-title lh-tight">
+  <div class="site-logo">
+    <img sizes="(max-width: 1380px) 100vw, 1380px"
+srcset="/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_50.png 50w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_508.png 508w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_788.png 788w,
+/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_1380.png 1380w"
+src="/pcc_2e/assets/images/pcc_logo_csyivv_c_scale,w_1380.png"
+alt="Python Crash Course 2nd Edition"></div>
+
+</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      
+        <ul class="nav-list"><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/" class="nav-list-link">Home</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/cip/" class="nav-list-link">Coding is political</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/updates/" class="nav-list-link">Updates</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/first_printing/" class="nav-list-link">First printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/second_printing/" class="nav-list-link">Second printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/third_printing/" class="nav-list-link">Third printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/fourth_printing/" class="nav-list-link">Fourth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/fifth_printing/" class="nav-list-link">Fifth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/sixth_printing/" class="nav-list-link">Sixth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/seventh_printing/" class="nav-list-link">Seventh printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/eighth_printing/" class="nav-list-link">Eighth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/ninth_printing/" class="nav-list-link">Ninth printing</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/which_printing/" class="nav-list-link">Which printing do I have?</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/updates/django3_2/" class="nav-list-link">Django 3.2</a>
+                  </li></ul></li><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/solutions/" class="nav-list-link">Solutions</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_2/" class="nav-list-link">Chapter 2</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_3/" class="nav-list-link">Chapter 3</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_4/" class="nav-list-link">Chapter 4</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_5/" class="nav-list-link">Chapter 5</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/" class="nav-list-link">Chapter 6</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_7/" class="nav-list-link">Chapter 7</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_8/" class="nav-list-link">Chapter 8</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_9/" class="nav-list-link">Chapter 9</a>
+                  </li><li class="nav-list-item  active">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/" class="nav-list-link active">Chapter 10</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_11/" class="nav-list-link">Chapter 11</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_12/" class="nav-list-link">Chapter 12</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_13/" class="nav-list-link">Chapter 13</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_14/" class="nav-list-link">Chapter 14</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_15/" class="nav-list-link">Chapter 15</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_16/" class="nav-list-link">Chapter 16</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_17/" class="nav-list-link">Chapter 17</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/reader_questions/" class="nav-list-link">Reader Questions</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/finding_employment/" class="nav-list-link">Finding Employment</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/survey/" class="nav-list-link">Survey</a></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/mailing_list/" class="nav-list-link">Mailing List</a><ul class="nav-list"></ul></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/contact/" class="nav-list-link">Contact</a></li></ul></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/new_in_2e/new_in_2e/" class="nav-list-link">What's new?</a></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/new_in_2e/" class="nav-list-link">What's new?</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/" class="nav-list-link">Setup Instructions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/windows/" class="nav-list-link">Setting up Python on Windows</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/macos/" class="nav-list-link">Setting up Python on macOS</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/linux/" class="nav-list-link">Setting up Python on Linux</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/setup_instructions/" class="nav-list-link">Setup Instructions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/windows/" class="nav-list-link">Setting up Python on Windows</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/macos/" class="nav-list-link">Setting up Python on macOS</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/setup_instructions/linux/" class="nav-list-link">Setting up Python on Linux</a></li></ul></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/cheat_sheets/" class="nav-list-link">Cheat Sheets</a></li><li class="nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/cheat_sheets/cheat_sheets/" class="nav-list-link">Cheat Sheets</a></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/updates/updates/" class="nav-list-link">Updates</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/first_printing/" class="nav-list-link">First printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/second_printing/" class="nav-list-link">Second printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/third_printing/" class="nav-list-link">Third printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/fourth_printing/" class="nav-list-link">Fourth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/fifth_printing/" class="nav-list-link">Fifth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/sixth_printing/" class="nav-list-link">Sixth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/seventh_printing/" class="nav-list-link">Seventh printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/eighth_printing/" class="nav-list-link">Eighth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/ninth_printing/" class="nav-list-link">Ninth printing</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/which_printing/" class="nav-list-link">Which printing do I have?</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/updates/django3_2/" class="nav-list-link">Django 3.2</a></li></ul></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/solutions/solutions/" class="nav-list-link">Solutions</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_2/" class="nav-list-link">Chapter 2</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_3/" class="nav-list-link">Chapter 3</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_4/" class="nav-list-link">Chapter 4</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_5/" class="nav-list-link">Chapter 5</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_6/" class="nav-list-link">Chapter 6</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_7/" class="nav-list-link">Chapter 7</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_8/" class="nav-list-link">Chapter 8</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_9/" class="nav-list-link">Chapter 9</a></li><li class="nav-list-item  active"><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/" class="nav-list-link active">Chapter 10</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_11/" class="nav-list-link">Chapter 11</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_12/" class="nav-list-link">Chapter 12</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_13/" class="nav-list-link">Chapter 13</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_14/" class="nav-list-link">Chapter 14</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_15/" class="nav-list-link">Chapter 15</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_16/" class="nav-list-link">Chapter 16</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_17/" class="nav-list-link">Chapter 17</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/challenges/challenges/" class="nav-list-link">Challenges</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/" class="nav-list-link">Playing Cards</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/photo_filters/" class="nav-list-link">Photo Filters</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/coding_for_social_justice/" class="nav-list-link">Coding for Social Justice</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/ai_player/" class="nav-list-link">Automated Alien Invasion Player</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/challenges/" class="nav-list-link">Challenges</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/" class="nav-list-link">Playing Cards</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/photo_filters/" class="nav-list-link">Photo Filters</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/coding_for_social_justice/" class="nav-list-link">Coding for Social Justice</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/challenges/ai_player/" class="nav-list-link">Automated Alien Invasion Player</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/" class="nav-list-link">Beyond PCC</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/random_functions/" class="nav-list-link">Random Functions</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pygame_sprite_sheets/" class="nav-list-link">Using Sprite Sheets in Pygame</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/ai_player/" class="nav-list-link">Pygame - Adding Sound and Automating Game Play</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pillow/" class="nav-list-link">Pillow - Working with Images</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/extracting_from_excel/" class="nav-list-link">Extracting Data from Excel Files</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/beyond_pcc/" class="nav-list-link">Beyond PCC</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/random_functions/" class="nav-list-link">Random Functions</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pygame_sprite_sheets/" class="nav-list-link">Using Sprite Sheets in Pygame</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/ai_player/" class="nav-list-link">Pygame - Adding Sound and Automating Game Play</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pillow/" class="nav-list-link">Pillow - Working with Images</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/beyond_pcc/extracting_from_excel/" class="nav-list-link">Extracting Data from Excel Files</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/recommended_reading/" class="nav-list-link">Recommended Reading</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/first_steps/" class="nav-list-link">First Steps</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/" class="nav-list-link">General Python Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/data_science/" class="nav-list-link">Data Science Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/django/" class="nav-list-link">Django Resources</a></li></ul></li><li class="nav-list-item"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/" class="nav-list-link">Recommended Reading</a><ul class="nav-list "><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/first_steps/" class="nav-list-link">First Steps</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/" class="nav-list-link">General Python Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/data_science/" class="nav-list-link">Data Science Resources</a></li><li class="nav-list-item "><a href="https://mavjav-edu.github.io/pcc_2e/recommended_reading/django/" class="nav-list-link">Django Resources</a></li></ul></li></ul>
+
+      
+    </nav>
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+      
+        <div class="search">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Python Crash Course, 2nd Edition" aria-label="Search Python Crash Course, 2nd Edition" autocomplete="off">
+            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      
+      
+      
+        <nav aria-label="Auxiliary" class="aux-nav">
+          <ul class="aux-nav-list">
+            
+              <li class="aux-nav-list-item">
+                <a href="//github.com/mavjav-edu/pcc_2e" class="site-button"
+                  
+                >
+                  Python Crash Course on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        </nav>
+      
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list">
+              
+                <li class="breadcrumb-nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/solutions/solutions/">Home</a></li>
+                <li class="breadcrumb-nav-list-item"><a href="https://mavjav-edu.github.io/pcc_2e/solutions/chapter_10/">Solutions</a></li>
+              
+              <li class="breadcrumb-nav-list-item"><span>Chapter 10</span></li>
+            </ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+        
+          <h1 class="no_toc" id="solutions---chapter-10">
+        
+        
+          <a href="#solutions---chapter-10" class="anchor-heading" aria-labelledby="solutions---chapter-10"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Solutions - Chapter 10
+        
+        
+      </h1>
+    
+
+<ul id="markdown-toc">
+  <li><a href="#10-1-learning-python" id="markdown-toc-10-1-learning-python">10-1: Learning Python</a></li>
+  <li><a href="#10-2-learning-c" id="markdown-toc-10-2-learning-c">10-2: Learning C</a></li>
+  <li><a href="#10-3-guest" id="markdown-toc-10-3-guest">10-3: Guest</a></li>
+  <li><a href="#10-4-guest-book" id="markdown-toc-10-4-guest-book">10-4: Guest Book</a></li>
+  <li><a href="#10-5-programming-poll" id="markdown-toc-10-5-programming-poll">10-5: Programming Poll</a></li>
+  <li><a href="#10-6-addition" id="markdown-toc-10-6-addition">10-6: Addition</a></li>
+  <li><a href="#10-7-addition-calculator" id="markdown-toc-10-7-addition-calculator">10-7: Addition Calculator</a></li>
+  <li><a href="#10-8-cats-and-dogs" id="markdown-toc-10-8-cats-and-dogs">10-8: Cats and Dogs</a></li>
+  <li><a href="#10-9-silent-cats-and-dogs" id="markdown-toc-10-9-silent-cats-and-dogs">10-9: Silent Cats and Dogs</a></li>
+  <li><a href="#10-10-common-words" id="markdown-toc-10-10-common-words">10-10: Common Words</a></li>
+  <li><a href="#10-11-favorite-number" id="markdown-toc-10-11-favorite-number">10-11: Favorite Number</a></li>
+  <li><a href="#10-12-favorite-number-remembered" id="markdown-toc-10-12-favorite-number-remembered">10-12: Favorite Number Remembered</a></li>
+  <li><a href="#10-13-verify-user" id="markdown-toc-10-13-verify-user">10-13: Verify User</a></li>
+</ul>
+
+<p>Back to <a href="../solutions">solutions</a>.</p><hr />
+      <h2 id="10-1-learning-python">
+        
+        
+          <a href="#10-1-learning-python" class="anchor-heading" aria-labelledby="10-1-learning-python"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-1: Learning Python
+        
+        
+      </h2>
+    
+
+<p>Open a blank file in your text editor and write a few lines summarizing what you’ve learned about Python so far. Start each line with the phrase <em>In Python you can…</em> Save the file as <em>learning_python.txt</em> in the same directory as your exercises fro mthis chapter. Write a program that reads the file and prints what you wrote three times. Print the contents once by reading in the entire file, once by looping over the file object, and once by storing the lines in a list and then working with them outside the <code class="language-plaintext highlighter-rouge">with</code> block.</p>
+
+<p><em>learning_python.txt:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In Python you can store as much information as you want.
+In Python you can connect pieces of information.
+In Python you can model real-world situations.
+</code></pre></div></div>
+
+<p><em>learning_python.py:</em></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">filename</span> <span class="o">=</span> <span class="s">'learning_python.txt'</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"--- Reading in the entire file:"</span><span class="p">)</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">contents</span> <span class="o">=</span> <span class="n">f</span><span class="p">.</span><span class="n">read</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">contents</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">--- Looping over the lines:"</span><span class="p">)</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">line</span><span class="p">.</span><span class="n">rstrip</span><span class="p">())</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">--- Storing the lines in a list:"</span><span class="p">)</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">lines</span> <span class="o">=</span> <span class="n">f</span><span class="p">.</span><span class="n">readlines</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">line</span><span class="p">.</span><span class="n">rstrip</span><span class="p">())</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>--- Reading in the entire file:
+In Python you can store as much information as you want.
+In Python you can connect pieces of information.
+In Python you can model real-world situations.
+
+--- Looping over the lines:
+In Python you can store as much information as you want.
+In Python you can connect pieces of information.
+In Python you can model real-world situations.
+
+--- Storing the lines in a list:
+In Python you can store as much information as you want.
+In Python you can connect pieces of information.
+In Python you can model real-world situations.
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="10-2-learning-c">
+        
+        
+          <a href="#10-2-learning-c" class="anchor-heading" aria-labelledby="10-2-learning-c"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-2: Learning C
+        
+        
+      </h2>
+    
+
+<p>You can use the <code class="language-plaintext highlighter-rouge">replace()</code> method to replace any word in a string with a different word. Here’s a quick example showing how to replace <code class="language-plaintext highlighter-rouge">'dog'</code> with <code class="language-plaintext highlighter-rouge">'cat'</code> in a sentence:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">message</span> <span class="o">=</span> <span class="s">"I really like dogs."</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">message</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'dog'</span><span class="p">,</span> <span class="s">'cat'</span><span class="p">)</span>
+<span class="s">'I really like cats.'</span>
+</code></pre></div></div>
+
+<p>Read in each line from the file you just created, <em>learning_python.txt</em>, and replace the word <em>Python</em> with the name of another language, such as <em>C</em>. Print each modified line to the screen.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">filename</span> <span class="o">=</span> <span class="s">'learning_python.txt'</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">lines</span> <span class="o">=</span> <span class="n">f</span><span class="p">.</span><span class="n">readlines</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+    <span class="c1"># Get rid of newline, then replace Python with C.
+</span>    <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="p">.</span><span class="n">rstrip</span><span class="p">()</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">line</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'Python'</span><span class="p">,</span> <span class="s">'C'</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In C you can store as much information as you want.
+In C you can connect pieces of information.
+In C you can model real-world situations.
+</code></pre></div></div>
+
+<p>You can use <code class="language-plaintext highlighter-rouge">rstrip()</code> and <code class="language-plaintext highlighter-rouge">replace()</code> on the same line. This is called <em>chaining</em> methods. In the following code the newline is stripped from the end of the line and then <em>Python</em> is replaced by <em>C</em>. The output is identical to the code shown above.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">filename</span> <span class="o">=</span> <span class="s">'learning_python.txt'</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">lines</span> <span class="o">=</span> <span class="n">f</span><span class="p">.</span><span class="n">readlines</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+    <span class="c1"># Get rid of newline, then replace Python with C.
+</span>    <span class="k">print</span><span class="p">(</span><span class="n">line</span><span class="p">.</span><span class="n">rstrip</span><span class="p">().</span><span class="n">replace</span><span class="p">(</span><span class="s">'Python'</span><span class="p">,</span> <span class="s">'C'</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="10-3-guest">
+        
+        
+          <a href="#10-3-guest" class="anchor-heading" aria-labelledby="10-3-guest"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-3: Guest
+        
+        
+      </h2>
+    
+
+<p>Write a program that prompts the user for their name. When they respond, write their name to a file called <em>guest.txt</em>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"What's your name? "</span><span class="p">)</span>
+
+<span class="n">filename</span> <span class="o">=</span> <span class="s">'guest.txt'</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">f</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>What's your name? eric
+</code></pre></div></div>
+
+<p><em>guest.txt:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eric
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="10-4-guest-book">
+        
+        
+          <a href="#10-4-guest-book" class="anchor-heading" aria-labelledby="10-4-guest-book"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-4: Guest Book
+        
+        
+      </h2>
+    
+
+<p>Write a <code class="language-plaintext highlighter-rouge">while</code> loop that prompts users for their name. When they enter their name, print a greeting to the screen and add a line recording their visit in a file called <em>guest_book.txt</em>. Make sure each entry appears on a new line in the file.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">filename</span> <span class="o">=</span> <span class="s">'guest_book.txt'</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Enter 'quit' when you are finished."</span><span class="p">)</span>
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">What's your name? "</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">name</span> <span class="o">==</span> <span class="s">'quit'</span><span class="p">:</span>
+        <span class="k">break</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s">'a'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">f</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Hi </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">, you've been added to the guest book."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter 'quit' when you are finished.
+
+What's your name? eric
+Hi eric, you've been added to the guest book.
+
+What's your name? willie
+Hi willie, you've been added to the guest book.
+
+What's your name? ever
+Hi ever, you've been added to the guest book.
+
+What's your name? erin
+Hi erin, you've been added to the guest book.
+
+What's your name? quit
+</code></pre></div></div>
+
+<p><em>guest_book.txt:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eric
+willie
+ever
+erin
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="10-5-programming-poll">
+        
+        
+          <a href="#10-5-programming-poll" class="anchor-heading" aria-labelledby="10-5-programming-poll"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-5: Programming Poll
+        
+        
+      </h2>
+    
+
+<p>Write a <code class="language-plaintext highlighter-rouge">while</code> loop that asks people why they like programming. Each time someone enters a reason, add their reason to a file that stores all the responses.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">filename</span> <span class="o">=</span> <span class="s">'programming_poll.txt'</span>
+
+<span class="n">responses</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Why do you like programming? "</span><span class="p">)</span>
+    <span class="n">responses</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+
+    <span class="n">continue_poll</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Would you like to let someone else respond? (y/n) "</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">continue_poll</span> <span class="o">!=</span> <span class="s">'y'</span><span class="p">:</span>
+        <span class="k">break</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s">'a'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">response</span> <span class="ow">in</span> <span class="n">responses</span><span class="p">:</span>
+        <span class="n">f</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">response</span><span class="si">}</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Why do you like programming? Programmers can build almost anything they can imagine.
+Would you like to let someone else respond? (y/n) y
+
+Why do you like programming? It's really fun, and really satisfying.
+Would you like to let someone else respond? (y/n) y
+
+Why do you like programming? It just never gets old.
+Would you like to let someone else respond? (y/n) n
+</code></pre></div></div>
+
+<p><em>programming_poll.txt:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Programmers can build almost anything they can imagine.
+It's really fun, and really satisfying.
+It just never gets old.
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="10-6-addition">
+        
+        
+          <a href="#10-6-addition" class="anchor-heading" aria-labelledby="10-6-addition"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-6: Addition
+        
+        
+      </h2>
+    
+
+<p>One common problem when prompting for numerical input occurs when people provide text instead of numbers. When you try to convert the input to an <code class="language-plaintext highlighter-rouge">int</code>, you’ll get a <code class="language-plaintext highlighter-rouge">ValueError</code>. Write a program that prompts for two numbers. Add them together and print the result. Catch the <code class="language-plaintext highlighter-rouge">TypeError</code> if either input value is not a number, and print a friendly error message. Test your program by entering two numbers and then by entering some text instead of a number.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">try</span><span class="p">:</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Give me a number: "</span><span class="p">)</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+    <span class="n">y</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Give me another number: "</span><span class="p">)</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+<span class="k">except</span> <span class="nb">ValueError</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Sorry, I really needed a number."</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">sum</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"The sum of </span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s"> and </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s"> is </span><span class="si">{</span><span class="nb">sum</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output with two integers:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Give me a number: 23
+Give me another number: 47
+The sum of 23 and 47 is 70.
+</code></pre></div></div>
+
+<p>Output with non-numerical input:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Give me a number: 23
+Give me another number: fred
+Sorry, I really needed a number.
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="10-7-addition-calculator">
+        
+        
+          <a href="#10-7-addition-calculator" class="anchor-heading" aria-labelledby="10-7-addition-calculator"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-7: Addition Calculator
+        
+        
+      </h2>
+    
+
+<p>Wrap your code from Exercise 10-6 in a <code class="language-plaintext highlighter-rouge">while</code> loop so the user can continue entering numbers even if they make a mistake and enter text instead of a number.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Enter 'q' at any time to quit.</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Give me a number: "</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="s">'q'</span><span class="p">:</span>
+            <span class="k">break</span>
+
+        <span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+        <span class="n">y</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Give me another number: "</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">y</span> <span class="o">==</span> <span class="s">'q'</span><span class="p">:</span>
+            <span class="k">break</span>
+
+        <span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+
+    <span class="k">except</span> <span class="nb">ValueError</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Sorry, I really needed a number."</span><span class="p">)</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">sum</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"The sum of </span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s"> and </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s"> is </span><span class="si">{</span><span class="nb">sum</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter 'q' at any time to quit.
+
+Give me a number: 23
+Give me another number: 47
+The sum of 23 and 47 is 70.
+
+Give me a number: three
+Sorry, I really needed a number.
+
+Give me a number: 3
+Give me another number: five
+Sorry, I really needed a number.
+
+Give me a number: -12
+Give me another number: 20
+The sum of -12 and 20 is 8.
+
+Give me a number: q
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="10-8-cats-and-dogs">
+        
+        
+          <a href="#10-8-cats-and-dogs" class="anchor-heading" aria-labelledby="10-8-cats-and-dogs"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-8: Cats and Dogs
+        
+        
+      </h2>
+    
+
+<p>Make two files, <code class="language-plaintext highlighter-rouge">cats.txt</code> and <code class="language-plaintext highlighter-rouge">dogs.txt</code>. Store at least three names of cats in the first file and three names of dogs in the second file. Write a program that tries to read these files and print the contents of the file to the screen. Wrap your code ina <code class="language-plaintext highlighter-rouge">try-except</code> block to catch the <code class="language-plaintext highlighter-rouge">FileNotFound</code> error, and print a friendly message if a file is missing. Move one of the files to a different location on your system, and make sure the code in the <code class="language-plaintext highlighter-rouge">except</code> block executes properly.</p>
+
+<p><em>cats.txt:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>henry
+clarence
+mildred
+</code></pre></div></div>
+
+<p><em>dogs.txt:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>willie
+annahootz
+summit
+</code></pre></div></div>
+
+<p><em>cats_and_dogs.py:</em></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">filenames</span> <span class="o">=</span> <span class="p">[</span><span class="s">'cats.txt'</span><span class="p">,</span> <span class="s">'dogs.txt'</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">filenames</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="s">Reading file: </span><span class="si">{</span><span class="n">filename</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">contents</span> <span class="o">=</span> <span class="n">f</span><span class="p">.</span><span class="n">read</span><span class="p">()</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">contents</span><span class="p">)</span>
+    <span class="k">except</span> <span class="nb">FileNotFoundError</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"  Sorry, I can't find that file."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output with both files:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Reading file: cats.txt
+henry
+clarence
+mildred
+
+Reading file: dogs.txt
+willie
+annahootz
+summit
+</code></pre></div></div>
+
+<p>Output after moving <em>cats.txt:</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Reading file: cats.txt
+  Sorry, I can't find that file.
+
+Reading file: dogs.txt
+willie
+annahootz
+summit
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="10-9-silent-cats-and-dogs">
+        
+        
+          <a href="#10-9-silent-cats-and-dogs" class="anchor-heading" aria-labelledby="10-9-silent-cats-and-dogs"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-9: Silent Cats and Dogs
+        
+        
+      </h2>
+    
+
+<p>Modify your <code class="language-plaintext highlighter-rouge">except</code> block in Exercise 10-8 to fail silently if either file is missing.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">filenames</span> <span class="o">=</span> <span class="p">[</span><span class="s">'cats.txt'</span><span class="p">,</span> <span class="s">'dogs.txt'</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">filenames</span><span class="p">:</span>
+    
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">contents</span> <span class="o">=</span> <span class="n">f</span><span class="p">.</span><span class="n">read</span><span class="p">()</span>
+
+    <span class="k">except</span> <span class="nb">FileNotFoundError</span><span class="p">:</span>
+        <span class="k">pass</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="s">Reading file: </span><span class="si">{</span><span class="n">filename</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">contents</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output when both files exist:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Reading file: cats.txt
+henry
+clarence
+mildred
+
+Reading file: dogs.txt
+willie
+annahootz
+summit
+</code></pre></div></div>
+
+<p>Output when <em>cats.txt</em> has been moved:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Reading file: dogs.txt
+willie
+annahootz
+summit
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="10-10-common-words">
+        
+        
+          <a href="#10-10-common-words" class="anchor-heading" aria-labelledby="10-10-common-words"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-10: Common Words
+        
+        
+      </h2>
+    
+
+<p>Visit Project Gutenberg (https://gutenberg.org/) and find a few texts you’d like to analyze. Download the text files for these works, or copy the raw text from your browser into a text file on your computer.</p>
+
+<p>You can use the <code class="language-plaintext highlighter-rouge">count()</code> method to find out how many times a word or phrase appears in a string. For example, the following code counts the number of times <code class="language-plaintext highlighter-rouge">'row'</code> appers in a string:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; line = "Row, row, row your boat"
+&gt;&gt;&gt; line.count('row')
+2
+&gt;&gt;&gt; line.lower().count('row')
+3 
+</code></pre></div></div>
+
+<p>Notice that converting the string to lowercase using <code class="language-plaintext highlighter-rouge">lower()</code> catches all appearances of the word you’re looking for, regardless of how it’s formatted.</p>
+
+<p>Write a program that reads the files you found at Project Gutenberg and determines how many times the word ‘the’ appears in each text. This will be an approximation because it will also count words such as ‘then’ and ‘tehre’. Try counting ‘the ‘, with a space in the string, and see how much lower your count is.</p>
+
+<p><em>common_words.py</em></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">count_common_words</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">word</span><span class="p">):</span>
+    <span class="s">"""Count how many times word appears in the text."""</span>
+    <span class="c1"># Note: This is a really simple approximation, and the number returned
+</span>    <span class="c1">#   will be higher than the actual count.
+</span>    <span class="k">try</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s">'utf-8'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">contents</span> <span class="o">=</span> <span class="n">f</span><span class="p">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="k">except</span> <span class="nb">FileNotFoundError</span><span class="p">:</span>
+        <span class="k">pass</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">word_count</span> <span class="o">=</span> <span class="n">contents</span><span class="p">.</span><span class="n">lower</span><span class="p">().</span><span class="n">count</span><span class="p">(</span><span class="n">word</span><span class="p">)</span>
+
+        <span class="n">msg</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"'</span><span class="si">{</span><span class="n">word</span><span class="si">}</span><span class="s">' appears in </span><span class="si">{</span><span class="n">filename</span><span class="si">}</span><span class="s"> about </span><span class="si">{</span><span class="n">word_count</span><span class="si">}</span><span class="s"> times."</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+
+<span class="n">filename</span> <span class="o">=</span> <span class="s">'alice.txt'</span>
+<span class="n">count_common_words</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s">'the'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>'the' appears in alice.txt about 2505 times.
+</code></pre></div></div>
+
+<p>This solution only examines one text, but the function can be applied to any number of texts.</p>
+      <h2 id="10-11-favorite-number">
+        
+        
+          <a href="#10-11-favorite-number" class="anchor-heading" aria-labelledby="10-11-favorite-number"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-11: Favorite Number
+        
+        
+      </h2>
+    
+
+<p>Write a program that prompts for the user’s favorite number. Use <code class="language-plaintext highlighter-rouge">json.dump()</code> to store this number in a file. Write a separate program that reads in this value and prints the message, “I know your favorite number! It’s _____.”</p>
+
+<p><em>favorite_number_write.py:</em></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="n">number</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"What's your favorite number? "</span><span class="p">)</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'favorite_number.json'</span><span class="p">,</span> <span class="s">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">json</span><span class="p">.</span><span class="n">dump</span><span class="p">(</span><span class="n">number</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Thanks! I'll remember that."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>What's your favorite number? 42
+Thanks! I'll remember that.
+</code></pre></div></div>
+
+<p><em>favorite_number_read.py:</em></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'favorite_number.json'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">number</span> <span class="o">=</span> <span class="n">json</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"I know your favorite number! It's </span><span class="si">{</span><span class="n">number</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I know your favorite number! It's 42.
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="10-12-favorite-number-remembered">
+        
+        
+          <a href="#10-12-favorite-number-remembered" class="anchor-heading" aria-labelledby="10-12-favorite-number-remembered"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-12: Favorite Number Remembered
+        
+        
+      </h2>
+    
+
+<p>Combine the two programs from Exercise 10-11 into one file. If the number is already stored, report the favorite number to the user. If not, prompt for the user’s favorite number and store it in a file. Run the program twice to see that it works.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'favorite_number.json'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">number</span> <span class="o">=</span> <span class="n">json</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+<span class="k">except</span> <span class="nb">FileNotFoundError</span><span class="p">:</span>
+    <span class="n">number</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"What's your favorite number? "</span><span class="p">)</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'favorite_number.json'</span><span class="p">,</span> <span class="s">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">json</span><span class="p">.</span><span class="n">dump</span><span class="p">(</span><span class="n">number</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Thanks, I'll remember that."</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"I know your favorite number! It's </span><span class="si">{</span><span class="n">number</span><span class="si">}</span><span class="s">."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Output, first run:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>What's your favorite number? 42
+Thanks, I'll remember that.
+</code></pre></div></div>
+
+<p>Output, second run:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I know your favorite number! It's 42.
+</code></pre></div></div>
+
+<p><a href="#top">top</a></p>
+      <h2 id="10-13-verify-user">
+        
+        
+          <a href="#10-13-verify-user" class="anchor-heading" aria-labelledby="10-13-verify-user"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10-13: Verify User
+        
+        
+      </h2>
+    
+
+<p>The final listing for <em>remember_me.py</em> assumes either that the user has already entered their username or that the program is running for the first time. We should modify it in case the current user is not the person who last used the program.</p>
+
+<p>Before printing a welcome back message in <code class="language-plaintext highlighter-rouge">greet_user()</code>, ask the user if this is the correct username. If it’s not, call <code class="language-plaintext highlighter-rouge">get_new_username()</code> to get the correct username.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="k">def</span> <span class="nf">get_stored_username</span><span class="p">():</span>
+    <span class="s">"""Get stored username if available."""</span>
+    <span class="n">filename</span> <span class="o">=</span> <span class="s">'username.json'</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">f_obj</span><span class="p">:</span>
+            <span class="n">username</span> <span class="o">=</span> <span class="n">json</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="n">f_obj</span><span class="p">)</span>
+    <span class="k">except</span> <span class="nb">FileNotFoundError</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">None</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">username</span>
+
+<span class="k">def</span> <span class="nf">get_new_username</span><span class="p">():</span>
+    <span class="s">"""Prompt for a new username."""</span>
+    <span class="n">username</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"What is your name? "</span><span class="p">)</span>
+    <span class="n">filename</span> <span class="o">=</span> <span class="s">'username.json'</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f_obj</span><span class="p">:</span>
+        <span class="n">json</span><span class="p">.</span><span class="n">dump</span><span class="p">(</span><span class="n">username</span><span class="p">,</span> <span class="n">f_obj</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">username</span>
+
+<span class="k">def</span> <span class="nf">greet_user</span><span class="p">():</span>
+    <span class="s">"""Greet the user by name."""</span>
+    <span class="n">username</span> <span class="o">=</span> <span class="n">get_stored_username</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">username</span><span class="p">:</span>
+        <span class="n">correct</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="sa">f</span><span class="s">"Are you </span><span class="si">{</span><span class="n">username</span><span class="si">}</span><span class="s">? (y/n) "</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">correct</span> <span class="o">==</span> <span class="s">'y'</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Welcome back, </span><span class="si">{</span><span class="n">username</span><span class="si">}</span><span class="s">!"</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">username</span> <span class="o">=</span> <span class="n">get_new_username</span><span class="p">()</span>
+            <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"We'll remember you when you come back, </span><span class="si">{</span><span class="n">username</span><span class="si">}</span><span class="s">!"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">username</span> <span class="o">=</span> <span class="n">get_new_username</span><span class="p">()</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"We'll remember you when you come back, </span><span class="si">{</span><span class="n">username</span><span class="si">}</span><span class="s">!"</span><span class="p">)</span>
+
+<span class="n">greet_user</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; python verify_user.py
+What is your name? eric
+We'll remember you when you come back, eric!
+
+&gt; python verify_user.py
+Are you eric? (y/n) y
+Welcome back, eric!
+
+&gt; python verify_user.py
+Are you eric? (y/n) n
+What is your name? ever
+We'll remember you when you come back, ever!
+
+&gt; python verify_user.py
+Are you ever? (y/n) y
+Welcome back, ever!
+</code></pre></div></div>
+
+<p>You might notice the identical <code class="language-plaintext highlighter-rouge">else</code> blocks in this version of <code class="language-plaintext highlighter-rouge">greet_user()</code>. One way to clean this function up is to use an empty <code class="language-plaintext highlighter-rouge">return</code> statement. An empty <code class="language-plaintext highlighter-rouge">return</code> statement tells Python to leave the function without running any more code in the function.</p>
+
+<p>Here’s a cleaner version of <code class="language-plaintext highlighter-rouge">greet_user()</code>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">greet_user</span><span class="p">():</span>
+    <span class="s">"""Greet the user by name."""</span>
+    <span class="n">username</span> <span class="o">=</span> <span class="n">get_stored_username</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">username</span><span class="p">:</span>
+        <span class="n">correct</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="sa">f</span><span class="s">"Are you </span><span class="si">{</span><span class="n">username</span><span class="si">}</span><span class="s">? (y/n) "</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">correct</span> <span class="o">==</span> <span class="s">'y'</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Welcome back, </span><span class="si">{</span><span class="n">username</span><span class="si">}</span><span class="s">!"</span><span class="p">)</span>
+            <span class="k">return</span>
+
+    <span class="c1"># We got a username, but it's not correct.
+</span>    <span class="c1"># Let's prompt for a new username.
+</span>    <span class="n">username</span> <span class="o">=</span> <span class="n">get_new_username</span><span class="p">()</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"We'll remember you when you come back, </span><span class="si">{</span><span class="n">username</span><span class="si">}</span><span class="s">!"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">return</code> statement means the code in the function stops running after printing the welcome back message. When the username doesn’t exist, or the username is incorrect, the <code class="language-plaintext highlighter-rouge">return</code> statement is never reached. The second part of the function will only run when the <code class="language-plaintext highlighter-rouge">if</code> statements fail, so we don’t need an <code class="language-plaintext highlighter-rouge">else</code> block. Now the function prompts for a new username when either <code class="language-plaintext highlighter-rouge">if</code> statement fails.</p>
+
+<p>The only thing left to address is the nested <code class="language-plaintext highlighter-rouge">if</code> statements. This can be cleaned up by moving the code that checks whether the username is correct to a separate function. If you’re enjoying this exercise, you might try making a new function called <code class="language-plaintext highlighter-rouge">check_username()</code> and see if you can remove the nested <code class="language-plaintext highlighter-rouge">if</code> statement from <code class="language-plaintext highlighter-rouge">greet_user()</code>.</p>
+
+<p><a href="#top">top</a></p>
+
+
+        
+
+        
+
+        
+        
+
+      </div>
+    </div>
+
+    
+      
+
+      <div class="search-overlay"></div>
+    
+  </div>
+</body>
+</html>
+
