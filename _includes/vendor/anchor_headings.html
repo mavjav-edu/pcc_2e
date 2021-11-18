@@ -24,11 +24,8 @@
     OTHER DEALINGS IN THE SOFTWARE.
   {% endcomment %}
   {% comment %}
-<<<<<<< HEAD
-    Version 1.0.7
-=======
+
     Version 1.0.10
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
       https://github.com/allejo/jekyll-anchor-headings
 
     "Be the pull request you wish to see in the world." ~Ben Balter
@@ -41,11 +38,9 @@
 
     Optional Parameters:
       * beforeHeading (bool)   : false  - Set to true if the anchor should be placed _before_ the heading's content
-<<<<<<< HEAD
-=======
+
       * headerAttrs   (string) :  ''    - Any custom HTML attributes that will be added to the heading tag; you may NOT use `id`;
                                           the `%heading%` and `%html_id%` placeholders are available
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
       * anchorAttrs   (string) :  ''    - Any custom HTML attributes that will be added to the `<a>` tag; you may NOT use `href`, `class` or `title`;
                                           the `%heading%` and `%html_id%` placeholders are available
       * anchorBody    (string) :  ''    - The content that will be placed inside the anchor; the `%heading%` placeholder is available
@@ -55,10 +50,8 @@
       * h_max         (int)    :  6     - The maximum header level to build an anchor for; any header greater than this value will be ignored
       * bodyPrefix    (string) :  ''    - Anything that should be inserted inside of the heading tag _before_ its anchor and content
       * bodySuffix    (string) :  ''    - Anything that should be inserted inside of the heading tag _after_ its anchor and content
-<<<<<<< HEAD
-=======
+
       * generateId    (true)   :  false - Set to true if a header without id should generate an id to use.
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 
     Output:
       The original HTML with the addition of anchors inside of all of the h1-h6 headings.
@@ -98,13 +91,7 @@
     {% capture _closingTag %}</h{{ headerLevel }}>{% endcapture %}
     {% assign _workspace = node | split: _closingTag %}
     {% assign _idWorkspace = _workspace[0] | split: 'id="' %}
-<<<<<<< HEAD
-    {% assign _idWorkspace = _idWorkspace[1] | split: '"' %}
-    {% assign html_id = _idWorkspace[0] %}
 
-    {% capture _hAttrToStrip %}{{ _workspace[0] | split: '>' | first }}>{% endcapture %}
-    {% assign header = _workspace[0] | replace: _hAttrToStrip, '' %}
-=======
     {% assign headerAttrs = include.headerAttrs %}
     {% capture _hAttrToStrip %}{{ _workspace[0] | split: '>' | first }}>{% endcapture %}
     {% assign header = _workspace[0] | replace: _hAttrToStrip, '' %}
@@ -121,20 +108,17 @@
       {% endif %}
       {% capture headerAttrs %}{{ headerAttrs }} id="%html_id%"{% endcapture %}
     {% endif %}
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 
     <!-- Build the anchor to inject for our heading -->
     {% capture anchor %}{% endcapture %}
 
     {% if html_id and headerLevel >= minHeader and headerLevel <= maxHeader %}
-<<<<<<< HEAD
-=======
+
 
       {% if headerAttrs %}
         {% capture _hAttrToStrip %}{{ _hAttrToStrip | split: '>' | first }} {{ headerAttrs | replace: '%heading%', escaped_header | replace: '%html_id%', html_id }}>{% endcapture %}
       {% endif %}
 
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
       {% capture anchor %}href="#{{ html_id }}"{% endcapture %}
 
       {% if include.anchorClass %}
@@ -142,16 +126,7 @@
       {% endif %}
 
       {% if include.anchorTitle %}
-<<<<<<< HEAD
-        {% capture anchor %}{{ anchor }} title="{{ include.anchorTitle | replace: '%heading%', header }}"{% endcapture %}
-      {% endif %}
 
-      {% if include.anchorAttrs %}
-        {% capture anchor %}{{ anchor }} {{ include.anchorAttrs | replace: '%heading%', header | replace: '%html_id%', html_id }}{% endcapture %}
-      {% endif %}
-
-      {% capture anchor %}<a {{ anchor }}>{{ include.anchorBody | replace: '%heading%', header | default: '' }}</a>{% endcapture %}
-=======
         {% capture anchor %}{{ anchor }} title="{{ include.anchorTitle | replace: '%heading%', escaped_header }}"{% endcapture %}
       {% endif %}
 
@@ -160,7 +135,6 @@
       {% endif %}
 
       {% capture anchor %}<a {{ anchor }}>{{ include.anchorBody | replace: '%heading%', escaped_header | default: '' }}</a>{% endcapture %}
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 
       <!-- In order to prevent adding extra space after a heading, we'll let the 'anchor' value contain it -->
       {% if beforeHeading %}
@@ -192,8 +166,6 @@
 
     {% capture edited_headings %}{{ edited_headings }}{{ new_heading }}{% endcapture %}
   {% endfor %}
-<<<<<<< HEAD
+
 {% endcapture %}{% assign headingsWorkspace = '' %}{{ edited_headings | strip }}
-=======
-{% endcapture %}{% assign headingsWorkspace = '' %}{{ edited_headings | strip }}
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
+
