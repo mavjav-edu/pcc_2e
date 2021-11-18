@@ -69,7 +69,7 @@ figure.figurefx figcaption {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 	text-align: center;
-	color: $body-background-color;
+	color: invert($body-text-color);
 	background: invert($body-background-color);
 	padding: 15px;
 	z-index: 100;
