@@ -34,61 +34,61 @@ If you are a student following this curriculum for the first time, please jump t
 The book has several sections that reinforce learning through exercises. Practice what you just read where you see:
 <img src="{{ '/assets/images/tiy.svg' | relative_url }}"   width="188vw" alt="'Try It Yourself' in Adobe Dogma typeface"/>
 
-- Getting Started \({{ '[Chapter 1]({{ './chapter_01/tiy.md' | relative_url }})\)
+- Getting Started \({{ '[Chapter 1](./chapter_01/tiy)\)
 
-- Variables And Simple Data Types \({{ '[Chapter 2]({{ './chapter_02/tiy.md' | relative_url }})\)
+- Variables And Simple Data Types \({{ '[Chapter 2](./chapter_02/tiy)\)
 
-- Introducing Lists \({{ '[Chapter 3]({{ './chapter_03/tiy.md' | relative_url }})\)
+- Introducing Lists \({{ '[Chapter 3](./chapter_03/tiy)\)
 
-- Working With Lists \({{ '[Chapter 4]({{ './chapter_04/tiy.md' | relative_url }})\)
+- Working With Lists \({{ '[Chapter 4](./chapter_04/tiy)\)
 
-- If Statements \({{ '[Chapter 5]({{ './chapter_05/tiy.md' | relative_url }})\)
+- If Statements \({{ '[Chapter 5](./chapter_05/tiy)\)
 
-- Dictionaries \({{ '[Chapter 6]({{ './chapter_06/tiy.md' | relative_url }})\)
+- Dictionaries \({{ '[Chapter 6](./chapter_06/tiy)\)
 
-- User Input And While Loops \({{ '[Chapter 7]({{ './chapter_07/tiy.md' | relative_url }})\)
+- User Input And While Loops \({{ '[Chapter 7](./chapter_07/tiy)\)
 
-- Functions \({{ '[Chapter 8]({{ './chapter_08/tiy.md' | relative_url }})\)
+- Functions \({{ '[Chapter 8](./chapter_08/tiy)\)
 
-- Classes \({{ '[Chapter 9]({{ './chapter_09/tiy.md' | relative_url }})\)
+- Classes \({{ '[Chapter 9](./chapter_09/tiy)\)
 
-- Files And Exceptions \({{ '[Chapter 10]({{ './chapter_10/tiy.md' | relative_url }})\)
+- Files And Exceptions \({{ '[Chapter 10](./chapter_10/tiy)\)
 
-- Testing Your Code \({{ '[Chapter 11]({{ './chapter_11/tiy.md' | relative_url }})\)
+- Testing Your Code \({{ '[Chapter 11](./chapter_11/tiy)\)
 
-- A Ship That Fires Bullets \({{ '[Chapter 12]({{ './chapter_12/tiy.md' | relative_url }})\)
+- A Ship That Fires Bullets \({{ '[Chapter 12](./chapter_12/tiy)\)
 
-- Aliens! \({{ '[Chapter 13]({{ './chapter_13/tiy.md' | relative_url }})\)
+- Aliens! \({{ '[Chapter 13](./chapter_13/tiy)\)
 
-- Scoring \({{ '[Chapter 14]({{ './chapter_14/tiy.md' | relative_url }})\)
+- Scoring \({{ '[Chapter 14](./chapter_14/tiy)\)
 
-- Generating Data \({{ '[Chapter 15]({{ './chapter_15/tiy.md' | relative_url }})\)
+- Generating Data \({{ '[Chapter 15](./chapter_15/tiy)\)
 
-- Downloading Data \({{ '[Chapter 16]({{ './chapter_16/tiy.md' | relative_url }})\)
+- Downloading Data \({{ '[Chapter 16](./chapter_16/tiy)\)
 
-- Working With API's \({{ '[Chapter 17]({{ './chapter_17/tiy.md' | relative_url }})\)
+- Working With API's \({{ '[Chapter 17](./chapter_17/tiy)\)
 
-- Getting Started With Django \({{ '[Chapter 18]({{ './chapter_18/tiy.md' | relative_url }})\)
+- Getting Started With Django \({{ '[Chapter 18](./chapter_18/tiy)\)
 
-- User Accounts \({{ '[Chapter 19]({{ './chapter_19/tiy.md' | relative_url }})\)
+- User Accounts \({{ '[Chapter 19](./chapter_19/tiy)\)
 
-- Styling And Deploying An App \({{ '[Chapter 20]({{ './chapter_20/tiy.md' | relative_url }})\)
+- Styling And Deploying An App \({{ '[Chapter 20](./chapter_20/tiy)\)
 
 #### Solutions
 
-After you have tried the exercises yourself, you can check the author's implementations to compare. solutions to the homework may be found [here]({{ 'solutions/index.md' | relative_url }}).
+After you have tried the exercises yourself, you can check the author's implementations to compare. solutions to the homework may be found [here](solutions/index).
 
 ### Setup Instructions
 
 Here you can find instructions for:
 
-- [Installing Python]({{ './appendix_a/index.md' | relative_url }})&#09;({{ 'Appendix A' | relative_url }})
-- [Installing and configuring Python]({{ './chapter_01/tiy.md' | relative_url }})&#09;({{ 'Chapter 1' | relative_url }})
-- [Installing and using pip]({{ './chapter_12/installing_pip.md' | relative_url }})&#09;({{ 'Chapter 12' | relative_url }})
-- [Installing Pygame]({{ './chapter_12/tiy.md' | relative_url }})&#09;({{ 'Chapter 12' | relative_url }})
-- [Installing matplotlib and Pygal]({{ './chapter_15/tiy.md' | relative_url }}) &#09;({{ 'Chapter 15' | relative_url }})
-- [Creating a Virtual Environment]({{ './chapter_18/tiy.md' | relative_url }})&#09;({{ 'Chapter 18' | relative_url }})
-- [Deploying a Project to Heroku]({{ './chapter_20/tiy.md' | relative_url }})&#09;({{ 'Chapter 20' | relative_url }})
+- [Installing Python](./appendix_a/index)&#09;({{ 'Appendix A' | relative_url }})
+- [Installing and configuring Python](./chapter_01/tiy)&#09;({{ 'Chapter 1' | relative_url }})
+- [Installing and using pip](./chapter_12/installing_pip)&#09;({{ 'Chapter 12' | relative_url }})
+- [Installing Pygame](./chapter_12/tiy)&#09;({{ 'Chapter 12' | relative_url }})
+- [Installing matplotlib and Pygal](./chapter_15/tiy) &#09;({{ 'Chapter 15' | relative_url }})
+- [Creating a Virtual Environment](./chapter_18/tiy)&#09;({{ 'Chapter 18' | relative_url }})
+- [Deploying a Project to Heroku](./chapter_20/tiy)&#09;({{ 'Chapter 20' | relative_url }})
 
 ## <a id="source_code"></a>Downloading source code
 
@@ -110,17 +110,17 @@ Click on the [_Download ZIP_]({{ 'https://github.com/mavjav-edu/pcc_2e/archive/m
 
 A more flexible way is to [fork this repository and clone it]({{ 'https://guides.github.com/activities/forking/' | relative_url }}) to your local computer using `git`.
 
-## [Cheat Sheets]({{ './cheat_sheets/index.md' | relative_url }})
+## [Cheat Sheets](./cheat_sheets/index)
 
-Cheat sheets can be really helpful when you're working on a set of programming exercises or a project. This set of [cheat sheets]({{ './cheat_sheets/index.md' | relative_url }}) will help remind you of the concepts you're learning, as well as the Python syntax for these concepts.
+Cheat sheets can be really helpful when you're working on a set of programming exercises or a project. This set of [cheat sheets](./cheat_sheets/index) will help remind you of the concepts you're learning, as well as the Python syntax for these concepts.
 
-## [Updates]({{ './updates/index.md' | relative_url }})
+## [Updates](./updates/index)
 
 Some of the [PyPI]({{ 'https://en.wikipedia.org/wiki/Python_Package_Index' | relative_url }}) libraries featured in the book have been updated recently, which is a good thing &mdash; it means that the Python packages you're learning to use are being steadily improved.
 
 When packages are updated you have the option of using the version that was featured in the book, which lets you run code exactly as it's written in the book. You can also choose to install the latest version of each package, and modify the code in the book slightly. Each approach is outlined clearly in these updates.
 
-A list of updates is kept [here]({{ './updates/index.md' | relative_url }}).
+A list of updates is kept [here](./updates/index).
 
 ### Contact
 
