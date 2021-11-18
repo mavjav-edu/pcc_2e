@@ -76,13 +76,13 @@ The book has several sections that reinforce learning through exercises. Practic
 
 #### Solutions
 
-After you have tried the exercises yourself, you can check the author's implementations to compare. solutions to the homework may be found [here](solutions/index).
+After you have tried the exercises yourself, you can check the author's implementations to compare. solutions to the homework may be found [here](solutions).
 
 ### Setup Instructions
 
 Here you can find instructions for:
 
-- [Installing Python](./appendix_a/index)&#09;({{ 'Appendix A' | relative_url }})
+- [Installing Python](./appendix_a)&#09;({{ 'Appendix A' | relative_url }})
 - [Installing and configuring Python](./chapter_01/tiy)&#09;({{ 'Chapter 1' | relative_url }})
 - [Installing and using pip](./chapter_12/installing_pip)&#09;({{ 'Chapter 12' | relative_url }})
 - [Installing Pygame](./chapter_12/tiy)&#09;({{ 'Chapter 12' | relative_url }})
@@ -110,17 +110,17 @@ Click on the [_Download ZIP_]({{ 'https://github.com/mavjav-edu/pcc_2e/archive/m
 
 A more flexible way is to [fork this repository and clone it]({{ 'https://guides.github.com/activities/forking/' | relative_url }}) to your local computer using `git`.
 
-## [Cheat Sheets](./cheat_sheets/index)
+## [Cheat Sheets](./cheat_sheets)
 
-Cheat sheets can be really helpful when you're working on a set of programming exercises or a project. This set of [cheat sheets](./cheat_sheets/index) will help remind you of the concepts you're learning, as well as the Python syntax for these concepts.
+Cheat sheets can be really helpful when you're working on a set of programming exercises or a project. This set of [cheat sheets](./cheat_sheets) will help remind you of the concepts you're learning, as well as the Python syntax for these concepts.
 
-## [Updates](./updates/index)
+## [Updates](./updates)
 
 Some of the [PyPI]({{ 'https://en.wikipedia.org/wiki/Python_Package_Index' | relative_url }}) libraries featured in the book have been updated recently, which is a good thing &mdash; it means that the Python packages you're learning to use are being steadily improved.
 
 When packages are updated you have the option of using the version that was featured in the book, which lets you run code exactly as it's written in the book. You can also choose to install the latest version of each package, and modify the code in the book slightly. Each approach is outlined clearly in these updates.
 
-A list of updates is kept [here](./updates/index).
+A list of updates is kept [here](./updates).
 
 ### Contact
 
