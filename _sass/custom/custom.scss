@@ -70,7 +70,7 @@ figure.figurefx figcaption {
   box-sizing: border-box;
 	text-align: center;
 	color: $body-background-color;
-	background: color.invert($body-background-color);
+	background: invert($body-background-color);
 	padding: 15px;
 	z-index: 100;
 	width: 100%;
