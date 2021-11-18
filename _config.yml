@@ -17,17 +17,12 @@ title: Python Crash Course, 2nd Edition
 description: Online Resources for Python Crash Course, from No Starch Press
 baseurl: "/pcc_2e" # the subpath of your site, e.g. /blog
 url: "https://mavjav-edu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-<<<<<<< HEAD
-logo: "/_includes/favicon-32x32.png"
-permalink: pretty
-exclude: ["vendor/", "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
-=======
+
 logo: "assets/images/pcc_logo_csyivv_c_scale,w_788.png"
 permalink: pretty
 exclude: ["vendor/", "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile","normalize.scss.md",".vscode/*","rollup.config.js"]
 
 timezone: America/Vancouver
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 
 # Enable or disable the site search
 search_enabled: true
@@ -38,11 +33,8 @@ aux_links:
     - "//github.com/mavjav-edu/pcc_2e"
 
 # Color scheme currently only supports "dark" or nil (default)
-<<<<<<< HEAD
-color_scheme: nil
-=======
+
 color_scheme: dark
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
@@ -51,8 +43,6 @@ ga_tracking: G-H1B6T2W9DJ
 theme: just-the-docs
 
 plugins:
-<<<<<<< HEAD
+
   - jekyll-seo-tag
-=======
-  - jekyll-seo-tag
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
+

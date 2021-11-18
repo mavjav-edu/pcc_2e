@@ -2,21 +2,7 @@
   "name": "just-the-docs",
   "version": "0.2.3",
   "description": "A modern Jekyll theme for documentation",
-<<<<<<< HEAD
-  "repository": "pmarsceill/just-the-docs",
-  "license": "MIT",
-  "bugs": "https://github.com/pmarsceill/just-the-docs/issues",
-  "devDependencies": {
-    "stylelint": "^9.10.1",
-    "stylelint-config-primer": "^3.0.1"
-  },
-  "dependencies": {
-    "lunr": "^2.3.9"
-  },
-  "scripts": {
-    "test": "stylelint '**/*.scss'"
-  }
-=======
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pmarsceill/just-the-docs.git"
@@ -58,5 +44,5 @@
   },
   "keywords": [],
   "author": ""
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
 }
+

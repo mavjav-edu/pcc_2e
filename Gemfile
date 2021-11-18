@@ -1,8 +1,6 @@
 source "https://rubygems.org"
 gem "just-the-docs"
-<<<<<<< HEAD
-gem "jekyll-seo-tag"
-=======
+
 
 group :jekyll_plugins do
     gem "jekyll-seo-tag"
@@ -24,4 +22,4 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
   
 gem "webrick", "~> 1.7"
->>>>>>> parent of 267e156 (Deploying to gh-pages from  @ 3d31d49726485d01b451e4d7a02949ebc67282e0 🚀)
+
