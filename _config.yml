@@ -19,11 +19,12 @@ baseurl: "/pcc_2e" # the subpath of your site, e.g. /blog
 url: "https://mavjav-edu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "assets/images/pcc_logo_csyivv_c_scale,w_788.png"
 permalink: pretty
-exclude: ["vendor/", "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile","normalize.scss.md",".vscode/*","rollup.config.js"]
+exclude: ["vendor/", "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile","normalize.scss.md",".vscode/*","rollup.config.js", "docs/tests/"]
 
 timezone: America/Vancouver
 
 # Enable or disable the site search
+# Supports true (default) or false
 search_enabled: true
 
 # Aux links for the upper right navigation
