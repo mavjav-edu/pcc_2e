@@ -22,6 +22,24 @@ jobs:
         bundler-cache: true
     - name: Build the site in the jekyll/builder container
       run: |
+        # Download installing_pip.md
+        curl -sL https://raw.githubusercontent.com/pypa/pip/main/docs/html/installation.md -o ./chapter_12/installing_pip.md
+        # Write the Liquid markup header to ./chapter_12/pip_markup_header.tmp
+        echo "---" > ./chapter_12/pip_markup_header.tmp
+        echo "layout: default" >> ./chapter_12/pip_markup_header.tmp
+        echo "title: Installing and Using PIP" >> ./chapter_12/pip_markup_header.tmp
+        echo "nav_order: 10" >> ./chapter_12/pip_markup_header.tmp
+        echo "description: \"How to install the Python package manager PIP.\"" >> ./chapter_12/pip_markup_header.tmp
+        echo "grand_parent: Solutions" >> ./chapter_12/pip_markup_header.tmp
+        echo "parent: Chapter 12" >> ./chapter_12/pip_markup_header.tmp
+        echo "has_children: false" >> ./chapter_12/pip_markup_header.tmp
+        echo "---" >> ./chapter_12/pip_markup_header.tmp
+        # Conjoin the header to the markdown content
+        cat ./chapter_12/pip_markup_header.tmp ./chapter_12/installing_pip.md > ./chapter_12/installing_pip.tmp
+        # Rename installing_pip.tmp to installing_pip.md
+        mv ./chapter_12/installing_pip.tmp ./chapter_12/installing_pip.md
+        # Remove the temporary file
+        rm ./chapter_12/pip_markup_header.tmp
         bundle exec jekyll build --future
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.7.1
