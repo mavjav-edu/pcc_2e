@@ -8,32 +8,33 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
       with:
         submodules: true
-    - name: Populate resources built from external files
+    - name: Install rsync 📚
       run: |
-        apt-get update && && apt-get upgrade -y && apt-get install -y rsync;
-        docker run \
-        --volume="${{ github.workspace }}" \
-        apt-get update && && apt-get upgrade -y && apt-get install -y rsync \
-        curl -sL https://raw.githubusercontent.com/pypa/pip/main/docs/html/installation.md -o ./chapter_12/installing_pip.md \
-        echo "---" > ./chapter_12/pip_markup_header.tmp \ 
-        echo "layout: default" >> ./chapter_12/pip_markup_header.tmp \
-        echo "title: Installing and Using PIP" >> ./chapter_12/pip_markup_header.tmp \
-        echo "nav_order: 10" >> ./chapter_12/pip_markup_header.tmp \
-        echo "description: \"How to install the Python package manager PIP.\"" >> ./chapter_12/pip_markup_header.tmp \
-        echo "grand_parent: Solutions" >> ./chapter_12/pip_markup_header.tmp \
-        echo "parent: Chapter 12" >> ./chapter_12/pip_markup_header.tmp \
-        echo "has_children: false" >> ./chapter_12/pip_markup_header.tmp \
-        echo "---" >> ./chapter_12/pip_markup_header.tmp \
-        cat ./chapter_12/pip_markup_header.tmp ./chapter_12/installing_pip.md > ./chapter_12/installing_pip.tmp \
-        mv ./chapter_12/installing_pip.tmp ./chapter_12/installing_pip.md \
-        rm ./chapter_12/pip_markup_header.tmp
+        apt-get update && apt-get install -y rsync
+    - name: Populate resources built from external files
+      run: curl -sL https://raw.githubusercontent.com/pypa/pip/main/docs/html/installation.md -o ./chapter_12/installing_pip.md
+    - name: Build Liquid Markup header for installing_pip
+      run: |
+        /bin/bash -c 'echo "---" > ./chapter_12/pip_markup_header.tmp' \ 
+        'echo "layout: default" >> ./chapter_12/pip_markup_header.tmp' \
+        'echo "title: Installing and Using PIP" >> ./chapter_12/pip_markup_header.tmp \
+        'echo "nav_order: 10" >> ./chapter_12/pip_markup_header.tmp \
+        'echo "description: \"How to install the Python package manager PIP.\"" >> ./chapter_12/pip_markup_header.tmp \
+        'echo "grand_parent: Solutions" >> ./chapter_12/pip_markup_header.tmp \
+        'echo "parent: Chapter 12" >> ./chapter_12/pip_markup_header.tmp \
+        'echo "has_children: false" >> ./chapter_12/pip_markup_header.tmp \
+        'echo "---" >> ./chapter_12/pip_markup_header.tmp'
+    - name: Concatenate header with markdown
+      run: /bin/bash -c 'cat ./chapter_12/pip_markup_header.tmp ./chapter_12/installing_pip.md > ./chapter_12/installing_pip.tmp'
+    - name: Rename tmp to md
+      run: /bin/bash -c 'mv ./chapter_12/installing_pip.tmp ./chapter_12/installing_pip.md'
+    - name: Remove the tmp header file
+      run: /bin/bash -c 'rm ./chapter_12/pip_markup_header.tmp'
     - uses: ruby/setup-ruby@v1.84.0
       with:
         ruby-version: 3.0
@@ -42,10 +43,29 @@ jobs:
     - name: Build the site in the jekyll/builder container
       run: |
         bundle exec jekyll build --future
-    - name: Deploy
+  deploy:
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+    - name: Install rsync 📚
+      run: |
+        apt-get update && apt-get install -y rsync
+    - uses: ruby/setup-ruby@v1.84.0
+      with:
+        ruby-version: 3.0
+        bundler: 'Gemfile.lock'
+        bundler-cache: true
+    - name: Build the site in the jekyll/builder container
+      run: |
+        bundle exec jekyll build --future
+    - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
-        folder: ./_site
-        clean: true
+        folder: _site
+        target-folder: _site
+        clean: false
