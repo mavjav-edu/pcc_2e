@@ -60,6 +60,7 @@ figure.figurefx {
 	display: block;
 	position: relative;
 	overflow: hidden; /* hide overflowing elements by default */
+    text-align: center;
 }
 
 figure.figurefx figcaption {
@@ -69,8 +70,8 @@ figure.figurefx figcaption {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 	text-align: center;
-	color: invert($body-text-color);
-	background: invert($body-background-color);
+	color: $body-text-color;
+	background: lighten($body-background-color,10%);
 	padding: 15px;
 	z-index: 100;
 	width: 100%;

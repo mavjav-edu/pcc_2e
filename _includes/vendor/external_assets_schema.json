@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "ExternalAssets",
+    "description": "A list of external assets",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "filename": {
+                "type": "string",
+                "description": "The local filename of the asset"
+            },
+            "url": {
+                "type": "string",
+                "description": "The external URL of the asset"
+            },
+            "path": {
+                "type": "string",
+                "description": "The local filepath of the asset"
+            }
+        },
+        "required": [
+            "filename",
+            "url",
+            "path"
+        ]
+    }
+}

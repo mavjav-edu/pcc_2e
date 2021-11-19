@@ -96,17 +96,11 @@ Students will be assigned chapters from this book using [GitHub classroom]({{ 'h
 
 If you are not a student, a direct way to get these online resources is to download as a ZIP file.
 
-<figure>
-<img
-sizes="({{ 'max-width: 360px' | relative_url }}) 100vw, 360px"
-srcset="
-{{ '/assets/images/download_zip_vyd8au_c_scale,w_100.png' | relative_url }} 100w,
-{{ '/assets/images/download_zip_vyd8au_c_scale,w_268.png' | relative_url }} 268w,
-{{ '/assets/images/download_zip_vyd8au_c_scale,w_360.png' | relative_url }} 360w"
-src="{{ '/assets/images/download_zip_vyd8au_c_scale,w_360.png' | relative_url }}"
- alt="Screenshot downloading zip of code in GitHub repository" title="Click the Download ZIP Option"/><figcaption>Screenshot downloading zip of code in GitHub repository</figcaption></figure>
+<span class="fs-8">
+[Download ZIP](https://github.com/mavjav-edu/pcc_2e/archive/master.zip){: .btn }
+</span>
 
-Click on the [_Download ZIP_]({{ 'https://github.com/mavjav-edu/pcc_2e/archive/master.zip' | relative_url }}) button on the upper right side of [this page]({{ 'https://github.com/mavjav-edu/pcc_2e' | relative_url }}), which will download the source code files ({{ 'and other resources' | relative_url }}) for the entire book.
+Click on the button above, which will download the source code files (and other resources) for the entire book.
 
 A more flexible way is to [fork this repository and clone it]({{ 'https://guides.github.com/activities/forking/' | relative_url }}) to your local computer using `git`.
 

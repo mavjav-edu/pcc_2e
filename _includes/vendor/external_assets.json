@@ -1,0 +1,12 @@
+[
+    {
+        "url": "https://raw.githubusercontent.com/pypa/pip/main/docs/html/installation.md",
+        "filename": "installing_pip.md",
+        "path": "./chapter_12"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/docs/python/python-tutorial.md",
+        "filename": "installing_python.md",
+        "path": "./setup_instructions"
+    }
+]
