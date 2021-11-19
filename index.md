@@ -92,7 +92,7 @@ Here you can find instructions for:
 
 ## <a id="source_code"></a>Downloading source code
 
-Students will be assigned chapters from this book using [GitHub classroom]({{ 'https://classroom.github.com/classrooms/49895023-python-with-mavi' | relative_url }}). <img src="https://avatars.githubusercontent.com/in/68187?s=120" alt="GitHub classroom logo is a graphic of the GitHub logo imposed on a chalkboard" title="GitHub Classroom" width="120px"/>
+Students will be assigned chapters from this book using [GitHub classroom]({{ 'https://classroom.github.com/classrooms/49895023-python-with-mavi' | relative_url }}). <img src="https://avatars.githubusercontent.com/in/68187?s=120" alt="GitHub classroom logo is a graphic of the GitHub logo imposed on a chalkboard" title="GitHub Classroom" width="120px" class="f_right"/>
 
 If you are not a student, a direct way to get these online resources is to download as a ZIP file.
 
