@@ -14,7 +14,7 @@ nav_order: 1010
 * 
 {:toc}
 
-Back to [Updates](../updates/)
+Back to [Updates](../)
 
 ---
 

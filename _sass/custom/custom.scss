@@ -70,7 +70,7 @@ figure.figurefx figcaption {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 	text-align: center;
-	color: $body-text-color;
+	color: $body-text-color; //text should contrast with background
 	background: lighten($body-background-color,10%);
 	padding: 15px;
 	z-index: 100;

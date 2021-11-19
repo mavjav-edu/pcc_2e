@@ -1,0 +1,491 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_12/installing_pip.md</S>
+      <S N="Anchor Text">Installing and using pip</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="1">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/'https://www.mavaddat.ca'</S>
+      <S N="Anchor Text">Mavaddat</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/solutions/solutions</S>
+      <S N="Anchor Text">solutions</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/solutions/chapter_3/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="3">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/updates/updates/</S>
+      <S N="Anchor Text">Updates</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/updates/django3_2/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/cheat_sheets/cheat_sheets/</S>
+      <S N="Anchor Text">cheat sheets</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/solutions/chapter_12/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="5">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/contact</S>
+      <S N="Anchor Text">get in touch</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/challenges/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="6">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/playing_cards/</S>
+      <S N="Anchor Text">Playing Cards</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/challenges/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="7">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/photo_filters/</S>
+      <S N="Anchor Text">Photo Filters</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/challenges/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="8">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/ai_player/</S>
+      <S N="Anchor Text">Automated Alien Invasion Player</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/challenges/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="9">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/coding_for_social_justice/</S>
+      <S N="Anchor Text">Coding for Social Justice</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/challenges/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="10">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">403 Forbidden</S>
+      <S N="URL">https://pixabay.com/vectors/card-deck-deck-cards-playing-cards-161536/</S>
+      <S N="Anchor Text">here</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/challenges/playing_cards/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="11">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/random_functions/</S>
+      <S N="Anchor Text">random()</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/beyond_pcc/ai_player/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="12">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pillow/beyond_pcc/random_functions.md</S>
+      <S N="Anchor Text">randint() function</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/beyond_pcc/pillow/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="13">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">401 Unauthorized</S>
+      <S N="URL">https://www.youtube.com/watch?v=FytuB8nFHPQ</S>
+      <S N="Anchor Text">on YouTube</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/recommended_reading/data_science/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="14">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">401 Unauthorized</S>
+      <S N="URL">https://www.youtube.com/watch?v=wf-BqAjZb8M</S>
+      <S N="Anchor Text">this talk</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="15">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">401 Unauthorized</S>
+      <S N="URL">https://www.youtube.com/watch?v=66P5FMkWoVU</S>
+      <S N="Anchor Text">this talk</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="16">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">401 Unauthorized</S>
+      <S N="URL">https://www.youtube.com/watch?v=66XoCk79kjM</S>
+      <S N="Anchor Text">this talk</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/recommended_reading/general_python/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="17">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/new_in_2e/new_in_2e/</S>
+      <S N="Anchor Text">What's new?</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_01/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="18">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/setup_instructions/setup_instructions/</S>
+      <S N="Anchor Text">Setup Instructions</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_01/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="19">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/solutions/solutions/</S>
+      <S N="Anchor Text">Solutions</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_01/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="20">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/challenges/challenges/</S>
+      <S N="Anchor Text">Challenges</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_01/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="21">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/beyond_pcc/beyond_pcc/</S>
+      <S N="Anchor Text">Beyond PCC</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_01/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="22">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/recommended_reading/recommended_reading/</S>
+      <S N="Anchor Text">Recommended Reading</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_01/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="23">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_02/tiy.md</S>
+      <S N="Anchor Text">Chapter 2</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_01/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="24">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_02/tiy/..\appendix_c</S>
+      <S N="Anchor Text">Appendix C</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_02/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="25">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_03/tiy.md</S>
+      <S N="Anchor Text">Exercise 3-1</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_03/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="26">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_05/tiy.md</S>
+      <S N="Anchor Text">Exercise 5-3</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_05/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="27">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_04/tiy.md</S>
+      <S N="Anchor Text">Exercise 4-1</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_04/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="28">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_04/tiy/..\appendix_b\appendix_b.md</S>
+      <S N="Anchor Text">Appendix B</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_04/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="29">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_08/tiy.md</S>
+      <S N="Anchor Text">Exercise 8-7</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_08/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="30">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_12/tiy/images/index.md</S>
+      <S N="Anchor Text">images</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_12/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="31">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_12/tiy/gg-good-game-galaga-RtpmUzMbynBeCgEa5E.gif</S>
+      <S N="Anchor Text">img/src</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_12/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="32">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_13/tiy.md</S>
+      <S N="Anchor Text">Exercise 13-1</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_13/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="33">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_06/tiy.md</S>
+      <S N="Anchor Text">Exercise 6-3</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_06/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="34">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_10/tiy.md</S>
+      <S N="Anchor Text">Exercise 10-6</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_10/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="35">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_09/tiy.md</S>
+      <S N="Anchor Text">Exercise 9-1</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_09/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="36">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_14/tiy.md</S>
+      <S N="Anchor Text">Exercise 14-2</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_14/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="37">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_14/tiy/app04.html</S>
+      <S N="Anchor Text">Appendix D</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_14/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="38">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_07/tiy.md</S>
+      <S N="Anchor Text">Exercise 7-4</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_07/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="39">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_19/tiy.md</S>
+      <S N="Anchor Text">Chapter 19</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_20/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="40">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_18/tiy.md</S>
+      <S N="Anchor Text">Exercise 18-4</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_18/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="41">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_16/tiy.md</S>
+      <S N="Anchor Text">Figures 16-5</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_16/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="42">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/chapter_11/tiy.md</S>
+      <S N="Anchor Text">Chapter 11</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_16/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="43">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/appendix_b/..\appendix_a\appendix_a.md</S>
+      <S N="Anchor Text">Appendix A</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/appendix_b/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="44">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/appendix_b/app01.html</S>
+      <S N="Anchor Text">Installing Python 3 on Windows</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/appendix_b/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="45">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/appendix_d/..\appendix_c\appendix_c.md</S>
+      <S N="Anchor Text">Appendix C</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/appendix_d/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="46">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/chapter_01/tiy.md</S>
+      <S N="Anchor Text">Chapter 1</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/appendix_a/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="47">
+    <TNRef RefId="0" />
+    <MS>
+      <I64 N="Error">530</I64>
+      <S N="URL">https://data.okfn.org/data/core/gdp/</S>
+      <S N="Anchor Text">http://data.okfn.org/data/core/gdp/ [301 from http://data.okfn.org/data/core/gdp/]</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/chapter_16/tiy/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="48">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">503 Service Unavailable</S>
+      <S N="URL">https://news.ycombinator.com/item?id=22359302</S>
+      <S N="Anchor Text">Monster.com</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/finding_employment/applying_jobs/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="49">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">503 Service Unavailable</S>
+      <S N="URL">https://news.ycombinator.com/item?id=22225314</S>
+      <S N="Anchor Text">February 2020 Who’s Hiring</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/finding_employment/applying_jobs/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="50">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">403 Forbidden</S>
+      <S N="URL">https://news.ycombinator.com/submitted?id=whoishiring</S>
+      <S N="Anchor Text">listing of all the Who’s Hiring threads</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/finding_employment/applying_jobs/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="51">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e/beyond_pcc/beyond_pcc</S>
+      <S N="Anchor Text">This section</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e/mailing_list_archive/ml_1_challenges_beyond_pcc/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="52">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e//updates/updates/</S>
+      <S N="Anchor Text">Updates</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e//updates/python3_8/</S>
+    </MS>
+  </Obj>
+  <Obj RefId="53">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Error">404 Not Found</S>
+      <S N="URL">https://mavjav-edu.github.io/pcc_2e//beyond_pcc/pillow/beyond_pcc/random_functions.md</S>
+      <S N="Anchor Text">randint() function</S>
+      <S N="Linked From">https://mavjav-edu.github.io/pcc_2e//beyond_pcc/pillow/</S>
+    </MS>
+  </Obj>
+</Objs>

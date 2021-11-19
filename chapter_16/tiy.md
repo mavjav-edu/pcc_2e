@@ -69,7 +69,7 @@ statement. When you&rsquo;re finished, you should see a more complete map.
 <span id="ch16exe6"></span>**16-6. Gross Domestic Product:** The Open
 Knowledge Foundation maintains a data set containing the gross domestic
 product (GDP) for each country in the world, which you can find at
-*<http://data.okfn.org/data/core/gdp/>*. Download the JSON version of
+*<https://index.okfn.org/dataset/statistics/>*. Download the JSON version of
 this data set, and plot the GDP of each country in the world for the
 most recent year in the data set.
 
