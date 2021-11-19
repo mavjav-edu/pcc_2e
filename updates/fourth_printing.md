@@ -13,7 +13,7 @@ nav_order: 40
 
 This page is broken into two parts, Updates and Errata. *Updates* address issues that affect whether your code will run or not. *Errata* refer to minor issues such as typos, and errors in grayed-out code that probably won't affect the code you're entering.
 
-If you find an error in the book or can't get something to work, please let me know. You can reach me through email at <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a> , or on Twitter at [@ehmatthes](https://twitter.com/ehmatthes).
+If you find an error in the book or can't get something to work, please let me know. You can reach me through email at <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" title="the author's email address as an image to prevent spamming" alt="email as image to hide from spammers" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a> , or on Twitter at [@ehmatthes](https://twitter.com/ehmatthes).
 
 * 
 {:toc}

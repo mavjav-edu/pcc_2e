@@ -32,7 +32,7 @@ If you are a student following this curriculum for the first time, please jump t
 ## <a id="try_it_yourself"></a>Exercises ✍🏽
 
 The book has several sections that reinforce learning through exercises. Practice what you just read where you see:
-<img src="{{ '/assets/images/tiy.svg' | relative_url }}"   width="188vw" alt="'Try It Yourself' in Adobe Dogma typeface"/>
+<img src="{{ '/assets/images/tiy.svg' | relative_url }}" title="The words 'Try It Yourself' in Adobe Dogma typeface"  width="188vw" alt="'Try It Yourself' in Adobe Dogma typeface"/>
 
 - Getting Started \([Chapter 1](./chapter_01/tiy.md)\)
 
@@ -92,7 +92,7 @@ Here you can find instructions for:
 
 ## <a id="source_code"></a>Downloading source code
 
-Students will be assigned chapters from this book using [GitHub classroom]({{ 'https://classroom.github.com/classrooms/49895023-python-with-mavi' | relative_url }}). <img src="https://avatars.githubusercontent.com/in/68187?s=120" alt="GitHub classroom logo" width="120px"/>
+Students will be assigned chapters from this book using [GitHub classroom]({{ 'https://classroom.github.com/classrooms/49895023-python-with-mavi' | relative_url }}). <img src="https://avatars.githubusercontent.com/in/68187?s=120" alt="GitHub classroom logo is a graphic of the GitHub logo imposed on a chalkboard" title="GitHub Classroom" width="120px"/>
 
 If you are not a student, a direct way to get these online resources is to download as a ZIP file.
 
@@ -118,7 +118,7 @@ A list of updates is kept [here](./updates/index.md).
 
 ### Contact
 
-If you have any questions about Python Crash Course, please [join the Discord server](https://discord.gg/KzzTBbr), contact [Mavaddat]('https://www.mavaddat.ca'), or get in touch with the book's author, 📧 <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a>.
+If you have any questions about Python Crash Course, please [join the Discord server](https://discord.gg/KzzTBbr), contact [Mavaddat]('https://www.mavaddat.ca'), or get in touch with the book's author, 📧 <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" title="the author's email address as an image to prevent spamming" alt="email as image to hide from spammers" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a>.
 
-[<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" alt="Twitter logo" width="15"/> @ehmatthes](http://twitter.com/ehmatthes/)
+[<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" title="the twitter logo" alt="twitter logo of a blue bird" alt="Twitter logo" width="15"/> @ehmatthes](http://twitter.com/ehmatthes/)
 <img src="https://pbs.twimg.com/profile_images/1153801365543538688/6ZRVUWah.png" title="the author on Twitter" alt="the author's Twitter profile image" width="20vw"/>

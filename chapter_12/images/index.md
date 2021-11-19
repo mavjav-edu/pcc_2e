@@ -18,7 +18,7 @@ Here are some spaceship glyphs to choose from.
 <div id="grid-col">
 {% assign ships = site.static_files | where_exp: "item", "item.path contains '/chapter_12/images/spaceships'" %}
 {% for ship in ships %}
-    <div class="cell"> <img src="{{ship.path | relative_url}}" alt="Spaceship #{{ forloop.index }}" width="66"> </div>
+    <div class="cell"> <img src="{{ship.path | relative_url}}" alt="Spaceship #{{ forloop.index }}" width="66" title="Spaceship #{{ forloop.index }}"/> </div>
 {% endfor %}
 </div>
 
@@ -26,4 +26,4 @@ Here are some spaceship glyphs to choose from.
 
 Here is a background you can use:
 
-<img src="./sky.svg" alt="Night Sky" width="166">
+<img src="./sky.svg" alt="A graphic of the night sky with small stars" width="166" title="Night sky"/>
