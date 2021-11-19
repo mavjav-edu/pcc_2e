@@ -97,12 +97,12 @@ Students will be assigned chapters from this book using [GitHub classroom]({{ 'h
 If you are not a student, a direct way to get these online resources is to download as a ZIP file.
 
 <span class="fs-6">
-[Download ZIP](https://github.com/mavjav-edu/pcc_2e/archive/master.zip){: .btn .btn-purple }
+[Download ZIP](https://github.com/mavjav-edu/pcc_2e/archive/master.zip){: .zip-dl .btn .btn-purple }
 </span>
 
-Click on the button above, which will download the source code files (and other resources) for the entire book.
+Click on the button, which will download the source code files (and other resources) for the entire book.
 
-A more flexible way is to [fork this repository and clone it]({{ 'https://guides.github.com/activities/forking/' | relative_url }}) to your local computer using `git`.
+A more flexible way is to [fork this repository and clone it](https://guides.github.com/activities/forking/) to your local computer using `git`.
 
 ## [Cheat Sheets](./cheat_sheets/index.md)
 

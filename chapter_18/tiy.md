@@ -43,7 +43,7 @@ it doesn&rsquo;t have an ellipsis when viewed.
 <span id="ch18exe3"></span>**18-3. The Django API:** When you write code
 to access the data in your project, you&rsquo;re writing a *query*. Skim
 through the documentation for querying your data at
-*<https://docs.djangoproject.com/en/1.8/topics/db/queries/>.* Much of
+*<https://docs.djangoproject.com/en/3.2/topics/db/queries/>.* Much of
 what you see will look new to you, but it will be quite useful as you
 start to work on your own projects.
 
@@ -74,7 +74,7 @@ to the *Pizzeria* project you started in [Exercise
 
 <span id="ch18exe7"></span>**18-7. Template Documentation:** Skim the
 Django template documentation at
-*<https://docs.djangoproject.com/en/1.8/ref/templates/>*. You can refer
+*<https://docs.djangoproject.com/en/3.2/ref/templates/>*. You can refer
 back to it when you&rsquo;re working on your own projects.
 
 <span id="ch18exe8"></span>**18-8. Pizzeria Pages:** Add a page to the
