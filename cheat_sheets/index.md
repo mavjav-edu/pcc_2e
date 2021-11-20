@@ -7,7 +7,7 @@ has_children: false
 
 # Cheat Sheets
 
-Cheat sheets can be really helpful when you’re trying a set of exercises related to a specific topic, or working on a project. Because you can only fit so much information on a single sheet of paper, most cheat sheets are a simple listing of syntax rules. This set of cheat sheets aims to remind you of syntax rules, but also remind you of important concepts as well. You can click here and download [all of the original sheets in a single document](https://github.com/ehmatthes/pcc_2e/releases/download/v1.0.1/beginners_python_cheat_sheet_pcc_all.pdf).
+Cheat sheets can be really helpful when you’re trying a set of exercises related to a specific topic, or working on a project. Because you can only fit so much information on a single sheet of paper, most cheat sheets are a simple listing of syntax rules. This set of cheat sheets aims to remind you of syntax rules, but also remind you of important concepts as well. You can click here and download [all of the original sheets in a single document](https://github.com/mavjav-edu/pcc_2e/releases/download/v1.0.1/beginners_python_cheat_sheet_pcc_all.pdf).
 
 A more recently updated version of these sheets (April 2021) is available through [Leanpub](https://leanpub.com/beginners-python-cheat-sheets/). The updated version includes a sheet that focuses on Git basics, a printer-friendly b&w version of each sheet, and each sheet as a separate document. There is an option to download the fully updated set at no cost.
 
@@ -54,5 +54,5 @@ If you find any errors, please feel free to get in touch:
 
  Email: 📧 <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" title="the author's email address as an image to prevent spamming" alt="email as image to hide from spammers" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a>.
 
-Twitter: [<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" title="the twitter logo" alt="twitter logo of a blue bird" alt="Twitter logo" width="15"/> @ehmatthes](http://twitter.com/ehmatthes/)
+Twitter: [<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" title="the twitter logo" alt="twitter logo of a blue bird" alt="Twitter logo" width="15"/> @ehmatthes](http://twitter.com/mavjav-edu/)
 <img src="https://pbs.twimg.com/profile_images/1153801365543538688/6ZRVUWah.png" title="the author on Twitter" alt="the author's Twitter profile image" width="20vw"/>

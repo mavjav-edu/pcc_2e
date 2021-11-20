@@ -26,7 +26,7 @@ I finally posted a new section that focuses on [finding work as a Python program
 - Am I too old to become a professional programmer?
 - Recommended steps
 
-There's a lot to think about if you're looking for your first programming-related job, so the last section includes a [downloadable checklist](https://github.com/ehmatthes/pcc_2e/releases/download/1.1/checklist_finding_employment_pcc.pdf) to help you keep track of the things you've done so far, and the things you might consider doing.
+There's a lot to think about if you're looking for your first programming-related job, so the last section includes a [downloadable checklist](https://github.com/mavjav-edu/pcc_2e/releases/download/1.1/checklist_finding_employment_pcc.pdf) to help you keep track of the things you've done so far, and the things you might consider doing.
 
 I would love to include profiles of a few readers who started with PCC and have already found a job, or who are currently in the midst of a job search. If you'd be willing to share your story, please feel free to reach out. (You can reply to this email, or send me a DM on Twitter [@ehmatthes](https://twitter.com/ehmatthes).)
 

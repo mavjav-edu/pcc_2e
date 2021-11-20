@@ -12,7 +12,7 @@ When people save data in the JSON or CSV format, they're intending for that data
 
 We'll first take a quick look at how to save an Excel file as a CSV file. This is sometimes the quickest and easiest way to extract data. But it's a manual process, so you'd have to open the file in Excel and save it as a CSV again every time the file is updated. It's much better in many situations to just extract the data from Excel directly.
 
-The example we'll use is the data you can download from [Mapping Police Violence](https://mappingpoliceviolence.org/). If you can't download this file from the site for some reason, you can also find a snapshot of this spreadsheet from 6/19/20 in the `beyond_pcc/social_justice_datasets/` directory of the [online resources](https://github.com/ehmatthes/pcc_2e/zipball/master/) for Python Crash Course.
+The example we'll use is the data you can download from [Mapping Police Violence](https://mappingpoliceviolence.org/). If you can't download this file from the site for some reason, you can also find a snapshot of this spreadsheet from 6/19/20 in the `beyond_pcc/social_justice_datasets/` directory of the [online resources](https://github.com/mavjav-edu/pcc_2e/zipball/master/) for Python Crash Course.
 
 * 
 {:toc}

@@ -28,7 +28,7 @@ Mapping Police Violence is maintained by [Samuel Sinyangwe](https://twitter.com/
 
 - Visit the [mappingpoliceviolence.org](https://mappingpoliceviolence.org) home page.
 - [Download the dataset](https://mappingpoliceviolence.org/s/MPVDatasetDownload.xlsx) that Mapping Police Violence uses.
-- If you have any trouble downloading the dataset, you can find a snapshot of the data as of 6/19/20 in the `beyond_pcc/social_justice_datasets/` directory of the [online resources](https://github.com/ehmatthes/pcc_2e/zipball/master/) for Python Crash Course.
+- If you have any trouble downloading the dataset, you can find a snapshot of the data as of 6/19/20 in the `beyond_pcc/social_justice_datasets/` directory of the [online resources](https://github.com/mavjav-edu/pcc_2e/zipball/master/) for Python Crash Course.
 
 ## Wikipedia Lists
 

@@ -136,7 +136,7 @@ In Chapter 16, we learn how to make charts with data that we've downloaded. With
 
 ### CSJ 16-1: Police Killings by State (CSV)
 
-In the PCC resources [available for download](https://github.com/ehmatthes/pcc_2e/zipball/master/), you can find a CSV file containing data about police killings by state in the US for the period 2013-2019. The file is at *challenges/social_justice_datasets/police_killings_by_state_2013-2019.csv*. This file was generated from the [Excel file](https://mappingpoliceviolence.org/s/MPVDatasetDownload.xlsx) available from Mapping Police Violence.
+In the PCC resources [available for download](https://github.com/mavjav-edu/pcc_2e/zipball/master/), you can find a CSV file containing data about police killings by state in the US for the period 2013-2019. The file is at *challenges/social_justice_datasets/police_killings_by_state_2013-2019.csv*. This file was generated from the [Excel file](https://mappingpoliceviolence.org/s/MPVDatasetDownload.xlsx) available from Mapping Police Violence.
 
 Copy this file to an appropriate location, and use what you've learned from Chapter 16 to pull each state's name and the number of Black people killed by police in that state from 2013-2019 into lists. Make a visualization of this data. You may also want to repeat this exercise by creating a dictionary where the keys are the state names and the values are the number of Black people killed in each state during this period.
 

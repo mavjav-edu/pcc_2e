@@ -270,7 +270,7 @@ If you are successful with any of these challenges, I'd love to see the results!
 
 ### Photo Filter 10-1: Grayscale Filter
 
-Choose one of your grayscale filter functions that you wrote earlier. Use your grayscale filter to convert an actual color image to black and white. If you're not sure what image to use, try using the *starr_bears.jpg* image in the *beyond_pcc* folder in the resources [available for download](https://github.com/ehmatthes/pcc_2e/zipball/master/).
+Choose one of your grayscale filter functions that you wrote earlier. Use your grayscale filter to convert an actual color image to black and white. If you're not sure what image to use, try using the *starr_bears.jpg* image in the *beyond_pcc* folder in the resources [available for download](https://github.com/mavjav-edu/pcc_2e/zipball/master/).
 
 *Prerequisite: [Photo Filter 8-1: Grayscale Function](#photo-filter-8-1-grayscale-function)*
 

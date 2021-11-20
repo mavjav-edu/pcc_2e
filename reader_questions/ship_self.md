@@ -16,7 +16,7 @@ In the first edition of the book, the entire game was function-based. That was a
 
 ## The role of self in AlienInvasion
 
-I'm looking at the version of Alien Invasion that's covered  on pages 232-236; you can find that code [here](https://github.com/ehmatthes/pcc_2e/tree/master/chapter_12/adding_ship_image). 
+I'm looking at the version of Alien Invasion that's covered  on pages 232-236; you can find that code [here](https://github.com/mavjav-edu/pcc_2e/tree/master/chapter_12/adding_ship_image). 
 
 Let's look at the part of `AlienInvasion` where we make a ship:
 
