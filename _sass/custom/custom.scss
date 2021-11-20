@@ -128,7 +128,9 @@ figure.pushup:hover figcaption{
 	transition: all 0.5s;
   box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
 }
-
+.giphy-embed{
+	max-width: fit-content;
+}
 a.zip-dl {
 	float: left;
     margin: 4vw 4vw 4vw 1vw;

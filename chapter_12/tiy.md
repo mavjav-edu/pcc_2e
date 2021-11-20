@@ -9,7 +9,7 @@ has_children: true
 
 Let’s build a game!
 
-<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/RtpmUzMbynBeCgEa5E" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/gg-good-game-galaga-RtpmUzMbynBeCgEa5E">via GIPHY</a></p>
+<iframe title="'gg good game galaga' by Matthew Henry @MatthewHenryDesign" alt="Good Game 3D animation in the style of Space Invaders" src="https://giphy.com/embed/RtpmUzMbynBeCgEa5E" frameBorder="0" class="giphy-embed"></iframe>
 
 We’ll use Pygame, a collection of fun, powerful
 Python modules that manage graphics, animation, and even sound, making
