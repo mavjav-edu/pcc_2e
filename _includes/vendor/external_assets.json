@@ -1,12 +1,12 @@
 [
     {
         "url": "https://raw.githubusercontent.com/pypa/pip/main/docs/html/installation.md",
-        "filename": "installing_pip.md",
-        "path": "./chapter_12"
+        "target_local_filename": "installing_pip.md",
+        "target_local_path": "./chapter_12"
     },
     {
         "url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/docs/python/python-tutorial.md",
-        "filename": "installing_python.md",
-        "path": "./setup_instructions"
+        "target_local_filename": "installing_python.md",
+        "target_local_path": "./setup_instructions"
     }
 ]

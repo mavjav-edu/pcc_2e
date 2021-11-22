@@ -6,23 +6,31 @@
     "items": {
         "type": "object",
         "properties": {
-            "filename": {
-                "type": "string",
-                "description": "The local filename of the asset"
-            },
             "url": {
                 "type": "string",
                 "description": "The external URL of the asset"
             },
-            "path": {
+            "target_local_filename": {
+                "type": "string",
+                "description": "The local filename of the asset"
+            },
+            "target_local_path": {
                 "type": "string",
                 "description": "The local filepath of the asset"
-            }
+            },
+            "hash": {
+                "type": "string",
+                "description": "Cryptographic hash of the file"
+            },
+            "hash_algo": {
+                "type": "string",
+                "description": "The algorithm used to generate the hash"
+            } 
         },
         "required": [
-            "filename",
+            "target_local_filename",
             "url",
-            "path"
+            "target_local_path"
         ]
     }
 }
