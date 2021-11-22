@@ -92,7 +92,7 @@ Here you can find instructions for:
 
 ## <a id="source_code"></a>Downloading source code
 
-Students will be assigned chapters from this book using [GitHub classroom]({{ 'https://classroom.github.com/classrooms/49895023-python-with-mavi' | relative_url }}). <img src="https://avatars.githubusercontent.com/in/68187?s=120" alt="GitHub classroom logo is a graphic of the GitHub logo imposed on a chalkboard" title="GitHub Classroom" width="120px" class="f_right"/>
+Students will be assigned chapters from this book using [GitHub classroom](https://classroom.github.com/classrooms/49895023-python-with-mavi). <img src="https://avatars.githubusercontent.com/in/68187?s=120" alt="GitHub classroom logo is a graphic of the GitHub logo imposed on a chalkboard" title="GitHub Classroom" width="120px" class="f_right"/>
 
 If you are not a student, a direct way to get these online resources is to download as a ZIP file.
 
@@ -110,7 +110,7 @@ Cheat sheets can be really helpful when you're working on a set of programming e
 
 ## [Updates](./updates/index.md)
 
-Some of the [PyPI]({{ 'https://en.wikipedia.org/wiki/Python_Package_Index' | relative_url }}) libraries featured in the book have been updated recently, which is a good thing &mdash; it means that the Python packages you're learning to use are being steadily improved.
+Some of the [PyPI](https://en.wikipedia.org/wiki/Python_Package_Index) libraries featured in the book have been updated recently, which is a good thing &mdash; it means that the Python packages you're learning to use are being steadily improved.
 
 When packages are updated you have the option of using the version that was featured in the book, which lets you run code exactly as it's written in the book. You can also choose to install the latest version of each package, and modify the code in the book slightly. Each approach is outlined clearly in these updates.
 
