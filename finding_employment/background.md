@@ -13,7 +13,7 @@ If you're going to take advice about finding a job from someone, you should prob
 * 
 {:toc}
 
-| [What kinds of things can you do as a professional programmer? >>](../focus_areas/) |
+| [What kinds of things can you do as a professional programmer? >>](./focus_areas.md/) |
 
 ---
 
@@ -42,3 +42,4 @@ I began teaching in the mid 1990s. I never thought I'd be a teacher, and I left 
 I interviewed for a technical position at a startup at one point, and was offered an entry-level developer role. I couldn't make that work with a family, and we weren't sure we really wanted to leave Alaska anyway. But it was a significant learning experience. I went on to focus on writing, and Python Crash Course became much more popular than I ever imagined it would, which has opened a lot of doors. I've done a number of freelance projects over the last few years, mostly to contribute to projects I find meaningful, but also to make sure I continue to keep one foot in the professional programming world.
 
 [top](#top)
+

@@ -84,7 +84,7 @@ In Chapter 6, we learn about dictionaries. With dictionaries, we can really star
 
 ### CSJ 6-1: Annual Incidents of US Police Killings
 
-Visit the [National Trends](https://mappingpoliceviolence.org/nationaltrends) page on [Mapping Police Violence](../social_justice_datasets). Choose several years from the data shown, and make a dictionary where the keys are the years and the values are the number of people killed by police officers in the US for that year. Loop through your dictionary, and print a summary of how many people were killed for each year in your data set.
+Visit the [National Trends](https://mappingpoliceviolence.org/nationaltrends) page on [Mapping Police Violence](./social_justice_datasets.md). Choose several years from the data shown, and make a dictionary where the keys are the years and the values are the number of people killed by police officers in the US for that year. Loop through your dictionary, and print a summary of how many people were killed for each year in your data set.
 
 ### CSJ 6-2: International Rates of Police Killings
 
@@ -136,7 +136,7 @@ In Chapter 16, we learn how to make charts with data that we've downloaded. With
 
 ### CSJ 16-1: Police Killings by State (CSV)
 
-In the PCC resources [available for download](https://github.com/mavjav-edu/pcc_2e/zipball/master/), you can find a CSV file containing data about police killings by state in the US for the period 2013-2019. The file is at *challenges/social_justice_datasets/police_killings_by_state_2013-2019.csv*. This file was generated from the [Excel file](https://mappingpoliceviolence.org/s/MPVDatasetDownload.xlsx) available from Mapping Police Violence.
+In the PCC resources [available for download](https://github.com/mavjav-edu/pcc_2e/zipball/master/), you can find a CSV file containing data about police killings by state in the US for the period 2013-2019. The file is at *challeng./social_justice_datasets.md/police_killings_by_state_2013-2019.csv*. This file was generated from the [Excel file](https://mappingpoliceviolence.org/s/MPVDatasetDownload.xlsx) available from Mapping Police Violence.
 
 Copy this file to an appropriate location, and use what you've learned from Chapter 16 to pull each state's name and the number of Black people killed by police in that state from 2013-2019 into lists. Make a visualization of this data. You may also want to repeat this exercise by creating a dictionary where the keys are the state names and the values are the number of Black people killed in each state during this period.
 
@@ -175,4 +175,5 @@ In this chapter we also saw how to use `itemgetter()` to sort a list of dictiona
 [top](#top)
 
 ---
+
 

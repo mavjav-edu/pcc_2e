@@ -13,7 +13,7 @@ The short answer is no, you are never too old to find work as a professional pro
 * 
 {:toc}
 
-| [<< Applying for jobs](../applying_jobs/) | [Recommended steps >>](../recommended_steps) |
+| [<< Applying for jobs](./applying_jobs.md/) | [Recommended steps >>](../recommended_steps) |
 
 ---
 

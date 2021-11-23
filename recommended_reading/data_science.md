@@ -12,7 +12,7 @@ Data Science is one of the most popular areas of programming right now, and it's
 
 *Python Crash Course* just scratches the surface of what you can do with Python in this field. If you'd like to go further with Python in Data Science, there are a large number of resources available. I hope this helps you figure out where to go next, and if you have feedback about any of these recommendations please don't hesitate to reach out.
 
-Note: Some of the resources mentioned in the [General Python Resources](../general_python/) have sections focused on data science. I won't repeat those resources here, but you should check them out as well.
+Note: Some of the resources mentioned in the [General Python Resources](./general_python.md/) have sections focused on data science. I won't repeat those resources here, but you should check them out as well.
 
 * 
 {:toc}
@@ -207,4 +207,5 @@ Watch it [on YouTube](https://www.youtube.com/watch?v=3EXvR1shVFQ).
 [top](#top)
 
 ---
+
 

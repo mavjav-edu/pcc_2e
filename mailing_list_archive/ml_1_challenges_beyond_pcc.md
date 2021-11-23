@@ -15,15 +15,15 @@ Hello everyone! I recently added two new sections to the online resources for Py
 
 ## Challenges
 
-[This section](../../challenges/challenges/) offers an expanded set of exercises and challenges that go beyond the exercises that are presented in the book. The first set of challenges focuses on [card games](../../challenges/playing_cards/). You can start these challenges as soon as you are finished Chapter 3. 
+[This section](../challenges/index.md) offers an expanded set of exercises and challenges that go beyond the exercises that are presented in the book. The first set of challenges focuses on [card games](../challenges/playing_cards.md). You can start these challenges as soon as you are finished Chapter 3. 
 
 You can do any or all of the challenges; some will probably take just a few minutes, while others are full projects that you could go really deep on.
 
 ## Beyond PCC
 
-[This section](../../beyond_pcc/beyond_pcc) offers extensions of what's presented in the book. For example there's a section on working with the [random module](../../beyond_pcc/random_functions/). This section covers a few functions that weren't critical enough to include in the book, but which you might find useful in your own projects.
+[This section](../beyond_pcc/index.md) offers extensions of what's presented in the book. For example there's a section on working with the [random module](../beyond_pcc/random_functions.md). This section covers a few functions that weren't critical enough to include in the book, but which you might find useful in your own projects.
 
-There's also a section on [working with sprite sheets in Pygame](../../beyond_pcc/pygame_sprite_sheets/), which is helpful if you're building something like a card game that has many different game elements.
+There's also a section on [working with sprite sheets in Pygame](../beyond_pcc/pygame_sprite_sheets.md), which is helpful if you're building something like a card game that has many different game elements.
 
 ## Coming Soon
 

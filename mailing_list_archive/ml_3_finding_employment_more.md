@@ -15,7 +15,7 @@ Hello everyone! It took longer than expected to get the latest section posted, b
 
 ## Finding Employment as a (New) Programmer
 
-I finally posted a new section that focuses on [finding work as a Python programmer](../../finding_employment/). If you've been reading Python Crash Course with the hopes of finding a programming-related job, you might find this section helpful. It's a big topic, so the section is broken up into a number of parts:
+I finally posted a new section that focuses on [finding work as a Python programmer](../finding_employment.md/). If you've been reading Python Crash Course with the hopes of finding a programming-related job, you might find this section helpful. It's a big topic, so the section is broken up into a number of parts:
 
 - My background
 - What kinds of things can you do as a professional programmer?
@@ -56,3 +56,4 @@ Eric
 ---
 
 [top](#top)
+

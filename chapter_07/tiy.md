@@ -44,7 +44,7 @@ cost of their movie ticket.
 
 <span id="page_128"></span><span id="ch7exe6"></span>**7-6. Three
 Exits:** Write different versions of either [Exercise
-7-4](../chapter_07/tiy.md#ch7exe4) or [Exercise 7-5](../chapter_07/tiy.md) that do
+7-4](#ch7exe4) or [Exercise 7-5](#ch7exe5) that do
 each of the following at least once:
 
 - Use a conditional test in the `while` statement to stop the loop.
@@ -69,7 +69,7 @@ list of finished sandwiches. After all the sandwiches have been made,
 print a message listing each sandwich that was made.
 
 <span id="ch7exe9"></span>**7-9. No Pastrami:** Using the list
-`sandwich_orders` from [Exercise 7-8](../chapter_07/tiy.md), make sure the
+`sandwich_orders` from [Exercise 7-8](), make sure the
 sandwich `'pastrami'` appears in the list at least three times. Add code
 near the beginning of your program to print a message saying the deli
 has run out of pastrami, and then use a `while` loop to remove all

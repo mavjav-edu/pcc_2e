@@ -15,7 +15,7 @@ Hello everyone! Python 3.8 has been out for a couple months now, and Django 3.0 
 
 ## Python 3.8
 
-The official Python 3.8 release notes are informative, but they aren't very friendly to read if you're new to Python. Here's a [brief overview](../..//updates/python3_8/) of what you should know about the new release, and some thoughts about when to consider upgrading to the latest release.
+The official Python 3.8 release notes are informative, but they aren't very friendly to read if you're new to Python. Here's a [brief overview](../updates/python3_8.md/) of what you should know about the new release, and some thoughts about when to consider upgrading to the latest release.
 
 ## Django 3.0
 
@@ -52,3 +52,4 @@ Can you convert this image of our local bears to black and white? Can you write 
 ---
 
 [top](#top)
+

@@ -24,11 +24,12 @@ This section recommends a few first steps, and then offers a number of recommend
 The book's author wants to hear from readers about which resources have worked well after PCC. If you have recommendations, tell him! He is [@ehmatthes](https://twitter.com/ehmatthes) on Twitter, and his email is <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" title="the author's email address as an image to prevent spamming" alt="email as image to hide from spammers" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a> .
 {: .fs-6 .fw-300 }
 
-- [First Steps](./first_steps)
+- [First Steps](./first_steps.md)
 - [General Python Resources](./general_python)
 - [Data Science Resources](./data_science)
 - [Django Resources](./django)
 
 ---
+
 
 

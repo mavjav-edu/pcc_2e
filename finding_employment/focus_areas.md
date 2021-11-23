@@ -13,7 +13,7 @@ It's hard to give a quick answer to the question, "What should I learn if The bo
 * 
 {:toc}
 
-| [<< My background](../background/) | [How long will it take to find a job? >>](../../finding_employment/how_long/) |
+| [<< My background](./background.md/) | [How long will it take to find a job? >>](../../finding_employment/how_long/) |
 
 ---
 

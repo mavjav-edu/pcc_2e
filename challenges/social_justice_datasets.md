@@ -9,7 +9,7 @@ nav_exclude: true
 
 When working on social justice issues you often can't find, or can't rely on, official data sets. When you're first learning to analayze data, it can be overwhelming to have to find your own data sets and figure out the code to analyze them as well. So here are a few data sets you can work with initially. Once you've gained some experience working with these data sets, you'll have a better idea how to find more specific data that you're interested in working with.
 
-back to [Coding for Social Justice](../coding_for_social_justice/)
+back to [Coding for Social Justice](./coding_for_social_justice.md/)
 
 ---
 

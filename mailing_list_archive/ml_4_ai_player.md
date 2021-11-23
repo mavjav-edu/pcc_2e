@@ -16,7 +16,7 @@ Did you enjoy the Alien Invasion project? Did you know you can add sound to the 
 
 ## Challenges - Automated Alien Invasion Player
 
-If you want to try this before reading how to do it, here's a [set of challenges](../../challenges/ai_player/) that helps you add increasing sophistication to your automated player:
+If you want to try this before reading how to do it, here's a [set of challenges](../challenges/ai_player.md/) that helps you add increasing sophistication to your automated player:
 
 - AI Player 1: Automated Player
 - AI Player 2: Sweeping Strategy
