@@ -63,7 +63,7 @@ to shorten `__init__()`. The `prep_images()` method could also help
 <span class="font1">**NOTE**</span>
 
 *Before attempting to refactor the project, see [Appendix
-D](../appendix_d/index.md) to learn how to restore the project to a working
+D](/appendix_d/index.md) to learn how to restore the project to a working
 state if you introduce bugs while refactoring.*
 
 </div>

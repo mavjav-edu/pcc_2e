@@ -77,7 +77,7 @@ Compile and Execute with a command next to each. Each of these commands
 starts with python (in lowercase), but Geany doesn’t know where your
 system stored the python command. You need to add the path you use when
 starting a terminal session. (You can skip these steps if you set the
-Path variable as described in [Appendix A](../appendix_a/index.md).)
+Path variable as described in [Appendix A](/appendix_a/index.md).)
 
 In the Compile and Execute commands, add the drive your python command
 is on, and the folder where the python command is stored. Your
@@ -208,7 +208,7 @@ Replace python3 with the command you normally use to start a terminal
 session.
 
 If you’re using Windows, see “[Installing Python 3 on
-Windows](../appendix_a/index.md#python-on-windows)” on [page 488](../appendix_a/index.md#python-on-windows)
+Windows](/appendix_a/index.md#python-on-windows)” on [page 488](/appendix_a/index.md#python-on-windows)
 to find the path to your Python interpreter.
 
 Now open Sublime Text, and go to **Tools ▸ Build System ▸ New Build

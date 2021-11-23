@@ -91,7 +91,7 @@ slice to print the last three items in the list.
 
 <span id="ch4exe11"></span>**4-11. My Pizzas, Your Pizzas:** Start with
 your program from [Exercise 4-1](#ch4exe1) ([page
-60](ch4exe1)). Make a copy of the list of pizzas, and call it
+60](#ch4exe1)). Make a copy of the list of pizzas, and call it
 `friend_pizzas`. Then, do the following:
 
 - Add a new pizza to the original list.
@@ -140,7 +140,7 @@ with PEP 8:
 
 - Use four spaces for each indentation level. Set your text editor to
 insert four spaces every time you press <span class="small">TAB</span>,
-if you haven&rsquo;t already done so (see [Appendix B](../appendix_b/index.md) for
+if you haven&rsquo;t already done so (see [Appendix B](/appendix_b/index.md) for
 instructions on how to do this).
 
 - Use less than 80 characters on each line, and set your editor to show
