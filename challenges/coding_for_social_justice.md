@@ -26,7 +26,7 @@ You don't have to do every challenge in the set. If one challenge depends on com
 
 When addressing social justice issues there is rarely a nice, clean, official, trustworthy database to work from. People in power tend to want to hide or obscure data, particularly data that paints them in an unfavorable light. For that reason, people working in this area work from a variety of data sets, many of which are crowdsourced. Just because a data set is crowdsourced doesn't mean it's less reliable; a well-structured and sourced, transparent dataset can be more reliable than an officially produced dataset.
 
-To support these exercises, I've identified a number of datasets that you can start working with. If you find this work meaningful, you'll probably want to find your own data sets to work with, especially for local work, and as new broader-scale projects emerge. When you're starting out, however, it can be helpful to not have to find your own data. There's a [separate page](../social_justice_datasets/) describing these data sets, and individual exercises below will focus on specific data sets from this small collection. Feel free to apply any of the exercises below to a data set you've identified in your own work.
+To support these exercises, I've identified a number of datasets that you can start working with. If you find this work meaningful, you'll probably want to find your own data sets to work with, especially for local work, and as new broader-scale projects emerge. When you're starting out, however, it can be helpful to not have to find your own data. There's a [separate page](C:\Users\mavad\Documents\GitHub\pcc_2e\challenges\social_justice_datasets.md/) describing these data sets, and individual exercises below will focus on specific data sets from this small collection. Feel free to apply any of the exercises below to a data set you've identified in your own work.
 
 ---
 
@@ -150,7 +150,7 @@ Combined with what you've already learned in Chapter 16, this workflow will allo
 
 ### CSJ 16-3: Direct from Excel
 
-The data for these exercises is coming from the Excel file you can download from [Mapping Police Violence](https://mappingpoliceviolence.org/). Previous exercises have worked from a CSV file that was generated from that Excel file. Rather than working from a CSV file, however, you can load data directly from an Excel file. Look at the [Extracting Data from Excel Files](../../beyond_pcc/extracting_from_excel/) resource, and repeat one of the previous exercises by pulling the data directly from the .xlsx file.
+The data for these exercises is coming from the Excel file you can download from [Mapping Police Violence](https://mappingpoliceviolence.org/). Previous exercises have worked from a CSV file that was generated from that Excel file. Rather than working from a CSV file, however, you can load data directly from an Excel file. Look at the [Extracting Data from Excel Files](../beyond_pcc/extracting_from_excel.md/) resource, and repeat one of the previous exercises by pulling the data directly from the .xlsx file.
 
 ### CSJ 16-4: Multiple Columns
 
@@ -175,3 +175,4 @@ In this chapter we also saw how to use `itemgetter()` to sort a list of dictiona
 [top](#top)
 
 ---
+

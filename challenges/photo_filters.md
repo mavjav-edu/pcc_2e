@@ -264,7 +264,7 @@ Place any filtering functions you want to try out on an actual image in a module
 
 ## Chapter 10
 
-After completing Chapter 10, you're ready to start working with images. Read through the guide [*Pillow - Working with Images*](../../beyond_pcc/pillow/) for an overview of how to load images, and how to work with individual pixels in an image.
+After completing Chapter 10, you're ready to start working with images. Read through the guide [*Pillow - Working with Images*](../beyond_pcc/pillow.md/) for an overview of how to load images, and how to work with individual pixels in an image.
 
 If you are successful with any of these challenges, I'd love to see the results! Post them on Twitter with the hashtag [#pcc_photo_filter](https://twitter.com/search?q=%23pcc_photo_filter), or send them to me at 
 
@@ -288,7 +288,7 @@ Apply any other filtering functions you're curious about to an image.
 
 ### Photo Filter 10-4: All Red and Green Colors
 
-There's a section in the guide [*Pillow - Working with Images*](../../beyond_pcc/pillow/) that shows you how to start from a blank image, and set each pixel to any color you want. Make an image that's 256 pixels wide by 256 pixels high.
+There's a section in the guide [*Pillow - Working with Images*](../beyond_pcc/pillow.md/) that shows you how to start from a blank image, and set each pixel to any color you want. Make an image that's 256 pixels wide by 256 pixels high.
 
 Pick a single blue component value for all pixels in the image; this could be 0, or 255, or something in the middle like 150. Then write a nested loop that runs through all the possible red values, and all the possible green values.
 

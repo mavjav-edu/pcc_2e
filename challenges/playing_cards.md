@@ -81,7 +81,7 @@ Write a series of functions that help you work with cards from your deck:
 
 ### Playing Cards 8-2: Basic Deck Functions
 
-Write a series of functions that work with a whole deck. You might need to see the short [guide to working with the `random` module](../../beyond_pcc/random_functions/) when implementing some of these functions.
+Write a series of functions that work with a whole deck. You might need to see the short [guide to working with the `random` module](../beyond_pcc/random_functions.md/) when implementing some of these functions.
 
 - Write a function called `deal_top_card()`. This function accepts a deck as an argument, and returns the first card in the deck. It also removes that card from the deck.
 - Write a function called `get_random_card()`. This function accepts a deck as an argument, and returns a random card from the deck. It also removes that card from the deck.
@@ -139,7 +139,7 @@ Write a class, or set of classes, to represent a deck of cards. Your code should
 
 *Prerequisites: There are no prerequisites for this challenge. If you haven't done the previous card-related challenges, and you want to jump in here, go ahead. If the class-based version of this challenge is too difficult, consider trying some of the earlier challenges in this series.*
 
-*You might need to see the short [guide to working with the `random` module](../../beyond_pcc/random_functions/) when implementing some of these methods.*
+*You might need to see the short [guide to working with the `random` module](../beyond_pcc/random_functions.md/) when implementing some of these methods.*
 
 ### Playing Cards 9-2: Go Fish
 
@@ -234,7 +234,7 @@ Write some tests for a different card game that you've made.
 
 ### Playing Cards 14-1: Go Fish Game
 
-PyGame is a great framework for building a graphical version of Go Fish. You can find a set of card images [here](https://pixabay.com/vectors/card-deck-deck-cards-playing-cards-161536/). You can also find this file as *playing_cards.bmp* in the [*beyond_pcc*](https://github.com/mavjav-edu/pcc_2e/tree/master/beyond_pcc) folder in the [zip file](https://github.com/mavjav-edu/pcc_2e/zipball/master/) of online resources for the book. To load the card images, you'll need to see the guide [*Pygame - Using Sprite Sheets*](../../beyond_pcc/pygame_sprite_sheets/).
+PyGame is a great framework for building a graphical version of Go Fish. You can find a set of card images [here](https://pixabay.com/vectors/card-deck-deck-cards-playing-cards-161536/). You can also find this file as *playing_cards.bmp* in the [*beyond_pcc*](https://github.com/mavjav-edu/pcc_2e/tree/master/beyond_pcc) folder in the [zip file](https://github.com/mavjav-edu/pcc_2e/zipball/master/) of online resources for the book. To load the card images, you'll need to see the guide [*Pygame - Using Sprite Sheets*](../beyond_pcc/pygame_sprite_sheets/).
 
 In your Go Fish game, the player should see all the cards in their hand once the game begins. They should see a card back for each card in the computer's hand, and a set of cards representing the draw pile. They should be able to click on a button to ask for a certain card. If they are incorrect, they should have to click on the draw pile to draw their card. They should see their card, and if they got what they asked for they should get to go again. When their turn is completely over, they should click a button to let the computer take its turn.
 

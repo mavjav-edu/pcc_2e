@@ -10,9 +10,9 @@ nav_order: 40
 
 In this investigation, you'll start out by writing a program that takes control of the Alien Invasion game, and then implements successively more effective strategies to reach a high score in the game.
 
-The automated player is a lot more interesting to watch if your game has sound effects. You can see [how to add sounds to your game here](../../beyond_pcc/ai_player/), if you'd like to do that before trying these challenges. Also, this can be a fairly complex challenge to get started on, so there's [a guide](../../beyond_pcc/ai_player/) that can help you if you're not sure how to approach the overall challenge.
+The automated player is a lot more interesting to watch if your game has sound effects. You can see [how to add sounds to your game here](../beyond_pcc/ai_player.md/), if you'd like to do that before trying these challenges. Also, this can be a fairly complex challenge to get started on, so there's [a guide](../beyond_pcc/ai_player.md/) that can help you if you're not sure how to approach the overall challenge.
 
-I've had a lot of fun writing my own game mods related to this challenge, so if you make something interesting please [share it](../../contact/)!
+I've had a lot of fun writing my own game mods related to this challenge, so if you make something interesting please [share it](../contact/)!
 
 *Note: If you aren't familiar with Git or a comparable version control system, you might want to work through Appendix D before trying these challenges. In a larger project like this, it's really nice to be able to experiment with your code, and then go back to a known working state of your project when things stop working.*
 
@@ -35,7 +35,7 @@ Now that you've automated firing, try to automate the ship's movement. Make the 
 
 ### AI Player 3: Randomized Shooting
 
-Sometimes it's helpful to add a little randomness to the ship's firing pattern. See if you can use the [random module](../../beyond_pcc/random_functions/) to make the ship's firing more spaced out. That is, write code so that when a bullet can be fired, the ship will only fire 50% of the time, or 20% of the time. You can see if your code is having the desired effect by setting a really low value such as 1%; you shouldn't see many bullets fired at all with this setting.
+Sometimes it's helpful to add a little randomness to the ship's firing pattern. See if you can use the [random module](../beyond_pcc/random_functions/) to make the ship's firing more spaced out. That is, write code so that when a bullet can be fired, the ship will only fire 50% of the time, or 20% of the time. You can see if your code is having the desired effect by setting a really low value such as 1%; you shouldn't see many bullets fired at all with this setting.
 
 ### AI Player 4: Targeting Specific Aliens
 

@@ -47,7 +47,7 @@ quotation marks:
 tried anything new.&rdquo;*
 
 <span id="ch2exe6"></span>**2-6. Famous Quote 2:** Repeat [Exercise
-2-5](../../chapter_02/tiy.md#ch2exe5), but this time store the famous person&rsquo;s name in
+2-5](../chapter_02/tiy.md#ch2exe5), but this time store the famous person&rsquo;s name in
 a variable called `famous_person`. Then compose your message and store
 it in a new variable called `message`. Print your message.
 
