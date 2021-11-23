@@ -1,7 +1,10 @@
 ---
+layout: default
 title: Installing pip
 parent: A Ship That Fires Bullets
 grand_parent: Home
+nav_exclude: true
+has_toc: false
 ---
 # Installation
 

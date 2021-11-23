@@ -110,7 +110,7 @@ Now your game should sound much more interesting! You should hear a steady strea
 
 ## Automating Game Play
 
-This is the really interesting part. If you want to try this on your own before reading ahead, you can see the [challenges here](../../challenges/ai_player/). If you're new to programming, though, getting this set up can be pretty challenging. It's perfectly reasonable to read through this guide to get started, and then explore further automation ideas on your own.
+This is the really interesting part. If you want to try this on your own before reading ahead, you can see the [challenges here](../challenges/ai_player.md/). If you're new to programming, though, getting this set up can be pretty challenging. It's perfectly reasonable to read through this guide to get started, and then explore further automation ideas on your own.
 
 ### Firing automatically
 
@@ -232,7 +232,7 @@ You might also notice that the mouse is visible when the game is playing. That's
 
 Make sure you also add an `import pygame` statement at the top of the file.
 
-Now that you've seen how to take control of the game, feel free to try automating the ship's movement on your own. See the challenge [AI Player 2: Sweeping Strategy](../../challenges/ai_player/) if you're interested in trying this on your own before reading further.
+Now that you've seen how to take control of the game, feel free to try automating the ship's movement on your own. See the challenge [AI Player 2: Sweeping Strategy](../challenges/ai_player.md/) if you're interested in trying this on your own before reading further.
 
 [top](#top)
 
@@ -434,9 +434,9 @@ You should be aware that speeding up the game affects the high score that your s
 
 ### Randomized firing
 
-One interesting idea is to give some slight randomness to the decision about whether to fire or not. Right now the ship is firing whenever it can. That means it immediately fires three bullets, and then fires every time a bullet hits an alien or disappears off the top of the screen. This means the bullets often end up in a tightly-packed group, especially when there's only one alien left and the ship is moving out of sync with the alien. If you want to try this on your own first, see the challenge [AI Player #3: Randomized Shooting](../../challenges/ai_player/).
+One interesting idea is to give some slight randomness to the decision about whether to fire or not. Right now the ship is firing whenever it can. That means it immediately fires three bullets, and then fires every time a bullet hits an alien or disappears off the top of the screen. This means the bullets often end up in a tightly-packed group, especially when there's only one alien left and the ship is moving out of sync with the alien. If you want to try this on your own first, see the challenge [AI Player #3: Randomized Shooting](../challenges/ai_player.md/).
 
-We can use the [random()](../../random_functions/) function to determine when to fire. The `random()` function returns a decimal between 0 and 1. So if we only fire when we get a random number less than 0.5, we'll fire a bullet on half of the game cycles where we can fire.
+We can use the [random()](../random_functions/) function to determine when to fire. The `random()` function returns a decimal between 0 and 1. So if we only fire when we get a random number less than 0.5, we'll fire a bullet on half of the game cycles where we can fire.
 
 Here's what this looks like:
 
@@ -531,7 +531,7 @@ In the last section, we'll look at how you can pick out a specific alien and tar
 
 ### Targeting a specific alien
 
-At some point you'll probably want to target a specific alien. You can develop some interesting strategies and game play by targeting specific aliens, or groups of aliens. In this section, I'll show you one such strategy and leave you to implement more effective strategies. If you want to try this on your own first, see the challenge [AI Player 4: Targeting Specific Aliens](../../challenges/ai_player/).
+At some point you'll probably want to target a specific alien. You can develop some interesting strategies and game play by targeting specific aliens, or groups of aliens. In this section, I'll show you one such strategy and leave you to implement more effective strategies. If you want to try this on your own first, see the challenge [AI Player 4: Targeting Specific Aliens](../challenges/ai_player.md/).
 
 In this approach we'll always target the right-most alien in the bottom row. We'll pick that alien from the group of aliens, and then always move the ship towards that alien. All of the code to do this goes in `_implement_strategy()`, and a new method called `_get_target_alien()`:
 
@@ -607,7 +607,7 @@ The book's author hasn't optimized this code. Rather, this guide shows how we ca
 
 ## Closing Thoughts
 
-If you are enjoying this project, you might want to implement a more refined approach to tracking statistics in the game. You can track hits and misses, and report a hit/miss ratio. Then you can compare different strategies not just on the high scores or completed levels they achieve, but on how efficiently they perform as well. If you're interested in this, see the challenge [AI Player 7: Scoring Accuracy](../../challenges/ai_player/).
+If you are enjoying this project, you might want to implement a more refined approach to tracking statistics in the game. You can track hits and misses, and report a hit/miss ratio. Then you can compare different strategies not just on the high scores or completed levels they achieve, but on how efficiently they perform as well. If you're interested in this, see the challenge [AI Player 7: Scoring Accuracy](../challenges/ai_player.md/).
 
 Hopefully this guide helps you get started automating the game play in Alien Invasion. If you come up with an effective or interesting strategy, please share it! You can tag your solution with [#ai_player](https://twitter.com/hashtag/ai_player) on Twitter, or send it to me through email (📧 <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" title="the author's email address as an image to prevent spamming" alt="email as image to hide from spammers" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a>). Good luck, and if this doesn't work for you please let him know as well.
 

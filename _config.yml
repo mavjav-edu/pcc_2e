@@ -32,6 +32,11 @@ aux_links:
   "Python Crash Course on GitHub":
     - "//github.com/mavjav-edu/pcc_2e"
 
+relative_links:
+  enabled:     true
+  collections: false
+
+
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: dark
 
@@ -41,3 +46,4 @@ ga_tracking: G-H1B6T2W9DJ
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-relative-links

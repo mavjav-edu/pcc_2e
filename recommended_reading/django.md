@@ -12,7 +12,7 @@ Django has been one of the most prominent Python web frameworks for almost 15 ye
 
 You can use books to get started with Django, but once you learn the overall structure of Django projects and how to do common tasks, you'll want to become familiar with the official documentation and some other online resources. Django has some of the best documentation of any open source project, and it's well worth your time to become familiar with it. This section will help you find some good follow-up resources after working through the Learning Log project, and also familiarize you with resources you're likely to use as long as you're an active Django developer.
 
-Note: Some of the resources mentioned in the [General Python Resources](../general_python/) have sections that are relevant to Django developers. I won't repeat those resources here, but you should check them out as well.
+Note: Some of the resources mentioned in the [General Python Resources](./general_python.md/) have sections that are relevant to Django developers. I won't repeat those resources here, but you should check them out as well.
 
 * 
 {:toc}

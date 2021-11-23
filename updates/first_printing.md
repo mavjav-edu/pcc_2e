@@ -97,7 +97,7 @@ There's one minor change you'll need to make in order to deploy your Learning Lo
 
 ##### Heroku settings (page 456)
 
-If you're using [Django 3.1](../django3_1), which was released on August 4, 2020, you'll need to add one line to the code on page 456. The *settings.py* file no longer imports the `os` module by default, so we need to import it when we create the Heroku-specific settings for deployment.
+If you're using [Django 3.1](./django3_1.md), which was released on August 4, 2020, you'll need to add one line to the code on page 456. The *settings.py* file no longer imports the `os` module by default, so we need to import it when we create the Heroku-specific settings for deployment.
 
 On page 456, add `import os` right before the line that imports `django_heroku`:
 
@@ -184,4 +184,5 @@ The code works fine as it's written, but the new entry page will differ slightly
 On page 497, the entry for *Discord* should point to page 484, not page 48.
 
 [top](#top)
+
 

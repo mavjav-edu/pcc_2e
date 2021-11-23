@@ -13,5 +13,6 @@
         "cheatsheets",
         "ehmatthes",
         "matplotlib"
-    ]
+    ],
+    "python.pythonPath": "C:\\Users\\mavad\\.pyenv\\pyenv-win\\versions\\3.10.0\\python.exe"
 }

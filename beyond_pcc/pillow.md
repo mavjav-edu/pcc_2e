@@ -406,7 +406,7 @@ for x in range(width):
 my_image.show()
 ```
 
-We import the [`randint()` function](./beyond_pcc/random_functions.md) from the `random` module, which returns a random integer between the bounds you provide. We then load the pixels as you saw earlier, so we can work with each pixel individually. This time we're not reading any pixels in the loop, since we're not basing our new pixels off of an existing image. In the loop we choose a random value between 0 and 255 for each of the RGB components, and we build a pixel from these values. Then we set the current pixel.
+We import the [`randint()` function](./random_functions.md) from the `random` module, which returns a random integer between the bounds you provide. We then load the pixels as you saw earlier, so we can work with each pixel individually. This time we're not reading any pixels in the loop, since we're not basing our new pixels off of an existing image. In the loop we choose a random value between 0 and 255 for each of the RGB components, and we build a pixel from these values. Then we set the current pixel.
 
 The result is an image where every color is completely random:
 

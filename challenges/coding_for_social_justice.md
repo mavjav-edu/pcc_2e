@@ -26,7 +26,7 @@ You don't have to do every challenge in the set. If one challenge depends on com
 
 When addressing social justice issues there is rarely a nice, clean, official, trustworthy database to work from. People in power tend to want to hide or obscure data, particularly data that paints them in an unfavorable light. For that reason, people working in this area work from a variety of data sets, many of which are crowdsourced. Just because a data set is crowdsourced doesn't mean it's less reliable; a well-structured and sourced, transparent dataset can be more reliable than an officially produced dataset.
 
-To support these exercises, I've identified a number of datasets that you can start working with. If you find this work meaningful, you'll probably want to find your own data sets to work with, especially for local work, and as new broader-scale projects emerge. When you're starting out, however, it can be helpful to not have to find your own data. There's a [separate page](../social_justice_datasets/) describing these data sets, and individual exercises below will focus on specific data sets from this small collection. Feel free to apply any of the exercises below to a data set you've identified in your own work.
+To support these exercises, I've identified a number of datasets that you can start working with. If you find this work meaningful, you'll probably want to find your own data sets to work with, especially for local work, and as new broader-scale projects emerge. When you're starting out, however, it can be helpful to not have to find your own data. There's a [separate page](C:\Users\mavad\Documents\GitHub\pcc_2e\challenges\social_justice_datasets.md/) describing these data sets, and individual exercises below will focus on specific data sets from this small collection. Feel free to apply any of the exercises below to a data set you've identified in your own work.
 
 ---
 
@@ -84,7 +84,7 @@ In Chapter 6, we learn about dictionaries. With dictionaries, we can really star
 
 ### CSJ 6-1: Annual Incidents of US Police Killings
 
-Visit the [National Trends](https://mappingpoliceviolence.org/nationaltrends) page on [Mapping Police Violence](../social_justice_datasets). Choose several years from the data shown, and make a dictionary where the keys are the years and the values are the number of people killed by police officers in the US for that year. Loop through your dictionary, and print a summary of how many people were killed for each year in your data set.
+Visit the [National Trends](https://mappingpoliceviolence.org/nationaltrends) page on [Mapping Police Violence](./social_justice_datasets.md). Choose several years from the data shown, and make a dictionary where the keys are the years and the values are the number of people killed by police officers in the US for that year. Loop through your dictionary, and print a summary of how many people were killed for each year in your data set.
 
 ### CSJ 6-2: International Rates of Police Killings
 
@@ -136,7 +136,7 @@ In Chapter 16, we learn how to make charts with data that we've downloaded. With
 
 ### CSJ 16-1: Police Killings by State (CSV)
 
-In the PCC resources [available for download](https://github.com/mavjav-edu/pcc_2e/zipball/master/), you can find a CSV file containing data about police killings by state in the US for the period 2013-2019. The file is at *challenges/social_justice_datasets/police_killings_by_state_2013-2019.csv*. This file was generated from the [Excel file](https://mappingpoliceviolence.org/s/MPVDatasetDownload.xlsx) available from Mapping Police Violence.
+In the PCC resources [available for download](https://github.com/mavjav-edu/pcc_2e/zipball/master/), you can find a CSV file containing data about police killings by state in the US for the period 2013-2019. The file is at *challeng./social_justice_datasets.md/police_killings_by_state_2013-2019.csv*. This file was generated from the [Excel file](https://mappingpoliceviolence.org/s/MPVDatasetDownload.xlsx) available from Mapping Police Violence.
 
 Copy this file to an appropriate location, and use what you've learned from Chapter 16 to pull each state's name and the number of Black people killed by police in that state from 2013-2019 into lists. Make a visualization of this data. You may also want to repeat this exercise by creating a dictionary where the keys are the state names and the values are the number of Black people killed in each state during this period.
 
@@ -150,7 +150,7 @@ Combined with what you've already learned in Chapter 16, this workflow will allo
 
 ### CSJ 16-3: Direct from Excel
 
-The data for these exercises is coming from the Excel file you can download from [Mapping Police Violence](https://mappingpoliceviolence.org/). Previous exercises have worked from a CSV file that was generated from that Excel file. Rather than working from a CSV file, however, you can load data directly from an Excel file. Look at the [Extracting Data from Excel Files](../../beyond_pcc/extracting_from_excel/) resource, and repeat one of the previous exercises by pulling the data directly from the .xlsx file.
+The data for these exercises is coming from the Excel file you can download from [Mapping Police Violence](https://mappingpoliceviolence.org/). Previous exercises have worked from a CSV file that was generated from that Excel file. Rather than working from a CSV file, however, you can load data directly from an Excel file. Look at the [Extracting Data from Excel Files](../beyond_pcc/extracting_from_excel.md/) resource, and repeat one of the previous exercises by pulling the data directly from the .xlsx file.
 
 ### CSJ 16-4: Multiple Columns
 
@@ -175,3 +175,5 @@ In this chapter we also saw how to use `itemgetter()` to sort a list of dictiona
 [top](#top)
 
 ---
+
+

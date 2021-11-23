@@ -10,7 +10,7 @@ nav_order: 10
 
 Randomness is a really important and useful topic in programming. It can be used to do simple things like choose which player goes first in a game, or draw a random card from a deck. It can also be used for critically important processes like allowing a user to reset a forgotten password.
 
-All of this code uses functions from the `random` module, which is included in the Python Standard Library. You might be curious to look at the [documenation for the `random` module](https://docs.python.org/3/library/random.html).
+All of this code uses functions from the `random` module, which is included in the Python Standard Library. You might be curious to look at the [documentation for the `random` module](https://docs.python.org/3/library/random.html).
 
 * 
 {:toc}

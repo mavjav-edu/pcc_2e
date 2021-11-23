@@ -13,7 +13,7 @@ How much you need to learn to land your first programming job depends on what yo
 * 
 {:toc}
 
-| [<< How long will it take?](../how_long/) | [Building a portfolio >>](../../finding_employment/building_portfolio/) |
+| [<< How long will it take?](./how_long.md/) | [Building a portfolio >>](../../finding_employment/building_portfolio/) |
 
 ---
 
@@ -112,4 +112,5 @@ For some kinds of jobs, you can start to apply as soon as you have a solid grasp
   Having some familiarity with [Jupyter notebooks](https://jupyter.org) will be really helpful as well. *Notebooks* are made up of cells; each cell can be a text cell or a code cell. Text cells can include formatting and images as well. Rather than just writing comments in a .py file, you can write descriptive, explanatory text in between your code blocks. Jupyter notebooks are used extensively in many data science workflows.
 
 [top](#top)
+
 

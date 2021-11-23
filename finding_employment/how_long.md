@@ -13,7 +13,7 @@ It's impossible to answer this question without knowing a lot about an individua
 * 
 {:toc}
 
-| [<< What kinds of things can you do?](../focus_areas/) | [How much do you need to know? >>](../../finding_employment/what_learn/) |
+| [<< What kinds of things can you do?](./focus_areas.md/) | [How much do you need to know? >>](../../finding_employment/what_learn/) |
 
 ---
 
@@ -46,4 +46,5 @@ If you don't know people, try to attend a meetup or go to a conference. You can 
 It's worth repeating one thing over and over again: people aren't hiring you to write code, they're hiring you to help solve the problems relevant to their business or organization. People who can apply basic programming concepts and skills to a business' actual problems will find work more quickly than people with stronger programming skills, who struggle to apply those skills to problems the company cares about. Someone who's already thinking about a company's core problems is only going to get more effective as they gain more experience and knowledge in programming. People who have a hard time applying their skills to what a company cares about may never grow into effective employees. Find out what problems a company needs to solve, and start thinking about how you might apply basic programming concepts to help address these problems. As you learn more about programming, let these specific problems guide you in what you focus your learning on.
 
 [top](#top)
+
 

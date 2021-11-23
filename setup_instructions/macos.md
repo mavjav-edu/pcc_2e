@@ -65,4 +65,4 @@ If you made a new build system, click **Tools > Build System** and click the bui
 
 ## Troubleshooting
 
-If that didn't work for some reason, [click here for some troubleshooting help](../troubleshooting_macos/).
+If that didn't work for some reason, [click here for some troubleshooting help](./troubleshooting_macos.md/).

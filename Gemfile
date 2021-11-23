@@ -4,6 +4,9 @@ group :jekyll_plugins do
     gem "jekyll-seo-tag"
 end
 
+# A Jekyll plugin to convert relative links to Markdown files to their rendered equivalents
+gem 'jekyll-relative-links'
+
 # Needed for git metadata
 gem 'git'
 

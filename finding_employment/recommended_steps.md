@@ -15,7 +15,7 @@ You can also [download this checklist as a pdf file](https://github.com/mavjav-e
 * 
 {:toc}
 
-| [<< Am I too old?](../age_in_tech/) |
+| [<< Am I too old?](./age_in_tech.md/) |
 
 ---
 

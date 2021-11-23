@@ -47,7 +47,7 @@ word-meaning pair in your output.
 
 <span id="ch6exe4"></span>**6-4. Glossary 2:** Now that you know how to
 loop through a dictionary, clean up the code from [Exercise
-6-3](../../chapter_06/tiy.md#ch6exe3) ([page 102](../../chapter_06/tiy.md)) by replacing
+6-3](#ch6exe3) ([page 102](#ch6exe3)) by replacing
 your series of `print` statements with a loop that runs through the
 dictionary&rsquo;s keys and values. When you&rsquo;re sure that your loop works, add
 five more Python terms to your glossary. When you run your program
@@ -67,7 +67,7 @@ runs through Egypt*.
 dictionary.
 
 <span id="ch6exe6"></span>**6-6. Polling:** Use the code in
-*favorite_languages.py* ([page 104](../../chapter_06/tiy.md)).
+[*favorite_languages.py*](./favorite_languages.py) ([page 104](./favorite_languages.py)).
 
 - Make a list of people who should take the favorite languages poll.
 Include some names that are already in the dictionary and some that are
@@ -81,8 +81,8 @@ the poll.
 ## TRY IT YOURSELF #3
 
 <span id="ch6exe7"></span>**6-7. People:** Start with the program you
-wrote for [Exercise 6-1](../../chapter_06/tiy.md) ([page
-102](../../chapter_06/tiy.md#page_102)). Make two new dictionaries representing
+wrote for [Exercise 6-1]() ([page
+102](#page_102)). Make two new dictionaries representing
 different people, and store all three dictionaries in a list called
 `people`. Loop through your list of people. As you loop through the
 list, print everything you know about each person.
@@ -102,8 +102,8 @@ few of their favorite places. Loop through the dictionary, and print
 each person&rsquo;s name and their favorite places.
 
 <span id="ch6exe10"></span>**6-10. Favorite Numbers:** Modify your
-program from [Exercise 6-2](../../chapter_06/tiy.md) ([page
-102](../../chapter_06/tiy.md#page_102)) so each person can have more than one favorite
+program from [Exercise 6-2]() ([page
+102](#page_102)) so each person can have more than one favorite
 number. Then print each person&rsquo;s name along with their favorite numbers.
 
 <span id="ch6exe11"></span>**6-11. Cities:** Make a dictionary called

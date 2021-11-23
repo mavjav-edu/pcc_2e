@@ -28,7 +28,7 @@ Make an instance called `restaurant` from your class. Print the two
 attributes individually, and then call both methods.
 
 <span id="ch9exe2"></span>**9-2. Three Restaurants:** Start with your
-class from [Exercise 9-1](../../chapter_09/tiy.md). Create three different
+class from [Exercise 9-1](../chapter_09/tiy.md). Create three different
 instances from the class, and call `describe_restaurant()` for each
 instance.
 
@@ -45,8 +45,8 @@ methods for each user.
 ## TRY IT YOURSELF #2
 
 <span id="ch9exe4"></span>**9-4. Number Served:** Start with your
-program from [Exercise 9-1](../../chapter_09/tiy.md) ([page
-166](../../chapter_09/tiy.md#page_166)). Add an attribute called `number_served` with
+program from [Exercise 9-1](../chapter_09/tiy.md) ([page
+166](../chapter_09/tiy.md#page_166)). Add an attribute called `number_served` with
 a default value of 0. Create an instance called `restaurant` from this
 class. Print the number of customers the restaurant has served, and then
 change this value and print it again.
@@ -62,7 +62,7 @@ say, a day of business.
 
 <span id="ch9exe5"></span>**9-5. Login Attempts:** Add an attribute
 called `login_attempts` to your `User` class from [Exercise
-9-3](../../chapter_09/tiy.md#ch9exe3) ([page 166](../../chapter_09/tiy.md)). Write a method
+9-3](../chapter_09/tiy.md#ch9exe3) ([page 166](../chapter_09/tiy.md)). Write a method
 called `increment_login_attempts()` that increments the value of
 `login_attempts` by 1. Write another method called
 `reset_login_attempts()` that resets the value of `login_attempts` to 0.
@@ -78,8 +78,8 @@ was reset to 0.
 <span id="ch9exe6"></span>**9-6. Ice Cream Stand:** An ice cream stand
 is a specific kind of restaurant. Write a class called `IceCreamStand`
 that inherits from the `Restaurant` class you wrote in [Exercise
-9-1](../../chapter_09/tiy.md#ch9exe1) ([page 166](../../chapter_09/tiy.md)) or [Exercise
-9-4](../../chapter_09/tiy.md#ch9exe4) ([page 171](../../chapter_09/tiy.md)). Either version
+9-1](../chapter_09/tiy.md#ch9exe1) ([page 166](../chapter_09/tiy.md)) or [Exercise
+9-4](../chapter_09/tiy.md#ch9exe4) ([page 171](../chapter_09/tiy.md)). Either version
 of the class will work; just pick the one you like better. Add an
 attribute called `flavors` that stores a list of ice cream flavors.
 Write a method that displays these flavors. Create an instance of
@@ -87,9 +87,9 @@ Write a method that displays these flavors. Create an instance of
 
 <span id="ch9exe7"></span>**9-7. Admin:** An administrator is a special
 kind of user. Write a class called `Admin` that inherits from the `User`
-class you wrote in [Exercise 9-3](../../chapter_09/tiy.md) ([page
-166](../../chapter_09/tiy.md#page_166)) or [Exercise 9-5](../../chapter_09/tiy.md) ([page
-171](../../chapter_09/tiy.md#page_171)). Add an attribute, `privileges`, that stores a
+class you wrote in [Exercise 9-3](../chapter_09/tiy.md) ([page
+166](../chapter_09/tiy.md#page_166)) or [Exercise 9-5](../chapter_09/tiy.md) ([page
+171](../chapter_09/tiy.md#page_171)). Add an attribute, `privileges`, that stores a
 list of strings like `"can add post"`, `"can delete post"`,
 `"can ban user"`, and so on. Write a method called `show_privileges()`
 that lists the administrator&rsquo;s set of privileges. Create an instance of
@@ -98,7 +98,7 @@ that lists the administrator&rsquo;s set of privileges. Create an instance of
 <span id="ch9exe8"></span>**9-8. Privileges:** Write a separate
 `Privileges` class. The class should have one attribute, `privileges`,
 that stores a list of strings as described in [Exercise
-9-7](../../chapter_09/tiy.md#ch9exe7). Move the `show_privileges()` method to this
+9-7](../chapter_09/tiy.md#ch9exe7). Move the `show_privileges()` method to this
 class. Make a `Privileges` instance as an attribute in the `Admin`
 class. Create a new instance of `Admin` and use your method to show its
 privileges.
@@ -120,8 +120,8 @@ that imports `Restaurant`. Make a `Restaurant` instance, and call one of
 properly.
 
 <span id="ch9exe11"></span>**9-11. Imported Admin:** Start with your
-work from [Exercise 9-8](../../chapter_09/tiy.md) ([page
-178](../../chapter_09/tiy.md#page_178)). Store the classes `User`, `Privileges`, and
+work from [Exercise 9-8](../chapter_09/tiy.md) ([page
+178](../chapter_09/tiy.md#page_178)). Store the classes `User`, `Privileges`, and
 `Admin` in one module. Create a separate file, make an `Admin` instance,
 and call `show_privileges()` to show that everything is working
 correctly.
@@ -137,7 +137,7 @@ separate module. In a separate file, create an `Admin` instance and call
 ## TRY IT YOURSELF #5
 
 <span id="ch9exe13"></span>**9-13. OrderedDict Rewrite:** Start with
-[Exercise 6-4](../../chapter_06/tiy.md) ([page 108](../../chapter_06/tiy.md)),
+[Exercise 6-4](../chapter_06/tiy.md) ([page 108](../chapter_06/tiy.md)),
 where you used a standard dictionary to represent a glossary. Rewrite
 the program using the `OrderedDict` class and make sure the order of the
 output matches the order in which key-value pairs were added to the

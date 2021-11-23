@@ -23,33 +23,33 @@ Enjoy!
 
 ---
 
-- ## [Random Functions]({{ './beyond_pcc/random_functions/' | relative_url }})
+- ## [Random Functions](./random_functions.md)
 
     Randomness is discussed when it's needed in the book, but it can be helpful to have a number of these functions described in one place. There are also a couple functions mentioned here that are not covered in the book, which can be useful in some of the challenges.
 
     *This section will make sense after you've worked through Chapter 4.*
 
 
-- ## [Using Sprite Sheets in Pygame]({{ './beyond_pcc/pygame_sprite_sheets/' | relative_url }})
+- ## [Using Sprite Sheets in Pygame](./pygame_sprite_sheets.md)
 
     This guide will help you build games that involve lots of images. For example, a deck of cards has 52 different cards in it. If you tried to load 52 separate images, the performance of your game would suffer. Sprite sheets allow you to load one image, and then create game elements from all of the images contained within that single larger image.
 
     *This section will make sense after you've worked through Chapters 12-14.*
 
-- ## [Pygame: Adding Sound and Automating Game Play]({{ './beyond_pcc/ai_player/' | relative_url }})
+- ## [Pygame: Adding Sound and Automating Game Play](./ai_player.md)
 
     Adding sound to your games makes them much more interesting, and it doesn't take much code. Also, the class-based structure of the Alien Invasion project makes it possible to automate the game play, which is a really interesting exercise.
 
     *This section will make sense after you've worked through Chapter 14.*
 
-- ## [Pillow: Working with Images]({{ './beyond_pcc/pillow/' | relative_url }})
+- ## [Pillow: Working with Images](./pillow.md)
 
-    Pillow is an imaging library that lets you load and work with existing images, and also lets you create images from a blank canvas. This guide is used for the set of challenges about [making your own photo filters]({{ './beyond_pcc/../challenges/photo_filters/' | relative_url }}).
+    Pillow is an imaging library that lets you load and work with existing images, and also lets you create images from a blank canvas. This guide is used for the set of challenges about [making your own photo filters](./../challenges/photo_filters.md).
 
     *This section will make sense after you've worked through Chapter 10.*
 
-- ## [Extracting Data from Excel Files]({{ './beyond_pcc/extracting_from_excel/' | relative_url }})
+- ## [Extracting Data from Excel Files](./extracting_from_excel.md)
 
-    In the book you learn how to extract data from JSON files and CSV files. That's a good start, but there's also a huge amount of data stored in spreadsheets. This resource shows how to extract the data directly from an Excel file, which will greatly expand the number of external resources you'll be able to work with. This guide is used for some of the challenges in [Coding for Social Justice]({{ './beyond_pcc/../challenges/coding_for_social_justice/' | relative_url }}).
+    In the book you learn how to extract data from JSON files and CSV files. That's a good start, but there's also a huge amount of data stored in spreadsheets. This resource shows how to extract the data directly from an Excel file, which will greatly expand the number of external resources you'll be able to work with. This guide is used for some of the challenges in [Coding for Social Justice](./../challenges/coding_for_social_justice.md/).
 
     *This seciton will make sense after you've worked through Chapter 16.*
