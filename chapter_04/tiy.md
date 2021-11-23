@@ -90,8 +90,8 @@ a slice to print three items from the middle of the list.
 slice to print the last three items in the list.
 
 <span id="ch4exe11"></span>**4-11. My Pizzas, Your Pizzas:** Start with
-your program from [Exercise 4-1](../chapter_04/tiy.md) ([page
-60](../chapter_04/tiy.md#page_60)). Make a copy of the list of pizzas, and call it
+your program from [Exercise 4-1](#ch4exe1) ([page
+60](ch4exe1)). Make a copy of the list of pizzas, and call it
 `friend_pizzas`. Then, do the following:
 
 - Add a new pizza to the original list.

@@ -32,8 +32,8 @@ reappear. Let the player restart the game with this Play button.
 ## TRY IT YOURSELF #2
 
 <span id="ch14exe3"></span>**14-3. Challenging Target Practice:** Start
-with your work from [Exercise 14-2](../chapter_14/tiy.md) ([page
-298](../chapter_14/tiy.md#page_298)). Make the target move faster as the game
+with your work from [Exercise 14-2](#ch14exe2) ([page
+298](#ch14exe2)). Make the target move faster as the game
 progresses, and restart at the original speed when the player clicks
 Play.
 
@@ -63,7 +63,7 @@ to shorten `__init__()`. The `prep_images()` method could also help
 <span class="font1">**NOTE**</span>
 
 *Before attempting to refactor the project, see [Appendix
-D](../appendix_d/index.html) to learn how to restore the project to a working
+D](../appendix_d/index.md) to learn how to restore the project to a working
 state if you introduce bugs while refactoring.*
 
 </div>

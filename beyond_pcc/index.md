@@ -14,7 +14,7 @@ However, once you've understood the material in Python Crash Course, there's a l
 
 Some of this material is just meant to expand your awareness of the fundamentals of programming in general, and Python specifically. Some of this is written to support people working on some of the Challenges, which require specific concepts that weren't included in the book.
 
-If you have questions or feedback about anything presented here, please feel free to [get in touch](/contact).
+If you have questions or feedback about anything presented here, please feel free to [get in touch](/contact.md).
 
 Enjoy!
 
