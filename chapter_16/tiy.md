@@ -87,5 +87,5 @@ values. Plot the data on a `Worldmap` and style the map as you like.
 **Module:** When we wrote the `country_codes` module, we used `print`
 statements to check whether the `get_country_code()` function worked.
 Write a proper test for this function using what you learned in [Chapter
-11](../chapter_11/tiy.md#ch11).
+11](#ch11).
 

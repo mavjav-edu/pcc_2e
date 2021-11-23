@@ -25,7 +25,7 @@ Here's the sprite sheet we'll work with:
 
 ![](../../images/challenge_images/chess_pieces.bmp)
 
-The book's author says he doeswnloaded this image from [Public Domain Clip Art](https://www.pdclipart.org/displayimage.php?album=search&cat=0&pos=39), and converted it to a .bmp file. You can right click and save the image file from this page, or you can find it in the [*beyond_pcc*](https://github.com/mavjav-edu/pcc_2e/tree/master/beyond_pcc) folder when you [download the resources for the book](https://github.com/mavjav-edu/pcc_2e/zipball/master/).
+The book's author says he downloaded this image from [Public Domain Clip Art](https://publicdomainvectors.org/), and converted it to a .bmp file. You can right click and save the image file from this page, or you can find it in the [*beyond_pcc*](https://github.com/mavjav-edu/pcc_2e/tree/master/beyond_pcc) folder when you [download the resources for the book](https://github.com/mavjav-edu/pcc_2e/zipball/master/).
 
 ## Starting a Chess Game
 

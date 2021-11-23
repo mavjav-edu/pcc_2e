@@ -24,7 +24,7 @@ My email was not forwarding correctly for a while, so if you replied directly to
 
 One of the questions I've been asked most often over the years is, "I just finished reading Python Crash Course. Do you have any suggestions for what I should read next?"
 
-There's a lot that goes into answering that question, so I added a section called [Recommended Reading](/recommended_reading/recommended_reading/). Resources include books, websites, podcasts, talks, and newsletters. The recommendations are organized into four sections:
+There's a lot that goes into answering that question, so I added a section called [Recommended Reading](../recommended_reading/index.md). Resources include books, websites, podcasts, talks, and newsletters. The recommendations are organized into four sections:
 - First Steps
 - General Python Resources
 - Data Science Resources
@@ -33,17 +33,17 @@ There's a lot that goes into answering that question, so I added a section calle
 
 ## Django 3.1 is out
 
-Django 3.1 was released on August 4, 2020. Here's an [overview of what's new](/updates/django3_1/), with a brief discussion of how to think about upgrading Django projects. There's one minor update to the book, which only impacts the deployment section in Chapter 20.
+Django 3.1 was released on August 4, 2020. Here's an [overview of what's new](../updates/django3_1.md), with a brief discussion of how to think about upgrading Django projects. There's one minor update to the book, which only impacts the deployment section in Chapter 20.
 
 ## Review: Serious Python
 
 I didn't read very many books during the years I was teaching full time and writing Python Crash Course. I've been trying to read more lately, and one of the first books I turned to was Serious Python. It was excellent, and here's a [full review](https://ehmatthes.com/blog/review_serious_python/).
 
-## What's faster than strptime()?
+## What's faster than `strptime()`?
 
-The function strptime() takes in a string, and returns a datetime object. While working on a data analysis project, I noticed my project was spending over 2 seconds just running strptime() on each datapoint. At first I thought there was nothing The book's author says he could does about this. Then I started considering other ways to convert strings to datetime objects, and found many ways that are faster.
+The function `strptime()` takes in a string, and returns a datetime object. While working on a data analysis project, I noticed my project was spending over 2 seconds just running `strptime()` on each datapoint. At first I thought there was nothing The book's author says he could does about this. Then I started considering other ways to convert strings to datetime objects, and found many ways that are faster.
 
-This article focuses on strptime(), but also shows how to examine a piece of code that's becoming a bottleneck in performance as a project grows. You can run the code in the article and benchmark different approaches on your own system if you're interested. The article is [here](https://ehmatthes.com/blog/faster_than_strptime/).
+This article focuses on `strptime()`, but also shows how to examine a piece of code that's becoming a bottleneck in performance as a project grows. You can run the code in the article and benchmark different approaches on your own system if you're interested. The article is [here](https://ehmatthes.com/blog/faster_than_strptime/).
 
 ## Cleaning up a messy, exploratory Python project
 

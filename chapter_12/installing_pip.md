@@ -6,37 +6,41 @@ grand_parent: Home
 nav_exclude: true
 has_toc: false
 ---
-# Installation
+# Package Installer for Python
 
-Usually, pip is automatically installed if you are:
+`pip` is the [package installer for Python][recommended]. You can use it to
+install packages from the [Python Package Index][pypi] and other indexes.
+## Installation
+
+Usually, `pip` is automatically installed if you are:
 
 - working in a
-  {ref}`virtual environment <pypug:Creating and using Virtual Environments>`
+  shell`virtual environment <pypug:Creating and using Virtual Environments>`
 - using Python downloaded from [python.org](https://www.python.org)
 - using Python that has not been modified by a redistributor to remove
-  {mod}`ensurepip`
+  shell`ensurepip`
 
-## Supported Methods
+### Supported Methods
 
 If your Python environment does not have pip installed, there are 2 mechanisms
-to install pip supported directly by pip's maintainers:
+to install `pip` supported directly by pip's maintainers:
 
 - [`ensurepip`](#ensurepip)
 - [`get-pip.py`](#get-pip-py)
 
-### `ensurepip`
+#### `ensurepip`
 
-Python comes with an {mod}`ensurepip` module[^python], which can install pip in
+Python comes with an shell`ensurepip` module[^python], which can install `pip` in
 a Python environment.
 
-```{pip-cli}
+```shell
 $ python -m ensurepip --upgrade
 ```
 
-More details about how {mod}`ensurepip` works and how it can be used, is
+More details about how shell`ensurepip` works and how it can be used, is
 available in the standard library documentation.
 
-### `get-pip.py`
+#### `get-pip.py`
 
 This is a Python script that uses some bootstrapping logic to install
 pip.
@@ -45,7 +49,7 @@ pip.
 - Open a terminal/command prompt, `cd` to the folder containing the
   `get-pip.py` file and run:
 
-  ```{pip-cli}
+  ```shell
   $ python get-pip.py
   ```
 
@@ -53,32 +57,32 @@ More details about this script can be found in [pypa/get-pip]'s README.
 
 [pypa/get-pip]: https://github.com/pypa/get-pip
 
-## Alternative Methods
+### Alternative Methods
 
 Depending on how you installed Python, there might be other mechanisms
 available to you for installing pip such as
-{ref}`using Linux package managers <pypug:installing pip/setuptools/wheel with linux package managers>`.
+shell`using Linux package managers <pypug:installing pip/setuptools/wheel with linux package managers>`.
 
-These mechanisms are provided by redistributors of pip, who may have modified
-pip to change its behaviour. This has been a frequent source of user confusion,
+These mechanisms are provided by redistributors of `pip`, who may have modified
+`pip` to change its behaviour. This has been a frequent source of user confusion,
 since it causes a mismatch between documented behaviour in this documentation
-and how pip works after those modifications.
+and how `pip` works after those modifications.
 
-If you face issues when using Python and pip installed using these mechanisms,
+If you face issues when using Python and `pip` installed using these mechanisms,
 it is recommended to request for support from the relevant provider (eg: Linux
 distro community, cloud provider support channels, etc).
 
-## Upgrading `pip`
+### Upgrading `pip`
 
 Upgrading your `pip` by running:
 
-```{pip-cli}
+```shell
 $ pip install --upgrade pip
 ```
 
 (compatibility-requirements)=
 
-## Compatibility
+### Compatibility
 
 The current version of pip works on:
 
@@ -94,3 +98,6 @@ and these users should request for support from the relevant provider
 (eg: Linux distro community, cloud provider support channels, etc).
 
 [^python]: The `ensurepip` module was added to the Python standard library in Python 3.4.
+
+[recommended]: https://packaging.python.org/guides/tool-recommendations/
+[pypi]: https://pypi.org/

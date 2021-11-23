@@ -62,7 +62,7 @@ say, a day of business.
 
 <span id="ch9exe5"></span>**9-5. Login Attempts:** Add an attribute
 called `login_attempts` to your `User` class from [Exercise
-9-3](../chapter_09/tiy.md#ch9exe3) ([page 166](../chapter_09/tiy.md)). Write a method
+9-3](#ch9exe3) ([page 166](../chapter_09/tiy.md)). Write a method
 called `increment_login_attempts()` that increments the value of
 `login_attempts` by 1. Write another method called
 `reset_login_attempts()` that resets the value of `login_attempts` to 0.
@@ -78,8 +78,8 @@ was reset to 0.
 <span id="ch9exe6"></span>**9-6. Ice Cream Stand:** An ice cream stand
 is a specific kind of restaurant. Write a class called `IceCreamStand`
 that inherits from the `Restaurant` class you wrote in [Exercise
-9-1](../chapter_09/tiy.md#ch9exe1) ([page 166](../chapter_09/tiy.md)) or [Exercise
-9-4](../chapter_09/tiy.md#ch9exe4) ([page 171](../chapter_09/tiy.md)). Either version
+9-1](#ch9exe1) ([page 166](../chapter_09/tiy.md)) or [Exercise
+9-4](#ch9exe4) ([page 171](../chapter_09/tiy.md)). Either version
 of the class will work; just pick the one you like better. Add an
 attribute called `flavors` that stores a list of ice cream flavors.
 Write a method that displays these flavors. Create an instance of
@@ -98,7 +98,7 @@ that lists the administrator&rsquo;s set of privileges. Create an instance of
 <span id="ch9exe8"></span>**9-8. Privileges:** Write a separate
 `Privileges` class. The class should have one attribute, `privileges`,
 that stores a list of strings as described in [Exercise
-9-7](../chapter_09/tiy.md#ch9exe7). Move the `show_privileges()` method to this
+9-7](#ch9exe7). Move the `show_privileges()` method to this
 class. Make a `Privileges` instance as an attribute in the `Admin`
 class. Create a new instance of `Admin` and use your method to show its
 privileges.

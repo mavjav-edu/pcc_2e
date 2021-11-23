@@ -37,7 +37,7 @@ motorcycle.&rdquo;
 ## TRY IT YOURSELF #2
 
 The following exercises are a bit more complex than those in [Chapter
-2](../chapter_02/tiy.md#ch02), but they give you an opportunity to use lists in all
+2](#ch02), but they give you an opportunity to use lists in all
 of the ways described.
 
 <span id="ch3exe4"></span>**3-4. Guest List:** If you could invite
