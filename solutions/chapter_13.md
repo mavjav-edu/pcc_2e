@@ -25,7 +25,7 @@ There are a few things that can be helpful to know as you work on the exercises 
 * 
 {:toc}
 
-Back to [solutions](../solutions).
+Back to [solutions](../).
 
 ---
 

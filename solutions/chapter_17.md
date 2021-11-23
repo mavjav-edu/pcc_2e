@@ -12,7 +12,7 @@ nav_order: 130
 * 
 {:toc}
 
-Back to [solutions](../solutions).
+Back to [solutions](../).
 
 ---
 
