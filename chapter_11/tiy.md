@@ -3,7 +3,6 @@ layout: default
 title:  Testing Your Code
 nav_exclude: true
 parent: Home
-parent: Home
 ---
 
 When you write a function or a class, you can also write tests for that

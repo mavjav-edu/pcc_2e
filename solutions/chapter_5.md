@@ -22,7 +22,7 @@ Imagine an alien was just shot down in a game. Create a variable called `alien_c
 
 - Write an `if` statement to test whether the alien's color is green. If it is, print a message that the player just earned 5 points.
 
-- Write one version of this program that passes the if test and another tha fails. (The version that fails will have no output.)
+- Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)
 
 Passing version:
 
@@ -98,7 +98,7 @@ You just earned 10 points!
 
 ## 5-5: Alien Colors #3
 
-Turn your `if-else` chain from Exercise 5-4 into an `if-elif-else` cahin.
+Turn your `if-else` chain from Exercise 5-4 into an `if-elif-else` chain.
 
 - If the alien is green, print a message that the player earned 5 points.
 - If the alien is yellow, print a message that the player earned 10 points.
@@ -126,7 +126,7 @@ You just earned 15 points!
 
 ## 5-6: Stages of Life
 
-Write an `if-elif-else` cahin that determines a person's stage of life. Set a value for the variable `age`, and then:
+Write an `if-elif-else` chain that determines a person's stage of life. Set a value for the variable `age`, and then:
 
 - If the person is less than 2 years old, print a message that the person is a baby.
 - If the person is at least 2 years old but less than 4, print a message that the person is a toddler.
@@ -193,10 +193,10 @@ You really like peaches!
 
 ## 5-8: Hello Admin
 
-Make a list of five or more usernnames, including the name `'admin'`. Imagine you are writing code that will print a greeting to each user after they log in to a website. Loop through the list, and print a greeting to each user:
+Make a list of five or more usernames, including the name `'admin'`. Imagine you are writing code that will print a greeting to each user after they log in to a website. Loop through the list, and print a greeting to each user:
 
 - If the username is `'admin'`, print a special greeting, such as *Hello admin, would you like to see a status report?*
-- Otherwise, print a generic greeting, such as *Hello Eric, thank you for loggin in again.*
+- Otherwise, print a generic greeting, such as *Hello Eric, thank you for logging in again.*
 
 ```python
 usernames = ['eric', 'willie', 'admin', 'erin', 'ever']
@@ -224,7 +224,7 @@ Hello ever, thank you for logging in again!
 
 Add an `if` test to *hello_admin.py* to make sure the list of users is not empty.
 
-- If the list is emtpy, print the message *We need to find some users!*
+- If the list is empty, print the message *We need to find some users!*
 - Remove all of the usernames from your list, and make sure the correct message is printed.
 
 ```python

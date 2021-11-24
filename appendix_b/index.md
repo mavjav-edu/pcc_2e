@@ -277,7 +277,7 @@ If you’re using Python 2, install the idle package like this:
 #### ***Installing IDLE on OS X***
 
 If you used Homebrew to install Python, IDLE is probably already on your
-system. In a terminal, run the command brew linkapps, which tells IDLE
+system. In a terminal, run the command `brew linkapps`, which tells IDLE
 how to find the correct Python interpreter on your system. You’ll then
 find IDLE in your user applications folder.
 

@@ -9,7 +9,7 @@ nav_exclude: true
 * 
 {:toc}
 
-Back to [Updates](../updates/)
+Back to [Updates](../)
 
 ---
 

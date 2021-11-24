@@ -136,7 +136,7 @@ Enter 'quit' when you are finished: quit
 
 ## 7-5: Movie Tickets
 
-A movie theater charges different ticket prices depending on a person's age. If a person is under the age of 3, the ticket is free; if they are between 3 and 12, the ticket is $10; and if they are over age 12, the ticket is $15. Write a loop in which you ask users their age, and then tel them the cost of their movie ticket.
+A movie theater charges different ticket prices depending on a person's age. If a person is under the age of 3, the ticket is free; if they are between 3 and 12, the ticket is $10; and if they are over age 12, the ticket is $15. Write a loop in which you ask users their age, and then tell them the cost of their movie ticket.
 
 ```python
 prompt = "How old are you?"
@@ -213,7 +213,7 @@ I made a veggie sandwich.
 
 ## 7-9: No Pastrami
 
-Using the list `sandwich_orders` from Exercise 7-8, make sure the sandwich `'pastrami'` appears in the list at least three times. Add code near the beginning of your program to print a message saying the deli has run out of pastrami, and then use a `while` loop to remove all occurences of `'pastrami'` from `sandwich_orders`. Make sure no pastrami sandwiches end up in `finished_sandiches`.
+Using the list `sandwich_orders` from Exercise 7-8, make sure the sandwich `'pastrami'` appears in the list at least three times. Add code near the beginning of your program to print a message saying the deli has run out of pastrami, and then use a `while` loop to remove all occurrences of `'pastrami'` from `sandwich_orders`. Make sure no pastrami sandwiches end up in `finished_sandiches`.
 
 ```python
 sandwich_orders = [

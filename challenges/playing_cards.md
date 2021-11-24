@@ -191,7 +191,7 @@ Consider other card-based games you know such as Poker, Solitaire, War, Rummy, C
 
 Create a file that tracks statistics for the card game you've implemented. Keep track of wins and losses, and update the statistics after each completed game. You may choose to keep track of just wins and losses, or more detailed information such as how many turns were played, how many pairs each player ended with, and how many cards the losing player was left holding. Display the overall statistics at the start of the game, and after each game has finished.
 
-*Prereqisite: Any of the challenges where you have implemented a card game that you can play against the computer.*
+*Prerequisite: Any of the challenges where you have implemented a card game that you can play against the computer.*
 
 [top](#top)
 

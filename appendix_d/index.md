@@ -5,7 +5,7 @@ nav_exclude: true
 parent: Home
 ---
 
-Version control software allows you to take snapshots of a project
+**Version control software** allows you to take snapshots of a project
 whenever it’s in a working state. When you make changes to a project—for
 example, when you implement a new feature—you have the option of
 reverting back to a previous working state if the project’s current

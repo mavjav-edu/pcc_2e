@@ -7,7 +7,7 @@ nav_exclude: true
 {: .no_toc }
 
 
-When working on social justice issues you often can't find, or can't rely on, official data sets. When you're first learning to analayze data, it can be overwhelming to have to find your own data sets and figure out the code to analyze them as well. So here are a few data sets you can work with initially. Once you've gained some experience working with these data sets, you'll have a better idea how to find more specific data that you're interested in working with.
+When working on social justice issues you often can't find, or can't rely on, official data sets. When you're first learning to analyze data, it can be overwhelming to have to find your own data sets and figure out the code to analyze them as well. So here are a few data sets you can work with initially. Once you've gained some experience working with these data sets, you'll have a better idea how to find more specific data that you're interested in working with.
 
 back to [Coding for Social Justice](./coding_for_social_justice.md/)
 
@@ -22,7 +22,7 @@ back to [Coding for Social Justice](./coding_for_social_justice.md/)
 ---
 ## Mapping Police Violence
 
-The Mapping Police Violence project aims to collect, curate, and present data about inicdents relating to police violence. There are many visualizations on the site itself, but there's also a prominent link to download the data for yourself and come to your own conclusions.
+The Mapping Police Violence project aims to collect, curate, and present data about incidents relating to police violence. There are many visualizations on the site itself, but there's also a prominent link to download the data for yourself and come to your own conclusions.
 
 Mapping Police Violence is maintained by [Samuel Sinyangwe](https://twitter.com/samswey/) and [DeRay McKesson](https://twitter.com/deray/). On their [About the Data](https://mappingpoliceviolence.org/aboutthedata) page, they explain that their data is sourced from several other datasets. If you're curious about the data, it's well worth reading the descriptions of the data collection methods, and following links to other projects that Mapping Police Violence is built on. Following these links will also lead you to a variety of projects with similar aims.
 

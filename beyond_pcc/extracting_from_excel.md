@@ -94,7 +94,7 @@ for row in all_rows[:5]:
     print(row)
 ```
 
-Worksheets are accessed by name through the workbook object. Here we assign a worksheet to `ws`. Once you have a worksheet object, you can access all the rows through the `ws.rows` attribute. This attribute is a *generator*, a Python object that efficiently returns one item at a time from a collection. We can convert this to the more familar list using the `list()` function. Here we create a list of all the rows in the workbook. We then print a message about how many rows were found, and print the first few rows of data:
+Worksheets are accessed by name through the workbook object. Here we assign a worksheet to `ws`. Once you have a worksheet object, you can access all the rows through the `ws.rows` attribute. This attribute is a *generator*, a Python object that efficiently returns one item at a time from a collection. We can convert this to the more familiar list using the `list()` function. Here we create a list of all the rows in the workbook. We then print a message about how many rows were found, and print the first few rows of data:
 
 ```
 Found 55 rows of data.
@@ -269,7 +269,7 @@ Be careful about rounding data during the processing phase. If you were going to
 
 Also, note that you will often need to identify the specific rows that need to be looped over. Spreadsheets are nice and structured, but people are also free to write anything they want in any cell. Many spreadsheets have some notes in a few cells after all the rows of data. These can be notes about sources of the raw data, dates of data collection, authors, and more. You will probably need to exclude these rows, either by looping over a slice as shown here, or using a try/except block to only extract data if the operation for each row is successful.
 
-Finally, you should be aware that people can modify the hard-coded values in a spreadsheet without updating the values derived from formulas that use those values. If you have any doubt about whether the spreadhseet you're working from has been updated, you should re-run the formulas yourself before using the `data_only=True` flag when loading a workbook.
+Finally, you should be aware that people can modify the hard-coded values in a spreadsheet without updating the values derived from formulas that use those values. If you have any doubt about whether the spreadsheet you're working from has been updated, you should re-run the formulas yourself before using the `data_only=True` flag when loading a workbook.
 
 [top](#top)
 
