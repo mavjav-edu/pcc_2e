@@ -51,7 +51,7 @@
    font-size: $root-font-size;
    max-height: #{$content-line-height}rem;
    line-height: $content-line-height;
-   margin-bottom: calc(-0.2*#{$root-font-size});
+   margin-bottom: calc(-0.2*$root-font-size);
  }
 
  /*** Default shared CSS ****/
