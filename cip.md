@@ -30,7 +30,7 @@ has_toc: false
     <a href="/pcc_2e/index">Online resources</a> for Python Crash Course
   </div>
   <div class="cip_csj_link">
-    <a href="//mavjav-edu.github.io/pcc_2e/challenges/coding_for_social_justice/">Coding for Social Justice</a>, a series of exercises focusing on social justice issues and the Black Lives Matter movement
+    <a href="https://mavjav-edu.github.io/pcc_2e/challenges/coding_for_social_justice/">Coding for Social Justice</a>, a series of exercises focusing on social justice issues and the Black Lives Matter movement
   </div>
 
 </div>
