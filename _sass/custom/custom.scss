@@ -1,4 +1,4 @@
- /* grid container */
+/* grid container */
  #grid-col {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -141,4 +141,25 @@ a.zip-dl {
 }
 h1, h2, h3, h4, h5, h6 {
 	clear:both;
+}
+
+details {
+    border: 1px solid $grey-lt-300;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid $grey-lt-300;
+    margin-bottom: .5em;
 }

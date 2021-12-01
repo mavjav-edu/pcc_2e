@@ -33,7 +33,7 @@ If you are a student following this curriculum for the first time, please jump t
 
 The book has several sections that reinforce learning through exercises. Practice what you just read where you see:
 <img src="{{ '/assets/images/tiy.svg' | relative_url }}" title="The words 'Try It Yourself' in Adobe Dogma typeface"  width="188vw" alt="'Try It Yourself' in Adobe Dogma typeface"/>
-<details open markdown="block">
+<details markdown="block">
   <summary>
     Links to the <em>Try It Yourself</em> Exercises
   </summary>
