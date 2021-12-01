@@ -1,13 +1,12 @@
 ---
-layout: none
-
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
 ---
-
 {
     "lang": "{{ site.language }}",
   "dir": "{{ site.lang_direction }}",
-  "name": {{ site.name | smartify | jsonify }},
-  "short_name": {{ site.short_name | smartify | jsonify }},
+  "name": {{ site.title | smartify | jsonify }},
+  "short_name": {{ site.baseurl | smartify | jsonify }},
     "icons": [{
         "src": "{{ '/assets/images/android-chrome-192x192.png' | relative_url }}",
         "sizes": "192x192",
@@ -17,8 +16,8 @@ layout: none
         "sizes": "512x512",
         "type": "image/png"
     }],
-    "theme_color": "{{ site.color_scheme }}",
-    "background_color": "{{ site.color_scheme }}",
+    "theme_color": "{{ site.theme_color }}",
+    "background_color": "{{ site.background_color }}",
     "start_url": "{{ site.url }}",
     "display": "standalone",
     "orientation": "natural"

@@ -33,7 +33,11 @@ If you are a student following this curriculum for the first time, please jump t
 
 The book has several sections that reinforce learning through exercises. Practice what you just read where you see:
 <img src="{{ '/assets/images/tiy.svg' | relative_url }}" title="The words 'Try It Yourself' in Adobe Dogma typeface"  width="188vw" alt="'Try It Yourself' in Adobe Dogma typeface"/>
-
+<details open markdown="block">
+  <summary>
+    Links to the <em>Try It Yourself</em> Exercises
+  </summary>
+  {: .text-delta }
 - Getting Started \([Chapter 1](./chapter_01/tiy.md)\)
 
 - Variables And Simple Data Types \([Chapter 2](./chapter_02/tiy.md)\)
@@ -73,6 +77,8 @@ The book has several sections that reinforce learning through exercises. Practic
 - User Accounts \([Chapter 19](./chapter_19/tiy.md)\)
 
 - Styling And Deploying An App \([Chapter 20](./chapter_20/tiy.md)\)
+
+</details>
 
 #### Solutions
 
