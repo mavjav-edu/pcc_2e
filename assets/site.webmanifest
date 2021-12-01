@@ -1,5 +1,5 @@
 ---
-# this ensures Jekyll reads the file to be transformed into CSS later
+# this ensures Jekyll reads the file to be transformed into JSON later
 # only Main files contain this front matter, not partials.
 ---
 {
