@@ -32,57 +32,57 @@ If you are a student following this curriculum for the first time, please jump t
 ## <a id="try_it_yourself"></a>Exercises ✍🏽
 
 The book has several sections that reinforce learning through exercises. Practice what you just read where you see:
-<img src="{{ '/assets/images/tiy.svg' | relative_url }}" title="The words 'Try It Yourself' in Adobe Dogma typeface"  width="188vw" alt="'Try It Yourself' in Adobe Dogma typeface"/>
+<img src="{{ '/assets/images/tiy.svg' | relative_url }}" title="The words 'Try It Yourself' in Adobe Dogma typeface"  width="188vw" id="tiy_svg" alt="'Try It Yourself' in Adobe Dogma typeface"/>
 <details markdown="block">
   <summary>
     Links to the <em>Try It Yourself</em> Exercises
   </summary>
   {: .text-delta }
-- Getting Started \([Chapter 1](./chapter_01/tiy.md)\)
+- Getting Started [Chapter 1](./chapter_01/tiy.md)
 
-- Variables And Simple Data Types \([Chapter 2](./chapter_02/tiy.md)\)
+- Variables And Simple Data Types [Chapter 2](./chapter_02/tiy.md)
 
-- Introducing Lists \([Chapter 3](./chapter_03/tiy.md)\)
+- Introducing Lists [Chapter 3](./chapter_03/tiy.md)
 
-- Working With Lists \([Chapter 4](./chapter_04/tiy.md)\)
+- Working With Lists [Chapter 4](./chapter_04/tiy.md)
 
-- If Statements \([Chapter 5](./chapter_05/tiy.md)\)
+- If Statements [Chapter 5](./chapter_05/tiy.md)
 
-- Dictionaries \([Chapter 6](./chapter_06/tiy.md)\)
+- Dictionaries [Chapter 6](./chapter_06/tiy.md)
 
-- User Input And While Loops \([Chapter 7](./chapter_07/tiy.md)\)
+- User Input And While Loops [Chapter 7](./chapter_07/tiy.md)
 
-- Functions \([Chapter 8](./chapter_08/tiy.md)\)
+- Functions [Chapter 8](./chapter_08/tiy.md)
 
-- Classes \([Chapter 9](./chapter_09/tiy.md)\)
+- Classes [Chapter 9](./chapter_09/tiy.md)
 
-- Files And Exceptions \([Chapter 10](./chapter_10/tiy.md)\)
+- Files And Exceptions [Chapter 10](./chapter_10/tiy.md)
 
-- Testing Your Code \([Chapter 11](./chapter_11/tiy.md)\)
+- Testing Your Code [Chapter 11](./chapter_11/tiy.md)
 
-- A Ship That Fires Bullets \([Chapter 12](./chapter_12/tiy.md)\)
+- A Ship That Fires Bullets [Chapter 12](./chapter_12/tiy.md)
 
-- Aliens! \([Chapter 13](./chapter_13/tiy.md)\)
+- Aliens! [Chapter 13](./chapter_13/tiy.md)
 
-- Scoring \([Chapter 14](./chapter_14/tiy.md)\)
+- Scoring [Chapter 14](./chapter_14/tiy.md)
 
-- Generating Data \([Chapter 15](./chapter_15/tiy.md)\)
+- Generating Data [Chapter 15](./chapter_15/tiy.md)
 
-- Downloading Data \([Chapter 16](./chapter_16/tiy.md)\)
+- Downloading Data [Chapter 16](./chapter_16/tiy.md)
 
-- Working With API's \([Chapter 17](./chapter_17/tiy.md)\)
+- Working With API's [Chapter 17](./chapter_17/tiy.md)
 
-- Getting Started With Django \([Chapter 18](./chapter_18/tiy.md)\)
+- Getting Started With Django [Chapter 18](./chapter_18/tiy.md)
 
-- User Accounts \([Chapter 19](./chapter_19/tiy.md)\)
+- User Accounts [Chapter 19](./chapter_19/tiy.md)
 
-- Styling And Deploying An App \([Chapter 20](./chapter_20/tiy.md)\)
+- Styling And Deploying An App [Chapter 20](./chapter_20/tiy.md)
 
 </details>
 
 #### Solutions
 
-After you have tried the exercises yourself, you can check the author's implementations to compare. solutions to the homework may be found [here](solutions).
+After you have tried the exercises yourself, you can check the author's implementations to compare. The author's solutions to the homework may be found [here](solutions).
 
 ### Setup Instructions
 
@@ -126,5 +126,5 @@ A list of updates is kept [here](./updates/index.md).
 
 If you have any questions about Python Crash Course, please [join the Discord server](https://discord.gg/KzzTBbr), contact [Mavaddat](https://www.mavaddat.ca), or get in touch with the book's author, 📧 <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" title="the author's email address as an image to prevent spamming" alt="email as image to hide from spammers" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a>.
 
-[<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" title="the twitter logo" alt="twitter logo of a blue bird" alt="Twitter logo" width="15"/> @ehmatthes](http://twitter.com/mavjav-edu/)
-<img src="https://pbs.twimg.com/profile_images/1153801365543538688/6ZRVUWah.png" title="the author on Twitter" alt="the author's Twitter profile image" width="20vw"/>
+[<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" title="the twitter logo" alt="twitter logo of a blue bird" alt="Twitter logo" width="15"/> @ehmatthes](http://twitter.com/ehmatthes/)
+<span id="🐦"><img src="https://pbs.twimg.com/profile_images/1153801365543538688/6ZRVUWah.png" title="the author on Twitter" alt="the author's Twitter profile image" width="20vw"/></span>

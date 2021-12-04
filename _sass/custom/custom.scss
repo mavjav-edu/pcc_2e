@@ -163,3 +163,21 @@ details[open] summary {
     border-bottom: 1px solid $grey-lt-300;
     margin-bottom: .5em;
 }
+
+#🐦{
+	fill: white;
+    border-radius: 100%;
+    border: outset 3px white;
+    border-style: solid;
+    display: inline-flex;
+    background-color: black;
+    transition-duration: 0.2s;
+    transition-property: background-color, box-shadow;
+}
+#🐦 img {
+	border-radius: 100%;
+}
+
+#tiy_svg{
+	filter: drop-shadow(0px 1px 1px gold);
+}
