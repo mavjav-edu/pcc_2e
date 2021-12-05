@@ -1,4 +1,4 @@
-[]---
+---
 layout: default
 title: Django Resources
 parent: Recommended Reading
