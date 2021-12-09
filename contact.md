@@ -9,7 +9,7 @@ has_toc: false
 
 ## Connect with us
 
-If you have questions or feedback about [Python Crash Course](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl), reach out to other learners on our Discord server [here](https://discord.gg/KzzTBbr).
+If you have questions or feedback about [Python Crash Course](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl), reach out to other learners on our <img src="https://raw.githubusercontent.com/NNTin/discord-logo/master/src/assets/animateddiscord.svg" width="26" class="email" alt="Discord logo animated" title="Join us on Discord!" />Discord server  [here](https://discord.gg/KzzTBbr).
 {: .fs-6 .fw-300 }
 
 ## Contact the author

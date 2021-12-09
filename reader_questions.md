@@ -19,5 +19,5 @@ Many of those questions are individual in nature, but many questions also come u
 
 ---
 
-If you're stuck on something and what you see here isn't helping, please  [join the Discord server](https://discord.gg/KzzTBbr).
+If you're stuck on something and what you see here isn't helping, please  [join the <img src="https://raw.githubusercontent.com/NNTin/discord-logo/master/src/assets/animateddiscord.svg" width="26" class="email" alt="Discord logo animated" title="Join us on Discord!" />Discord server ](https://discord.gg/KzzTBbr).
 
