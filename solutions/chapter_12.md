@@ -37,7 +37,7 @@ Make a Pygame window with a blue background.
 
 ## 12-2: Game Character
 
-Find a bitmap image of a game character you like or convert an image to a bitmap. Make a class that draws the character at the center of the screen and match the background color of the image ot the background color of the screen, or vice versa.
+Find a bitmap image of a game character you like or convert an image to a bitmap. Make a class that draws the character at the center of the screen and match the background color of the image or the background color of the screen, or vice versa.
 
 [Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_12/solution_12_2)
 

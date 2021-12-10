@@ -37,7 +37,7 @@ Find an image of a star . Make a grid of stars appear on the screen.
 
 ## 13-2: Better Stars
 
-You can make a more realistic star pattern by introducing randomness when you place each star. Recall thatyou can get a random number like this:
+You can make a more realistic star pattern by introducing randomness when you place each star. Recall that you can get a random number like this:
 
 ```python
 from random import randint
