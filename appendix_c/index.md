@@ -106,7 +106,7 @@ you’ll know how helpful they’re likely to be.
 
 #### ***Stack Overflow***
 
-Stack Overflow <img src="{{ /assets/images/stackoverflow-com-logo-svg-vector.svg | relative_url }}" width="26" alt="Stackoverflow logo" title="Stack%20Overflow%20is%20a%20question%20and%20answer%20website%20for%20professional%20and%20enthusiast%20programmers.%20It%20is%20the%20flagship%20site%20of%20the%20Stack%20Exchange%20Network,%20created%20in%202008%20by%20Jeff%20Atwood%20and%20Joel%20Spolsky.%20It%20features%20questions%20and%20answers%20on%20a%20wide%20range%20of%20topics%20in%20computer%20programming.%20It%20was%20created%20to%20be%20a%20more%20open%20alternative%20to%20earlier%20question%20and%20answer%20websites%20such%20as%20Experts-Exchange." /> (*<http://stackoverflow.com/>*) is one of the most
+Stack Overflow <img src="{{ '/assets/images/stackoverflow-com-logo-svg-vector.svg' | relative_url }}" width="26" alt="Stackoverflow logo" title="Stack%20Overflow%20is%20a%20question%20and%20answer%20website%20for%20professional%20and%20enthusiast%20programmers.%20It%20is%20the%20flagship%20site%20of%20the%20Stack%20Exchange%20Network,%20created%20in%202008%20by%20Jeff%20Atwood%20and%20Joel%20Spolsky.%20It%20features%20questions%20and%20answers%20on%20a%20wide%20range%20of%20topics%20in%20computer%20programming.%20It%20was%20created%20to%20be%20a%20more%20open%20alternative%20to%20earlier%20question%20and%20answer%20websites%20such%20as%20Experts-Exchange." /> (*<http://stackoverflow.com/>*) is one of the most
 popular question-and-answer sites for programmers, and will often appear
 in the first page of results on Python-related searches. Members post
 questions when they’re stuck, and other members try to give helpful
