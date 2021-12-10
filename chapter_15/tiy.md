@@ -53,6 +53,9 @@ y_step = get_step()
 This refactoring should reduce the size of `fill_walk()` and make the
 method easier to read and understand.
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch15exe6"></span>**15-6. Automatic Labels:** Modify

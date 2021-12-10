@@ -100,6 +100,9 @@ at the end of your program.
 
 
 <span id="page_50"></span>
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch3exe8"></span>**3-8. Seeing the World:** Think of at least
@@ -149,6 +152,9 @@ then uses each function introduced in this chapter at least once.
 
 
 <span id="page_52"></span>
+
+[top](#top)
+
 ## TRY IT YOURSELF #4
 
 <span id="ch3exe11"></span>**3-11. Intentional Error:** If you haven&rsquo;t

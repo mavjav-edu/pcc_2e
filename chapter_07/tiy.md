@@ -58,6 +58,9 @@ each of the following at least once:
 ends, and run it. (To end the loop, press <span
 class="small">CTRL</span>-C or close the window displaying the output.)
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch7exe8"></span>**7-8. Deli:** Make a list called

@@ -74,6 +74,9 @@ the value of each cube.
 <span id="ch4exe9"></span>**4-9. Cube Comprehension:** Use a list
 comprehension to generate a list of the first 10 cubes.
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch4exe10"></span>**4-10. Slices:** Using one of the programs
@@ -109,6 +112,9 @@ stored in the appropriate list.
 to save space. Choose a version of *foods.py*, and write two `for` loops
 to print each list of foods.
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #4
 
 <span id="ch4exe13"></span>**4-13. Buffet:** A buffet-style restaurant
@@ -127,6 +133,9 @@ use a `for` loop to print each of the items on the revised menu.
 
 
 <span id="page_74"></span>
+
+[top](#top)
+
 ## TRY IT YOURSELF #5
 
 <span id="ch4exe14"></span>**4-14. PEP 8:** Look through the original

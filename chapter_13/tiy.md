@@ -44,6 +44,9 @@ the bottom of the screen until they disappear.
 disappears off the bottom of the screen, a new row appears at the top of
 the screen and begins to fall.
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch13exe5"></span>**13-5. Catch:** Create a game that places a
@@ -57,6 +60,9 @@ the bottom of the screen.
 
 
 <span id="page_290"></span>
+
+[top](#top)
+
 ## TRY IT YOURSELF #4
 
 <span id="ch13exe6"></span>**13-6. Game Over:** Using your code from

@@ -40,6 +40,9 @@ Play.
 
 
 <span id="page_317"></span>
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch14exe4"></span>**14-4. All-Time High Score:** The high score

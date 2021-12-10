@@ -131,6 +131,9 @@ should print a statement, such as *You really like bananas!*
 
 
 <span id="page_93"></span>
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch5exe8"></span>**5-8. Hello Admin:** Make a list of five or
@@ -181,6 +184,9 @@ numbers end in *th*, except 1, 2, and 3.
 ordinal ending for each number. Your output should read
 `"1st 2nd 3rd 4th 5th 6th 7th 8th 9th"`, and each result should be on a
 separate line.
+
+
+[top](#top)
 
 ## TRY IT YOURSELF #4
 

@@ -35,6 +35,9 @@ unregistered users see a link to the registration page.
 
 
 <span id="page_454"></span>
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch19exe3"></span>**19-3. Refactoring:** There are two places

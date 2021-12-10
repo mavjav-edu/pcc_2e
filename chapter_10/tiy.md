@@ -63,6 +63,9 @@ loop that asks people why they like programming. Each time someone
 enters a reason, add their reason to a file that stores all the
 responses.
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch10exe6"></span>**10-6. Addition:** One common problem when
@@ -115,6 +118,9 @@ formatted.
 
 Write a program that reads the files you found at Project Gutenberg and
 determines how many times the word `'the'` appears in each text.
+
+
+[top](#top)
 
 ## TRY IT YOURSELF #4
 

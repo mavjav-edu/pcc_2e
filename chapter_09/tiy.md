@@ -73,6 +73,9 @@ Make an instance of the `User` class and call
 `reset_login_attempts()`. Print `login_attempts` again to make sure it
 was reset to 0.
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch9exe6"></span>**9-6. Ice Cream Stand:** An ice cream stand
@@ -111,6 +114,9 @@ electric car with a default battery size, call `get_range()` once, and
 then call `get_range()` a second time after upgrading the battery. You
 should see an increase in the car&rsquo;s range.
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #4
 
 <span id="ch9exe10"></span>**9-10. Imported Restaurant:** Using your
@@ -134,6 +140,9 @@ separate module. In a separate file, create an `Admin` instance and call
 
 
 <span id="ch9exe4"></span>
+
+[top](#top)
+
 ## TRY IT YOURSELF #5
 
 <span id="ch9exe13"></span>**9-13. OrderedDict Rewrite:** Start with

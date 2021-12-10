@@ -78,6 +78,9 @@ already taken the poll, print a message thanking them for responding. If
 they have not yet taken the poll, print a message inviting them to take
 the poll.
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch6exe7"></span>**6-7. People:** Start with the program you

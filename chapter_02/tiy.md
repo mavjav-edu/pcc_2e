@@ -63,6 +63,9 @@ Then print the name using each of the three stripping functions,
 
 
 <span id="page_33"></span>
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch2exe8"></span>**2-8. Number Eight:** Write addition,
@@ -81,6 +84,9 @@ on each line.
 number in a variable. Then, using that variable, create a message that
 reveals your favorite number. Print that message.
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #4
 
 <span id="ch2exe10"></span>**2-10. Adding Comments:** Choose two of the
@@ -89,6 +95,9 @@ don&rsquo;t have anything specific to write because your programs are too
 simple at this point, just add your name and the current date at the top
 of each program file. Then write one sentence describing what the
 program does.
+
+
+[top](#top)
 
 ## TRY IT YOURSELF #5
 

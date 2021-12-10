@@ -51,6 +51,9 @@ function should print a simple sentence, such as
 value. Call your function for three different cities, at least one of
 which is not in the default country.
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch8exe6"></span>**8-6. City Names:** Write a function called
@@ -85,6 +88,9 @@ information, call `make_album()` with the user&rsquo;s input and print the
 dictionary that&rsquo;s created. Be sure to include a quit value in the
 `while` loop.
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #4
 
 <span id="ch8exe9"></span>**8-9. Magicians:** Make a list of magician&rsquo;s
@@ -108,6 +114,9 @@ to each magician&rsquo;s name.
 
 
 <span id="page_154"></span>
+
+[top](#top)
+
 ## TRY IT YOURSELF #5
 
 <span id="ch8exe12"></span>**8-12. Sandwiches:** Write a function that
@@ -139,6 +148,9 @@ was stored correctly.
 
 
 <span id="page_159"></span>
+
+[top](#top)
+
 ## TRY IT YOURSELF #6
 
 <span id="ch8exe15"></span>**8-15. Printing Models:** Put the functions

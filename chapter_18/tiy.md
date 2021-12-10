@@ -58,6 +58,9 @@ key to `Pizza`, and `name` should be able to hold values such as
 Register both models with the admin site, and use the site to enter some
 pizza names and toppings. Use the shell to explore the data you entered.
 
+
+[top](#top)
+
 ## TRY IT YOURSELF #3
 
 <span id="ch18exe5"></span>**18-5. Meal Planner:** Consider an app that
@@ -69,6 +72,9 @@ for this project.
 <span id="ch18exe6"></span>**18-6. Pizzeria Home Page:** Add a home page
 to the *Pizzeria* project you started in [Exercise
 18-4](#ch18exe4) ([page 412](#ch18exe4)).
+
+
+[top](#top)
 
 ## TRY IT YOURSELF #4
 
