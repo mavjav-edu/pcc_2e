@@ -14,7 +14,9 @@ length, including those with thousands or even millions of items.
 
 # Working With Lists
 
-## TRY IT YOURSELF #1
+## [top](#top)
+
+TRY IT YOURSELF #1
 
 <span id="ch4exe1"></span>**4-1. Pizzas:** Think of at least three kinds
 of your favorite pizza. Store these pizza names in a list, and then use
@@ -42,7 +44,9 @@ dog would make a great pet.*
 in common. You could print a sentence such as *Any of these animals
 would make a great pet!*
 
-## TRY IT YOURSELF #2
+## [top](#top)
+
+TRY IT YOURSELF #2
 
 <span id="ch4exe3"></span>**4-3. Counting to Twenty:** Use a `for` loop
 to print the numbers from 1 to 20, inclusive.
@@ -74,7 +78,9 @@ the value of each cube.
 <span id="ch4exe9"></span>**4-9. Cube Comprehension:** Use a list
 comprehension to generate a list of the first 10 cubes.
 
-## TRY IT YOURSELF #3
+## [top](#top)
+
+TRY IT YOURSELF #3
 
 <span id="ch4exe10"></span>**4-10. Slices:** Using one of the programs
 you wrote in this chapter, add several lines to the end of the program
@@ -109,7 +115,9 @@ stored in the appropriate list.
 to save space. Choose a version of *foods.py*, and write two `for` loops
 to print each list of foods.
 
-## TRY IT YOURSELF #4
+## [top](#top)
+
+TRY IT YOURSELF #4
 
 <span id="ch4exe13"></span>**4-13. Buffet:** A buffet-style restaurant
 offers only five basic foods. Think of five simple foods, and store them
@@ -127,7 +135,9 @@ use a `for` loop to print each of the items on the revised menu.
 
 
 <span id="page_74"></span>
-## TRY IT YOURSELF #5
+## [top](#top)
+
+TRY IT YOURSELF #5
 
 <span id="ch4exe14"></span>**4-14. PEP 8:** Look through the original
 PEP 8 style guide at *<https://python.org/dev/peps/pep-0008/>*. You

@@ -14,7 +14,9 @@ need to ask the user to enter, or *input*, their age; once the program
 has this input, it can compare it to the voting age to determine if the
 user is old enough and then report the result.
 
-## TRY IT YOURSELF #1
+## [top](#top)
+
+TRY IT YOURSELF #1
 
 <span id="ch7exe1"></span>**7-1. Rental Car:** Write a program that asks
 the user what kind of rental car they would like. Print a message about
@@ -28,7 +30,9 @@ for a table. Otherwise, report that their table is ready.
 <span id="ch7exe3"></span>**7-3. Multiples of Ten:** Ask the user for a
 number, and then report whether the number is a multiple of 10 or not.
 
-## TRY IT YOURSELF #2
+## [top](#top)
+
+TRY IT YOURSELF #2
 
 <span id="ch7exe4"></span>**7-4. Pizza Toppings:** Write a loop that
 prompts the user to enter a series of pizza toppings until they enter a
@@ -58,7 +62,9 @@ each of the following at least once:
 ends, and run it. (To end the loop, press <span
 class="small">CTRL</span>-C or close the window displaying the output.)
 
-## TRY IT YOURSELF #3
+## [top](#top)
+
+TRY IT YOURSELF #3
 
 <span id="ch7exe8"></span>**7-8. Deli:** Make a list called
 `sandwich_orders` and fill it with the names of various sandwiches. Then

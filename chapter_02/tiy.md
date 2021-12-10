@@ -9,7 +9,9 @@ In this chapter you’ll learn about the different kinds of data you can
 work with in your Python programs. You’ll also learn how to store your
 data in variables and how to use those variables in your programs.
 
-## TRY IT YOURSELF #1
+## [top](#top)
+
+TRY IT YOURSELF #1
 
 Write a separate program to accomplish each of these exercises. Save
 each program with a filename that follows standard Python conventions,
@@ -23,7 +25,9 @@ variable, and then print that message.
 variable, and print that message. Then change the value of your variable
 to a new message, and print the new message.
 
-## TRY IT YOURSELF #2
+## [top](#top)
+
+TRY IT YOURSELF #2
 
 Save each of the following exercises as a separate file with a name like
 *name_cases.py*. If you get stuck, take a break or see the suggestions
@@ -63,7 +67,9 @@ Then print the name using each of the three stripping functions,
 
 
 <span id="page_33"></span>
-## TRY IT YOURSELF #3
+## [top](#top)
+
+TRY IT YOURSELF #3
 
 <span id="ch2exe8"></span>**2-8. Number Eight:** Write addition,
 subtraction, multiplication, and division operations that each result in
@@ -81,7 +87,9 @@ on each line.
 number in a variable. Then, using that variable, create a message that
 reveals your favorite number. Print that message.
 
-## TRY IT YOURSELF #4
+## [top](#top)
+
+TRY IT YOURSELF #4
 
 <span id="ch2exe10"></span>**2-10. Adding Comments:** Choose two of the
 programs you&rsquo;ve written, and add at least one comment to each. If you
@@ -90,7 +98,9 @@ simple at this point, just add your name and the current date at the top
 of each program file. Then write one sentence describing what the
 program does.
 
-## TRY IT YOURSELF #5
+## [top](#top)
+
+TRY IT YOURSELF #5
 
 <span id="ch2exe11"></span>**2-11. Zen of Python:** Enter `import this`
 into a Python terminal session and skim through the additional

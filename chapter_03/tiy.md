@@ -12,7 +12,9 @@ millions of items. Lists are one of Python’s most powerful features
 readily accessible to new programmers, and they tie together many
 important concepts in programming.
 
-## TRY IT YOURSELF #1
+## [top](#top)
+
+TRY IT YOURSELF #1
 
 Try these short programs to get some firsthand experience with Python&rsquo;s
 lists. You might want to create a new folder for each chapter&rsquo;s
@@ -34,7 +36,9 @@ that stores several examples. Use your list to print a series of
 statements about these items, such as &ldquo;I would like to own a Honda
 motorcycle.&rdquo;
 
-## TRY IT YOURSELF #2
+## [top](#top)
+
+TRY IT YOURSELF #2
 
 The following exercises are a bit more complex than those in [Chapter
 2](#ch02), but they give you an opportunity to use lists in all
@@ -100,7 +104,9 @@ at the end of your program.
 
 
 <span id="page_50"></span>
-## TRY IT YOURSELF #3
+## [top](#top)
+
+TRY IT YOURSELF #3
 
 <span id="ch3exe8"></span>**3-8. Seeing the World:** Think of at least
 five places in the world you&rsquo;d like to visit.
@@ -149,7 +155,9 @@ then uses each function introduced in this chapter at least once.
 
 
 <span id="page_52"></span>
-## TRY IT YOURSELF #4
+## [top](#top)
+
+TRY IT YOURSELF #4
 
 <span id="ch3exe11"></span>**3-11. Intentional Error:** If you haven&rsquo;t
 received an index error in one of your programs yet, try to make one

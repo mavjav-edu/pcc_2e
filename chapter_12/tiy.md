@@ -19,7 +19,9 @@ dynamics.
 
 Resources for spaceship and enemy ship images can be found in [images](./images/index.md).
 
-## TRY IT YOURSELF #1
+## [top](#top)
+
+TRY IT YOURSELF #1
 
 <span id="ch12exe1"></span>**12-1. Blue Sky:** Make a Pygame window with
 a blue background.
@@ -30,7 +32,9 @@ class that draws the character at the center of the screen and match the
 background color of the image to the background color of the screen, or
 vice versa.
 
-## TRY IT YOURSELF #2
+## [top](#top)
+
+TRY IT YOURSELF #2
 
 <span id="ch12exe3"></span>**12-3. Rocket:** Make a game that begins
 with a rocket in the center of the screen. Allow the player to move the
@@ -42,7 +46,9 @@ creates an empty screen. In the event loop, print the `event.key`
 attribute whenever a `pygame.KEYDOWN` event is detected. Run the program
 and press various keys to see how Pygame responds.
 
-## TRY IT YOURSELF #3
+## [top](#top)
+
+TRY IT YOURSELF #3
 
 <span id="ch12exe5"></span>**12-5. Sideways Shooter:** Write a game that
 places a ship on the left side of the screen and allows the player to

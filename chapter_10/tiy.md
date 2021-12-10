@@ -19,7 +19,9 @@ so it isn’t lost when your program stops running.
 
 
 <span id="page_197"></span>
-## TRY IT YOURSELF #1
+## [top](#top)
+
+TRY IT YOURSELF #1
 
 <span id="ch10exe1"></span>**10-1. Learning Python:** Open a blank file
 in your text editor and write a few lines summarizing what you&rsquo;ve
@@ -46,7 +48,9 @@ Read in each line from the file you just created, *learning_python.txt*,
 and replace the word *Python* with the name of another language, such as
 *C*. Print each modified line to the screen.
 
-## TRY IT YOURSELF #2
+## [top](#top)
+
+TRY IT YOURSELF #2
 
 <span id="ch10exe3"></span>**10-3. Guest:** Write a program that prompts
 the user for their name. When they respond, write their name to a file
@@ -63,7 +67,9 @@ loop that asks people why they like programming. Each time someone
 enters a reason, add their reason to a file that stores all the
 responses.
 
-## TRY IT YOURSELF #3
+## [top](#top)
+
+TRY IT YOURSELF #3
 
 <span id="ch10exe6"></span>**10-6. Addition:** One common problem when
 prompting for numerical input occurs when people provide text instead of
@@ -116,7 +122,9 @@ formatted.
 Write a program that reads the files you found at Project Gutenberg and
 determines how many times the word `'the'` appears in each text.
 
-## TRY IT YOURSELF #4
+## [top](#top)
+
+TRY IT YOURSELF #4
 
 <span id="ch10exe11"></span>**10-11. Favorite Number:** Write a program
 that prompts for the user&rsquo;s favorite number. Use `json.dump()` to store

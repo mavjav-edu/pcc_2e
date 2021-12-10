@@ -12,7 +12,9 @@ use Django (*<http://djangoproject.com/>*) to build a project called
 Learning Log—an online journal system that lets you keep track of
 information you’ve learned about particular topics.
 
-## TRY IT YOURSELF #1
+## [top](#top)
+
+TRY IT YOURSELF #1
 
 <span id="ch18exe1"></span>**18-1. New Projects:** To get a better idea
 of what Django does, build a couple of empty projects and look at what
@@ -30,7 +32,9 @@ if you wish.
 
 
 <span id="page_412"></span>
-## TRY IT YOURSELF #2
+## [top](#top)
+
+TRY IT YOURSELF #2
 
 <span id="ch18exe2"></span>**18-2. Short Entries:** The `__str__()`
 method in the `Entry` model currently appends an ellipsis to every
@@ -58,7 +62,9 @@ key to `Pizza`, and `name` should be able to hold values such as
 Register both models with the admin site, and use the site to enter some
 pizza names and toppings. Use the shell to explore the data you entered.
 
-## TRY IT YOURSELF #3
+## [top](#top)
+
+TRY IT YOURSELF #3
 
 <span id="ch18exe5"></span>**18-5. Meal Planner:** Consider an app that
 helps people plan their meals throughout the week. Make a new folder
@@ -70,7 +76,9 @@ for this project.
 to the *Pizzeria* project you started in [Exercise
 18-4](#ch18exe4) ([page 412](#ch18exe4)).
 
-## TRY IT YOURSELF #4
+## [top](#top)
+
+TRY IT YOURSELF #4
 
 <span id="ch18exe7"></span>**18-7. Template Documentation:** Skim the
 Django template documentation at

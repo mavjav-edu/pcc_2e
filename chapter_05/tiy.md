@@ -13,7 +13,9 @@ state of a program and respond appropriately to that state.
 
 
 <span id="page_82"></span>
-## TRY IT YOURSELF #1
+## [top](#top)
+
+TRY IT YOURSELF #1
 
 <span id="ch5exe1"></span>**5-1. Conditional Tests:** Write a series of
 conditional tests. Print a statement describing each test and your
@@ -54,7 +56,9 @@ less than, greater than or equal to, and less than or equal to
 
 - Test whether an item is not in a list
 
-## TRY IT YOURSELF #2
+## [top](#top)
+
+TRY IT YOURSELF #2
 
 <span id="ch5exe3"></span>**5-3. Alien Colors #1:** Imagine an alien was
 just shot down in a game. Create a variable called `alien_color` and
@@ -131,7 +135,9 @@ should print a statement, such as *You really like bananas!*
 
 
 <span id="page_93"></span>
-## TRY IT YOURSELF #3
+## [top](#top)
+
+TRY IT YOURSELF #3
 
 <span id="ch5exe8"></span>**5-8. Hello Admin:** Make a list of five or
 more usernames, including the name `'admin'`. Imagine you are writing
@@ -182,7 +188,9 @@ ordinal ending for each number. Your output should read
 `"1st 2nd 3rd 4th 5th 6th 7th 8th 9th"`, and each result should be on a
 separate line.
 
-## TRY IT YOURSELF #4
+## [top](#top)
+
+TRY IT YOURSELF #4
 
 <span id="ch5exe12"></span>**5-12. Styling** `if` **statements:** Review
 the programs you wrote in this chapter, and make sure you styled your

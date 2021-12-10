@@ -12,7 +12,9 @@ anyone in the world can make an account.
 
 
 <span id="page_466"></span>
-## TRY IT YOURSELF #1
+## [top](#top)
+
+TRY IT YOURSELF #1
 
 <span id="ch20exe1"></span>**20-1. Other Forms:** We&rsquo;ve applied
 Bootstrap&rsquo;s styles to the `login` and `add_topic` pages. Make similar
@@ -25,7 +27,9 @@ style the Blog project you created in [Chapter 19](../chapter_19/tiy.md).
 
 
 <span id="page_482"></span>
-## TRY IT YOURSELF #2
+## [top](#top)
+
+TRY IT YOURSELF #2
 
 <span id="ch20exe3"></span>**20-3. Live Blog:** Deploy the Blog project
 you&rsquo;ve been working on to Heroku. Make sure you set `DEBUG` to `False`
