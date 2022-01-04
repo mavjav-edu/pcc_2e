@@ -45,7 +45,7 @@ You can read *Python Data Science Handbook* through [O'Reilly's online platform]
 
 ### Python for Data Analysis, by [Wes McKinney](https://twitter.com/wesmckinn)
 
-Wes McKinney is the creator of [pandas](https://pandas.pydata.org), a prominent Python library for loading and working with raw data. Wes knows pandas inside and out, so the information is accurate and reliable. There's some criticism that the material is dry and just like reading documentation, but if you like books better than documenation this book will probably be worthwhile. If you want to read a more detailed comparison between this book and *Python Data Science Handbook*, there's a nice writeup [here](http://sam-koblenski.blogspot.com/2019/02/tech-book-face-off-python-for-data.html).
+Wes McKinney is the creator of [pandas](https://pandas.pydata.org), a prominent Python library for loading and working with raw data. Wes knows pandas inside and out, so the information is accurate and reliable. There's some criticism that the material is dry and just like reading documentation, but if you like books better than documentation this book will probably be worthwhile. If you want to read a more detailed comparison between this book and *Python Data Science Handbook*, there's a nice writeup [here, 'Tech Book Face Off: Python for Data Analysis Vs. Python Data Science Handbook'](http://sam-koblenski.blogspot.com/2019/02/tech-book-face-off-python-for-data.html).
 
 You can read *Python for Data Analysis* through [O'Reilly's online platform](http://shop.oreilly.com/product/0636920050896.do), or you can buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/python-for-data-analysis-wes-mckinney/1124074589) or [Amazon](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/). You can also find the code for the book online at [github.com/wesm/pydata-book/](https://github.com/wesm/pydata-book).
 
@@ -55,7 +55,7 @@ You can read *Python for Data Analysis* through [O'Reilly's online platform](htt
 
 ### Data Science from Scratch, by [Joel Grus](https://twitter.com/joelgrus)
 
-*Data Science from Scratch* should be a good followup to PCC if you're new to programming and data science. With the understanding of Python you've gained from PCC, you should be able to follow the code examples and learn the more data science-focused concepts the book presents. If you already understand data science and machine learning concepts and want to focus on using the latest libraries to implement these methods, a book like *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* is proably a better fit.
+*Data Science from Scratch* should be a good follow-up to PCC if you're new to programming and data science. With the understanding of Python you've gained from PCC, you should be able to follow the code examples and learn the more data science-focused concepts the book presents. If you already understand data science and machine learning concepts and want to focus on using the latest libraries to implement these methods, a book like *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* is probably a better fit.
 
 You can read *Data Science from Scratch* through [O'Reilly's online platform](https://www.oreilly.com/library/view/data-science-from/9781492041122/), or you can buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/data-science-from-scratch-joel-grus/1121709189) or [Amazon](https://www.amazon.com/Joel-Grus/dp/1492041130/). You can see the [table of contents](https://www.oreilly.com/library/view/data-science-from/9781492041122/), and you can find the code for the book at the [author's GitHub site](https://github.com/joelgrus/data-science-from-scratch).
 
@@ -77,13 +77,13 @@ You can read *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow
 
 ## Data Science Tools and Libraries
 
-If you're interested in data science using Python, there are a nubmer of tools and libraries you should be aware of. All of these tools are covered to differing degrees in the books above, and whichever resources you choose to work from you should be aware of these different libraries.
+If you're interested in data science using Python, there are a number of tools and libraries you should be aware of. All of these tools are covered to differing degrees in the books above, and whichever resources you choose to work from you should be aware of these different libraries.
 
 ### Jupyter Notebooks and IPython
 
 Jupyter Notebooks are a really powerful tool with many uses, and one of the most prominent uses is exploratory data analysis. Jupyter Notebooks run in a browser, and they're made up of cells. Each cell can be a code cell or a text cell. When a code cell is run, all the variables and objects created in that cell are then available to the other code cells in the notebook. Text cells are implemented in [markdown](https://www.markdownguide.org), a text-based formatting language that's used extensively in technical documentation work.
 
-Jupyter Notebooks are prominent in data analysis and scientific fields becasuse you can write all the explanatory text you want around your code. They're not perfect; you can sometimes run into difficulty when code cells affect each other in unexpected ways. Code cells can also be run in any order; this is good most of the time, but can generate reproducibilty issues without a clear set of guidelines for how a notebook is used.
+Jupyter Notebooks are prominent in data analysis and scientific fields becasuse you can write all the explanatory text you want around your code. They're not perfect; you can sometimes run into difficulty when code cells affect each other in unexpected ways. Code cells can also be run in any order; this is good most of the time, but can generate reproducibility issues without a clear set of guidelines for how a notebook is used.
 
 IPython is an enhanced version of a Python terminal session. Jupyter Notebooks are built on top of IPython, but IPython itself is still used in many areas.
 
@@ -128,7 +128,7 @@ The homepage is at [keras.io](https://keras.io).
 
 ### Anaconda
 
-Anaconda is a Python distribution that includes many of the most commonly used data science libaries such as Jupyter, NumPy, pandas, Matplotlib, SciPy, and many others. It also comes with its own package manager, conda, which is used in place of pip to install packages. There are free and paid versions of Anaconda, as well as a smaller version called Miniconda.
+Anaconda is a Python distribution that includes many of the most commonly used data science libraries such as Jupyter, NumPy, pandas, Matplotlib, SciPy, and many others. It also comes with its own package manager, conda, which is used in place of pip to install packages. There are free and paid versions of Anaconda, as well as a smaller version called Miniconda.
 
 The home page for Anacaonda is at [anaconda.com](https://www.anaconda.com).
 
@@ -176,7 +176,7 @@ Listen at [talkingmachines.com](https://www.thetalkingmachines.com).
 
 ### More Podcasts
 
-There are more data science podcasts than the book's author says he can review indidivually. For additional recommendations, see some [recommendations from Real Python](https://realpython.com/data-science-podcasts/), from [Towards Data Science](https://towardsdatascience.com/5-data-science-podcasts-you-should-be-listening-to-72d8efd0b9ec), and from [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2018/01/10-data-science-machine-learning-ai-podcasts-must-listen/). If you have specific podcasts that you think would be of interest to PCC readers, please [let me know](../../contact/).
+There are more data science podcasts than the book's author says he can review individually. For additional recommendations, see some [recommendations from Real Python](https://realpython.com/data-science-podcasts/), from [Towards Data Science](https://towardsdatascience.com/5-data-science-podcasts-you-should-be-listening-to-72d8efd0b9ec), and from [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2018/01/10-data-science-machine-learning-ai-podcasts-must-listen/). If you have specific podcasts that you think would be of interest to PCC readers, please [let me know](../../contact/).
 
 [top](#top)
 

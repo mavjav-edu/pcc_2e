@@ -22,7 +22,7 @@ $ python --version
 Python 2.7.15
 ```
 
-If you used the offical Python installer from [python.org](https://python.org/), then **python3** probably points to the version of Python you want Sublime Text to use:
+If you used the official Python installer from [python.org](https://python.org/), then **python3** probably points to the version of Python you want Sublime Text to use:
 
 ```
 $ python3 --version

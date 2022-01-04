@@ -15,10 +15,10 @@ has_children: true
     sizes="('max-width: 300px') 100vw, 300px"
     srcset="
     {{ '/assets/images/cover_g9giob_c_scale,w_200.png' | relative_url }} 200w,
-    {{ '/assets/images/cover_g9giob_c_scale,w_300.png' | relative_url }} 300w"
-    src="{{ '/assets/images/cover_g9giob_c_scale,w_300.png' | relative_url }}"
+    {{ '/assets/images/cover_g9giob_c_scale,w_300.webp' | relative_url }} 300w"
+    src="{{ '/assets/images/cover_g9giob_c_scale,w_300.webp' | relative_url }}"
     alt="Two printed copies of the book, 'Python Crash Course 2e', lying on a surface"/>
-    <figcaption>Two printed copies of the book, <a href="https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl" target="_blank">'Python Crash Course 2e'</a>, lying on a surface</figcaption>
+    <figcaption>Two printed copies of the book, <a href="https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl" target="_blank" rel="noopener">'Python Crash Course 2e'</a>, lying on a surface</figcaption>
 </figure>
 
 This is a tutoring curriculum for learning Python using [Python Crash Course, 2nd Edition](https://www.amazon.ca/Python-Crash-Course-Eric-Matthes/dp/1593279280?&linkCode=ll1&tag=mavaddat-20&linkId=9a5ce7ddbcd95a4320240caaa6247aee&language=en_CA&ref_=as_li_ss_tl), an introductory programming book from [No Starch Press](http://www.nostarch.com/pythoncrashcourse/) by [Eric Matthes](https://github.com/ehmatthes).
@@ -29,7 +29,7 @@ If you are a student following this curriculum for the first time, please jump t
 
 ### Homework
 
-## <a id="try_it_yourself"></a>Exercises ✍🏽
+## <span id="try_it_yourself">Exercises ✍🏽</span>
 
 The book has several sections that reinforce learning through exercises. Practice what you just read where you see:
 <img src="{{ '/assets/images/tiy.svg' | relative_url }}" title="The words 'Try It Yourself' in Adobe Dogma typeface"  width="188vw" id="tiy_svg" alt="'Try It Yourself' in Adobe Dogma typeface"/>
@@ -82,7 +82,7 @@ The book has several sections that reinforce learning through exercises. Practic
 
 #### Solutions
 
-After you have tried the exercises yourself, you can check the author's implementations to compare. The author's solutions to the homework may be found [here](solutions).
+After you have tried the exercises yourself, you can check the author's implementations to compare. The author's [solutions to the homework may be found here](solutions).
 
 ### Setup Instructions
 
@@ -96,7 +96,7 @@ Here you can find instructions for:
 - [Creating a Virtual Environment](./chapter_18/tiy.md)&#09;(Chapter 18)
 - [Deploying a Project to Heroku](./chapter_20/tiy.md)&#09;(Chapter 20)
 
-## <a id="source_code"></a>Downloading source code
+## <span id="source_code">Downloading source code</span>
 
 Students will be assigned chapters from this book using [GitHub classroom](https://classroom.github.com/classrooms/49895023-python-with-mavi). <img src="https://avatars.githubusercontent.com/in/68187?s=120" alt="GitHub classroom logo is a graphic of the GitHub logo imposed on a chalkboard" title="GitHub Classroom" width="120px" class="f_right"/>
 
@@ -120,11 +120,11 @@ Some of the [PyPI](https://en.wikipedia.org/wiki/Python_Package_Index) libraries
 
 When packages are updated you have the option of using the version that was featured in the book, which lets you run code exactly as it's written in the book. You can also choose to install the latest version of each package, and modify the code in the book slightly. Each approach is outlined clearly in these updates.
 
-A list of updates is kept [here](./updates/index.md).
+A [list of updates is kept here](./updates/index.md).
 
 ### Contact
 
 If you have any questions about Python Crash Course, please [join the <img src="https://raw.githubusercontent.com/NNTin/discord-logo/master/src/assets/animateddiscord.svg" width="26" class="email" alt="Discord logo animated" title="Join us on Discord!" />Discord server ](https://discord.gg/KzzTBbr), contact [Mavaddat](https://www.mavaddat.ca), or get in touch with the book's author, 📧 <a href="javascript:location='mailto:\u0065\u0068\u006d\u0061\u0074\u0074\u0068\u0065\u0073\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><img  class="email" title="the author's email address as an image to prevent spamming" alt="email as image to hide from spammers" src="{{ '/assets/images/ematthes.svg' | relative_url  }}"/></a>.
 
 [<img src="https://raw.githubusercontent.com/johan/svg-cleanups/master/logos/twitter.svg" title="the twitter logo" alt="twitter logo of a blue bird" alt="Twitter logo" width="15"/> @ehmatthes](http://twitter.com/ehmatthes/)
-<span id="🐦"><img src="https://pbs.twimg.com/profile_images/1153801365543538688/6ZRVUWah.png" title="the author on Twitter" alt="the author's Twitter profile image" width="20vw"/></span>
+<span id="🐦"><img src="{{ '/assets/images/6ZRVUWah.webp' | relative_url }}" title="the author on Twitter" alt="the author's Twitter profile image" width="20vw"/></span>
