@@ -45,6 +45,7 @@ No Starch Press publishes a set of [Scratch Coding Cards](https://nostarch.com/s
 The first group of cards covers *Concepts and Vocabulary*, to help you understand many of the essential terms that are thrown around regularly by programmers. The rest of the groups focus on specific kinds of syntax and tools, such as *Simple Data Types* and *Lists and Tuples*. You can see a table of contents for the entire set [here](https://nostarch.com/pythonflashcards).
 
 The cards haven't made a strong impression online, but when I've spent time at the No Starch booth at PyCon many people bought a set after seeing the cards in person. Teachers have also been [enthusiastic about them](https://twitter.com/i/web/status/1117159862037700608), as there are a number of ways they can be used in the classroom. If you like working with offline learning materials at times and like your learning in bite-size chunks, you might like the flash cards. You can buy them direct from [No Starch Press](https://nostarch.com/pythonflashcards) or through [Barnes and Noble](https://www.barnesandnoble.com/w/python-flash-cards-eric-matthes/1129141693?ean=9781593278960) or [Amazon](https://www.amazon.com/dp/1593278969?&linkCode=ll1&tag=mobile09c8763-20&linkId=86a3e6a099278fad09a966437a168ee7&language=en_US&ref_=as_li_ss_tl). You can also see them in person at Barnes and Noble stores.
+
 [top](#top)
 
 ### Fluent Python, by [Luciano Ramlho](https://twitter.com/ramalhoorg)
