@@ -52,6 +52,7 @@ Daniel and Audrey Feldroy are the authors of *Two Scoops of Django*, which focus
 *Django Crash Course* is available now as an e-book. You can preorder a paperback, coil-bound, or hardbound copy as well. All of these versions are available [here](https://www.feldroy.com/books/a-wedge-of-django).
 
 ![](../../images/recommended_reading/dcc_cover.png)
+{: .book-cover}
 
 [top](#top)
 
@@ -62,6 +63,7 @@ Daniel and Audrey Feldroy are the authors of *Two Scoops of Django*, which focus
 You can see a full table of contents and order an electronic version of the book [here](https://www.feldroy.com/books/two-scoops-of-django-3-x). A print version of the book should be available soon.
 
 ![](../../images/recommended_reading/tsd_cover.jpg)
+{: .book-cover}
 
 [top](#top)
 
@@ -69,9 +71,10 @@ You can see a full table of contents and order an electronic version of the book
 
 Most Django projects are deployed to Linux-based servers, and if you're going to continue working with Django it will certainly help to be familiar with the Linux command line. Even if you deploy to a platform like Heroku that tries to automate most of the deployment work for you, you'll still need to use the command line at times to do things like creating a superuser on your live site, or run migrations. Even if you use Heroku's admin panel for some of these tasks, it's inevitable that at some point you'll need to use a command line for troubleshooting, or to run specific commands that don't have a browser-based GUI. *The Linux Command Line* is a great resource, and you can either read it straight through or skim it and focus on the sections that seem most relevant to your work.
 
-If you buy the book [direct from No Starch Press](https://nostarch.com/tlcl2) you get a free e-book with the printed copy. You can also buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/the-linux-command-line-2nd-edition-william-shotts/1132292602/) or [Amazon](https://www.amazon.com/Linux-Command-Line-2nd-Introduction-dp-1593279523/dp/1593279523/). You can see more information about using Linux at the author's site, [linuxcommand.org](http://linuxcommand.org/tlcl.php), where you can also download a free PDF version of the book.
+If you buy the book [direct from No Starch Press](https://nostarch.com/tlcl2) you get a free e-book with the printed copy. You can also buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/the-linux-command-line-2nd-edition-william-shotts/1132292602/) or [Amazon](https://www.amazon.com/Linux-Command-Line-2nd-Introduction-dp-1593279523/dp/1593279523?&linkCode=ll1&tag=mobile09c8763-20&linkId=64a3a867668575951a25a7696e9ac520&language=en_US&ref_=as_li_ss_tl). You can see more information about using Linux at the author's site, [linuxcommand.org](http://linuxcommand.org/tlcl.php), where you can also download a free PDF version of the book.
 
 ![](../../images/recommended_reading/lcl_cover.jpg)
+{: .book-cover}
 
 [top](#top)
 
@@ -79,9 +82,10 @@ If you buy the book [direct from No Starch Press](https://nostarch.com/tlcl2) yo
 
 There's some overlap between this and *The Linux Command Line*, but if you enjoy learning about Linux this is another great book to read straight through, or skim and focus on the parts most relevant to your work. *How Linux Works* has been a mainstay in the Linux world for many years, and if you're continuing in web development it's well worth your time.
 
-If you buy the book [direct from No Starch Press](https://nostarch.com/howlinuxworks2) you get a free e-book with the printed copy. You can also buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/how-linux-works-2nd-edition-brian-ward/1126896249/) or [Amazon](https://www.amazon.com/How-Linux-Works-2nd-Superuser/dp/1593275676/).
+If you buy the book [direct from No Starch Press](https://nostarch.com/howlinuxworks2) you get a free e-book with the printed copy. You can also buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/how-linux-works-2nd-edition-brian-ward/1126896249/) or [Amazon](https://www.amazon.com/How-Linux-Works-2nd-Superuser/dp/1593275676?&linkCode=ll1&tag=mobile09c8763-20&linkId=67fe80a07c28515061fe3d996f799740&language=en_US&ref_=as_li_ss_tl).
 
 ![](../../images/recommended_reading/hlw_cover.jpg)
+{: .book-cover}
 
 [top](#top)
 
@@ -89,9 +93,10 @@ If you buy the book [direct from No Starch Press](https://nostarch.com/howlinuxw
 
 Django's Object Relational Mapper, or ORM as it's commonly referred to, is a tool that allows you to query for data from a database by writing pure Python. Django converts this to Structured Query Language, or SQL as it's commonly called. The ORM is an amazing tool that's made working with databases much easier over the years. But the farther you go with Django, the more an understanding of SQL will help you. It will help you write more efficient queries, even if you only never actually write raw SQL yourself. *Practical SQL* uses Postgres to teach you SQL, and Postgres is one of the most common databases that Django developers use.
 
-If you buy the book [direct from No Starch Press](https://nostarch.com/practicalSQL) you get a free e-book with the printed copy. You can also buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/practical-sql-anthony-debarros/1126049058/) or [Amazon](https://www.amazon.com/Practical-SQL-Beginners-Guide-Storytelling/dp/1593278276/). The code, data, and other online resources are available at [the author's GitHub page](https://github.com/anthonydb/practical-sql).
+If you buy the book [direct from No Starch Press](https://nostarch.com/practicalSQL) you get a free e-book with the printed copy. You can also buy it from [Barnes and Noble](https://www.barnesandnoble.com/w/practical-sql-anthony-debarros/1126049058/) or [Amazon](https://www.amazon.com/Practical-SQL-Beginners-Guide-Storytelling/dp/1593278276?&linkCode=ll1&tag=mobile09c8763-20&linkId=c97df8d0e2e64f21855651b541f36851&language=en_US&ref_=as_li_ss_tl). The code, data, and other online resources are available at [the author's GitHub page](https://github.com/anthonydb/practical-sql).
 
 ![](../../images/recommended_reading/psql_cover.jpg)
+{: .book-cover}
 
 [top](#top)
 
