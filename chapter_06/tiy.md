@@ -125,3 +125,8 @@ improving the formatting of the output.
 
 [top](#top)
 
+|&nbsp;|&nbsp;|
+|---|---|
+| [Previous Chapter](../chapter_05/tiy.md) | [Next Chapter](../chapter_07/tiy.md) |
+{: .prev-next}
+

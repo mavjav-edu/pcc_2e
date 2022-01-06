@@ -164,3 +164,8 @@ error. Make sure you correct the error before closing the program.
 
 [top](#top)
 
+|&nbsp;|&nbsp;|
+|---|---|
+| [Previous Chapter](../chapter_02/tiy.md) | [Next Chapter](../chapter_04/tiy.md) |
+{: .prev-next}
+

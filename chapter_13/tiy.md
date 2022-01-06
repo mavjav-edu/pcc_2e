@@ -72,3 +72,8 @@ they&rsquo;ve missed the ball three times, end the game.
 
 [top](#top)
 
+|&nbsp;|&nbsp;|
+|---|---|
+| [Previous Chapter](../chapter_12/tiy.md) | [Next Chapter](../chapter_14/tiy.md) |
+{: .prev-next}
+

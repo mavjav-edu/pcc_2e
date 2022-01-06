@@ -85,4 +85,6 @@ to make the visualization for a random walk.
 
 [top](#top)
 
-[Next Chapter](../chapter_16/tiy.md)
+|---|---|
+| [Previous Chapter](../chapter_14/tiy.md) | [Next Chapter](../chapter_16/tiy.md) |
+{: .prev-next}

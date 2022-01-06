@@ -54,5 +54,5 @@ after you&rsquo;ve pushed your changes to Heroku.
 
 |&nbsp;|&nbsp;|
 |---|---|
-| [Previous Chapter](../chapter_19/tiy.md) | [Afterward&hellip;](../postscript/) |
+| [Previous Chapter](../chapter_19/tiy.md) | [Afterward&hellip;](../postscript/index.md) |
 {: .prev-next}

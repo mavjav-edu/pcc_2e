@@ -177,3 +177,8 @@ styling guidelines described in this section.
 
 [top](#top)
 
+|&nbsp;|&nbsp;|
+|---|---|
+| [Previous Chapter](../chapter_07/tiy.md) | [Next Chapter](../chapter_09/tiy.md) |
+{: .prev-next}
+

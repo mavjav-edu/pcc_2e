@@ -178,3 +178,8 @@ and `random` modules.
 
 [top](#top)
 
+|&nbsp;|&nbsp;|
+|---|---|
+| [Previous Chapter](../chapter_08/tiy.md) | [Next Chapter](../chapter_10/tiy.md) |
+{: .prev-next}
+

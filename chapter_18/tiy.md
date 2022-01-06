@@ -91,3 +91,8 @@ sure you use template inheritance to build your pages efficiently.
 
 [top](#top)
 
+|&nbsp;|&nbsp;|
+|---|---|
+| [Previous Chapter](../chapter_17/tiy.md) | [Next Chapter](../chapter_19/tiy.md) |
+{: .prev-next}
+

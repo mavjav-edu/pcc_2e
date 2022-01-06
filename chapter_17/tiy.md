@@ -38,3 +38,8 @@ the total number of repositories is greater than a certain amount.
 
 [top](#top)
 
+|&nbsp;|&nbsp;|
+|---|---|
+| [Previous Chapter](../chapter_16/tiy.md) | [Next Chapter](../chapter_18/tiy.md) |
+{: .prev-next}
+

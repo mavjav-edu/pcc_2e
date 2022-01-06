@@ -147,3 +147,8 @@ to get the correct username.
 
 [top](#top)
 
+|&nbsp;|&nbsp;|
+|---|---|
+| [Previous Chapter](../chapter_09/tiy.md) | [Next Chapter](../chapter_11/tiy.md) |
+{: .prev-next}
+

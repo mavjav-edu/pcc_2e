@@ -91,3 +91,8 @@ Write a proper test for this function using what you learned in [Chapter
 
 [top](#top)
 
+|&nbsp;|&nbsp;|
+|---|---|
+| [Previous Chapter](../chapter_15/tiy.md) | [Next Chapter](../chapter_17/tiy.md) |
+{: .prev-next}
+

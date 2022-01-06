@@ -64,3 +64,8 @@ each test method. Run your test case, and make sure both tests pass.
 
 [top](#top)
 
+|&nbsp;|&nbsp;|
+|---|---|
+| [Previous Chapter](../chapter_10/tiy.md) | [Next Chapter](../chapter_12/tiy.md) |
+{: .prev-next}
+

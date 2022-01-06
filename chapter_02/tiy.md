@@ -108,3 +108,8 @@ principles.
 [top](#top)
 
 
+|&nbsp;|&nbsp;|
+|---|---|
+| [Previous Chapter](../chapter_01/tiy.md) | [Next Chapter](../chapter_03/tiy.md) |
+{: .prev-next}
+
