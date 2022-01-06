@@ -59,3 +59,6 @@ can add posts and edit existing posts. In the view that allows users to
 edit their posts, make sure the user is editing their own post before
 processing the form.
 
+[top](#top)
+
+[Next Chapter](../chapter_20/tiy.md)

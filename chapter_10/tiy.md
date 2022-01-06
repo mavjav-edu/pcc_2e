@@ -145,3 +145,6 @@ Before printing a welcome back message in `greet_user()`, ask the user
 if this is the correct username. If it&rsquo;s not, call `get_new_username()`
 to get the correct username.
 
+[top](#top)
+
+[Next Chapter](../chapter_11/tiy.md)

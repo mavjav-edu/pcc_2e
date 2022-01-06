@@ -123,3 +123,6 @@ of ways. Use one of the example programs from this chapter, and extend
 it by adding new keys and values, changing the context of the program or
 improving the formatting of the output.
 
+[top](#top)
+
+[Next Chapter](../chapter_07/tiy.md)

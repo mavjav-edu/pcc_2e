@@ -62,3 +62,6 @@ Write a test case for `Employee`. Write two test methods,
 `setUp()` method so you don&rsquo;t have to create a new employee instance in
 each test method. Run your test case, and make sure both tests pass.
 
+[top](#top)
+
+[Next Chapter](../chapter_12/tiy.md)

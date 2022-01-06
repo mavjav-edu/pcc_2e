@@ -175,3 +175,6 @@ from module_name import *
 programs you wrote for this chapter, and make sure they follow the
 styling guidelines described in this section.
 
+[top](#top)
+
+[Next Chapter](../chapter_09/tiy.md)

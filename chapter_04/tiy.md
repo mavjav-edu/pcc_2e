@@ -157,3 +157,6 @@ a vertical guideline at the 80th character position.
 
 - Don&rsquo;t use blank lines excessively in your program files.
 
+[top](#top)
+
+[Next Chapter](../chapter_05/tiy.md)

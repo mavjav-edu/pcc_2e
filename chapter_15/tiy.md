@@ -53,7 +53,6 @@ y_step = get_step()
 This refactoring should reduce the size of `fill_walk()` and make the
 method easier to read and understand.
 
-
 [top](#top)
 
 ## TRY IT YOURSELF #3
@@ -72,7 +71,7 @@ of your system&rsquo;s capabilities.
 
 <span id="ch15exe8"></span>**15-8. Three Dice:** If you roll three D6
 dice, the smallest number you can roll is 3 and the largest number is
-18. Create a visualization that shows what happens when you roll three
+18\. Create a visualization that shows what happens when you roll three
 D6 dice.
 
 <span id="ch15exe9"></span>**15-9. Multiplication:** When you roll two
@@ -84,3 +83,6 @@ instead.
 Try using matplotlib to make a die-rolling visualization, and use Pygal
 to make the visualization for a random walk.
 
+[top](#top)
+
+[Next Chapter](../chapter_16/tiy.md)

@@ -36,3 +36,7 @@ for your new skills; now is a great time to draft descriptions of what
 you&rsquo;d like to create. It&rsquo;s a good habit to keep an &ldquo;ideas&rdquo; notebook that
 you can refer to whenever you want to start a new project. Take a few
 minutes now to describe three programs you&rsquo;d like to create.
+
+[top](#top)
+
+[Next Chapter](../chapter_02/tiy.md)

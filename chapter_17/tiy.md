@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Working With Apis
+title:  Working With APIs
 nav_exclude: true
 parent: Home
 ---
@@ -36,3 +36,6 @@ of `status_code` is 200. Figure out some other assertions you can
 make&rsquo;for example, that the number of items returned is expected and that
 the total number of repositories is greater than a certain amount.
 
+[top](#top)
+
+[Next Chapter](../chapter_18/tiy.md)

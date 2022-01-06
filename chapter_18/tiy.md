@@ -89,3 +89,6 @@ back to it when you&rsquo;re working on your own projects.
 link each pizza name to a page displaying the pizza&rsquo;s toppings. Make
 sure you use template inheritance to build your pages efficiently.
 
+[top](#top)
+
+[Next Chapter](../chapter_19/tiy.md)

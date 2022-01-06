@@ -70,3 +70,6 @@ the bottom of the screen.
 keep track of the number of times the player misses the ball. When
 they&rsquo;ve missed the ball three times, end the game.
 
+[top](#top)
+
+[Next Chapter](../chapter_14/tiy.md)

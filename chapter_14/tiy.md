@@ -78,3 +78,6 @@ hide behind, which can be destroyed by bullets from either side. Or use
 something like the `pygame.mixer` module to add sound effects like
 explosions and shooting sounds.
 
+[top](#top)
+
+[Next Chapter](../chapter_15/tiy.md)

@@ -105,3 +105,7 @@ program does.
 into a Python terminal session and skim through the additional
 principles.
 
+[top](#top)
+
+[Next Chapter](../chapter_03/tiy.md)
+

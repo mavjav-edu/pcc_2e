@@ -50,3 +50,6 @@ project and revise *views.py* so any topic that&rsquo;s public is visible to
 unauthenticated users as well. Remember to migrate the live database
 after you&rsquo;ve pushed your changes to Heroku.
 
+[top](#top)
+
+[Afterward&hellip;](../postscript/)
