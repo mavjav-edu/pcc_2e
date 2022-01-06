@@ -80,4 +80,3 @@ explosions and shooting sounds.
 
 [top](#top)
 
-[Next Chapter](../chapter_15/tiy.md)

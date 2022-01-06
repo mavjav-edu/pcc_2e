@@ -64,4 +64,3 @@ each test method. Run your test case, and make sure both tests pass.
 
 [top](#top)
 
-[Next Chapter](../chapter_12/tiy.md)

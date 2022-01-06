@@ -91,4 +91,3 @@ Write a proper test for this function using what you learned in [Chapter
 
 [top](#top)
 
-[Next Chapter](../chapter_17/tiy.md)

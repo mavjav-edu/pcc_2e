@@ -91,4 +91,3 @@ sure you use template inheritance to build your pages efficiently.
 
 [top](#top)
 
-[Next Chapter](../chapter_19/tiy.md)

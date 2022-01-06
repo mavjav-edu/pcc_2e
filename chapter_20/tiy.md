@@ -52,4 +52,7 @@ after you&rsquo;ve pushed your changes to Heroku.
 
 [top](#top)
 
-[Afterward&hellip;](../postscript/)
+|&nbsp;|&nbsp;|
+|---|---|
+| [Previous Chapter](../chapter_19/tiy.md) | [Afterward&hellip;](../postscript/) |
+{: .prev-next}

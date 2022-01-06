@@ -125,4 +125,3 @@ improving the formatting of the output.
 
 [top](#top)
 
-[Next Chapter](../chapter_07/tiy.md)

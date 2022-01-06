@@ -177,4 +177,3 @@ styling guidelines described in this section.
 
 [top](#top)
 
-[Next Chapter](../chapter_09/tiy.md)

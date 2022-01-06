@@ -205,4 +205,3 @@ explore, and web applications you&rsquo;d like to create.
 
 [top](#top)
 
-[Next Chapter](../chapter_06/tiy.md)

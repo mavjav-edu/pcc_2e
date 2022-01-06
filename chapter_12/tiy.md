@@ -55,4 +55,3 @@ bullets are deleted once they disappear off the screen.
 
 [top](#top)
 
-[Next Chapter](../chapter_13/tiy.md)

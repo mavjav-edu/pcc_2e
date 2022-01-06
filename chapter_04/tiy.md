@@ -159,4 +159,3 @@ a vertical guideline at the 80th character position.
 
 [top](#top)
 
-[Next Chapter](../chapter_05/tiy.md)

@@ -178,4 +178,3 @@ and `random` modules.
 
 [top](#top)
 
-[Next Chapter](../chapter_10/tiy.md)

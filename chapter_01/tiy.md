@@ -39,4 +39,3 @@ minutes now to describe three programs you&rsquo;d like to create.
 
 [top](#top)
 
-[Next Chapter](../chapter_02/tiy.md)

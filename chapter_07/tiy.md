@@ -86,4 +86,3 @@ a block of code that prints the results of the poll.
 
 [top](#top)
 
-[Next Chapter](../chapter_08/tiy.md)

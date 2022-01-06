@@ -164,4 +164,3 @@ error. Make sure you correct the error before closing the program.
 
 [top](#top)
 
-[Next Chapter](../chapter_04/tiy.md)

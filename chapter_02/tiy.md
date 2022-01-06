@@ -107,5 +107,4 @@ principles.
 
 [top](#top)
 
-[Next Chapter](../chapter_03/tiy.md)
 
