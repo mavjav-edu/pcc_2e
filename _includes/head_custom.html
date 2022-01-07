@@ -1,1 +1,11 @@
 <meta name="theme-color" content="{{ site.theme_color }}"/>
+{% if page.head_js %}
+ {% for js_file in page.head_js %}
+    <script type="text/javascript" src="{{ js_file | relative_url }}"></script>
+ {% endfor %}
+{% endif %}
+{% if page.custom_css %}
+ {% for css_file in page.custom_css %}
+    <link rel="stylesheet" href="{{ css_file | relative_url }}">
+ {% endfor %}
+{% endif %}

@@ -1,10 +1,13 @@
 ---
-layout: default
+layout: afterward
 title:  Afterward
 nav_exclude: true
 parent: Home
 ---
-
+{% for i in (0..149) %}
+ &#32;
+ {: .confetti-{{forloop.index}}}
+{% endfor %}
 Congratulations! 🎉 You’ve learned the basics of Python and applied your
 knowledge to meaningful projects. You’ve made a game, visualized some
 data, and made a web application. From here, you can go in a number of
@@ -45,3 +48,8 @@ solving a wider variety of problems more efficiently.
 
 Congratulations on how far you’ve come, and good luck with your
 continued learning!
+
+---
+
+Confetti effect inspired by *Confetti, CSS only, no JavaScript* by Fionna \([@fionnachan](https://codepen.io/fionnachan)\) on [CodePen](https://codepen.io/).
+{: .fs-1 }
