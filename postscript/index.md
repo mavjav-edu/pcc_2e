@@ -51,5 +51,5 @@ continued learning!
 
 ---
 
-Confetti effect inspired by *Confetti, CSS only, no JavaScript* by Fionna \([@fionnachan](https://codepen.io/fionnachan)\) on [CodePen](https://codepen.io/).
+Confetti effect inspired by [*Confetti, CSS only, no JavaScript*](https://codepen.io/fionnachan/pen/EvaqOB) by Fionna \([@fionnachan](https://codepen.io/fionnachan)\) on [CodePen](https://codepen.io/).
 {: .fs-1 }

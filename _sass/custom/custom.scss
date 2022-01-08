@@ -148,7 +148,11 @@ table.prev-next {
 table.prev-next thead {
   display: none;
 }
-table.prev-next tr:nth-child(1) {
+table.prev-next td{
+  width: 50%;
+  max-width: 50%;
+}
+table.prev-next td:nth-child(1) {
   text-align: left;
 }
 table.prev-next td:nth-child(1) a::before {
@@ -240,3 +244,4 @@ details[open] summary {
 #tiy_svg{
 	filter: drop-shadow(0px 1px 1px gold);
 }
+@import "../../assets/css/afterward.scss";
