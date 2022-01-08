@@ -1,4 +1,4 @@
-<meta name="theme-color" content="{{ site.theme_color }}"/>
+<meta name="theme-color" media="(prefers-color-scheme: {{site.color_scheme}})" content="{{ site.theme_color }}"/>
 {% if page.head_js %}
  {% for js_file in page.head_js %}
     <script type="text/javascript" src="{{ js_file | relative_url }}"></script>
