@@ -51,9 +51,5 @@ continued learning!
 
 ---
 
-<<<<<<< HEAD
 Confetti effect inspired by [*Confetti, CSS only, no JavaScript*](https://codepen.io/fionnachan/pen/EvaqOB) by Fionna \([@fionnachan](https://codepen.io/fionnachan)\) on [CodePen](https://codepen.io/). Copyright (c) 2022 by Fionna.
-=======
-Confetti effect inspired by [*Confetti, CSS only, no JavaScript*](https://codepen.io/fionnachan/pen/EvaqOB) by Fionna \([@fionnachan](https://codepen.io/fionnachan)\) on [CodePen](https://codepen.io/).
->>>>>>> 80d2593b406b72a558af1385bdef55c6c7901e5b
 {: .fs-1 }
