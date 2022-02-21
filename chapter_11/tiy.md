@@ -36,8 +36,8 @@ sure `test_city_country()` passes.
 
 <span id="ch11exe2"></span>**11-2. Population:** Modify your function so
 it requires a third parameter, `population`. It should now return a
-single string of the form `City, Country ΓÇô population xxx`, such as
-`Santiago, Chile ΓÇô population 5000000`. Run *test_cities.py* again. Make
+single string of the form `City, Country - population xxx`, such as
+`Santiago, Chile - population 5000000`. Run *test_cities.py* again. Make
 sure `test_city_country()` fails this time.
 
 Modify the function so the `population` parameter is optional. Run

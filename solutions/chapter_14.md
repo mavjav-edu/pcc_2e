@@ -10,7 +10,7 @@ nav_order: 106
 {: .no_toc }
 
 There are a few things that can be helpful to know as you work on the exercises for Chapters 12-14:
-- The solutions for Chapters 12-14 are kept in a [separate repository](https://github.com/ehmatthes/pcc_2e_ai_solutions), because every exercise is a mini project. These pages contain links to individual solutions in the repository.
+- The solutions for Chapters 12-14 are kept in a [separate repository](https://github.com/mavjav-edu/pcc_2e_ai_solutions), because every exercise is a mini project. These pages contain links to individual solutions in the repository.
 - If you make a mistake when working through the project and can't get it back to a working state, it can be really frustrating to start over from scratch. There are some resources that can help with this:
   - In the [online resources](https://github.com/mavjav-edu/pcc_2e), there's a complete version of the Alien Invasion project as it looks at the end of each main section in Chapters 12-14.
   - For example if you're working on getting the ship to move and everything stops working, you can look at the [versions from Chapter 12](https://github.com/mavjav-edu/pcc_2e/tree/master/chapter_12), then click on the [adding_ship_image](https://github.com/mavjav-edu/pcc_2e/tree/master/chapter_12/adding_ship_image) folder, and you'll have a working copy of the project as it looks at the beginning of the section about making the ship move.
@@ -33,7 +33,7 @@ Back to [solutions](../).
 
 Because *Alien Invasion* uses keyboard input to control the ship, it would be useful to start the game with a keypress. Add code that lets the player press P to start. It might help to move some code from `_check_play_button()` to a `_start_game()` method that can be called from `_check_play_button()` and `_check_keydown_events()`.
 
-[Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_14/solution_14_1)
+[Solution](https://github.com/mavjav-edu/pcc_2e_ai_solutions/tree/main/ch_14/solution_14_1)
 
 ## 14-2: Target Practice
 
@@ -41,22 +41,22 @@ Create a rectangle at the right edge of the screen that moves up and down at a s
 
 Note: *This solution uses the `pygame.sprite.spritecollide()` function, which detects whether a single sprite has collided with any member of a group. It might be helpful to look at the [documentation for this function](https://www.pygame.org/docs/ref/sprite.html) before looking at the solution.*
 
-[Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_14/solution_14_2)
+[Solution](https://github.com/mavjav-edu/pcc_2e_ai_solutions/tree/main/ch_14/solution_14_2)
 
 ## 14-3: Challenging Target Practice
 
 Start with your work from Exercise 14-2 (page 285). Make the target move faster as the game progresses, and restart the target at the original speed when the player clicks Play.
 
-[Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_14/solution_14_3)
+[Solution](https://github.com/mavjav-edu/pcc_2e_ai_solutions/tree/main/ch_14/solution_14_3)
 
 ## 14-4: Difficulty Levels
 
 Make a set of buttons for *Alien Invasion* that allows the player to select an appropriate starting difficulty level for the game. Each button should assign the appropriate values for attributes in `Settings` needed to create different difficulty levels.
 
-[Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_14/solution_14_4)
+[Solution](https://github.com/mavjav-edu/pcc_2e_ai_solutions/tree/main/ch_14/solution_14_4)
 
 ## 14-5: All-Time High Score
 
 The high score is reset every time a player closes and restarts *Alien Invasion*. Fix this by writing the high score to a file before calling `sys.exit()` and reading in the high score when initializing its value in `GameStats`.
 
-[Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_14/solution_14_5)
+[Solution](https://github.com/mavjav-edu/pcc_2e_ai_solutions/tree/main/ch_14/solution_14_5)

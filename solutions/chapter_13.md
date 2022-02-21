@@ -10,7 +10,7 @@ nav_order: 104
 {: .no_toc }
 
 There are a few things that can be helpful to know as you work on the exercises for Chapters 12-14:
-- The solutions for Chapters 12-14 are kept in a [separate repository](https://github.com/ehmatthes/pcc_2e_ai_solutions), because every exercise is a mini project. These pages contain links to individual solutions in the repository.
+- The solutions for Chapters 12-14 are kept in a [separate repository](https://github.com/mavjav-edu/pcc_2e_ai_solutions), because every exercise is a mini project. These pages contain links to individual solutions in the repository.
 - If you make a mistake when working through the project and can't get it back to a working state, it can be really frustrating to start over from scratch. There are some resources that can help with this:
   - In the [online resources](https://github.com/mavjav-edu/pcc_2e), there's a complete version of the Alien Invasion project as it looks at the end of each main section in Chapters 12-14.
   - For example if you're working on getting the ship to move and everything stops working, you can look at the [versions from Chapter 12](https://github.com/mavjav-edu/pcc_2e/tree/master/chapter_12), then click on the [adding_ship_image](https://github.com/mavjav-edu/pcc_2e/tree/master/chapter_12/adding_ship_image) folder, and you'll have a working copy of the project as it looks at the beginning of the section about making the ship move.
@@ -33,7 +33,7 @@ Back to [solutions](../).
 
 Find an image of a star . Make a grid of stars appear on the screen.
 
-[Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_13/solution_13_1)
+[Solution](https://github.com/mavjav-edu/pcc_2e_ai_solutions/tree/main/ch_13/solution_13_1)
 
 ## 13-2: Better Stars
 
@@ -48,13 +48,13 @@ This code returns a random integer between -10 and 10. Using your code in Exerci
 
 Note: *This is a basic solution that shows working code to solve this exercise. If you want, you can experiment with different size stars, different spacing values, and different values for the amount of randomness in each star's position. From my experimentation this effect seems to work better with a relatively dense field of smaller stars.*
 
-[Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_13/solution_13_2)
+[Solution](https://github.com/mavjav-edu/pcc_2e_ai_solutions/tree/main/ch_13/solution_13_2)
 
 ## 13-3: Raindrops
 
 Find an image of a raindrop and create a grid of raindrops. Make the raindrops fall toward the bottom of the screen until they disappear.
 
-[Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_13/solution_13_3)
+[Solution](https://github.com/mavjav-edu/pcc_2e_ai_solutions/tree/main/ch_13/solution_13_3)
 
 ## 13-4: Steady Rain
 
@@ -62,7 +62,7 @@ Modify your code in Exercise 13-3 so when a row of raindrops disappears off the 
 
 Note: *This is a simple working solution as well, and has not been optimized. If you like this exercise I encourage you to experiment with different size drops, different approaches to defining the starting position for each drop, and different approaches to creating new rows of raindrops.*
 
-[Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_13/solution_13_4)
+[Solution](https://github.com/mavjav-edu/pcc_2e_ai_solutions/tree/main/ch_13/solution_13_4)
 
 ## 13-5: Sideways Shooter Part 2
 
@@ -70,10 +70,10 @@ We've come a long way since Exercise 12-6, Sideways Shooter. For this exercise, 
 
 Note: *This is a solution to the version that sends individual aliens across the screen at random intervals.*
 
-[Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_13/solution_13_5)
+[Solution](https://github.com/mavjav-edu/pcc_2e_ai_solutions/tree/main/ch_13/solution_13_5)
 
 ## 13-6: Game Over
 
 In Sideways Shooter, keep track of the number of times the ship is hit and the number of times an alien gets past the ship. Decide on an appropriate condition for ending the game, and stop the game when this situation occurs.
 
-[Solution](https://github.com/ehmatthes/pcc_2e_ai_solutions/tree/main/ch_13/solution_13_6)
+[Solution](https://github.com/mavjav-edu/pcc_2e_ai_solutions/tree/main/ch_13/solution_13_6)
