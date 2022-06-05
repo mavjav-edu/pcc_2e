@@ -7,17 +7,25 @@ unstuck when programming gets confusing.
 
 ## Outline of how to get unstuck
 
+### General Tips
+
+The Python community is particularly friendly to newcomers &mdash; they're often
+happy to help fellow Python programmers. Remember to embody that spirit
+yourself when you ask for help. Be friendly (start with a warm greeting),
+and grateful in response to help you receive (thank them, try it out, and let them
+know if it works). Try to build a reputation as someone who is pleasant to talk to!
+
 ### **First Steps**
 
-When you’re stuck, your first step should be to assess your situation.
-Before you can get help from anyone else, you’ll need to be able to
-answer the following three questions clearly:
+When you’re stuck, try to assess your problem and how you got there. Before you can
+get help from anyone else, you’ll need to be able to answer the following
+three questions clearly:
 
-• What are you trying to do?
+• What are you trying to do? ("Trying to display a star on the screen")
 
-• What have you tried so far?
+• What have you tried so far? (Provide a link to the GitHub repo where your work resides)
 
-• What results have you been getting?
+• What results have you been getting? ("I get a full pygame window filled with blue color, but no star")
 
 Your answers should be as specific as possible. For the first question,
 explicit statements like “I’m trying to install the latest version of
@@ -28,12 +36,14 @@ Python” don’t provide enough information for others to offer much help.
 Your answer to the second question should provide enough detail that you
 won’t be advised to repeat what you’ve already tried: “I went to
 *<http://python.org/downloads/>* and clicked the Download button for
-Python 3. Then I ran the installer” is more helpful than, “I went to the
+Python 3. Then I ran the installer,” is more helpful than, “I went to the
 Python website and downloaded an installer.”
 
 For the final question, it’s helpful to know the exact error messages
 you received when you’re searching online for a solution or when asking
 for help.
+
+![In software engineering, rubber duck debugging is a method of debugging code by articulating a problem in spoken or written natural language.](duck.png)
 
 Sometimes answering these three questions for yourself allows you to see
 something you’re missing and get you unstuck without having to go any
@@ -74,6 +84,17 @@ The online resources for this book, available through
 helpful sections about setting up your system and working through each
 chapter. If you haven’t done so already, take a look at these resources
 and see if there’s anything that helps.
+
+
+### Pygame Discord Server
+
+The Pygame community provides help on their Discord server here:
+
+https://discord.com/invite/ZuB2RySPRJ
+
+To get started, you need to [read the server rules](https://discord.com/channels/772505616680878080/772509621747187712) and then choose "Newbie" by giving a 🟢 (`:green_circle:`) *react* to the message by Carl-Bot in the [roles-🎓](https://discord.com/channels/772505616680878080/772535163195228200) channel.
+
+Always post or provide a link to your code when asking for help. People cannot help you if they don’t have access to your code! Introduce yourself, and thank those who respond to your question.
 
 ### **Searching Online**
 
